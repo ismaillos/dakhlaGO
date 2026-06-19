@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import BlogPage from './pages/BlogPage';
 import BlogArticle from './pages/BlogArticle';
+import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/produit/:id" element={<ProductPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:id" element={<BlogArticle />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </CartProvider>
   );
