@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 22 80% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 55%;
+    --accent: 22 80% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 12%;
+    --input: 0 0% 12%;
+    --ring: 22 80% 55%;
+    --radius: 0.75rem;
+    --gold: #C9A96E;
+    --terracotta: #E8732F;
+  }
+
+  body {
+    @apply bg-[#0a0a0a] text-white antialiased;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Zellige Pattern Background */
+.zellige-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(201, 169, 110, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(201, 169, 110, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 50% 50%, rgba(232, 115, 47, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px, 60px 60px, 40px 40px;
+}
+
+/* Moroccan Arch Shape */
+.moroccan-arch {
+  border-radius: 50% 50% 4px 4px / 20% 20% 4px 4px;
+}
+
+/* Gold Accent Border */
+.gold-border {
+  border: 1px solid rgba(201, 169, 110, 0.2);
+  box-shadow: inset 0 0 20px rgba(201, 169, 110, 0.05);
+}
+
+/* Prose styling for blog */
+.prose-custom h2 {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.prose-custom p {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.9;
+  margin-bottom: 1rem;
+}
