@@ -11,7 +11,7 @@
 // ============================================================
 
 var SHEET_ID = '1SsoBsyTOH7t57CiVZWVdn1TzevHDOEh8dAxDl6iQnZw';
-var SHEET_NAME = 'Commandes';
+var SHEET_NAME = 'dakhlacommande';
 
 var HEADERS = ['Date', 'Type', 'Nom', 'Telephone', 'Adresse', 'Ville', 'Produit(s)', 'Quantite', 'Prix Total', 'Statut'];
 
