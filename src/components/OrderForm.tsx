@@ -46,12 +46,20 @@ export default function OrderForm({ product }: OrderFormProps) {
   const [errors, setErrors] = useState<FormErrors>({});
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
-  const quantiteOptions = [
-    { value: '1', label: '1x', price: product.price },
-    { value: '2', label: '2x', price: product.price * 2 - 20, saving: 'Economisez 20 DH' },
-    { value: '3', label: '3x', price: product.price * 3 - 50, saving: 'Economisez 50 DH', popular: true },
-    { value: '5', label: '5x', price: product.price * 5 - 100, saving: 'Economisez 100 DH' },
-  ];
+  const isToutia = product.id === 'toutia';
+  const quantiteOptions = isToutia
+    ? [
+        { value: '1', label: '1x', price: 169 },
+        { value: '2', label: '2x', price: 199, saving: 'Economisez 139 DH' },
+        { value: '3', label: '3x', price: 269, saving: 'Economisez 238 DH', popular: true },
+        { value: '5', label: '5x', price: 379, saving: 'Economisez 466 DH' },
+      ]
+    : [
+        { value: '1', label: '1x', price: product.price },
+        { value: '2', label: '2x', price: product.price * 2 - 20, saving: 'Economisez 20 DH' },
+        { value: '3', label: '3x', price: product.price * 3 - 50, saving: 'Economisez 50 DH', popular: true },
+        { value: '5', label: '5x', price: product.price * 5 - 100, saving: 'Economisez 100 DH' },
+      ];
 
   const selectedOption = quantiteOptions.find(q => q.value === formData.quantite) ?? quantiteOptions[0];
 
