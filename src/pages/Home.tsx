@@ -394,6 +394,31 @@ function Story() {
   );
 }
 
+/* ─── SHARED SEARCH SCORER ─── */
+function scoreProduct(p: (typeof PRODUCTS)[0], lower: string): number {
+  let score = 0;
+  const words = lower.split(/\s+/).filter(w => w.length > 1);
+  const fields = [
+    { text: p.name.toLowerCase(), w: 12 },
+    { text: p.nameAr, w: 12 },
+    { text: p.hook.toLowerCase(), w: 7 },
+    { text: p.description.toLowerCase(), w: 5 },
+    { text: p.descriptionAr, w: 5 },
+    { text: p.ingredients.toLowerCase(), w: 4 },
+    { text: p.ingredientsAr, w: 4 },
+    { text: p.usage.toLowerCase(), w: 3 },
+    { text: p.usageAr, w: 3 },
+    { text: p.benefits.join(' ').toLowerCase(), w: 5 },
+    { text: p.benefitsAr.join(' '), w: 5 },
+    { text: p.catLabel.toLowerCase(), w: 3 },
+  ];
+  for (const { text, w } of fields) {
+    if (text.includes(lower)) score += w;
+    else words.forEach(word => { if (text.includes(word)) score += Math.floor(w / 2); });
+  }
+  return score;
+}
+
 /* ─── SEARCH BAR (compact, inside Products) ─── */
 function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void; value: string }) {
   const [suggestions, setSuggestions] = useState<typeof PRODUCTS>([]);
@@ -404,15 +429,8 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
   const fuseSearch = useCallback((q: string) => {
     if (!q.trim()) { setSuggestions([]); return; }
     const lower = q.toLowerCase();
-    const scored = PRODUCTS.map(p => {
-      let score = 0;
-      if (p.name.toLowerCase().includes(lower)) score += 10;
-      if (p.nameAr.toLowerCase().includes(lower)) score += 10;
-      if (p.hook.toLowerCase().includes(lower)) score += 5;
-      if (p.benefits.some(b => b.toLowerCase().includes(lower))) score += 4;
-      if (p.catLabel.toLowerCase().includes(lower)) score += 2;
-      return { product: p, score };
-    }).filter(s => s.score > 0).sort((a, b) => b.score - a.score);
+    const scored = PRODUCTS.map(p => ({ product: p, score: scoreProduct(p, lower) }))
+      .filter(s => s.score > 0).sort((a, b) => b.score - a.score);
     setSuggestions(scored.slice(0, 6).map(s => s.product));
   }, []);
 
@@ -444,9 +462,9 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
             className="absolute right-4 top-1/2 -translate-y-1/2 text-white/20 hover:text-white/60 text-xs">✕</button>
         )}
       </div>
-      {showSuggestions && suggestions.length > 0 && (
+      {showSuggestions && value.trim().length > 1 && (
         <div className="absolute top-full left-0 right-0 mt-2 bg-[#1a1a1a] border border-white/[0.08] rounded-2xl overflow-hidden z-50 shadow-[0_20px_60px_rgba(0,0,0,0.5)]">
-          {suggestions.map(p => (
+          {suggestions.length > 0 ? suggestions.map(p => (
             <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
               className="flex items-center gap-3 px-4 py-3 hover:bg-white/[0.04] transition-colors border-b border-white/[0.03] last:border-0">
               <img src={p.img} alt={p.name} className="w-9 h-9 rounded-lg object-cover flex-shrink-0" />
@@ -456,7 +474,12 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
               </div>
               <span className="text-[#E8732F] text-xs font-bold">→</span>
             </Link>
-          ))}
+          )) : (
+            <div className="px-4 py-5 text-center">
+              <div className="text-white/30 text-sm mb-1">Rupture de stock</div>
+              <div className="text-white/15 text-[11px]">Ce produit n&apos;est pas disponible pour le moment</div>
+            </div>
+          )}
         </div>
       )}
     </div>
@@ -478,27 +501,32 @@ const QUICK_CHIPS = [
 function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; searchQuery: string }) {
   const [localQuery, setLocalQuery] = useState('');
   const [suggestions, setSuggestions] = useState<typeof PRODUCTS>([]);
+  const [blogSuggestions, setBlogSuggestions] = useState<typeof BLOG_ARTICLES>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const wrapRef = useRef<HTMLDivElement>(null);
 
   const fuseSearch = useCallback((q: string) => {
-    if (!q.trim()) { setSuggestions([]); return; }
+    if (!q.trim()) { setSuggestions([]); setBlogSuggestions([]); return; }
     const lower = q.toLowerCase();
-    const scored = PRODUCTS.map(p => {
+    const words = lower.split(/\s+/).filter(w => w.length > 1);
+
+    // Products
+    const scored = PRODUCTS.map(p => ({ product: p, score: scoreProduct(p, lower) }))
+      .filter(s => s.score > 0).sort((a, b) => b.score - a.score);
+    setSuggestions(scored.slice(0, 5).map(s => s.product));
+
+    // Blog articles
+    const blogScored = BLOG_ARTICLES.map(a => {
       let score = 0;
-      if (p.name.toLowerCase().includes(lower)) score += 10;
-      if (p.nameAr.toLowerCase().includes(lower)) score += 8;
-      if (p.hook.toLowerCase().includes(lower)) score += 6;
-      if (p.description.toLowerCase().includes(lower)) score += 3;
-      if (p.benefits.some(b => b.toLowerCase().includes(lower))) score += 5;
-      if (p.benefitsAr.some(b => b.toLowerCase().includes(lower))) score += 4;
-      if (p.catLabel.toLowerCase().includes(lower)) score += 3;
-      const allText = (p.name + ' ' + p.hook + ' ' + p.benefits.join(' ')).toLowerCase();
-      lower.split(/\s+/).forEach(w => { if (w.length > 2 && allText.includes(w)) score += 2; });
-      return { product: p, score };
+      const fields = [a.title.toLowerCase(), a.excerpt.toLowerCase(), a.content.toLowerCase(), a.category.toLowerCase()];
+      for (const text of fields) {
+        if (text.includes(lower)) score += 8;
+        else words.forEach(w => { if (text.includes(w)) score += 3; });
+      }
+      return { article: a, score };
     }).filter(s => s.score > 0).sort((a, b) => b.score - a.score);
-    setSuggestions(scored.slice(0, 6).map(s => s.product));
+    setBlogSuggestions(blogScored.slice(0, 2).map(s => s.article));
   }, []);
 
   useEffect(() => {
@@ -574,32 +602,62 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
           </div>
 
           {/* Dropdown suggestions */}
-          {showSuggestions && suggestions.length > 0 && (
+          {showSuggestions && localQuery.trim().length > 1 && (
             <div className="absolute top-full left-0 right-0 mt-3 bg-[#141414] border border-white/[0.10] rounded-2xl overflow-hidden z-50 shadow-[0_24px_80px_rgba(0,0,0,0.6)]">
-              <div className="px-4 pt-3 pb-1.5 text-[10px] text-white/25 uppercase tracking-[0.15em] font-bold border-b border-white/[0.04]">
-                {suggestions.length} produit{suggestions.length > 1 ? 's' : ''} trouvé{suggestions.length > 1 ? 's' : ''}
-              </div>
-              {suggestions.map(p => (
-                <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
-                  className="flex items-center gap-4 px-4 py-3.5 hover:bg-white/[0.05] transition-colors border-b border-white/[0.03] last:border-0 group">
-                  <img src={p.img} alt={p.name} className="w-12 h-12 rounded-xl object-cover flex-shrink-0" />
-                  <div className="flex-1 min-w-0">
-                    <div className="text-[14px] font-bold truncate group-hover:text-[#E8732F] transition-colors">{p.name}</div>
-                    <div className="text-[11px] text-white/35 truncate mt-0.5">{p.hook}</div>
-                    <div className="text-[10px] text-white/20 mt-0.5">{p.catLabel}</div>
+              {suggestions.length > 0 || blogSuggestions.length > 0 ? (
+                <>
+                  {suggestions.length > 0 && (
+                    <>
+                      <div className="px-4 pt-3 pb-1.5 text-[10px] text-white/25 uppercase tracking-[0.15em] font-bold border-b border-white/[0.04]">
+                        {suggestions.length} produit{suggestions.length > 1 ? 's' : ''} trouvé{suggestions.length > 1 ? 's' : ''}
+                      </div>
+                      {suggestions.map(p => (
+                        <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
+                          className="flex items-center gap-4 px-4 py-3.5 hover:bg-white/[0.05] transition-colors border-b border-white/[0.03] last:border-0 group">
+                          <img src={p.img} alt={p.name} className="w-12 h-12 rounded-xl object-cover flex-shrink-0" />
+                          <div className="flex-1 min-w-0">
+                            <div className="text-[14px] font-bold truncate group-hover:text-[#E8732F] transition-colors">{p.name}</div>
+                            <div className="text-[11px] text-white/35 truncate mt-0.5">{p.hook}</div>
+                            <div className="text-[10px] text-white/20 mt-0.5">{p.catLabel}</div>
+                          </div>
+                          <div className="text-right flex-shrink-0">
+                            <div className="text-[#E8732F] font-extrabold text-[15px]">{p.price} DH</div>
+                            {p.oldPrice && <div className="text-white/20 text-[11px] line-through">{p.oldPrice} DH</div>}
+                          </div>
+                        </Link>
+                      ))}
+                    </>
+                  )}
+                  {blogSuggestions.length > 0 && (
+                    <>
+                      <div className="px-4 pt-3 pb-1.5 text-[10px] text-white/25 uppercase tracking-[0.15em] font-bold border-b border-white/[0.04]">
+                        Articles de blog
+                      </div>
+                      {blogSuggestions.map(a => (
+                        <Link key={a.id} to={`/blog/${a.id}`} onClick={() => setShowSuggestions(false)}
+                          className="flex items-center gap-4 px-4 py-3 hover:bg-white/[0.05] transition-colors border-b border-white/[0.03] last:border-0 group">
+                          <img src={a.image} alt={a.title} className="w-10 h-10 rounded-lg object-cover flex-shrink-0 opacity-70" />
+                          <div className="flex-1 min-w-0">
+                            <div className="text-[13px] font-semibold truncate group-hover:text-[#D4A574] transition-colors">{a.title}</div>
+                            <div className="text-[10px] text-white/25 mt-0.5">{a.category} · {a.readTime}</div>
+                          </div>
+                        </Link>
+                      ))}
+                    </>
+                  )}
+                  <div className="px-4 py-3 border-t border-white/[0.04]">
+                    <button onClick={() => { setShowSuggestions(false); document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' }); }}
+                      className="w-full text-center text-[12px] text-[#E8732F] font-semibold hover:text-[#E8732F]/70 transition-colors">
+                      Voir tous les résultats ↓
+                    </button>
                   </div>
-                  <div className="text-right flex-shrink-0">
-                    <div className="text-[#E8732F] font-extrabold text-[15px]">{p.price} DH</div>
-                    {p.oldPrice && <div className="text-white/20 text-[11px] line-through">{p.oldPrice} DH</div>}
-                  </div>
-                </Link>
-              ))}
-              <div className="px-4 py-3 border-t border-white/[0.04]">
-                <button onClick={() => { setShowSuggestions(false); document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' }); }}
-                  className="w-full text-center text-[12px] text-[#E8732F] font-semibold hover:text-[#E8732F]/70 transition-colors">
-                  Voir tous les résultats ↓
-                </button>
-              </div>
+                </>
+              ) : (
+                <div className="px-4 py-6 text-center">
+                  <div className="text-white/30 text-sm mb-1">Rupture de stock</div>
+                  <div className="text-white/15 text-[11px]">Ce produit n&apos;est pas disponible pour le moment</div>
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -733,16 +791,7 @@ function Products({ searchQuery, onSearch }: { searchQuery: string; onSearch: (q
   const filtered = PRODUCTS.filter(p => {
     const catMatch = activeFilter === 'tous' || p.cat === activeFilter;
     if (!searchQuery.trim()) return catMatch;
-    const lower = searchQuery.toLowerCase();
-    const searchMatch =
-      p.name.toLowerCase().includes(lower) ||
-      p.nameAr.toLowerCase().includes(lower) ||
-      p.hook.toLowerCase().includes(lower) ||
-      p.description.toLowerCase().includes(lower) ||
-      p.benefits.some(b => b.toLowerCase().includes(lower)) ||
-      p.benefitsAr.some(b => b.toLowerCase().includes(lower)) ||
-      p.catLabel.toLowerCase().includes(lower);
-    return catMatch && searchMatch;
+    return catMatch && scoreProduct(p, searchQuery.toLowerCase()) > 0;
   });
 
   // Find closest products if search yields nothing
