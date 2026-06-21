@@ -164,17 +164,45 @@ function Hero() {
 /* ─── TRUST STRIP ─── */
 function TrustStrip() {
   const items = [
-    { icon: '🌿', title: '100% Naturel', sub: 'Zéro chimie · Ingrédients purs' },
-    { icon: '🇲🇦', title: 'Made in Morocco', sub: 'Fabriqué au Sahara Marocain' },
-    { icon: '🚚', title: 'Livraison Maroc', sub: 'Paiement à la livraison' },
-    { icon: '⭐', title: '10 000+ Clients', sub: 'Satisfaits & fidèles' },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-[#5B7B5E]">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 3c-1.5 3-5 4.5-7 4.5 0 6 2.5 10.5 7 12 4.5-1.5 7-6 7-12-2 0-5.5-1.5-7-4.5z" />
+        </svg>
+      ),
+      title: '100% Naturel', sub: 'Zéro chimie · Ingrédients purs'
+    },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-[#D4A574]">
+          <circle cx="12" cy="12" r="9" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18M3 12h18" />
+        </svg>
+      ),
+      title: 'Made in Morocco', sub: 'Fabriqué au Sahara Marocain'
+    },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-[#E8732F]">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8 17l-5-5 5-5M20 12H3M20 7l-2-2h-5a2 2 0 00-2 2v6a2 2 0 002 2h5l2-2" />
+        </svg>
+      ),
+      title: 'Livraison Maroc', sub: 'Paiement à la livraison'
+    },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-[#D4A574]">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a4 4 0 00-5.196-3.8M9 20H4v-2a4 4 0 015.196-3.8M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a2 2 0 11-4 0 2 2 0 014 0zM7 12a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+      ),
+      title: '10 000+ Clients', sub: 'Satisfaits & fidèles'
+    },
   ];
   return (
     <div className="bg-[#0d0d0d] border-y border-white/[0.04] py-5 px-5 overflow-hidden">
       <div className="max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
         {items.map(item => (
           <div key={item.title} className="flex items-center gap-3">
-            <span className="text-2xl flex-shrink-0">{item.icon}</span>
+            <span className="flex-shrink-0 w-9 h-9 rounded-xl bg-white/[0.04] flex items-center justify-center">{item.icon}</span>
             <div>
               <div className="text-white/80 text-[12px] font-bold">{item.title}</div>
               <div className="text-white/30 text-[10px]">{item.sub}</div>
@@ -196,9 +224,9 @@ function Bestsellers() {
       <div className="max-w-[1200px] mx-auto">
         <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
           <div>
-            <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Nos Stars</div>
+            <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Les Plus Demandés</div>
             <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold leading-tight">
-              Les <em className="text-[#E8732F] not-italic">Best-sellers</em><br />du Sahara
+              Choix de nos <em className="text-[#E8732F] not-italic">clients</em>
             </h2>
           </div>
           <a href="#produits" className="text-white/40 text-[13px] hover:text-[#E8732F] transition-colors font-medium">
@@ -212,9 +240,9 @@ function Bestsellers() {
                 <div className="relative aspect-[4/5] overflow-hidden bg-[#0d0d0d]">
                   <img src={p.img} alt={p.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                  {i === 0 && <div className="absolute top-4 left-4 bg-[#E8732F] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">⭐ N°1 Best-seller</div>}
-                  {i === 1 && <div className="absolute top-4 left-4 bg-[#D4A574] text-black text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">🔥 Tendance</div>}
-                  {i === 2 && <div className="absolute top-4 left-4 bg-[#5B7B5E] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">✓ Certifié</div>}
+                  {i === 0 && <div className="absolute top-4 left-4 bg-[#E8732F] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">N°1 Populaire</div>}
+                  {i === 1 && <div className="absolute top-4 left-4 bg-[#D4A574] text-black text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">Très demandé</div>}
+                  {i === 2 && <div className="absolute top-4 left-4 bg-[#5B7B5E] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">Certifié naturel</div>}
                   <div className="absolute bottom-0 left-0 right-0 p-5">
                     <div className="flex gap-0.5 mb-2">
                       {[1,2,3,4,5].map(s => <span key={s} className="text-[#E8732F] text-sm">★</span>)}
@@ -244,32 +272,78 @@ function Bestsellers() {
 }
 
 /* ─── TRESORS DU SAHARA ─── */
+const IngredientIcon = ({ type }: { type: string }) => {
+  if (type === 'stone') return (
+    <svg viewBox="0 0 32 32" fill="none" className="w-8 h-8">
+      <ellipse cx="16" cy="20" rx="12" ry="8" fill="#D4A574" opacity="0.15" />
+      <ellipse cx="16" cy="18" rx="10" ry="7" fill="#D4A574" opacity="0.25" stroke="#D4A574" strokeWidth="0.5" />
+      <path d="M10 14 Q16 10 22 14 Q20 20 16 21 Q12 20 10 14Z" fill="#D4A574" opacity="0.4" />
+    </svg>
+  );
+  if (type === 'leaf') return (
+    <svg viewBox="0 0 32 32" fill="none" className="w-8 h-8">
+      <path d="M16 28 C16 28 6 20 8 10 C12 6 22 8 24 14 C26 20 16 28 16 28Z" fill="#5B7B5E" opacity="0.3" stroke="#5B7B5E" strokeWidth="0.8" strokeLinejoin="round" />
+      <path d="M16 28 C16 28 14 18 16 10" stroke="#5B7B5E" strokeWidth="0.8" strokeLinecap="round" opacity="0.5" />
+    </svg>
+  );
+  if (type === 'flower') return (
+    <svg viewBox="0 0 32 32" fill="none" className="w-8 h-8">
+      <circle cx="16" cy="16" r="3" fill="#E8732F" opacity="0.6" />
+      {[0,60,120,180,240,300].map(a => (
+        <ellipse key={a} cx={16 + 7*Math.cos(a*Math.PI/180)} cy={16 + 7*Math.sin(a*Math.PI/180)} rx="3.5" ry="2" fill="#D4A574" opacity="0.4" transform={`rotate(${a} ${16 + 7*Math.cos(a*Math.PI/180)} ${16 + 7*Math.sin(a*Math.PI/180)})`} />
+      ))}
+    </svg>
+  );
+  if (type === 'cactus') return (
+    <svg viewBox="0 0 32 32" fill="none" className="w-8 h-8">
+      <rect x="14" y="8" width="4" height="18" rx="2" fill="#5B7B5E" opacity="0.4" />
+      <path d="M14 16 Q8 16 8 12 L8 10" stroke="#5B7B5E" strokeWidth="3" strokeLinecap="round" opacity="0.4" fill="none" />
+      <path d="M18 19 Q24 19 24 15 L24 13" stroke="#5B7B5E" strokeWidth="3" strokeLinecap="round" opacity="0.4" fill="none" />
+      <ellipse cx="16" cy="26" rx="6" ry="2" fill="#5B7B5E" opacity="0.15" />
+    </svg>
+  );
+  if (type === 'root') return (
+    <svg viewBox="0 0 32 32" fill="none" className="w-8 h-8">
+      <ellipse cx="16" cy="12" rx="7" ry="5" fill="#E8732F" opacity="0.3" stroke="#E8732F" strokeWidth="0.6" />
+      <path d="M12 17 Q10 24 8 26M16 17 V26M20 17 Q22 24 24 26" stroke="#E8732F" strokeWidth="1.2" strokeLinecap="round" opacity="0.35" />
+    </svg>
+  );
+  if (type === 'seed') return (
+    <svg viewBox="0 0 32 32" fill="none" className="w-8 h-8">
+      <ellipse cx="13" cy="14" rx="4" ry="5.5" fill="#D4A574" opacity="0.4" transform="rotate(-20 13 14)" />
+      <ellipse cx="19" cy="14" rx="4" ry="5.5" fill="#D4A574" opacity="0.3" transform="rotate(20 19 14)" />
+      <ellipse cx="16" cy="20" rx="3.5" ry="5" fill="#D4A574" opacity="0.35" />
+    </svg>
+  );
+  return null;
+};
+
 function Ingredients() {
   const items = [
-    { emoji: '🪨', name: 'Toutia', origin: 'Jebel Saghro, Sud-Est', desc: 'Pierre ancestrale aux propriétés purifiantes et déodorantes. Utilisée depuis l\'Antiquité.' },
-    { emoji: '🌿', name: 'Argan Bio', origin: 'Souss-Massa, Maroc', desc: 'Or liquide du Maroc. Nourrit, protège et illumine la peau et les cheveux.' },
-    { emoji: '🌺', name: 'Rose de Damas', origin: 'Vallée du Dadès', desc: 'Reine des fleurs. Hydrate en profondeur et apaise les peaux sensibles.' },
-    { emoji: '🌵', name: 'Aloe du Sahara', origin: 'Sahara Marocain', desc: 'Géant de l\'hydratation. Répare, cicatrise et rafraîchit intensément.' },
-    { emoji: '🟡', name: 'Curcuma', origin: 'Plaines de Marrakech', desc: 'Or jaune anti-inflammatoire. Soulage les articulations et réduit l\'inflammation.' },
-    { emoji: '🌾', name: 'Nigelle', origin: 'Récoltes rurales du Maroc', desc: 'La "graine de bénédiction". Fortifie les cheveux et booste l\'immunité naturellement.' },
+    { type: 'stone', name: 'Toutia', origin: 'Jebel Saghro, Sud-Est', desc: 'Pierre ancestrale aux propriétés purifiantes et déodorantes. Utilisée depuis l\'Antiquité.' },
+    { type: 'leaf', name: 'Argan Bio', origin: 'Souss-Massa, Maroc', desc: 'Or liquide du Maroc. Nourrit, protège et illumine la peau et les cheveux.' },
+    { type: 'flower', name: 'Rose de Damas', origin: 'Vallée du Dadès', desc: 'Reine des fleurs. Hydrate en profondeur et apaise les peaux sensibles.' },
+    { type: 'cactus', name: 'Aloe du Sahara', origin: 'Sahara Marocain', desc: 'Géant de l\'hydratation. Répare, cicatrise et rafraîchit intensément.' },
+    { type: 'root', name: 'Curcuma', origin: 'Plaines de Marrakech', desc: 'Or jaune anti-inflammatoire. Soulage les articulations et réduit l\'inflammation.' },
+    { type: 'seed', name: 'Nigelle', origin: 'Récoltes rurales du Maroc', desc: 'La "graine de bénédiction". Fortifie les cheveux et booste l\'immunité naturellement.' },
   ];
   return (
     <section className="py-20 px-5 bg-[#0a0a0a] relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-[#D4A574]/[0.03] via-transparent to-[#E8732F]/[0.02] pointer-events-none" />
       <div className="max-w-[1200px] mx-auto relative z-10">
         <div className="text-center mb-12">
-          <div className="text-[#D4A574] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Pure · Authentique · Rare</div>
+          <div className="text-[#D4A574] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Naturel · Ancestral · Rare</div>
           <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold mb-4">
-            Les <em className="text-[#E8732F] not-italic">Trésors</em> du Royaume
+            Les Plantes du <em className="text-[#E8732F] not-italic">Sahara</em>
           </h2>
           <p className="text-white/35 text-[15px] max-w-[500px] mx-auto leading-relaxed">
-            Chaque produit Dakhla Artisanal contient des ingrédients rares cueillis à la main dans les régions les plus préservées du Maroc.
+            Des ingrédients cueillis à la main dans les régions les plus préservées du Maroc, transmis de génération en génération.
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {items.map(item => (
             <div key={item.name} className="group bg-[#111] border border-white/[0.06] hover:border-[#D4A574]/30 rounded-2xl p-6 transition-all duration-300 hover:bg-[#141414]">
-              <div className="text-3xl mb-3">{item.emoji}</div>
+              <div className="mb-3"><IngredientIcon type={item.type} /></div>
               <div className="text-[#D4A574] font-bold text-[15px] mb-0.5">{item.name}</div>
               <div className="text-white/25 text-[10px] uppercase tracking-[0.1em] mb-2.5">{item.origin}</div>
               <p className="text-white/40 text-[12px] leading-relaxed">{item.desc}</p>
