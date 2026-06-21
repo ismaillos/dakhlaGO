@@ -540,7 +540,7 @@ export const PRODUCTS: Product[] = [
     price: 349,
     oldPrice: 458,
     badge: 'PROMO -24%',
-    img: '/images/pack-anti-chute.jpg',
+    img: '/images/pack-anti-chute-1.jpg',
     hook: 'Pack Spray Anti-Chute 100ml + Shampoing Anti-Chute 150ml. Combattez la chute de cheveux.',
     description: 'Le Pack Anti-Chute Secret d\'Atlas combine le Spray Anti-Chute (100ml) et le Shampoing Anti-Chute (150ml) pour une action complète contre la chute de cheveux. Formule aux extraits de romarin, menthe poivrée et caféine pour fortifier les racines et stimuler la repousse.',
     descriptionAr: 'باقة مكافحة التساقط سر أطلس تجمع بين رذاذ مكافحة التساقط (100 مل) وشامبو مكافحة التساقط (150 مل) لعمل شامل ضد تساقط الشعر. تركيبة بمستخلصات إكليل الجبل والنعناع الفلفلي والكافيين لتقوية الجذور وتحفيز النمو.',
