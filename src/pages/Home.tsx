@@ -72,28 +72,209 @@ function Navbar() {
 /* ─── HERO ─── */
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center pt-24 pb-16 px-5 bg-[#0a0a0a] relative overflow-hidden zellige-pattern">
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] rounded-full bg-[#E8732F]/[0.06] blur-3xl -translate-y-1/2 pointer-events-none" />
-      <div className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-16 items-center relative z-10 w-full">
+    <section className="min-h-screen flex items-center pt-20 pb-0 bg-[#0a0a0a] relative overflow-hidden">
+      {/* Background glows */}
+      <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+        <div className="absolute top-[20%] right-[-10%] w-[700px] h-[700px] rounded-full bg-[#E8732F]/[0.07] blur-[120px]" />
+        <div className="absolute bottom-[-10%] left-[-5%] w-[500px] h-[500px] rounded-full bg-[#D4A574]/[0.05] blur-[100px]" />
+        <div className="absolute top-[40%] left-[30%] w-[300px] h-[300px] rounded-full bg-[#5B7B5E]/[0.04] blur-[80px]" />
+      </div>
+      {/* Subtle zellige pattern overlay */}
+      <div className="absolute inset-0 zellige-pattern opacity-30 pointer-events-none" />
+
+      <div className="max-w-[1200px] mx-auto px-5 relative z-10 w-full grid md:grid-cols-2 gap-12 items-center pb-16 pt-8">
         <div>
-          <h1 className="text-[clamp(48px,7vw,80px)] font-extrabold leading-[0.95] tracking-[-0.03em] mb-6">
-            Secrets du<br /><em className="text-[#E8732F] not-italic">Desert.</em>
-          </h1>
-          <p className="text-white/50 text-lg max-w-[480px] mb-9 leading-relaxed">
-            Produits artisanaux 100% naturels du <strong className="text-[#E8732F]">Sahara Marocain</strong>. Elabores par des femmes artisanes de Dakhla avec des ingredients purs et ancestraux.
-          </p>
-          <div className="flex gap-4 flex-wrap">
-            <a href="#produits" className="bg-white text-[#0a0a0a] px-9 py-4 rounded-full text-sm font-bold hover:bg-[#E8732F] hover:text-white transition-colors">Explorer les produits</a>
-            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="border border-white/15 text-white/60 px-9 py-4 rounded-full text-sm font-semibold hover:border-[#E8732F] hover:text-[#E8732F] transition-colors">WhatsApp</a>
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2 bg-[#E8732F]/10 border border-[#E8732F]/20 rounded-full px-4 py-1.5 mb-8">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#E8732F] animate-pulse" />
+            <span className="text-[#E8732F] text-[11px] font-bold uppercase tracking-[0.2em]">Sahara Marocain · 100% Naturel</span>
           </div>
-          <div className="flex gap-12 mt-10 pt-6 border-t border-white/[0.06]">
-            <div><h3 className="text-4xl font-extrabold">10+</h3><p className="text-xs text-white/30 uppercase tracking-[0.1em] mt-1.5">Produits</p></div>
-            <div><h3 className="text-4xl font-extrabold">10K+</h3><p className="text-xs text-white/30 uppercase tracking-[0.1em] mt-1.5">Clients</p></div>
-            <div><h3 className="text-4xl font-extrabold text-[#E8732F]">100%</h3><p className="text-xs text-white/30 uppercase tracking-[0.1em] mt-1.5">Naturel</p></div>
+
+          {/* Headline */}
+          <h1 className="text-[clamp(44px,6.5vw,78px)] font-extrabold leading-[0.93] tracking-[-0.03em] mb-5">
+            <span className="text-white/90">Depuis des</span><br />
+            <span className="text-white/90">siècles, le</span><br />
+            <em className="not-italic bg-gradient-to-r from-[#E8732F] via-[#D4A574] to-[#E8732F] bg-clip-text text-transparent">Sahara</em><br />
+            <span className="text-white/90">garde ses</span><br />
+            <span className="text-white/90">secrets.</span>
+          </h1>
+
+          <p className="text-white/45 text-[16px] max-w-[460px] mb-8 leading-[1.75]">
+            Des plantes rares, des minéraux purs, des recettes ancestrales. Aujourd&apos;hui transmis par les <strong className="text-white/70">femmes artisanes de Dakhla</strong> — pour vous.
+          </p>
+
+          <div className="flex gap-3 flex-wrap mb-10">
+            <a href="#produits" className="group relative bg-[#E8732F] text-white px-8 py-4 rounded-full text-[13px] font-bold hover:bg-[#d46726] transition-all duration-200 shadow-[0_8px_32px_rgba(232,115,47,0.35)] hover:shadow-[0_12px_40px_rgba(232,115,47,0.5)] hover:-translate-y-0.5">
+              Découvrir les produits
+            </a>
+            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-2 border border-white/10 text-white/60 px-8 py-4 rounded-full text-[13px] font-semibold hover:border-[#25D366]/40 hover:text-[#25D366] transition-all duration-200">
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Commander sur WhatsApp
+            </a>
+          </div>
+
+          {/* Stats */}
+          <div className="flex gap-8 pt-6 border-t border-white/[0.06]">
+            {[
+              { n: '26+', label: 'Produits naturels' },
+              { n: '10K+', label: 'Clients satisfaits' },
+              { n: '100%', label: 'Naturel & pur', color: true },
+            ].map(s => (
+              <div key={s.label}>
+                <div className={`text-[clamp(28px,3.5vw,40px)] font-extrabold leading-none ${s.color ? 'text-[#E8732F]' : ''}`}>{s.n}</div>
+                <div className="text-[10px] text-white/25 uppercase tracking-[0.12em] mt-1.5 font-medium">{s.label}</div>
+              </div>
+            ))}
           </div>
         </div>
-        <div className="rounded-3xl overflow-hidden shadow-[0_40px_80px_rgba(0,0,0,0.5)] gold-border moroccan-arch">
-          <img src="/images/toutia/toutia.jpg" alt="Toutia Ismailiya - Dakhla Artisanal" className="w-full h-auto object-cover" loading="eager" />
+
+        {/* Hero image */}
+        <div className="relative">
+          <div className="absolute -inset-4 bg-gradient-to-br from-[#E8732F]/10 via-transparent to-[#D4A574]/10 rounded-[40px] blur-2xl" />
+          <div className="relative rounded-[32px] overflow-hidden gold-border shadow-[0_40px_100px_rgba(0,0,0,0.6)]">
+            <img src="/images/toutia/toutia.jpg" alt="Toutia Ismailiya — Dakhla Artisanal" className="w-full h-auto object-cover" loading="eager" />
+            {/* Overlay badge */}
+            <div className="absolute bottom-5 left-5 right-5">
+              <div className="bg-black/70 backdrop-blur-xl border border-white/10 rounded-2xl px-5 py-3.5 flex items-center justify-between">
+                <div>
+                  <div className="text-white font-bold text-[14px]">Toutia Ismailiya</div>
+                  <div className="text-white/40 text-[11px]">Pierre naturelle du Sahara · Best-seller</div>
+                </div>
+                <div className="text-[#E8732F] font-extrabold text-[18px]">169 DH</div>
+              </div>
+            </div>
+          </div>
+          {/* Floating badges */}
+          <div className="absolute -top-4 -right-4 bg-[#5B7B5E] text-white text-[10px] font-bold px-3.5 py-2 rounded-full shadow-lg rotate-6">
+            ✓ 100% Naturel
+          </div>
+          <div className="absolute top-1/2 -left-6 -translate-y-1/2 bg-[#141414] border border-white/10 rounded-2xl px-4 py-3 shadow-2xl hidden md:block">
+            <div className="flex items-center gap-2 mb-1">
+              {[1,2,3,4,5].map(i => <span key={i} className="text-[#E8732F] text-xs">★</span>)}
+            </div>
+            <div className="text-white/70 text-[11px] font-medium">10 000+ avis</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─── TRUST STRIP ─── */
+function TrustStrip() {
+  const items = [
+    { icon: '🌿', title: '100% Naturel', sub: 'Zéro chimie · Ingrédients purs' },
+    { icon: '🇲🇦', title: 'Made in Morocco', sub: 'Fabriqué au Sahara Marocain' },
+    { icon: '🚚', title: 'Livraison Maroc', sub: 'Paiement à la livraison' },
+    { icon: '⭐', title: '10 000+ Clients', sub: 'Satisfaits & fidèles' },
+  ];
+  return (
+    <div className="bg-[#0d0d0d] border-y border-white/[0.04] py-5 px-5 overflow-hidden">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
+        {items.map(item => (
+          <div key={item.title} className="flex items-center gap-3">
+            <span className="text-2xl flex-shrink-0">{item.icon}</span>
+            <div>
+              <div className="text-white/80 text-[12px] font-bold">{item.title}</div>
+              <div className="text-white/30 text-[10px]">{item.sub}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ─── BESTSELLERS ─── */
+const BESTSELLER_IDS = ['toutia', 'floro-calm-huile', 'shampoing'];
+function Bestsellers() {
+  const picks = PRODUCTS.filter(p => BESTSELLER_IDS.includes(p.id));
+  const { addItem } = useCart();
+  return (
+    <section className="py-20 px-5 bg-[#080808]">
+      <div className="max-w-[1200px] mx-auto">
+        <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
+          <div>
+            <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Nos Stars</div>
+            <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold leading-tight">
+              Les <em className="text-[#E8732F] not-italic">Best-sellers</em><br />du Sahara
+            </h2>
+          </div>
+          <a href="#produits" className="text-white/40 text-[13px] hover:text-[#E8732F] transition-colors font-medium">
+            Voir tous les produits →
+          </a>
+        </div>
+        <div className="grid md:grid-cols-3 gap-6">
+          {picks.map((p, i) => (
+            <div key={p.id} className={`group relative rounded-3xl overflow-hidden gold-border bg-[#111] hover:shadow-[0_30px_60px_rgba(0,0,0,0.4)] transition-all duration-500 hover:-translate-y-2 ${i === 1 ? 'md:-mt-6' : ''}`}>
+              <Link to={`/produit/${p.id}`}>
+                <div className="relative aspect-[4/5] overflow-hidden bg-[#0d0d0d]">
+                  <img src={p.img} alt={p.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                  {i === 0 && <div className="absolute top-4 left-4 bg-[#E8732F] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">⭐ N°1 Best-seller</div>}
+                  {i === 1 && <div className="absolute top-4 left-4 bg-[#D4A574] text-black text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">🔥 Tendance</div>}
+                  {i === 2 && <div className="absolute top-4 left-4 bg-[#5B7B5E] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">✓ Certifié</div>}
+                  <div className="absolute bottom-0 left-0 right-0 p-5">
+                    <div className="flex gap-0.5 mb-2">
+                      {[1,2,3,4,5].map(s => <span key={s} className="text-[#E8732F] text-sm">★</span>)}
+                      <span className="text-white/30 text-[10px] ml-1.5 self-center">(+200 avis)</span>
+                    </div>
+                    <h3 className="text-white font-extrabold text-[18px] leading-tight mb-1">{p.name}</h3>
+                    <p className="text-white/50 text-[12px] leading-snug line-clamp-2">{p.hook}</p>
+                  </div>
+                </div>
+              </Link>
+              <div className="p-5 flex items-center justify-between">
+                <div>
+                  <span className="text-[#E8732F] text-[22px] font-extrabold">{p.price} DH</span>
+                  {p.oldPrice && <span className="text-white/20 text-sm line-through ml-2">{p.oldPrice} DH</span>}
+                </div>
+                <button onClick={() => addItem(p)}
+                  className="bg-[#E8732F] text-white px-5 py-2.5 rounded-full text-[12px] font-bold hover:bg-[#d46726] transition-colors shadow-[0_4px_16px_rgba(232,115,47,0.3)]">
+                  Commander
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─── TRESORS DU SAHARA ─── */
+function Ingredients() {
+  const items = [
+    { emoji: '🪨', name: 'Toutia', origin: 'Jebel Saghro, Sud-Est', desc: 'Pierre ancestrale aux propriétés purifiantes et déodorantes. Utilisée depuis l\'Antiquité.' },
+    { emoji: '🌿', name: 'Argan Bio', origin: 'Souss-Massa, Maroc', desc: 'Or liquide du Maroc. Nourrit, protège et illumine la peau et les cheveux.' },
+    { emoji: '🌺', name: 'Rose de Damas', origin: 'Vallée du Dadès', desc: 'Reine des fleurs. Hydrate en profondeur et apaise les peaux sensibles.' },
+    { emoji: '🌵', name: 'Aloe du Sahara', origin: 'Sahara Marocain', desc: 'Géant de l\'hydratation. Répare, cicatrise et rafraîchit intensément.' },
+    { emoji: '🟡', name: 'Curcuma', origin: 'Plaines de Marrakech', desc: 'Or jaune anti-inflammatoire. Soulage les articulations et réduit l\'inflammation.' },
+    { emoji: '🌾', name: 'Nigelle', origin: 'Récoltes rurales du Maroc', desc: 'La "graine de bénédiction". Fortifie les cheveux et booste l\'immunité naturellement.' },
+  ];
+  return (
+    <section className="py-20 px-5 bg-[#0a0a0a] relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-[#D4A574]/[0.03] via-transparent to-[#E8732F]/[0.02] pointer-events-none" />
+      <div className="max-w-[1200px] mx-auto relative z-10">
+        <div className="text-center mb-12">
+          <div className="text-[#D4A574] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Pure · Authentique · Rare</div>
+          <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold mb-4">
+            Les <em className="text-[#E8732F] not-italic">Trésors</em> du Royaume
+          </h2>
+          <p className="text-white/35 text-[15px] max-w-[500px] mx-auto leading-relaxed">
+            Chaque produit Dakhla Artisanal contient des ingrédients rares cueillis à la main dans les régions les plus préservées du Maroc.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {items.map(item => (
+            <div key={item.name} className="group bg-[#111] border border-white/[0.06] hover:border-[#D4A574]/30 rounded-2xl p-6 transition-all duration-300 hover:bg-[#141414]">
+              <div className="text-3xl mb-3">{item.emoji}</div>
+              <div className="text-[#D4A574] font-bold text-[15px] mb-0.5">{item.name}</div>
+              <div className="text-white/25 text-[10px] uppercase tracking-[0.1em] mb-2.5">{item.origin}</div>
+              <p className="text-white/40 text-[12px] leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -103,36 +284,36 @@ function Hero() {
 /* ─── STORY ─── */
 function Story() {
   return (
-    <section id="story" className="py-24 px-5 bg-[#080808] zellige-pattern">
+    <section id="story" className="py-24 px-5 bg-[#080808] relative overflow-hidden">
+      <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#E8732F]/[0.04] blur-[100px] rounded-full pointer-events-none" />
       <div className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
           <div className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.2em] mb-4">Notre Histoire</div>
           <h2 className="text-[clamp(32px,4vw,52px)] font-extrabold mb-6 leading-[1.05]">
-            Des Mains du <em className="text-[#E8732F] not-italic">Sahara</em>,<br />Pour Votre Beaute
+            Des Mains du <em className="text-[#E8732F] not-italic">Sahara</em>,<br />Pour Votre Beauté
           </h2>
           <p className="text-white/45 text-base leading-[1.8] mb-4">
-            Dakhla Artisanal nait des mains expertes des <strong className="text-white/80">femmes rurales du Maroc</strong> — des femmes fortes du <strong className="text-white/80">Sud-Est</strong>, de l&apos;Anti-Atlas, et de toutes les regions du Sahara Marocain.
+            Dakhla Artisanal naît des mains expertes des <strong className="text-white/80">femmes rurales du Maroc</strong> — des femmes fortes du <strong className="text-white/80">Sud-Est</strong>, de l&apos;Anti-Atlas, et de toutes les régions du Sahara Marocain.
           </p>
-          <p className="text-white/45 text-[15px] leading-[1.8] mb-6">
-            Pendant des siecles, ces femmes ont transmis des secrets de beaute ancestraux, utilisant les plantes medicinales et les mineraux purs du desert. Aujourd&apos;hui, Dakhla Artisanal perpétue ce savoir-faire en collaborant directement avec ces cooperatives feminines pour vous offrir des produits <strong className="text-white/80">100% naturels, authentiques et efficaces</strong>.
+          <p className="text-white/45 text-[15px] leading-[1.8] mb-8">
+            Pendant des siècles, ces femmes ont transmis des secrets de beauté ancestraux, utilisant les plantes médicinales et les minéraux purs du désert. Aujourd&apos;hui, Dakhla Artisanal perpétue ce savoir-faire pour vous offrir des produits <strong className="text-white/80">100% naturels, authentiques et efficaces</strong>.
           </p>
-          <div className="grid grid-cols-3 gap-4 mt-8">
-            <div className="bg-[#0f0f0f] gold-border rounded-xl p-5 text-center">
-              <div className="w-10 h-10 bg-[#E8732F]/10 rounded-full flex items-center justify-center mx-auto mb-2.5 text-lg">🌵</div>
-              <h4 className="text-[13px] mb-1">7+ Regions</h4><p className="text-[10px] text-white/30">du Sahara Marocain</p>
-            </div>
-            <div className="bg-[#0f0f0f] gold-border rounded-xl p-5 text-center">
-              <div className="w-10 h-10 bg-[#E8732F]/10 rounded-full flex items-center justify-center mx-auto mb-2.5 text-lg">👩🌾</div>
-              <h4 className="text-[13px] mb-1">50+ Femmes</h4><p className="text-[10px] text-white/30">Artisanes partenaires</p>
-            </div>
-            <div className="bg-[#0f0f0f] gold-border rounded-xl p-5 text-center">
-              <div className="w-10 h-10 bg-[#E8732F]/10 rounded-full flex items-center justify-center mx-auto mb-2.5 text-lg">🌿</div>
-              <h4 className="text-[13px] mb-1">100%</h4><p className="text-[10px] text-white/30">Naturel &amp; Fait Main</p>
-            </div>
+          <div className="grid grid-cols-3 gap-4">
+            {[
+              { icon: '🌵', title: '7+ Régions', sub: 'du Sahara Marocain' },
+              { icon: '👩‍🌾', title: '50+ Femmes', sub: 'Artisanes partenaires' },
+              { icon: '🌿', title: '100%', sub: 'Naturel & Fait Main' },
+            ].map(c => (
+              <div key={c.title} className="bg-[#0f0f0f] border border-white/[0.06] rounded-xl p-5 text-center hover:border-[#E8732F]/20 transition-colors">
+                <div className="text-2xl mb-2">{c.icon}</div>
+                <h4 className="text-[13px] font-bold mb-1">{c.title}</h4>
+                <p className="text-[10px] text-white/30">{c.sub}</p>
+              </div>
+            ))}
           </div>
         </div>
-        <div className="rounded-[20px] overflow-hidden gold-border moroccan-arch">
-          <img src="/images/elixir-real-1.jpg" alt="Dakhla Artisanal" className="w-full h-auto" loading="lazy" />
+        <div className="rounded-[24px] overflow-hidden gold-border shadow-[0_30px_80px_rgba(0,0,0,0.4)]">
+          <img src="/images/elixir-real-1.jpg" alt="Dakhla Artisanal — femmes artisanes" className="w-full h-auto" loading="lazy" />
         </div>
       </div>
     </section>
@@ -712,8 +893,11 @@ export default function Home() {
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       <Navbar />
       <Hero />
+      <TrustStrip />
       <HeroSearch onSearch={setSearchQuery} searchQuery={searchQuery} />
+      <Bestsellers />
       <Story />
+      <Ingredients />
       <Products searchQuery={searchQuery} onSearch={setSearchQuery} />
       <Reviews />
       <BlogPreview />
