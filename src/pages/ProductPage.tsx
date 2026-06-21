@@ -77,6 +77,7 @@ export default function ProductPage() {
     spray: ['/images/spray-1.jpg', '/images/spray-2.jpg'],
     floro: ['/images/floro-calm-3.jpg', '/images/floro-calm-4.jpg'],
     'floro-calm-huile': ['/images/floro-calm-1.jpg', '/images/floro-calm-2.jpg'],
+    'pack-floro-calm': ['/images/floro-calm-pack-1.jpg'],
     serum: ['/images/serum-1.jpg'],
     'shampoing-proteines': ['/images/shampoing-proteines-3.jpg', '/images/shampoing-proteines-4.jpg'],
     'pack-anti-gris': ['/images/pack-anti-gris.jpg'],
