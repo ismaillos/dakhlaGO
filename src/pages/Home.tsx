@@ -139,9 +139,8 @@ function Story() {
   );
 }
 
-/* ─── SEARCH BAR ─── */
-function ProductSearch({ onSearch }: { onSearch: (query: string) => void }) {
-  const [query, setQuery] = useState('');
+/* ─── SEARCH BAR (compact, inside Products) ─── */
+function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void; value: string }) {
   const [suggestions, setSuggestions] = useState<typeof PRODUCTS>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -155,14 +154,8 @@ function ProductSearch({ onSearch }: { onSearch: (query: string) => void }) {
       if (p.name.toLowerCase().includes(lower)) score += 10;
       if (p.nameAr.toLowerCase().includes(lower)) score += 10;
       if (p.hook.toLowerCase().includes(lower)) score += 5;
-      if (p.description.toLowerCase().includes(lower)) score += 3;
       if (p.benefits.some(b => b.toLowerCase().includes(lower))) score += 4;
-      if (p.benefitsAr.some(b => b.toLowerCase().includes(lower))) score += 4;
       if (p.catLabel.toLowerCase().includes(lower)) score += 2;
-      // fuzzy partial match
-      const allText = (p.name + ' ' + p.hook + ' ' + p.description + ' ' + p.benefits.join(' ')).toLowerCase();
-      const words = lower.split(/\s+/);
-      words.forEach(w => { if (w.length > 2 && allText.includes(w)) score += 1; });
       return { product: p, score };
     }).filter(s => s.score > 0).sort((a, b) => b.score - a.score);
     setSuggestions(scored.slice(0, 6).map(s => s.product));
@@ -170,9 +163,7 @@ function ProductSearch({ onSearch }: { onSearch: (query: string) => void }) {
 
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
-      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) {
-        setShowSuggestions(false);
-      }
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setShowSuggestions(false);
     };
     document.addEventListener('mousedown', handleClick);
     return () => document.removeEventListener('mousedown', handleClick);
@@ -181,20 +172,20 @@ function ProductSearch({ onSearch }: { onSearch: (query: string) => void }) {
   return (
     <div ref={wrapRef} className="relative max-w-[600px] mb-8">
       <div className="relative">
-        <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
         <input
           ref={inputRef}
           type="text"
-          value={query}
-          onChange={(e) => { setQuery(e.target.value); fuseSearch(e.target.value); setShowSuggestions(true); onSearch(e.target.value); }}
-          onFocus={() => { if (query) setShowSuggestions(true); }}
-          placeholder="Rechercher un produit (serum, shampoing, acne...)"
-          className="w-full bg-white/[0.04] border border-white/[0.08] rounded-full py-3.5 pl-12 pr-5 text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-[#E8732F]/40 focus:bg-white/[0.06] transition-all"
+          value={value}
+          onChange={(e) => { fuseSearch(e.target.value); setShowSuggestions(true); onSearch(e.target.value); }}
+          onFocus={() => { if (value) setShowSuggestions(true); }}
+          placeholder="Filtrer les produits..."
+          className="w-full bg-white/[0.04] border border-white/[0.08] rounded-full py-3 pl-11 pr-5 text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-[#E8732F]/40 transition-all"
         />
-        {query && (
-          <button onClick={() => { setQuery(''); setSuggestions([]); setShowSuggestions(false); onSearch(''); inputRef.current?.focus(); }}
+        {value && (
+          <button onClick={() => { setSuggestions([]); setShowSuggestions(false); onSearch(''); inputRef.current?.focus(); }}
             className="absolute right-4 top-1/2 -translate-y-1/2 text-white/20 hover:text-white/60 text-xs">✕</button>
         )}
       </div>
@@ -203,7 +194,7 @@ function ProductSearch({ onSearch }: { onSearch: (query: string) => void }) {
           {suggestions.map(p => (
             <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
               className="flex items-center gap-3 px-4 py-3 hover:bg-white/[0.04] transition-colors border-b border-white/[0.03] last:border-0">
-              <img src={p.img} alt={p.name} className="w-10 h-10 rounded-lg object-cover flex-shrink-0" />
+              <img src={p.img} alt={p.name} className="w-9 h-9 rounded-lg object-cover flex-shrink-0" />
               <div className="flex-1 min-w-0">
                 <div className="text-sm font-semibold truncate">{p.name}</div>
                 <div className="text-[10px] text-white/30">{p.catLabel} — {p.price} DH</div>
@@ -214,6 +205,171 @@ function ProductSearch({ onSearch }: { onSearch: (query: string) => void }) {
         </div>
       )}
     </div>
+  );
+}
+
+/* ─── HERO SEARCH SECTION ─── */
+const QUICK_CHIPS = [
+  { label: '🦴 Douleurs', query: 'douleurs articulations' },
+  { label: '💆 Cheveux', query: 'cheveux' },
+  { label: '✨ Éclat Peau', query: 'visage eclat' },
+  { label: '😴 Sommeil', query: 'sommeil stress' },
+  { label: '⚡ Énergie', query: 'energie vitalite' },
+  { label: '🌿 Corps', query: 'corps' },
+  { label: '🌸 Féminin', query: 'intime feminin' },
+  { label: '💊 Compléments', query: 'complement' },
+];
+
+function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; searchQuery: string }) {
+  const [localQuery, setLocalQuery] = useState('');
+  const [suggestions, setSuggestions] = useState<typeof PRODUCTS>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const wrapRef = useRef<HTMLDivElement>(null);
+
+  const fuseSearch = useCallback((q: string) => {
+    if (!q.trim()) { setSuggestions([]); return; }
+    const lower = q.toLowerCase();
+    const scored = PRODUCTS.map(p => {
+      let score = 0;
+      if (p.name.toLowerCase().includes(lower)) score += 10;
+      if (p.nameAr.toLowerCase().includes(lower)) score += 8;
+      if (p.hook.toLowerCase().includes(lower)) score += 6;
+      if (p.description.toLowerCase().includes(lower)) score += 3;
+      if (p.benefits.some(b => b.toLowerCase().includes(lower))) score += 5;
+      if (p.benefitsAr.some(b => b.toLowerCase().includes(lower))) score += 4;
+      if (p.catLabel.toLowerCase().includes(lower)) score += 3;
+      const allText = (p.name + ' ' + p.hook + ' ' + p.benefits.join(' ')).toLowerCase();
+      lower.split(/\s+/).forEach(w => { if (w.length > 2 && allText.includes(w)) score += 2; });
+      return { product: p, score };
+    }).filter(s => s.score > 0).sort((a, b) => b.score - a.score);
+    setSuggestions(scored.slice(0, 6).map(s => s.product));
+  }, []);
+
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setShowSuggestions(false);
+    };
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
+
+  const handleChange = (val: string) => {
+    setLocalQuery(val);
+    fuseSearch(val);
+    setShowSuggestions(true);
+    onSearch(val);
+  };
+
+  const handleChip = (query: string) => {
+    setLocalQuery(query);
+    fuseSearch(query);
+    setShowSuggestions(false);
+    onSearch(query);
+    document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const handleClear = () => {
+    setLocalQuery('');
+    setSuggestions([]);
+    setShowSuggestions(false);
+    onSearch('');
+    inputRef.current?.focus();
+  };
+
+  return (
+    <section className="py-14 px-5 bg-[#080808] border-y border-white/[0.04] relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-[#E8732F]/[0.04] via-transparent to-[#D4A574]/[0.03] pointer-events-none" />
+      <div className="max-w-[800px] mx-auto relative z-10">
+        {/* Tagline */}
+        <div className="text-center mb-8">
+          <p className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.25em] mb-3">Trouvez Votre Soin</p>
+          <h2 className="text-[clamp(24px,4vw,42px)] font-extrabold leading-tight mb-2">
+            Que cherchez-vous <em className="text-[#E8732F] not-italic">aujourd&apos;hui?</em>
+          </h2>
+          <p className="text-white/35 text-sm">Tapez un problème, un ingrédient ou un produit — on le trouve pour vous</p>
+        </div>
+
+        {/* Big Search Input */}
+        <div ref={wrapRef} className="relative mb-6">
+          <div className="relative">
+            <svg className="absolute left-5 top-1/2 -translate-y-1/2 w-6 h-6 text-[#E8732F]/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input
+              ref={inputRef}
+              type="text"
+              value={localQuery}
+              onChange={(e) => handleChange(e.target.value)}
+              onFocus={() => { if (localQuery) setShowSuggestions(true); }}
+              placeholder="Ex: douleurs genoux, cheveux cassants, peau terne, stress..."
+              className="w-full bg-white/[0.05] border-2 border-white/[0.10] hover:border-white/20 rounded-2xl py-5 pl-14 pr-14 text-base text-white placeholder:text-white/25 focus:outline-none focus:border-[#E8732F]/60 focus:bg-white/[0.07] transition-all duration-200 shadow-[0_8px_32px_rgba(0,0,0,0.3)]"
+            />
+            {localQuery ? (
+              <button onClick={handleClear}
+                className="absolute right-5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/[0.08] hover:bg-white/20 text-white/50 hover:text-white flex items-center justify-center transition-all text-sm">✕</button>
+            ) : (
+              <div className="absolute right-5 top-1/2 -translate-y-1/2 bg-[#E8732F]/15 border border-[#E8732F]/20 rounded-xl px-3 py-1.5 hidden sm:flex items-center gap-1.5">
+                <svg className="w-3 h-3 text-[#E8732F]/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <span className="text-[#E8732F]/60 text-[11px] font-semibold">Rechercher</span>
+              </div>
+            )}
+          </div>
+
+          {/* Dropdown suggestions */}
+          {showSuggestions && suggestions.length > 0 && (
+            <div className="absolute top-full left-0 right-0 mt-3 bg-[#141414] border border-white/[0.10] rounded-2xl overflow-hidden z-50 shadow-[0_24px_80px_rgba(0,0,0,0.6)]">
+              <div className="px-4 pt-3 pb-1.5 text-[10px] text-white/25 uppercase tracking-[0.15em] font-bold border-b border-white/[0.04]">
+                {suggestions.length} produit{suggestions.length > 1 ? 's' : ''} trouvé{suggestions.length > 1 ? 's' : ''}
+              </div>
+              {suggestions.map(p => (
+                <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
+                  className="flex items-center gap-4 px-4 py-3.5 hover:bg-white/[0.05] transition-colors border-b border-white/[0.03] last:border-0 group">
+                  <img src={p.img} alt={p.name} className="w-12 h-12 rounded-xl object-cover flex-shrink-0" />
+                  <div className="flex-1 min-w-0">
+                    <div className="text-[14px] font-bold truncate group-hover:text-[#E8732F] transition-colors">{p.name}</div>
+                    <div className="text-[11px] text-white/35 truncate mt-0.5">{p.hook}</div>
+                    <div className="text-[10px] text-white/20 mt-0.5">{p.catLabel}</div>
+                  </div>
+                  <div className="text-right flex-shrink-0">
+                    <div className="text-[#E8732F] font-extrabold text-[15px]">{p.price} DH</div>
+                    {p.oldPrice && <div className="text-white/20 text-[11px] line-through">{p.oldPrice} DH</div>}
+                  </div>
+                </Link>
+              ))}
+              <div className="px-4 py-3 border-t border-white/[0.04]">
+                <button onClick={() => { setShowSuggestions(false); document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' }); }}
+                  className="w-full text-center text-[12px] text-[#E8732F] font-semibold hover:text-[#E8732F]/70 transition-colors">
+                  Voir tous les résultats ↓
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Quick chips */}
+        <div className="flex flex-wrap gap-2 justify-center">
+          {QUICK_CHIPS.map(chip => (
+            <button key={chip.query} onClick={() => handleChip(chip.query)}
+              className={`px-4 py-2 rounded-full text-[12px] font-semibold transition-all cursor-pointer border ${
+                searchQuery === chip.query
+                  ? 'bg-[#E8732F] text-white border-[#E8732F]'
+                  : 'bg-white/[0.04] border-white/[0.10] text-white/50 hover:bg-white/[0.08] hover:text-white hover:border-white/25'
+              }`}>
+              {chip.label}
+            </button>
+          ))}
+          {searchQuery && (
+            <button onClick={handleClear}
+              className="px-4 py-2 rounded-full text-[12px] font-semibold border border-red-500/30 text-red-400/70 hover:bg-red-500/10 transition-all cursor-pointer">
+              ✕ Effacer
+            </button>
+          )}
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -314,9 +470,8 @@ function ProductNotFound({ query, closest }: { query: string; closest: typeof PR
 }
 
 /* ─── PRODUCTS ─── */
-function Products() {
+function Products({ searchQuery, onSearch }: { searchQuery: string; onSearch: (q: string) => void }) {
   const [activeFilter, setActiveFilter] = useState('tous');
-  const [searchQuery, setSearchQuery] = useState('');
   const [showNotFound, setShowNotFound] = useState(false);
 
   // Apply both category filter AND search
@@ -376,7 +531,7 @@ function Products() {
         <h2 className="text-[clamp(32px,4vw,52px)] font-extrabold mb-4">Formules du <em className="text-[#E8732F] not-italic">Sahara</em></h2>
         <p className="text-white/40 text-base mb-8 max-w-[600px]">Des formules naturelles elaborees avec soin dans le Sahara marocain par des femmes artisanes.</p>
 
-        <ProductSearch onSearch={setSearchQuery} />
+        <ProductSearch onSearch={onSearch} value={searchQuery} />
 
         <div className="flex gap-2.5 mb-9 flex-wrap">
           {CATEGORIES.map(cat => (
@@ -552,12 +707,14 @@ function Footer() {
 
 /* ─── HOME PAGE ─── */
 export default function Home() {
+  const [searchQuery, setSearchQuery] = useState('');
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       <Navbar />
       <Hero />
+      <HeroSearch onSearch={setSearchQuery} searchQuery={searchQuery} />
       <Story />
-      <Products />
+      <Products searchQuery={searchQuery} onSearch={setSearchQuery} />
       <Reviews />
       <BlogPreview />
       <CTA />

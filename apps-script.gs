@@ -1,26 +1,42 @@
 // ============================================================
 // GOOGLE APPS SCRIPT — Commandes Dakhla Artisanal
 // Sheet ID: 1SsoBsyTOH7t57CiVZWVdn1TzevHDOEh8dAxDl6iQnZw
+//
+// DEPLOYMENT:
+//  1. Open https://script.google.com and create a new project
+//  2. Paste this file content
+//  3. Click Deploy > New deployment > Web App
+//  4. Execute as: Me | Who has access: Anyone
+//  5. Copy the Web App URL and set it as VITE_SHEET_WEBHOOK_URL in your .env
 // ============================================================
 
 var SHEET_ID = '1SsoBsyTOH7t57CiVZWVdn1TzevHDOEh8dAxDl6iQnZw';
-var SHEET_NAME = 'Commandes';  // Nom de la feuille
+var SHEET_NAME = 'dakhlacommande';
+
+var HEADERS = ['Date', 'Type', 'Nom', 'Telephone', 'Adresse', 'Ville', 'Produit(s)', 'Quantite', 'Prix Total', 'Statut'];
+
+function getOrCreateSheet() {
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+  var sheet = ss.getSheetByName(SHEET_NAME);
+  if (!sheet) {
+    sheet = ss.insertSheet(SHEET_NAME);
+  }
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(HEADERS);
+    var header = sheet.getRange(1, 1, 1, HEADERS.length);
+    header.setFontWeight('bold').setBackground('#E8732F').setFontColor('#FFFFFF');
+    sheet.setFrozenRows(1);
+    sheet.setColumnWidth(1, 160);  // Date
+    sheet.setColumnWidth(7, 280);  // Produit(s)
+  }
+  return sheet;
+}
 
 function doPost(e) {
   var lock = LockService.getScriptLock();
   lock.waitLock(30000);
 
   try {
-    // Ouvre le spreadsheet par ID
-    var ss = SpreadsheetApp.openById(SHEET_ID);
-    var sheet = ss.getSheetByName(SHEET_NAME);
-
-    // Si la feuille n'existe pas, la cree
-    if (!sheet) {
-      sheet = ss.insertSheet(SHEET_NAME);
-    }
-
-    // Parse les donnees JSON
     var data;
     if (e.postData && e.postData.contents) {
       data = JSON.parse(e.postData.contents);
@@ -30,54 +46,62 @@ function doPost(e) {
       data = e.parameter || {};
     }
 
-    // Ajoute les en-tetes si premiere ligne
-    if (sheet.getLastRow() === 0) {
-      sheet.appendRow(['Date', 'Nom', 'Telephone', 'Adresse', 'Ville', 'Produit', 'Quantite', 'Prix Total', 'Statut']);
-      sheet.getRange(1, 1, 1, 9).setFontWeight('bold').setBackground('#E8732F').setFontColor('#FFFFFF');
-      sheet.setFrozenRows(1);
+    var sheet = getOrCreateSheet();
+
+    // Determine row values based on order type
+    var type = data.type || 'single';
+    var produits = '';
+    var quantite = '';
+    var prixTotal = '';
+
+    if (type === 'cart') {
+      // Cart order: items is already a formatted string
+      produits = data.items || '';
+      quantite = 'Panier';
+      prixTotal = data.total || '';
+    } else {
+      // Single product order
+      produits = data.produit || '';
+      quantite = data.quantite || '';
+      prixTotal = data.prix || '';
     }
 
-    // Ajoute la commande
     sheet.appendRow([
       new Date(),
+      type === 'cart' ? 'Panier' : 'Simple',
       data.nom || '',
       data.telephone || '',
       data.adresse || '',
       data.ville || '',
-      data.produit || '',
-      data.quantite || '',
-      data.prix || '',
-      'Nouvelle'
+      produits,
+      quantite,
+      prixTotal,
+      'Nouvelle',
     ]);
 
-    // Tri par date decroissante (plus recente en haut)
+    // Sort by date descending (most recent first, skip header)
     var lastRow = sheet.getLastRow();
     if (lastRow > 2) {
-      var range = sheet.getRange(2, 1, lastRow - 1, 9);
-      range.sort({column: 1, ascending: false});
+      sheet.getRange(2, 1, lastRow - 1, HEADERS.length).sort({ column: 1, ascending: false });
     }
 
-    // Reponse de succes
-    return ContentService.createTextOutput(JSON.stringify({
-      result: 'success',
-      message: 'Commande enregistree'
-    })).setMimeType(ContentService.MimeType.JSON);
+    return ContentService
+      .createTextOutput(JSON.stringify({ result: 'success', message: 'Commande enregistrée' }))
+      .setMimeType(ContentService.MimeType.JSON);
 
   } catch (error) {
-    return ContentService.createTextOutput(JSON.stringify({
-      result: 'error',
-      message: error.toString()
-    })).setMimeType(ContentService.MimeType.JSON);
+    return ContentService
+      .createTextOutput(JSON.stringify({ result: 'error', message: error.toString() }))
+      .setMimeType(ContentService.MimeType.JSON);
 
   } finally {
     lock.releaseLock();
   }
 }
 
-// Pour les requetes GET (test)
-function doGet(e) {
-  return ContentService.createTextOutput(JSON.stringify({
-    status: 'OK',
-    message: 'Service Dakhla Artisanal actif'
-  })).setMimeType(ContentService.MimeType.JSON);
+// Health check endpoint
+function doGet() {
+  return ContentService
+    .createTextOutput(JSON.stringify({ status: 'OK', message: 'Service Dakhla Artisanal actif' }))
+    .setMimeType(ContentService.MimeType.JSON);
 }
