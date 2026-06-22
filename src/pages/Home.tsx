@@ -687,24 +687,6 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
   );
 }
 
-/* ─── AI SUGGESTED NAME GENERATOR ─── */
-function getAISuggestedName(query: string): string {
-  const q = query.toLowerCase();
-  if (q.includes('levre') || q.includes('lip')) return 'Sérum Repulpant Lèvres Premium';
-  if (q.includes('visage') || q.includes('face') || q.includes('teint')) return 'Sérum Éclat Visage';
-  if (q.includes('cheveux') || q.includes('hair')) return 'Huile Capillaire Réparatrice';
-  if (q.includes('corps') || q.includes('body')) return 'Huile de Massage Corps';
-  if (q.includes('oeil') || q.includes('eye')) return 'Contour des Yeux Anti-Cernes';
-  if (q.includes('solaire') || q.includes('sun')) return 'Crème Solaire Naturelle SPF50';
-  if (q.includes('anti-age') || q.includes('rides')) return 'Sérum Anti-Âge Rétinol';
-  if (q.includes('main') || q.includes('hand')) return 'Crème Mains Réparatrice';
-  if (q.includes('pied') || q.includes('foot')) return 'Baume Pieds au Karité';
-  if (q.includes('barbe') || q.includes('beard')) return 'Huile à Barbe Naturelle';
-  if (q.includes('mascara') || q.includes('cils')) return 'Sérum Pousse de Cils';
-  if (q.includes('fond') || q.includes('bb') || q.includes('cc')) return 'BB Crème Naturelle';
-  return 'Sérum Naturel du Sahara';
-}
-
 /* ─── PRODUCT NOT FOUND / AI FALLBACK ─── */
 function ProductNotFound({ query, closest }: { query: string; closest: typeof PRODUCTS }) {
   return (
