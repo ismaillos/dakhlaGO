@@ -215,7 +215,7 @@ function TrustStrip() {
 }
 
 /* ─── BESTSELLERS ─── */
-const BESTSELLER_IDS = ['toutia', 'floro-calm-huile', 'shampoing'];
+const BESTSELLER_IDS = ['toutia', 'floro-calm-huile', 'elixir'];
 function Bestsellers() {
   const picks = PRODUCTS.filter(p => BESTSELLER_IDS.includes(p.id));
   const { addItem } = useCart();
