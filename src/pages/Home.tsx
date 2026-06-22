@@ -41,6 +41,12 @@ function Navbar() {
               <span className="absolute -top-2 -right-4 bg-[#E8732F] text-white text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center">{itemCount}</span>
             </button>
           )}
+          <a href="https://web.facebook.com/dakhlaartisanal.maroc" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+            className="text-white/40 hover:text-[#1877F2] transition-colors">
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
           <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="bg-[#E8732F] text-white px-6 py-2.5 rounded-full text-[13px] font-bold hover:bg-[#d46726] transition-colors">WhatsApp</a>
         </div>
 
@@ -997,12 +1003,28 @@ function Footer() {
         <div>
           <h4 className="text-white/50 text-xs uppercase tracking-[0.1em] mb-3.5 font-semibold">Contact</h4>
           <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">WhatsApp: +212 677 031 561</a>
+          <a href="https://web.facebook.com/dakhlaartisanal.maroc" target="_blank" rel="noopener noreferrer" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#1877F2] transition-colors">Facebook: dakhlaartisanal</a>
           <span className="block text-white/30 text-[13px] mb-2.5">Dakhla, Sahara Marocain</span>
           <span className="block text-white/30 text-[13px]" dir="rtl">الصحراء المغربية</span>
         </div>
       </div>
-      <div className="border-t border-white/[0.03] pt-5 max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between gap-2">
+      <div className="border-t border-white/[0.03] pt-5 max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between gap-2 items-center">
         <p className="text-white/10 text-[11px]">&copy; 2025 Dakhla Artisanal — Nature&apos;s Touch</p>
+        <div className="flex items-center gap-4">
+          <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
+            className="text-white/15 hover:text-[#25D366] transition-colors">
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.549 4.107 1.51 5.84L.055 23.454a.5.5 0 00.491.617l5.741-.055A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.794 9.794 0 01-4.98-1.363l-.356-.212-3.697.035.978-3.595-.232-.37A9.794 9.794 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.43-4.388 9.818-9.818 9.818z"/>
+            </svg>
+          </a>
+          <a href="https://web.facebook.com/dakhlaartisanal.maroc" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+            className="text-white/15 hover:text-[#1877F2] transition-colors">
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+        </div>
         <p className="text-white/10 text-[11px]">Sahara Marocain — الصحراء المغربية</p>
       </div>
     </footer>
