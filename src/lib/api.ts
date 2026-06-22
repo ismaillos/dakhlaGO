@@ -17,18 +17,20 @@ export type CartOrderPayload = {
   telephone: string;
   adresse: string;
   ville: string;
-  items: string; // formatted string: "Product x2 - 200 DH, ..."
+  items: string;
   total: string;
 };
 
-export type OrderPayload = SingleOrderPayload | CartOrderPayload;
+export type ProductRequestPayload = {
+  type: 'demande';
+  nom: string;
+  telephone: string;
+  email: string;
+  produit_demande: string;
+};
 
-/**
- * Sends an order to the Google Apps Script webhook.
- * Returns true when the request was dispatched (Apps Script returns opaque
- * responses with no-cors, so we can't confirm server-side success).
- * Returns false only when no webhook URL is configured.
- */
+export type OrderPayload = SingleOrderPayload | CartOrderPayload | ProductRequestPayload;
+
 export async function submitOrder(payload: OrderPayload): Promise<boolean> {
   if (!WEBHOOK_URL || WEBHOOK_URL.includes('PLACEHOLDER')) {
     console.warn('[dakhlaGO] VITE_SHEET_WEBHOOK_URL is not configured. Order was not sent.');
