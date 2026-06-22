@@ -12,8 +12,10 @@
 
 var SHEET_ID = '1SsoBsyTOH7t57CiVZWVdn1TzevHDOEh8dAxDl6iQnZw';
 var SHEET_NAME = 'dakhlacommande';
+var DEMANDES_SHEET_NAME = 'demandes_produits';
 
 var HEADERS = ['Date', 'Type', 'Nom', 'Telephone', 'Adresse', 'Ville', 'Produit(s)', 'Quantite', 'Prix Total', 'Statut'];
+var DEMANDES_HEADERS = ['Date', 'Nom', 'Telephone', 'Email', 'Produit Demande', 'Statut'];
 
 function getOrCreateSheet() {
   var ss = SpreadsheetApp.openById(SHEET_ID);
@@ -26,8 +28,25 @@ function getOrCreateSheet() {
     var header = sheet.getRange(1, 1, 1, HEADERS.length);
     header.setFontWeight('bold').setBackground('#E8732F').setFontColor('#FFFFFF');
     sheet.setFrozenRows(1);
-    sheet.setColumnWidth(1, 160);  // Date
-    sheet.setColumnWidth(7, 280);  // Produit(s)
+    sheet.setColumnWidth(1, 160);
+    sheet.setColumnWidth(7, 280);
+  }
+  return sheet;
+}
+
+function getOrCreateDemandesSheet() {
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+  var sheet = ss.getSheetByName(DEMANDES_SHEET_NAME);
+  if (!sheet) {
+    sheet = ss.insertSheet(DEMANDES_SHEET_NAME);
+  }
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(DEMANDES_HEADERS);
+    var header = sheet.getRange(1, 1, 1, DEMANDES_HEADERS.length);
+    header.setFontWeight('bold').setBackground('#5B7B5E').setFontColor('#FFFFFF');
+    sheet.setFrozenRows(1);
+    sheet.setColumnWidth(1, 160);
+    sheet.setColumnWidth(5, 320);
   }
   return sheet;
 }
@@ -46,21 +65,39 @@ function doPost(e) {
       data = e.parameter || {};
     }
 
-    var sheet = getOrCreateSheet();
-
-    // Determine row values based on order type
     var type = data.type || 'single';
+
+    // ── Demande produit non catalogue ──
+    if (type === 'demande') {
+      var demandesSheet = getOrCreateDemandesSheet();
+      demandesSheet.appendRow([
+        new Date(),
+        data.nom || '',
+        data.telephone || '',
+        data.email || '',
+        data.produit_demande || '',
+        'A traiter',
+      ]);
+      var dLastRow = demandesSheet.getLastRow();
+      if (dLastRow > 2) {
+        demandesSheet.getRange(2, 1, dLastRow - 1, DEMANDES_HEADERS.length).sort({ column: 1, ascending: false });
+      }
+      return ContentService
+        .createTextOutput(JSON.stringify({ result: 'success', message: 'Demande enregistrée' }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // ── Commande normale ──
+    var sheet = getOrCreateSheet();
     var produits = '';
     var quantite = '';
     var prixTotal = '';
 
     if (type === 'cart') {
-      // Cart order: items is already a formatted string
       produits = data.items || '';
       quantite = 'Panier';
       prixTotal = data.total || '';
     } else {
-      // Single product order
       produits = data.produit || '';
       quantite = data.quantite || '';
       prixTotal = data.prix || '';
@@ -79,7 +116,6 @@ function doPost(e) {
       'Nouvelle',
     ]);
 
-    // Sort by date descending (most recent first, skip header)
     var lastRow = sheet.getLastRow();
     if (lastRow > 2) {
       sheet.getRange(2, 1, lastRow - 1, HEADERS.length).sort({ column: 1, ascending: false });

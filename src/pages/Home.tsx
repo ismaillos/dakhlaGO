@@ -5,6 +5,7 @@ import { REVIEWS } from '../data/reviews';
 import { BLOG_ARTICLES } from '../data/blog';
 import { useCart } from '../hooks/useCart';
 import OrderModal from '../components/OrderModal';
+import ProductRequestForm from '../components/ProductRequestForm';
 
 /* ─── NAVBAR ─── */
 function Navbar() {
@@ -481,10 +482,7 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
               <span className="text-[#E8732F] text-xs font-bold">→</span>
             </Link>
           )) : (
-            <div className="px-4 py-5 text-center">
-              <div className="text-white/30 text-sm mb-1">Rupture de stock</div>
-              <div className="text-white/15 text-[11px]">Ce produit n&apos;est pas disponible pour le moment</div>
-            </div>
+            <ProductRequestForm query={value} compact onClose={() => setShowSuggestions(false)} />
           )}
         </div>
       )}
@@ -659,10 +657,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                   </div>
                 </>
               ) : (
-                <div className="px-4 py-6 text-center">
-                  <div className="text-white/30 text-sm mb-1">Rupture de stock</div>
-                  <div className="text-white/15 text-[11px]">Ce produit n&apos;est pas disponible pour le moment</div>
-                </div>
+                <ProductRequestForm query={localQuery} compact onClose={() => setShowSuggestions(false)} />
               )}
             </div>
           )}
@@ -712,63 +707,10 @@ function getAISuggestedName(query: string): string {
 
 /* ─── PRODUCT NOT FOUND / AI FALLBACK ─── */
 function ProductNotFound({ query, closest }: { query: string; closest: typeof PRODUCTS }) {
-  const [requestForm, setRequestForm] = useState({ name: '', phone: '', email: '' });
-  const [submitted, setSubmitted] = useState(false);
-  const aiName = getAISuggestedName(query);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const formData = new FormData();
-    formData.append('Produit Demandé', query);
-    formData.append('Nom AI Suggéré', aiName);
-    formData.append('Nom', requestForm.name);
-    formData.append('Téléphone', requestForm.phone);
-    formData.append('Email', requestForm.email || '');
-    formData.append('Date', new Date().toLocaleString('fr-FR'));
-    formData.append('Type', 'Demande Produit En Rupture');
-    // Google Sheet webhook
-    fetch('https://script.google.com/macros/s/AKfycbxb1Vg_v0hZxCypBVZnRiEe0gKTVz7jGgx0NL-_Oj1V73sKY9uCMifW7MCfrq8H5T8/exec', {
-      method: 'POST', body: formData, mode: 'no-cors'
-    }).catch(() => {});
-    setSubmitted(true);
-  };
-
   return (
     <div className="col-span-full">
-      <div className="bg-[#141414] gold-border rounded-2xl p-8 md:p-10 max-w-[700px] mx-auto text-center">
-        <div className="grid md:grid-cols-[120px_1fr] gap-5 items-center mb-6 text-left">
-          <img src="/images/produit-en-rupture.jpg" alt="Produit en rupture" className="w-full aspect-[3/4] object-cover rounded-xl" />
-          <div>
-            <div className="text-[10px] text-[#E8732F] uppercase tracking-[0.2em] font-bold mb-1.5">Bientôt disponible</div>
-            <h3 className="text-xl font-bold mb-1">"{query}" — Produit en rupture</h3>
-            <p className="text-white/40 text-sm mb-3">Ce produit n&apos;est pas encore disponible dans notre catalogue.</p>
-            <div className="bg-[#E8732F]/10 border border-[#E8732F]/20 rounded-lg px-3 py-2 inline-block">
-              <span className="text-[10px] text-[#E8732F] uppercase tracking-[0.1em]">Suggestion AI : </span>
-              <span className="text-sm font-semibold text-white">{aiName}</span>
-            </div>
-          </div>
-        </div>
-        <p className="text-white/40 text-sm mb-6">Laissez-nous vos coordonnées et nous vous contacterons des qu&apos;il sera en stock !</p>
-
-        {submitted ? (
-          <div className="bg-[#5B7B5E]/15 border border-[#5B7B5E]/20 rounded-xl p-5">
-            <div className="text-[#5B7B5E] font-bold mb-1">Demande enregistrée !</div>
-            <p className="text-white/40 text-xs">Nous vous contacterons sous 24h sur WhatsApp.</p>
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="space-y-3 max-w-[400px] mx-auto text-left">
-            <input type="text" required placeholder="Votre nom complet *" value={requestForm.name} onChange={e => setRequestForm(f => ({ ...f, name: e.target.value }))}
-              className="w-full bg-white/[0.04] border border-white/[0.08] rounded-xl py-3 px-4 text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-[#E8732F]/40" />
-            <input type="tel" required placeholder="Téléphone * (ex: 06XX... )" value={requestForm.phone} onChange={e => setRequestForm(f => ({ ...f, phone: e.target.value }))}
-              className="w-full bg-white/[0.04] border border-white/[0.08] rounded-xl py-3 px-4 text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-[#E8732F]/40" />
-            <input type="email" placeholder="Email (optionnel)" value={requestForm.email} onChange={e => setRequestForm(f => ({ ...f, email: e.target.value }))}
-              className="w-full bg-white/[0.04] border border-white/[0.08] rounded-xl py-3 px-4 text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-[#E8732F]/40" />
-            <button type="submit" className="w-full bg-[#E8732F] text-white py-3 rounded-xl text-sm font-bold hover:bg-[#d46726] transition-colors">
-              M&apos;alerter quand disponible
-            </button>
-          </form>
-        )}
-
+      <div className="bg-[#141414] gold-border rounded-2xl p-8 md:p-10 max-w-[680px] mx-auto">
+        <ProductRequestForm query={query} />
         {closest.length > 0 && (
           <div className="mt-8 pt-6 border-t border-white/[0.06]">
             <p className="text-white/30 text-xs uppercase tracking-[0.15em] mb-4">Produits similaires</p>
