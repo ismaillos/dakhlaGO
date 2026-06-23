@@ -470,7 +470,7 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
         )}
       </div>
       {showSuggestions && value.trim().length > 1 && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-[#1a1a1a] border border-white/[0.08] rounded-2xl overflow-hidden z-50 shadow-[0_20px_60px_rgba(0,0,0,0.5)]">
+        <div className="absolute top-full left-0 right-0 mt-2 bg-[#1a1a1a] border border-white/[0.08] rounded-2xl overflow-y-auto max-h-[480px] z-50 shadow-[0_20px_60px_rgba(0,0,0,0.5)]">
           {suggestions.length > 0 ? suggestions.map(p => (
             <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
               className="flex items-center gap-3 px-4 py-3 hover:bg-white/[0.04] transition-colors border-b border-white/[0.03] last:border-0">
@@ -482,7 +482,7 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
               <span className="text-[#E8732F] text-xs font-bold">→</span>
             </Link>
           )) : (
-            <ProductRequestForm query={value} compact onClose={() => setShowSuggestions(false)} />
+            <ProductRequestForm query={value} onClose={() => setShowSuggestions(false)} />
           )}
         </div>
       )}
@@ -607,7 +607,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
 
           {/* Dropdown suggestions */}
           {showSuggestions && localQuery.trim().length > 1 && (
-            <div className="absolute top-full left-0 right-0 mt-3 bg-[#141414] border border-white/[0.10] rounded-2xl overflow-hidden z-50 shadow-[0_24px_80px_rgba(0,0,0,0.6)]">
+            <div className="absolute top-full left-0 right-0 mt-3 bg-[#141414] border border-white/[0.10] rounded-2xl overflow-y-auto max-h-[520px] z-50 shadow-[0_24px_80px_rgba(0,0,0,0.6)]">
               {suggestions.length > 0 || blogSuggestions.length > 0 ? (
                 <>
                   {suggestions.length > 0 && (
@@ -657,7 +657,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                   </div>
                 </>
               ) : (
-                <ProductRequestForm query={localQuery} compact onClose={() => setShowSuggestions(false)} />
+                <ProductRequestForm query={localQuery} onClose={() => setShowSuggestions(false)} />
               )}
             </div>
           )}
