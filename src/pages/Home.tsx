@@ -565,7 +565,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
   };
 
   return (
-    <section className="py-14 px-5 bg-[#080808] border-y border-white/[0.04] relative overflow-hidden">
+    <section className="py-14 px-5 bg-[#080808] border-y border-white/[0.04] relative">
       <div className="absolute inset-0 bg-gradient-to-br from-[#E8732F]/[0.04] via-transparent to-[#D4A574]/[0.03] pointer-events-none" />
       <div className="max-w-[800px] mx-auto relative z-10">
         {/* Tagline */}
@@ -578,7 +578,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
         </div>
 
         {/* Big Search Input */}
-        <div ref={wrapRef} className="relative mb-6">
+        <div ref={wrapRef} className="relative mb-6 z-50">
           <div className="relative">
             <svg className="absolute left-5 top-1/2 -translate-y-1/2 w-6 h-6 text-[#E8732F]/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
