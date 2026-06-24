@@ -4,32 +4,32 @@
 
 @layer base {
   :root {
-    --background: 40 60% 97%;
-    --foreground: 22 33% 18%;
-    --card: 0 0% 100%;
-    --card-foreground: 22 33% 18%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 22 33% 18%;
-    --primary: 18 62% 47%;
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 18 78% 55%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 36 47% 88%;
-    --secondary-foreground: 22 33% 18%;
-    --muted: 36 47% 88%;
-    --muted-foreground: 25 31% 37%;
-    --accent: 18 62% 47%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 18 78% 55%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 36 36% 82%;
-    --input: 36 47% 88%;
-    --ring: 18 62% 47%;
+    --border: 0 0% 15%;
+    --input: 0 0% 12%;
+    --ring: 18 78% 55%;
     --radius: 0.75rem;
-    --gold: #D4B483;
-    --terracotta: #C4622D;
+    --gold: #D4A574;
+    --terracotta: #E8732F;
   }
 
   body {
-    @apply bg-[#FAF7F0] text-[#3D2B1F] antialiased;
+    @apply bg-[#0A0A0A] text-white antialiased;
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   }
 
@@ -41,9 +41,9 @@
 /* Zellige Pattern Background */
 .zellige-pattern {
   background-image:
-    radial-gradient(circle at 25% 25%, rgba(212, 180, 131, 0.08) 1px, transparent 1px),
-    radial-gradient(circle at 75% 75%, rgba(212, 180, 131, 0.08) 1px, transparent 1px),
-    radial-gradient(circle at 50% 50%, rgba(196, 98, 45, 0.04) 1px, transparent 1px);
+    radial-gradient(circle at 25% 25%, rgba(212, 165, 116, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(212, 165, 116, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 50% 50%, rgba(232, 115, 47, 0.02) 1px, transparent 1px);
   background-size: 60px 60px, 60px 60px, 40px 40px;
 }
 
@@ -54,20 +54,20 @@
 
 /* Gold Accent Border */
 .gold-border {
-  border: 1px solid rgba(212, 180, 131, 0.45);
-  box-shadow: inset 0 0 20px rgba(212, 180, 131, 0.06);
+  border: 1px solid rgba(212, 165, 116, 0.15);
+  box-shadow: inset 0 0 20px rgba(212, 165, 116, 0.04);
 }
 
 /* Prose styling for blog */
 .prose-custom h2 {
-  color: #3D2B1F;
+  color: #ffffff;
   font-size: 1.25rem;
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
 .prose-custom p {
-  color: rgba(61, 43, 31, 0.65);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.9;
   margin-bottom: 1rem;
 }
