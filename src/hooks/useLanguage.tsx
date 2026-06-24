@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import { Lang, LANGS, translations, Translations } from '../i18n/translations';
+import { LANGS, translations } from '../i18n/translations';
+import type { Lang, Translations } from '../i18n/translations';
 
 interface LangCtx {
   lang: Lang;
@@ -29,7 +30,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   }, [lang, dir]);
 
   return (
-    <Ctx.Provider value={{ lang, setLang, t: translations[lang] as Translations, dir }}>
+    <Ctx.Provider value={{ lang, setLang, t: translations[lang] as unknown as Translations, dir }}>
       {children}
     </Ctx.Provider>
   );
