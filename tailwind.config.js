@@ -38,16 +38,22 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        sahara: {
+          50:  '#FAF7F0',
+          100: '#F5E9D5',
+          200: '#E8D2AE',
+          300: '#D4B483',
+          400: '#B98A5A',
+          500: '#9A6B3E',
+          ink: '#3D2B1F',
+          soft: '#7A5C45',
         },
+        terracotta: {
+          DEFAULT: '#C4622D',
+          dark: '#A8501F',
+          light: '#E8732F',
+        },
+        oasis: '#6B8E5E',
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",
@@ -58,6 +64,8 @@ module.exports = {
       },
       boxShadow: {
         xs: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        sand: "0 4px 24px rgba(61,43,31,0.10)",
+        'sand-lg': "0 20px 60px rgba(61,43,31,0.12)",
       },
       keyframes: {
         "accordion-down": {
