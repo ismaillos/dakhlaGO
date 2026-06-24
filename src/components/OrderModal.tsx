@@ -28,7 +28,7 @@ const WhatsAppIcon = () => <svg className="w-5 h-5" viewBox="0 0 24 24" fill="cu
 
 function FieldError({ msg }: { msg?: string }) {
   if (!msg) return null;
-  return <p className="text-red-400 text-[10px] mt-1">{msg}</p>;
+  return <p className="text-red-500 text-[10px] mt-1">{msg}</p>;
 }
 
 export default function OrderModal() {
@@ -112,27 +112,27 @@ export default function OrderModal() {
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" onClick={resetAndClose} />
+      <div className="absolute inset-0 bg-[white]/60 backdrop-blur-sm" onClick={resetAndClose} />
 
-      <div className="relative bg-[#141414] gold-border rounded-3xl w-full max-w-[480px] max-h-[90vh] overflow-y-auto">
+      <div className="relative bg-[#141414] gold-border rounded-3xl w-full max-w-[480px] max-h-[90vh] overflow-y-auto shadow-[0_40px_100px_rgba(61,43,31,0.25)]">
 
         {/* ════════════ CART VIEW ════════════ */}
         {view === 'cart' && (
           <>
             {items.length === 0 ? (
               <div className="p-10 text-center">
-                <p className="text-white/40 text-sm">Votre panier est vide.</p>
+                <p className="text-white/60 text-sm">Votre panier est vide.</p>
                 <button onClick={resetAndClose} className="mt-4 text-[#E8732F] text-sm font-semibold">Continuer vos achats</button>
               </div>
             ) : (
               <>
                 {/* Header */}
-                <div className="p-6 border-b border-white/[0.06] flex items-center justify-between">
+                <div className="p-6 border-b border-white/[0.08] flex items-center justify-between">
                   <div>
-                    <h3 className="text-xl font-bold">Votre Panier</h3>
-                    <p className="text-[12px] text-white/40 mt-1">{items.reduce((s, i) => s + i.quantity, 0)} article(s)</p>
+                    <h3 className="text-xl font-bold text-white font-serif">Votre Panier</h3>
+                    <p className="text-[12px] text-[#D4A574] mt-1">{items.reduce((s, i) => s + i.quantity, 0)} article(s)</p>
                   </div>
-                  <button onClick={resetAndClose} className="w-10 h-10 rounded-full bg-white/[0.05] flex items-center justify-center text-white/40 hover:text-white hover:bg-white/10 transition-colors">
+                  <button onClick={resetAndClose} className="w-10 h-10 rounded-full bg-[#141414] flex items-center justify-center text-white/60 hover:text-white hover:bg-[white/[0.08]] transition-colors">
                     ✕
                   </button>
                 </div>
@@ -140,26 +140,26 @@ export default function OrderModal() {
                 {/* Items */}
                 <div className="p-6 space-y-3">
                   {items.map(item => (
-                    <div key={item.product.id} className="flex gap-4 bg-white/[0.02] rounded-xl p-3">
+                    <div key={item.product.id} className="flex gap-4 bg-[#0A0A0A] border border-white/[0.08] rounded-xl p-3">
                       <img src={item.product.img} alt={item.product.name} className="w-16 h-16 rounded-lg object-cover flex-shrink-0" />
                       <div className="flex-1 min-w-0">
-                        <h4 className="text-sm font-bold truncate">{item.product.name}</h4>
-                        <p className="text-[11px] text-white/30">{item.product.catLabel}</p>
+                        <h4 className="text-sm font-bold truncate text-white">{item.product.name}</h4>
+                        <p className="text-[11px] text-[#D4A574]">{item.product.catLabel}</p>
                         <div className="flex items-center justify-between mt-2">
                           <span className="text-[#E8732F] font-bold">{item.product.price * item.quantity} DH</span>
                           <div className="flex items-center gap-2">
                             <button
                               onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
-                              className="w-6 h-6 rounded-full bg-white/[0.08] text-white/60 hover:bg-[#E8732F] hover:text-white transition-colors flex items-center justify-center text-sm font-bold"
+                              className="w-6 h-6 rounded-full bg-[white/[0.08]] text-white/60 hover:bg-[#E8732F] hover:text-white transition-colors flex items-center justify-center text-sm font-bold"
                             >−</button>
                             <span className="text-[12px] text-white/60 w-4 text-center">{item.quantity}</span>
                             <button
                               onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
-                              className="w-6 h-6 rounded-full bg-white/[0.08] text-white/60 hover:bg-[#E8732F] hover:text-white transition-colors flex items-center justify-center text-sm font-bold"
+                              className="w-6 h-6 rounded-full bg-[white/[0.08]] text-white/60 hover:bg-[#E8732F] hover:text-white transition-colors flex items-center justify-center text-sm font-bold"
                             >+</button>
                             <button
                               onClick={() => removeItem(item.product.id)}
-                              className="text-white/20 hover:text-red-400 transition-colors text-[11px] ml-1"
+                              className="text-[#D4A574]/50 hover:text-red-500 transition-colors text-[11px] ml-1"
                             >
                               Supprimer
                             </button>
@@ -171,17 +171,17 @@ export default function OrderModal() {
                 </div>
 
                 {/* Total */}
-                <div className="px-6 py-4 border-t border-white/[0.06]">
+                <div className="px-6 py-4 border-t border-white/[0.08]">
                   <div className="flex justify-between items-center mb-1">
-                    <span className="text-white/40 text-sm">Sous-total</span>
+                    <span className="text-white/60 text-sm">Sous-total</span>
                     <span className="text-white/60 text-sm">{total} DH</span>
                   </div>
                   <div className="flex justify-between items-center mb-1">
-                    <span className="text-white/40 text-sm">Livraison</span>
+                    <span className="text-white/60 text-sm">Livraison</span>
                     <span className="text-[#5B7B5E] text-sm font-semibold">Gratuite</span>
                   </div>
-                  <div className="flex justify-between items-center pt-3 border-t border-white/[0.06] mt-3">
-                    <span className="text-lg font-bold">Total</span>
+                  <div className="flex justify-between items-center pt-3 border-t border-white/[0.08] mt-3">
+                    <span className="text-lg font-bold text-white">Total</span>
                     <span className="text-[#E8732F] text-2xl font-extrabold">{total} DH</span>
                   </div>
                 </div>
@@ -190,7 +190,7 @@ export default function OrderModal() {
                 <div className="p-6 pt-2 space-y-3">
                   <button
                     onClick={() => setView('checkout')}
-                    className="w-full bg-[#E8732F] text-white py-4 rounded-full font-bold text-sm hover:bg-[#d46726] transition-colors flex items-center justify-center gap-2 shadow-lg shadow-[#E8732F]/20"
+                    className="w-full bg-[#E8732F] text-white py-4 rounded-full font-bold text-sm hover:bg-[#c45e22] transition-colors flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(196,98,45,0.25)]"
                   >
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -207,13 +207,13 @@ export default function OrderModal() {
                     <WhatsAppIcon />
                     Commander via WhatsApp
                   </a>
-                  <button onClick={resetAndClose} className="w-full text-white/30 text-sm py-2 hover:text-white/60 transition-colors">
+                  <button onClick={resetAndClose} className="w-full text-[#D4A574] text-sm py-2 hover:text-white/60 transition-colors">
                     Continuer vos achats
                   </button>
                 </div>
 
                 <div className="px-6 pb-4 text-center">
-                  <p className="text-[10px] text-white/20">Livraison partout au Maroc • Paiement à la livraison</p>
+                  <p className="text-[10px] text-[#D4A574]/50">Livraison partout au Maroc • Paiement à la livraison</p>
                 </div>
               </>
             )}
@@ -223,23 +223,23 @@ export default function OrderModal() {
         {/* ════════════ CHECKOUT FORM ════════════ */}
         {view === 'checkout' && (
           <>
-            <div className="p-6 border-b border-white/[0.06] flex items-center justify-between">
+            <div className="p-6 border-b border-white/[0.08] flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <button onClick={() => setView('cart')} className="w-8 h-8 rounded-full bg-white/[0.05] flex items-center justify-center text-white/40 hover:text-white transition-colors">
+                <button onClick={() => setView('cart')} className="w-8 h-8 rounded-full bg-[#141414] flex items-center justify-center text-white/60 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
                 </button>
                 <div>
-                  <h3 className="text-xl font-bold">Livraison</h3>
-                  <p className="text-[12px] text-white/40 mt-0.5">Total : <span className="text-[#E8732F] font-bold">{total} DH</span></p>
+                  <h3 className="text-xl font-bold text-white font-serif">Livraison</h3>
+                  <p className="text-[12px] text-[#D4A574] mt-0.5">Total : <span className="text-[#E8732F] font-bold">{total} DH</span></p>
                 </div>
               </div>
-              <button onClick={resetAndClose} className="w-10 h-10 rounded-full bg-white/[0.05] flex items-center justify-center text-white/40 hover:text-white transition-colors">✕</button>
+              <button onClick={resetAndClose} className="w-10 h-10 rounded-full bg-[#141414] flex items-center justify-center text-white/60 hover:text-white transition-colors">✕</button>
             </div>
 
             <form onSubmit={handleCheckoutSubmit} noValidate className="p-6 space-y-4">
               {submitError && (
-                <div className="bg-red-500/10 border border-red-500/30 rounded-xl p-3 text-center">
-                  <p className="text-red-400 text-[12px]">Erreur d'envoi. Vérifiez votre connexion et réessayez.</p>
+                <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-center">
+                  <p className="text-red-600 text-[12px]">Erreur d&apos;envoi. Vérifiez votre connexion et réessayez.</p>
                 </div>
               )}
 
@@ -253,7 +253,7 @@ export default function OrderModal() {
                     value={form.nom}
                     onChange={e => updateField('nom', e.target.value)}
                     placeholder="Fatima Zahra"
-                    className={`w-full bg-white/[0.04] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-white/20 focus:ring-1 focus:outline-none transition-all ${errors.nom ? 'border-red-500 focus:ring-red-500/30' : 'border-white/[0.1] focus:border-[#E8732F] focus:ring-[#E8732F]/30'}`}
+                    className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.nom ? 'border-red-400 focus:ring-red-400/30' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
                   />
                   <FieldError msg={errors.nom} />
                 </div>
@@ -266,7 +266,7 @@ export default function OrderModal() {
                     value={form.telephone}
                     onChange={e => updateField('telephone', e.target.value)}
                     placeholder="06 XX XX XX XX"
-                    className={`w-full bg-white/[0.04] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-white/20 focus:ring-1 focus:outline-none transition-all ${errors.telephone ? 'border-red-500 focus:ring-red-500/30' : 'border-white/[0.1] focus:border-[#E8732F] focus:ring-[#E8732F]/30'}`}
+                    className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.telephone ? 'border-red-400 focus:ring-red-400/30' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
                   />
                   <FieldError msg={errors.telephone} />
                 </div>
@@ -281,7 +281,7 @@ export default function OrderModal() {
                   value={form.adresse}
                   onChange={e => updateField('adresse', e.target.value)}
                   placeholder="Rue, quartier, numéro..."
-                  className={`w-full bg-white/[0.04] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-white/20 focus:ring-1 focus:outline-none transition-all ${errors.adresse ? 'border-red-500 focus:ring-red-500/30' : 'border-white/[0.1] focus:border-[#E8732F] focus:ring-[#E8732F]/30'}`}
+                  className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.adresse ? 'border-red-400 focus:ring-red-400/30' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
                 />
                 <FieldError msg={errors.adresse} />
               </div>
@@ -295,22 +295,22 @@ export default function OrderModal() {
                   value={form.ville}
                   onChange={e => updateField('ville', e.target.value)}
                   placeholder="Casablanca, Rabat, Marrakech..."
-                  className={`w-full bg-white/[0.04] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-white/20 focus:ring-1 focus:outline-none transition-all ${errors.ville ? 'border-red-500 focus:ring-red-500/30' : 'border-white/[0.1] focus:border-[#E8732F] focus:ring-[#E8732F]/30'}`}
+                  className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.ville ? 'border-red-400 focus:ring-red-400/30' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
                 />
                 <FieldError msg={errors.ville} />
               </div>
 
               {/* Order summary */}
-              <div className="bg-white/[0.02] rounded-xl p-4 space-y-2">
-                <p className="text-[10px] text-white/30 uppercase tracking-wider font-bold mb-3">Récapitulatif</p>
+              <div className="bg-[#0A0A0A] border border-white/[0.08] rounded-xl p-4 space-y-2">
+                <p className="text-[10px] text-[#D4A574] uppercase tracking-wider font-bold mb-3">Récapitulatif</p>
                 {items.map(item => (
                   <div key={item.product.id} className="flex justify-between items-center text-[12px]">
-                    <span className="text-white/60">{item.product.name} <span className="text-white/30">x{item.quantity}</span></span>
+                    <span className="text-white/60">{item.product.name} <span className="text-[#D4A574]">x{item.quantity}</span></span>
                     <span className="text-white/60">{item.product.price * item.quantity} DH</span>
                   </div>
                 ))}
-                <div className="flex justify-between items-center pt-3 border-t border-white/[0.06] mt-2">
-                  <span className="font-bold text-sm">Total</span>
+                <div className="flex justify-between items-center pt-3 border-t border-white/[0.08] mt-2">
+                  <span className="font-bold text-sm text-white">Total</span>
                   <span className="text-[#E8732F] font-extrabold text-lg">{total} DH</span>
                 </div>
               </div>
@@ -318,7 +318,7 @@ export default function OrderModal() {
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full bg-[#E8732F] hover:bg-[#d46726] disabled:bg-[#E8732F]/50 text-white py-4 rounded-full font-bold text-sm transition-all flex items-center justify-center gap-2 shadow-lg shadow-[#E8732F]/20"
+                className="w-full bg-[#E8732F] hover:bg-[#c45e22] disabled:bg-[#E8732F]/50 text-white py-4 rounded-full font-bold text-sm transition-all flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(196,98,45,0.25)]"
               >
                 {submitting ? (
                   <>
@@ -331,7 +331,7 @@ export default function OrderModal() {
               </button>
 
               <div className="bg-[#5B7B5E]/10 border border-[#5B7B5E]/20 rounded-xl p-3 text-center">
-                <p className="text-white/40 text-[10px]">
+                <p className="text-white/60 text-[10px]">
                   Paiement à la livraison • Confirmation par appel sous <strong className="text-[#5B7B5E]">24h</strong>
                 </p>
               </div>
@@ -348,24 +348,24 @@ export default function OrderModal() {
               </svg>
             </div>
 
-            <h3 className="text-2xl font-bold mb-2">Commande confirmée !</h3>
+            <h3 className="text-2xl font-bold mb-2 font-serif text-white">Commande confirmée !</h3>
             {customerName && (
-              <p className="text-white/50 text-sm mb-6">
+              <p className="text-white/60 text-sm mb-6">
                 Merci <strong className="text-[#E8732F]">{customerName}</strong>, votre commande est enregistrée.
               </p>
             )}
 
-            <div className="bg-[#0a0a0a] rounded-2xl p-5 text-left space-y-4 mb-6">
+            <div className="bg-[#0A0A0A] border border-white/[0.08] rounded-2xl p-5 text-left space-y-4 mb-6">
               {[
-                { n: 1, title: 'Commande reçue', sub: 'Enregistrée dans notre système Google Sheets', active: true },
+                { n: 1, title: 'Commande reçue', sub: 'Enregistrée dans notre système', active: true },
                 { n: 2, title: 'Appel de confirmation sous 24h', sub: 'Notre équipe vous contacte pour confirmer', active: false },
                 { n: 3, title: 'Livraison + Paiement à la livraison', sub: 'Vous payez quand vous recevez votre colis', active: false },
               ].map(step => (
                 <div key={step.n} className="flex items-start gap-3">
-                  <span className={`w-7 h-7 rounded-full flex items-center justify-center text-[11px] font-bold flex-shrink-0 ${step.active ? 'bg-[#E8732F] text-white' : 'bg-[#E8732F]/15 border border-[#E8732F]/30 text-[#E8732F]'}`}>{step.n}</span>
+                  <span className={`w-7 h-7 rounded-full flex items-center justify-center text-[11px] font-bold flex-shrink-0 ${step.active ? 'bg-[#E8732F] text-white' : 'bg-[#E8732F]/10 border border-[#E8732F]/30 text-[#E8732F]'}`}>{step.n}</span>
                   <div>
-                    <p className="text-white/70 text-sm font-semibold">{step.title}</p>
-                    <p className="text-white/30 text-[11px]">{step.sub}</p>
+                    <p className="text-white text-sm font-semibold">{step.title}</p>
+                    <p className="text-[#D4A574] text-[11px]">{step.sub}</p>
                   </div>
                 </div>
               ))}
@@ -381,7 +381,7 @@ export default function OrderModal() {
               Suivre sur WhatsApp (optionnel)
             </a>
 
-            <button onClick={resetAndClose} className="w-full border border-white/15 text-white/40 py-3 rounded-full text-sm hover:text-white/70 transition-colors">
+            <button onClick={resetAndClose} className="w-full border border-white/[0.08] text-white/60 py-3 rounded-full text-sm hover:text-white hover:border-[#D4A574] transition-colors">
               Fermer
             </button>
           </div>

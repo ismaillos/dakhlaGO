@@ -32,7 +32,7 @@ const TruckIcon = () => <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24"
 
 function FieldError({ msg }: { msg?: string }) {
   if (!msg) return null;
-  return <p className="text-red-400 text-[10px] mt-1">{msg}</p>;
+  return <p className="text-red-500 text-[10px] mt-1">{msg}</p>;
 }
 
 export default function OrderForm({ product }: OrderFormProps) {
@@ -106,40 +106,40 @@ export default function OrderForm({ product }: OrderFormProps) {
 
   if (status === 'success') {
     return (
-      <div className="bg-[#141414] gold-border rounded-2xl p-6 text-center">
-        <div className="w-16 h-16 bg-[#E8732F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+      <div className="bg-[#141414] gold-border rounded-2xl p-6 text-center shadow-[0_4px_16px_rgba(61,43,31,0.08)]">
+        <div className="w-16 h-16 bg-[#5B7B5E]/15 rounded-full flex items-center justify-center mx-auto mb-4 text-[#5B7B5E]">
           <CheckCircleIcon />
         </div>
-        <h3 className="text-lg font-bold mb-2 text-white">Commande enregistrée !</h3>
-        <p className="text-white/50 text-sm mb-4">
+        <h3 className="text-lg font-bold mb-2 text-white font-serif">Commande enregistrée !</h3>
+        <p className="text-white/60 text-sm mb-4">
           Merci <strong className="text-[#E8732F]">{formData.nom}</strong>, votre commande est bien reçue.
         </p>
 
-        <div className="bg-[#0a0a0a] rounded-xl p-4 text-left space-y-3">
+        <div className="bg-[#0A0A0A] border border-white/[0.08] rounded-xl p-4 text-left space-y-3">
           <div className="flex items-start gap-3">
             <span className="w-6 h-6 bg-[#E8732F] rounded-full flex items-center justify-center text-white text-[10px] font-bold flex-shrink-0">1</span>
             <div>
-              <p className="text-white/70 text-xs font-semibold">Commande reçue</p>
-              <p className="text-white/40 text-[10px]">Enregistrée dans notre système</p>
+              <p className="text-white text-xs font-semibold">Commande reçue</p>
+              <p className="text-[#D4A574] text-[10px]">Enregistrée dans notre système</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <span className="w-6 h-6 bg-[#E8732F]/20 border border-[#E8732F]/40 rounded-full flex items-center justify-center text-[#E8732F] text-[10px] font-bold flex-shrink-0">2</span>
+            <span className="w-6 h-6 bg-[#E8732F]/15 border border-[#E8732F]/30 rounded-full flex items-center justify-center text-[#E8732F] text-[10px] font-bold flex-shrink-0">2</span>
             <div>
-              <p className="text-white/70 text-xs font-semibold">Appel de confirmation sous 24h</p>
-              <p className="text-white/40 text-[10px]">Sur votre numéro : <strong className="text-white/60">{formData.telephone}</strong></p>
+              <p className="text-white text-xs font-semibold">Appel de confirmation sous 24h</p>
+              <p className="text-[#D4A574] text-[10px]">Sur votre numéro : <strong className="text-white/60">{formData.telephone}</strong></p>
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <span className="w-6 h-6 bg-[#E8732F]/20 border border-[#E8732F]/40 rounded-full flex items-center justify-center text-[#E8732F] text-[10px] font-bold flex-shrink-0">3</span>
+            <span className="w-6 h-6 bg-[#E8732F]/15 border border-[#E8732F]/30 rounded-full flex items-center justify-center text-[#E8732F] text-[10px] font-bold flex-shrink-0">3</span>
             <div>
-              <p className="text-white/70 text-xs font-semibold">Livraison + Paiement</p>
-              <p className="text-white/40 text-[10px]">Vous payez quand vous recevez votre colis</p>
+              <p className="text-white text-xs font-semibold">Livraison + Paiement</p>
+              <p className="text-[#D4A574] text-[10px]">Vous payez quand vous recevez votre colis</p>
             </div>
           </div>
         </div>
 
-        <p className="text-white/30 text-[10px] mt-4">
+        <p className="text-[#D4A574] text-[10px] mt-4">
           Questions ? WhatsApp : +212 677 031 561
         </p>
       </div>
@@ -148,20 +148,20 @@ export default function OrderForm({ product }: OrderFormProps) {
 
   if (status === 'error') {
     return (
-      <div className="bg-[#141414] gold-border rounded-2xl p-6 text-center">
-        <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg className="w-8 h-8 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <div className="bg-[#141414] gold-border rounded-2xl p-6 text-center shadow-[0_4px_16px_rgba(61,43,31,0.08)]">
+        <div className="w-16 h-16 bg-red-50 rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg className="w-8 h-8 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
           </svg>
         </div>
-        <h3 className="text-lg font-bold mb-2 text-white">Erreur d'envoi</h3>
-        <p className="text-white/50 text-sm mb-4">
-          Votre commande n'a pas pu être enregistrée. Veuillez réessayer ou nous contacter directement.
+        <h3 className="text-lg font-bold mb-2 text-white">Erreur d&apos;envoi</h3>
+        <p className="text-white/60 text-sm mb-4">
+          Votre commande n&apos;a pas pu être enregistrée. Veuillez réessayer ou nous contacter directement.
         </p>
         <div className="space-y-3">
           <button
             onClick={() => setStatus('idle')}
-            className="w-full bg-[#E8732F] text-white py-3 rounded-full font-bold text-sm"
+            className="w-full bg-[#E8732F] text-white py-3 rounded-full font-bold text-sm hover:bg-[#c45e22] transition-colors"
           >
             Réessayer
           </button>
@@ -179,9 +179,9 @@ export default function OrderForm({ product }: OrderFormProps) {
   }
 
   return (
-    <div className="bg-[#141414] gold-border rounded-2xl overflow-hidden">
+    <div className="bg-[#141414] gold-border rounded-2xl overflow-hidden shadow-[0_4px_16px_rgba(61,43,31,0.08)]">
       {/* ─── HEADER ─── */}
-      <div className="bg-gradient-to-r from-[#E8732F] to-[#d46726] px-4 py-3 flex items-center justify-center gap-2">
+      <div className="bg-gradient-to-r from-[#E8732F] to-[#c45e22] px-4 py-3 flex items-center justify-center gap-2">
         <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
         </svg>
@@ -194,7 +194,7 @@ export default function OrderForm({ product }: OrderFormProps) {
         {/* ─── QUANTITY SELECTOR ─── */}
         <div className="mb-5">
           <div className="flex items-center justify-between mb-2.5">
-            <label className="text-[11px] text-white/50 uppercase tracking-[0.1em] font-bold">Choisir votre offre</label>
+            <label className="text-[11px] text-white/60 uppercase tracking-[0.1em] font-bold">Choisir votre offre</label>
             <span className="inline-flex items-center gap-1 bg-[#5B7B5E]/15 text-[#5B7B5E] text-[10px] font-bold px-2.5 py-1 rounded-full">
               <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               Paiement à la livraison
@@ -208,8 +208,8 @@ export default function OrderForm({ product }: OrderFormProps) {
                 onClick={() => update('quantite', opt.value)}
                 className={`relative py-2.5 px-1 rounded-xl text-center transition-all ${
                   formData.quantite === opt.value
-                    ? 'bg-[#E8732F] text-white shadow-lg shadow-[#E8732F]/20'
-                    : 'bg-white/[0.03] border border-white/[0.08] text-white/50 hover:bg-white/[0.06]'
+                    ? 'bg-[#E8732F] text-white shadow-[0_4px_12px_rgba(196,98,45,0.25)]'
+                    : 'bg-[#0A0A0A] border border-white/[0.08] text-white/60 hover:bg-[#141414]'
                 }`}
               >
                 {opt.popular && formData.quantite !== opt.value && (
@@ -218,7 +218,7 @@ export default function OrderForm({ product }: OrderFormProps) {
                   </span>
                 )}
                 <span className="text-sm font-bold block">{opt.label}</span>
-                <span className={`block text-[10px] mt-0.5 ${formData.quantite === opt.value ? 'text-white/80' : 'text-white/30'}`}>
+                <span className={`block text-[10px] mt-0.5 ${formData.quantite === opt.value ? 'text-white/80' : 'text-[#D4A574]'}`}>
                   {opt.price} DH
                 </span>
                 {opt.saving && (
@@ -239,7 +239,7 @@ export default function OrderForm({ product }: OrderFormProps) {
             </svg>
           </div>
           <span className="text-white/60 text-[11px] font-semibold uppercase tracking-wider">Infos de livraison</span>
-          <div className="flex-1 h-px bg-white/[0.04]" />
+          <div className="flex-1 h-px bg-[white/[0.08]]" />
         </div>
 
         <form onSubmit={handleSubmit} noValidate>
@@ -254,7 +254,7 @@ export default function OrderForm({ product }: OrderFormProps) {
                 value={formData.nom}
                 onChange={e => update('nom', e.target.value)}
                 placeholder="Ex: Fatima Zahra"
-                className={`w-full bg-white/[0.04] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-white/20 focus:ring-1 focus:outline-none transition-all ${errors.nom ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30' : 'border-white/[0.1] focus:border-[#E8732F] focus:ring-[#E8732F]/30'}`}
+                className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.nom ? 'border-red-400 focus:border-red-400 focus:ring-red-400/20' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
               />
               <FieldError msg={errors.nom} />
             </div>
@@ -267,7 +267,7 @@ export default function OrderForm({ product }: OrderFormProps) {
                 value={formData.telephone}
                 onChange={e => update('telephone', e.target.value)}
                 placeholder="06 XX XX XX XX"
-                className={`w-full bg-white/[0.04] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-white/20 focus:ring-1 focus:outline-none transition-all ${errors.telephone ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30' : 'border-white/[0.1] focus:border-[#E8732F] focus:ring-[#E8732F]/30'}`}
+                className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.telephone ? 'border-red-400 focus:border-red-400 focus:ring-red-400/20' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
               />
               <FieldError msg={errors.telephone} />
             </div>
@@ -283,7 +283,7 @@ export default function OrderForm({ product }: OrderFormProps) {
               value={formData.adresse}
               onChange={e => update('adresse', e.target.value)}
               placeholder="Rue, quartier, numéro d'immeuble, étage..."
-              className={`w-full bg-white/[0.04] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-white/20 focus:ring-1 focus:outline-none transition-all ${errors.adresse ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30' : 'border-white/[0.1] focus:border-[#E8732F] focus:ring-[#E8732F]/30'}`}
+              className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.adresse ? 'border-red-400 focus:border-red-400 focus:ring-red-400/20' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
             />
             <FieldError msg={errors.adresse} />
           </div>
@@ -298,20 +298,20 @@ export default function OrderForm({ product }: OrderFormProps) {
               value={formData.ville}
               onChange={e => update('ville', e.target.value)}
               placeholder="Casablanca, Rabat, Marrakech, Fès..."
-              className={`w-full bg-white/[0.04] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-white/20 focus:ring-1 focus:outline-none transition-all ${errors.ville ? 'border-red-500 focus:border-red-500 focus:ring-red-500/30' : 'border-white/[0.1] focus:border-[#E8732F] focus:ring-[#E8732F]/30'}`}
+              className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.ville ? 'border-red-400 focus:border-red-400 focus:ring-red-400/20' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
             />
             <FieldError msg={errors.ville} />
           </div>
 
           {/* ─── TOTAL + CTA ─── */}
-          <div className="bg-white/[0.02] rounded-2xl p-4 mb-4">
+          <div className="bg-[#0A0A0A] border border-white/[0.08] rounded-2xl p-4 mb-4">
             <div className="flex items-center justify-between mb-4">
               <div>
-                <div className="text-white/30 text-[10px] uppercase tracking-wider font-semibold mb-0.5">Total à payer</div>
+                <div className="text-[#D4A574] text-[10px] uppercase tracking-wider font-semibold mb-0.5">Total à payer</div>
                 <div className="flex items-baseline gap-2">
                   <span className="text-[#E8732F] text-3xl font-extrabold">{selectedOption.price} <span className="text-sm">DH</span></span>
                   {product.oldPrice && (
-                    <span className="text-white/20 text-sm line-through">{product.oldPrice} DH</span>
+                    <span className="text-[#D4A574]/40 text-sm line-through">{product.oldPrice} DH</span>
                   )}
                 </div>
               </div>
@@ -319,14 +319,14 @@ export default function OrderForm({ product }: OrderFormProps) {
                 <span className="bg-[#5B7B5E]/15 text-[#5B7B5E] text-[9px] font-bold px-2 py-1 rounded-full block mb-1">
                   Paiement à la livraison
                 </span>
-                <span className="text-white/20 text-[9px]">{selectedOption.label} — {product.name}</span>
+                <span className="text-[#D4A574] text-[9px]">{selectedOption.label} — {product.name}</span>
               </div>
             </div>
 
             <button
               type="submit"
               disabled={status === 'loading'}
-              className="w-full bg-[#E8732F] hover:bg-[#d46726] disabled:bg-[#E8732F]/50 disabled:cursor-not-allowed text-white py-4 rounded-full text-sm font-bold transition-all flex items-center justify-center gap-2 shadow-lg shadow-[#E8732F]/20 active:scale-[0.98]"
+              className="w-full bg-[#E8732F] hover:bg-[#c45e22] disabled:bg-[#E8732F]/50 disabled:cursor-not-allowed text-white py-4 rounded-full text-sm font-bold transition-all flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(196,98,45,0.25)] active:scale-[0.98]"
             >
               {status === 'loading' ? (
                 <>
@@ -346,31 +346,31 @@ export default function OrderForm({ product }: OrderFormProps) {
 
           {/* ─── PROCESS STEPS ─── */}
           <div className="flex items-center justify-center gap-2 mb-3">
-            <div className="flex items-center gap-1.5">
-              <div className="w-5 h-5 rounded-full bg-[#E8732F]/15 flex items-center justify-center">
+            <div className="flex items-center gap-1.5 text-[#E8732F]">
+              <div className="w-5 h-5 rounded-full bg-[#E8732F]/10 flex items-center justify-center">
                 <CheckCircleIcon />
               </div>
-              <span className="text-white/40 text-[9px]">Commande</span>
+              <span className="text-[#D4A574] text-[9px]">Commande</span>
             </div>
-            <div className="w-4 h-px bg-white/10" />
-            <div className="flex items-center gap-1.5">
-              <div className="w-5 h-5 rounded-full bg-[#E8732F]/15 flex items-center justify-center">
+            <div className="w-4 h-px bg-[white/[0.08]]" />
+            <div className="flex items-center gap-1.5 text-[#E8732F]">
+              <div className="w-5 h-5 rounded-full bg-[#E8732F]/10 flex items-center justify-center">
                 <ClockIcon />
               </div>
-              <span className="text-white/40 text-[9px]">Appel 24h</span>
+              <span className="text-[#D4A574] text-[9px]">Appel 24h</span>
             </div>
-            <div className="w-4 h-px bg-white/10" />
-            <div className="flex items-center gap-1.5">
-              <div className="w-5 h-5 rounded-full bg-[#E8732F]/15 flex items-center justify-center">
+            <div className="w-4 h-px bg-[white/[0.08]]" />
+            <div className="flex items-center gap-1.5 text-[#E8732F]">
+              <div className="w-5 h-5 rounded-full bg-[#E8732F]/10 flex items-center justify-center">
                 <TruckIcon />
               </div>
-              <span className="text-white/40 text-[9px]">Livraison</span>
+              <span className="text-[#D4A574] text-[9px]">Livraison</span>
             </div>
           </div>
 
           {/* ─── NOTE ─── */}
           <div className="bg-[#E8732F]/5 border border-[#E8732F]/15 rounded-xl p-3 text-center">
-            <p className="text-white/40 text-[10px] leading-relaxed">
+            <p className="text-white/60 text-[10px] leading-relaxed">
               Notre service client vous contactera sous <strong className="text-[#E8732F]">24 heures</strong> par téléphone ou WhatsApp pour confirmer votre commande.
             </p>
           </div>
