@@ -712,16 +712,20 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
 
         {/* Quick chips */}
         <div className="flex flex-wrap gap-2 justify-center">
-          {t.search.chips.map((label, i) => (
-            <button key={QUICK_CHIPS[i]?.query ?? label} onClick={() => handleChip(QUICK_CHIPS[i]?.query ?? label)}
-              className={`px-4 py-2 rounded-full text-[12px] font-semibold transition-all cursor-pointer border ${
-                searchQuery === (QUICK_CHIPS[i]?.query ?? label)
-                  ? 'bg-[#E8732F] text-white border-[#E8732F]'
-                  : 'bg-white/[0.04] border-white/[0.10] text-white/50 hover:bg-white/[0.08] hover:text-white hover:border-white/25'
-              }`}>
-              {QUICK_CHIPS[i]?.label.split(' ')[0]} {label}
-            </button>
-          ))}
+          {QUICK_CHIPS.map((chip, i) => {
+            const chipLabel = (t.search.chips as readonly string[])[i] ?? chip.label.split(' ').slice(1).join(' ');
+            const emoji = chip.label.split(' ')[0];
+            return (
+              <button key={chip.query} onClick={() => handleChip(chip.query)}
+                className={`px-4 py-2 rounded-full text-[12px] font-semibold transition-all cursor-pointer border ${
+                  searchQuery === chip.query
+                    ? 'bg-[#E8732F] text-white border-[#E8732F]'
+                    : 'bg-white/[0.04] border-white/[0.10] text-white/50 hover:bg-white/[0.08] hover:text-white hover:border-white/25'
+                }`}>
+                {emoji} {chipLabel}
+              </button>
+            );
+          })}
           {searchQuery && (
             <button onClick={handleClear}
               className="px-4 py-2 rounded-full text-[12px] font-semibold border border-red-500/30 text-red-400/70 hover:bg-red-500/10 transition-all cursor-pointer">
