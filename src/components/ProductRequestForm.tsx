@@ -46,17 +46,17 @@ export default function ProductRequestForm({ query, onClose, compact = false }: 
   if (step === 'success') {
     return (
       <div className={`text-center ${compact ? 'py-4' : 'py-8'}`}>
-        <div className="w-12 h-12 rounded-full bg-[#6B8E5E]/20 flex items-center justify-center mx-auto mb-3">
-          <svg className="w-6 h-6 text-[#6B8E5E]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <div className="w-12 h-12 rounded-full bg-[#5B7B5E]/20 flex items-center justify-center mx-auto mb-3">
+          <svg className="w-6 h-6 text-[#5B7B5E]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <div className="text-[#3D2B1F] font-bold text-[15px] mb-1">Demande reçue</div>
-        <p className="text-[#7A5C45] text-[12px] leading-relaxed max-w-[280px] mx-auto">
+        <div className="text-white font-bold text-[15px] mb-1">Demande reçue</div>
+        <p className="text-white/60 text-[12px] leading-relaxed max-w-[280px] mx-auto">
           Le produit sera préparé pour vous — on vous contactera d&apos;abord pour connaître exactement votre besoin.
         </p>
         {onClose && (
-          <button onClick={onClose} className="mt-4 text-[#B98A5A] text-[11px] hover:text-[#7A5C45] transition-colors">Fermer</button>
+          <button onClick={onClose} className="mt-4 text-[#D4A574] text-[11px] hover:text-white/60 transition-colors">Fermer</button>
         )}
       </div>
     );
@@ -64,8 +64,8 @@ export default function ProductRequestForm({ query, onClose, compact = false }: 
 
   const field = (label: string, child: React.ReactNode, err?: string, required = true) => (
     <div>
-      <label className="block text-[11px] text-[#7A5C45] uppercase tracking-[0.1em] mb-1.5 font-semibold">
-        {label}{required && <span className="text-[#C4622D] ml-0.5">*</span>}
+      <label className="block text-[11px] text-white/60 uppercase tracking-[0.1em] mb-1.5 font-semibold">
+        {label}{required && <span className="text-[#E8732F] ml-0.5">*</span>}
       </label>
       {child}
       {err && <p className="text-red-500 text-[10px] mt-1">{err}</p>}
@@ -73,13 +73,13 @@ export default function ProductRequestForm({ query, onClose, compact = false }: 
   );
 
   const inputCls = (err?: string) =>
-    `w-full bg-[#FAF7F0] border ${err ? 'border-red-400' : 'border-[#E8D2AE]'} rounded-xl py-2.5 px-4 text-sm text-[#3D2B1F] placeholder:text-[#B98A5A]/50 focus:outline-none focus:border-[#C4622D] transition-all`;
+    `w-full bg-[#0A0A0A] border ${err ? 'border-red-400' : 'border-white/[0.08]'} rounded-xl py-2.5 px-4 text-sm text-white placeholder:text-[#D4A574]/50 focus:outline-none focus:border-[#E8732F] transition-all`;
 
   return (
     <form onSubmit={handleSubmit} className={compact ? 'p-4 space-y-3' : 'space-y-4'}>
       <div className={`text-center ${compact ? 'mb-3' : 'mb-5'}`}>
-        <div className="text-[#3D2B1F] text-[13px] font-semibold mb-0.5">Ce produit n&apos;est pas encore dans notre catalogue</div>
-        <p className="text-[#7A5C45] text-[11px]">Remplissez ce formulaire — on prépare votre commande sur mesure</p>
+        <div className="text-white text-[13px] font-semibold mb-0.5">Ce produit n&apos;est pas encore dans notre catalogue</div>
+        <p className="text-white/60 text-[11px]">Remplissez ce formulaire — on prépare votre commande sur mesure</p>
       </div>
 
       <div className={compact ? 'grid grid-cols-2 gap-3' : 'grid md:grid-cols-2 gap-4'}>
@@ -102,7 +102,7 @@ export default function ProductRequestForm({ query, onClose, compact = false }: 
       ), errors.produit)}
 
       <button type="submit" disabled={loading}
-        className="w-full bg-[#C4622D] text-white py-3 rounded-xl text-[13px] font-bold hover:bg-[#A8501F] transition-colors disabled:opacity-50 shadow-[0_4px_16px_rgba(196,98,45,0.25)]">
+        className="w-full bg-[#E8732F] text-white py-3 rounded-xl text-[13px] font-bold hover:bg-[#c45e22] transition-colors disabled:opacity-50 shadow-[0_4px_16px_rgba(196,98,45,0.25)]">
         {loading ? 'Envoi...' : 'Envoyer ma demande'}
       </button>
     </form>
