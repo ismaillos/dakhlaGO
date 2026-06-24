@@ -33,10 +33,10 @@ function LangSwitcher() {
         </svg>
       </button>
       {open && (
-        <div className="absolute top-full right-0 mt-1.5 bg-white border border-white/[0.08] rounded-xl overflow-hidden shadow-[0_16px_40px_rgba(61,43,31,0.12)] z-50 min-w-[130px]">
+        <div className="absolute top-full right-0 mt-1.5 bg-[#1A1A1A] border border-white/[0.10] rounded-xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,0.5)] z-50 min-w-[130px]">
           {LANGS.map(l => (
             <button key={l.code} onClick={() => { setLang(l.code); setOpen(false); }}
-              className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 text-[13px] transition-colors text-left ${l.code === lang ? 'bg-[#E8732F]/10 text-[#E8732F]' : 'text-white/60 hover:bg-[#141414] hover:text-white'}`}>
+              className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 text-[13px] transition-colors text-left ${l.code === lang ? 'bg-[#E8732F]/15 text-[#E8732F]' : 'text-white/70 hover:bg-white/[0.07] hover:text-white'}`}>
               <span className="text-base">{l.flag}</span>
               <span className="font-medium">{l.label}</span>
             </button>
