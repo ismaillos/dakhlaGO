@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { CartProvider } from './hooks/useCart';
+import { LanguageProvider } from './hooks/useLanguage';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import BlogPage from './pages/BlogPage';
@@ -8,6 +9,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
   return (
+    <LanguageProvider>
     <CartProvider>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,5 +19,6 @@ export default function App() {
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </CartProvider>
+    </LanguageProvider>
   );
 }

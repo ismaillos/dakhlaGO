@@ -4,14 +4,55 @@ import { PRODUCTS, CATEGORIES, WHATSAPP_NUMBER } from '../data/products';
 import { REVIEWS } from '../data/reviews';
 import { BLOG_ARTICLES } from '../data/blog';
 import { useCart } from '../hooks/useCart';
+import { useLang } from '../hooks/useLanguage';
+import { LANGS } from '../i18n/translations';
 import OrderModal from '../components/OrderModal';
 import ProductRequestForm from '../components/ProductRequestForm';
+
+/* ─── LANG SWITCHER ─── */
+function LangSwitcher() {
+  const { lang, setLang } = useLang();
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const current = LANGS.find(l => l.code === lang)!;
+
+  useEffect(() => {
+    const handler = (e: MouseEvent) => { if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false); };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+      <button onClick={() => setOpen(v => !v)}
+        className="flex items-center gap-1.5 text-white/40 hover:text-white/80 transition-colors text-[13px] font-medium px-2 py-1 rounded-lg hover:bg-white/[0.05]">
+        <span>{current.flag}</span>
+        <span className="uppercase text-[11px] font-bold tracking-wide">{current.code}</span>
+        <svg className={`w-3 h-3 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      {open && (
+        <div className="absolute top-full right-0 mt-1.5 bg-[#1a1a1a] border border-white/[0.10] rounded-xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,0.5)] z-50 min-w-[130px]">
+          {LANGS.map(l => (
+            <button key={l.code} onClick={() => { setLang(l.code); setOpen(false); }}
+              className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 text-[13px] transition-colors text-left ${l.code === lang ? 'bg-[#E8732F]/10 text-[#E8732F]' : 'text-white/50 hover:bg-white/[0.05] hover:text-white'}`}>
+              <span className="text-base">{l.flag}</span>
+              <span className="font-medium">{l.label}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 /* ─── NAVBAR ─── */
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { itemCount, openModal } = useCart();
+  const { t } = useLang();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -31,17 +72,18 @@ function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#produits" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">Produits</a>
-          <a href="#story" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">Histoire</a>
-          <Link to="/blog" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">Blog</Link>
-          <a href="#avis" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">Avis</a>
-          <a href="#contact" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">Contact</a>
+          <a href="#produits" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.products}</a>
+          <a href="#story" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.story}</a>
+          <Link to="/blog" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.blog}</Link>
+          <a href="#avis" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.reviews}</a>
+          <a href="#contact" className="text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.contact}</a>
           {itemCount > 0 && (
             <button onClick={openModal} className="relative text-white/50 text-sm font-medium hover:text-[#E8732F] transition-colors">
-              Panier
+              {t.nav.cart}
               <span className="absolute -top-2 -right-4 bg-[#E8732F] text-white text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center">{itemCount}</span>
             </button>
           )}
+          <LangSwitcher />
           <a href="https://web.facebook.com/dakhlaartisanal.maroc" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
             className="text-white/40 hover:text-[#1877F2] transition-colors">
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
@@ -52,6 +94,7 @@ function Navbar() {
         </div>
 
         <div className="flex items-center gap-3 md:hidden">
+          <LangSwitcher />
           {itemCount > 0 && (
             <button onClick={openModal} className="relative text-white text-sm">
               🛒
@@ -65,11 +108,11 @@ function Navbar() {
 
       {mobileOpen && (
         <div className="md:hidden bg-[#0a0a0a]/95 backdrop-blur-xl border-t border-white/5 px-5 py-4 space-y-3">
-          <a href="#produits" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">Produits</a>
-          <a href="#story" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">Histoire</a>
-          <Link to="/blog" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">Blog</Link>
-          <a href="#avis" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">Avis</a>
-          <a href="#contact" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">Contact</a>
+          <a href="#produits" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.products}</a>
+          <a href="#story" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.story}</a>
+          <Link to="/blog" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.blog}</Link>
+          <a href="#avis" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.reviews}</a>
+          <a href="#contact" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.contact}</a>
         </div>
       )}
     </nav>
@@ -78,6 +121,7 @@ function Navbar() {
 
 /* ─── HERO ─── */
 function Hero() {
+  const { t } = useLang();
   return (
     <section className="min-h-screen flex items-center pt-20 pb-0 bg-[#0a0a0a] relative overflow-hidden">
       {/* Background glows */}
@@ -94,39 +138,37 @@ function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-[#E8732F]/10 border border-[#E8732F]/20 rounded-full px-4 py-1.5 mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-[#E8732F] animate-pulse" />
-            <span className="text-[#E8732F] text-[11px] font-bold uppercase tracking-[0.2em]">Sahara Marocain · 100% Naturel</span>
+            <span className="text-[#E8732F] text-[11px] font-bold uppercase tracking-[0.2em]">{t.hero.badge}</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-[clamp(44px,6.5vw,78px)] font-extrabold leading-[0.93] tracking-[-0.03em] mb-5">
-            <span className="text-white/90">Depuis des</span><br />
-            <span className="text-white/90">siècles, le</span><br />
-            <em className="not-italic bg-gradient-to-r from-[#E8732F] via-[#D4A574] to-[#E8732F] bg-clip-text text-transparent">Sahara</em><br />
-            <span className="text-white/90">garde ses</span><br />
-            <span className="text-white/90">secrets.</span>
+            <span className="text-white/90">{t.hero.line1}</span><br />
+            <em className="not-italic bg-gradient-to-r from-[#E8732F] via-[#D4A574] to-[#E8732F] bg-clip-text text-transparent">{t.hero.line2}</em><br />
+            <span className="text-white/90">{t.hero.line3}</span>
           </h1>
 
           <p className="text-white/45 text-[16px] max-w-[460px] mb-8 leading-[1.75]">
-            Des plantes rares, des minéraux purs, des recettes ancestrales. Aujourd&apos;hui transmis par les <strong className="text-white/70">femmes artisanes de Dakhla</strong> — pour vous.
+            {t.hero.sub}
           </p>
 
           <div className="flex gap-3 flex-wrap mb-10">
             <a href="#produits" className="group relative bg-[#E8732F] text-white px-8 py-4 rounded-full text-[13px] font-bold hover:bg-[#d46726] transition-all duration-200 shadow-[0_8px_32px_rgba(232,115,47,0.35)] hover:shadow-[0_12px_40px_rgba(232,115,47,0.5)] hover:-translate-y-0.5">
-              Découvrir les produits
+              {t.hero.cta1}
             </a>
             <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-2 border border-white/10 text-white/60 px-8 py-4 rounded-full text-[13px] font-semibold hover:border-[#25D366]/40 hover:text-[#25D366] transition-all duration-200">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-              Commander sur WhatsApp
+              {t.hero.cta2}
             </a>
           </div>
 
           {/* Stats */}
           <div className="flex gap-8 pt-6 border-t border-white/[0.06]">
             {[
-              { n: '26+', label: 'Produits naturels' },
-              { n: '10K+', label: 'Clients satisfaits' },
-              { n: '100%', label: 'Naturel & pur', color: true },
+              { n: '26+', label: t.hero.stat1 },
+              { n: '10K+', label: t.hero.stat2 },
+              { n: '100%', label: t.hero.stat3, color: true },
             ].map(s => (
               <div key={s.label}>
                 <div className={`text-[clamp(28px,3.5vw,40px)] font-extrabold leading-none ${s.color ? 'text-[#E8732F]' : ''}`}>{s.n}</div>
@@ -170,6 +212,7 @@ function Hero() {
 
 /* ─── TRUST STRIP ─── */
 function TrustStrip() {
+  const { t } = useLang();
   const items = [
     {
       icon: (
@@ -177,7 +220,7 @@ function TrustStrip() {
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 3c-1.5 3-5 4.5-7 4.5 0 6 2.5 10.5 7 12 4.5-1.5 7-6 7-12-2 0-5.5-1.5-7-4.5z" />
         </svg>
       ),
-      title: '100% Naturel', sub: 'Zéro chimie · Ingrédients purs'
+      title: t.trust.t1, sub: t.trust.s1
     },
     {
       icon: (
@@ -185,7 +228,7 @@ function TrustStrip() {
           <circle cx="12" cy="12" r="9" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18M3 12h18" />
         </svg>
       ),
-      title: 'Made in Morocco', sub: 'Fabriqué au Sahara Marocain'
+      title: t.trust.t2, sub: t.trust.s2
     },
     {
       icon: (
@@ -193,7 +236,7 @@ function TrustStrip() {
           <path strokeLinecap="round" strokeLinejoin="round" d="M8 17l-5-5 5-5M20 12H3M20 7l-2-2h-5a2 2 0 00-2 2v6a2 2 0 002 2h5l2-2" />
         </svg>
       ),
-      title: 'Livraison Maroc', sub: 'Paiement à la livraison'
+      title: t.trust.t3, sub: t.trust.s3
     },
     {
       icon: (
@@ -201,7 +244,7 @@ function TrustStrip() {
           <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a4 4 0 00-5.196-3.8M9 20H4v-2a4 4 0 015.196-3.8M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a2 2 0 11-4 0 2 2 0 014 0zM7 12a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: '10 000+ Clients', sub: 'Satisfaits & fidèles'
+      title: t.trust.t4, sub: t.trust.s4
     },
   ];
   return (
@@ -226,18 +269,19 @@ const BESTSELLER_IDS = ['toutia', 'pack-feminite', 'elixir'];
 function Bestsellers() {
   const picks = PRODUCTS.filter(p => BESTSELLER_IDS.includes(p.id));
   const { addItem } = useCart();
+  const { t } = useLang();
   return (
     <section className="py-20 px-5 bg-[#080808]">
       <div className="max-w-[1200px] mx-auto">
         <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
           <div>
-            <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Les Plus Demandés</div>
+            <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">{t.bestsellers.tag}</div>
             <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold leading-tight">
-              Choix de nos <em className="text-[#E8732F] not-italic">clients</em>
+              {t.bestsellers.title1} <em className="text-[#E8732F] not-italic">{t.bestsellers.title2}</em>
             </h2>
           </div>
           <a href="#produits" className="text-white/40 text-[13px] hover:text-[#E8732F] transition-colors font-medium">
-            Voir tous les produits →
+            {t.bestsellers.viewAll}
           </a>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
@@ -247,13 +291,13 @@ function Bestsellers() {
                 <div className="relative aspect-[4/5] overflow-hidden bg-[#0d0d0d]">
                   <img src={p.img} alt={p.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                  {i === 0 && <div className="absolute top-4 left-4 bg-[#E8732F] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">N°1 Populaire</div>}
-                  {i === 1 && <div className="absolute top-4 left-4 bg-[#D4A574] text-black text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">Très demandé</div>}
-                  {i === 2 && <div className="absolute top-4 left-4 bg-[#5B7B5E] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">Certifié naturel</div>}
+                  {i === 0 && <div className="absolute top-4 left-4 bg-[#E8732F] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">{t.bestsellers.badge1}</div>}
+                  {i === 1 && <div className="absolute top-4 left-4 bg-[#D4A574] text-black text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">{t.bestsellers.badge2}</div>}
+                  {i === 2 && <div className="absolute top-4 left-4 bg-[#5B7B5E] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">{t.bestsellers.badge3}</div>}
                   <div className="absolute bottom-0 left-0 right-0 p-5">
                     <div className="flex gap-0.5 mb-2">
                       {[1,2,3,4,5].map(s => <span key={s} className="text-[#E8732F] text-sm">★</span>)}
-                      <span className="text-white/30 text-[10px] ml-1.5 self-center">(+200 avis)</span>
+                      <span className="text-white/30 text-[10px] ml-1.5 self-center">({t.bestsellers.reviews})</span>
                     </div>
                     <h3 className="text-white font-extrabold text-[18px] leading-tight mb-1">{p.name}</h3>
                     <p className="text-white/50 text-[12px] leading-snug line-clamp-2">{p.hook}</p>
@@ -267,7 +311,7 @@ function Bestsellers() {
                 </div>
                 <button onClick={() => addItem(p)}
                   className="bg-[#E8732F] text-white px-5 py-2.5 rounded-full text-[12px] font-bold hover:bg-[#d46726] transition-colors shadow-[0_4px_16px_rgba(232,115,47,0.3)]">
-                  Commander
+                  {t.bestsellers.order}
                 </button>
               </div>
             </div>
@@ -326,6 +370,7 @@ const IngredientIcon = ({ type }: { type: string }) => {
 };
 
 function Ingredients() {
+  const { t } = useLang();
   const items = [
     { type: 'stone', name: 'Toutia', origin: 'Jebel Saghro, Sud-Est', desc: 'Pierre ancestrale aux propriétés purifiantes et déodorantes. Utilisée depuis l\'Antiquité.' },
     { type: 'leaf', name: 'Argan Bio', origin: 'Souss-Massa, Maroc', desc: 'Or liquide du Maroc. Nourrit, protège et illumine la peau et les cheveux.' },
@@ -339,12 +384,12 @@ function Ingredients() {
       <div className="absolute inset-0 bg-gradient-to-br from-[#D4A574]/[0.03] via-transparent to-[#E8732F]/[0.02] pointer-events-none" />
       <div className="max-w-[1200px] mx-auto relative z-10">
         <div className="text-center mb-12">
-          <div className="text-[#D4A574] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Naturel · Ancestral · Rare</div>
+          <div className="text-[#D4A574] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">{t.ingredients.tag}</div>
           <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold mb-4">
-            Les Plantes du <em className="text-[#E8732F] not-italic">Sahara</em>
+            {t.ingredients.title1} <em className="text-[#E8732F] not-italic">{t.ingredients.title2}</em>
           </h2>
           <p className="text-white/35 text-[15px] max-w-[500px] mx-auto leading-relaxed">
-            Des ingrédients cueillis à la main dans les régions les plus préservées du Maroc, transmis de génération en génération.
+            {t.ingredients.sub}
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -432,6 +477,7 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
   const [showSuggestions, setShowSuggestions] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const wrapRef = useRef<HTMLDivElement>(null);
+  const { t } = useLang();
 
   const fuseSearch = useCallback((q: string) => {
     if (!q.trim()) { setSuggestions([]); return; }
@@ -461,7 +507,7 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
           value={value}
           onChange={(e) => { fuseSearch(e.target.value); setShowSuggestions(true); onSearch(e.target.value); }}
           onFocus={() => { if (value) setShowSuggestions(true); }}
-          placeholder="Filtrer les produits..."
+          placeholder={t.products.filterLabel}
           className="w-full bg-white/[0.04] border border-white/[0.08] rounded-full py-3 pl-11 pr-5 text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-[#E8732F]/40 transition-all"
         />
         {value && (
@@ -509,6 +555,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
   const [showSuggestions, setShowSuggestions] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const wrapRef = useRef<HTMLDivElement>(null);
+  const { t } = useLang();
 
   const fuseSearch = useCallback((q: string) => {
     if (!q.trim()) { setSuggestions([]); setBlogSuggestions([]); return; }
@@ -570,11 +617,11 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
       <div className="max-w-[800px] mx-auto relative z-10">
         {/* Tagline */}
         <div className="text-center mb-8">
-          <p className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.25em] mb-3">Trouvez Votre Soin</p>
+          <p className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.25em] mb-3">{t.search.tag}</p>
           <h2 className="text-[clamp(24px,4vw,42px)] font-extrabold leading-tight mb-2">
-            Que cherchez-vous <em className="text-[#E8732F] not-italic">aujourd&apos;hui?</em>
+            {t.search.title1} <em className="text-[#E8732F] not-italic">{t.search.title2}</em>
           </h2>
-          <p className="text-white/35 text-sm">Tapez un problème, un ingrédient ou un produit — on le trouve pour vous</p>
+          <p className="text-white/35 text-sm">{t.search.sub}</p>
         </div>
 
         {/* Big Search Input */}
@@ -589,7 +636,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
               value={localQuery}
               onChange={(e) => handleChange(e.target.value)}
               onFocus={() => { if (localQuery) setShowSuggestions(true); }}
-              placeholder="Ex: douleurs genoux, cheveux cassants, peau terne, stress..."
+              placeholder={t.search.placeholder}
               className="w-full bg-white/[0.05] border-2 border-white/[0.10] hover:border-white/20 rounded-2xl py-5 pl-14 pr-14 text-base text-white placeholder:text-white/25 focus:outline-none focus:border-[#E8732F]/60 focus:bg-white/[0.07] transition-all duration-200 shadow-[0_8px_32px_rgba(0,0,0,0.3)]"
             />
             {localQuery ? (
@@ -600,7 +647,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                 <svg className="w-3 h-3 text-[#E8732F]/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-                <span className="text-[#E8732F]/60 text-[11px] font-semibold">Rechercher</span>
+                <span className="text-[#E8732F]/60 text-[11px] font-semibold">{t.search.btn}</span>
               </div>
             )}
           </div>
@@ -613,7 +660,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                   {suggestions.length > 0 && (
                     <>
                       <div className="px-4 pt-3 pb-1.5 text-[10px] text-white/25 uppercase tracking-[0.15em] font-bold border-b border-white/[0.04]">
-                        {suggestions.length} produit{suggestions.length > 1 ? 's' : ''} trouvé{suggestions.length > 1 ? 's' : ''}
+                        {suggestions.length} {suggestions.length > 1 ? t.search.founds : t.search.found}
                       </div>
                       {suggestions.map(p => (
                         <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
@@ -635,7 +682,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                   {blogSuggestions.length > 0 && (
                     <>
                       <div className="px-4 pt-3 pb-1.5 text-[10px] text-white/25 uppercase tracking-[0.15em] font-bold border-b border-white/[0.04]">
-                        Articles de blog
+                        {t.search.blogResults}
                       </div>
                       {blogSuggestions.map(a => (
                         <Link key={a.id} to={`/blog/${a.id}`} onClick={() => setShowSuggestions(false)}
@@ -652,7 +699,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                   <div className="px-4 py-3 border-t border-white/[0.04]">
                     <button onClick={() => { setShowSuggestions(false); document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' }); }}
                       className="w-full text-center text-[12px] text-[#E8732F] font-semibold hover:text-[#E8732F]/70 transition-colors">
-                      Voir tous les résultats ↓
+                      {t.search.allResults}
                     </button>
                   </div>
                 </>
@@ -665,20 +712,20 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
 
         {/* Quick chips */}
         <div className="flex flex-wrap gap-2 justify-center">
-          {QUICK_CHIPS.map(chip => (
-            <button key={chip.query} onClick={() => handleChip(chip.query)}
+          {t.search.chips.map((label, i) => (
+            <button key={QUICK_CHIPS[i]?.query ?? label} onClick={() => handleChip(QUICK_CHIPS[i]?.query ?? label)}
               className={`px-4 py-2 rounded-full text-[12px] font-semibold transition-all cursor-pointer border ${
-                searchQuery === chip.query
+                searchQuery === (QUICK_CHIPS[i]?.query ?? label)
                   ? 'bg-[#E8732F] text-white border-[#E8732F]'
                   : 'bg-white/[0.04] border-white/[0.10] text-white/50 hover:bg-white/[0.08] hover:text-white hover:border-white/25'
               }`}>
-              {chip.label}
+              {QUICK_CHIPS[i]?.label.split(' ')[0]} {label}
             </button>
           ))}
           {searchQuery && (
             <button onClick={handleClear}
               className="px-4 py-2 rounded-full text-[12px] font-semibold border border-red-500/30 text-red-400/70 hover:bg-red-500/10 transition-all cursor-pointer">
-              ✕ Effacer
+              {t.search.clear}
             </button>
           )}
         </div>
