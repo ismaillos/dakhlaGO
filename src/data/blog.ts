@@ -112,7 +112,7 @@ Absolument. Ses propriétés antifongiques en font un remède naturel efficace c
 Oui, c\'est même son grand avantage. Contrairement aux déodorants industriels, elle ne contient aucun irritant. Elle peut être utilisée après épilation ou rasage sans provoquer de brûlures.
 
 **Combien de temps dure une pierre Toutia ?**
-Une pierre Toutia Ismailiya dure en moyenne 3 à 6 mois selon la fréquence d\'utilisation — bien plus économique qu\'un déodorant classique.
+Une pierre Toutia Ismailiya dure en moyenne 1 mois selon la fréquence d\'utilisation — bien plus économique qu\'un déodorant classique.
 
 **Peut-on utiliser la Toutia pendant la grossesse ?**
 Oui. La Toutia est 100% naturelle et sans substance chimique dangereuse, ce qui la rend adaptée aux femmes enceintes ou allaitantes.
