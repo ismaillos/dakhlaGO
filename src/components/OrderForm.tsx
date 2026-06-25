@@ -101,7 +101,19 @@ export default function OrderForm({ product }: OrderFormProps) {
       prix: `${selectedOption.price} DH`,
     });
 
-    setStatus(ok ? 'success' : 'error');
+    if (ok) {
+      if (typeof window !== 'undefined' && (window as any).fbq) {
+        (window as any).fbq('track', 'Purchase', {
+          value: selectedOption.price,
+          currency: 'MAD',
+          content_name: product.name,
+          content_type: 'product',
+        });
+      }
+      setStatus('success');
+    } else {
+      setStatus('error');
+    }
   };
 
   if (status === 'success') {

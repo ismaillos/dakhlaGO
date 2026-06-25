@@ -100,6 +100,13 @@ export default function OrderModal() {
     setSubmitting(false);
 
     if (ok) {
+      if (typeof window !== 'undefined' && (window as any).fbq) {
+        (window as any).fbq('track', 'Purchase', {
+          value: total,
+          currency: 'MAD',
+          content_type: 'product',
+        });
+      }
       setCustomerName(form.nom);
       clearCart();
       setView('success');
