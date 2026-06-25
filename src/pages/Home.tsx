@@ -1084,6 +1084,34 @@ function Footer() {
 /* ─── HOME PAGE ─── */
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
+
+  useEffect(() => {
+    document.title = 'Dakhla Artisanal — Produits Naturels du Sahara Marocain | 100% Naturel';
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', 'Dakhla Artisanal — produits 100% naturels du Sahara Marocain. Toutia Ismailiya, Shampoing Secret d\'Atlas, huiles, sérums et compléments. Livraison partout au Maroc. Paiement à la livraison.');
+    const existing = document.getElementById('schema-org');
+    if (existing) existing.remove();
+    const schema = document.createElement('script');
+    schema.id = 'schema-org';
+    schema.type = 'application/ld+json';
+    schema.text = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Dakhla Artisanal',
+      url: 'https://dakhlaartisanal.com',
+      logo: 'https://dakhlaartisanal.com/images/logo.png',
+      description: 'Produits artisanaux 100% naturels du Sahara Marocain. Toutia, Shampoing, Huiles, Sérums et Compléments.',
+      address: { '@type': 'PostalAddress', addressCountry: 'MA', addressRegion: 'Dakhla' },
+      contactPoint: { '@type': 'ContactPoint', telephone: '+212677031561', contactType: 'customer service' },
+      sameAs: [
+        'https://web.facebook.com/Dakhlaartisanal',
+        'https://www.instagram.com/dakhlaartisanal1',
+      ],
+    });
+    document.head.appendChild(schema);
+    return () => { schema.remove(); };
+  }, []);
+
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white">
       <Navbar />

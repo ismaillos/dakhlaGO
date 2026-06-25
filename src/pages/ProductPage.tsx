@@ -77,7 +77,44 @@ export default function ProductPage() {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [id]);
+    // Meta SEO dynamique
+    document.title = `${product.name} — ${product.hook.slice(0, 60)} | Dakhla Artisanal`;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', product.description.slice(0, 155).replace(/\n/g, ' ') + '…');
+    // Schema.org Product
+    const existing = document.getElementById('schema-product');
+    if (existing) existing.remove();
+    const schema = document.createElement('script');
+    schema.id = 'schema-product';
+    schema.type = 'application/ld+json';
+    schema.text = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: product.name,
+      description: product.description.slice(0, 200).replace(/\n/g, ' '),
+      image: `https://dakhlaartisanal.com${product.img}`,
+      brand: { '@type': 'Brand', name: 'Dakhla Artisanal' },
+      offers: {
+        '@type': 'Offer',
+        priceCurrency: 'MAD',
+        price: product.price,
+        availability: 'https://schema.org/InStock',
+        seller: { '@type': 'Organization', name: 'Dakhla Artisanal' },
+      },
+    });
+    document.head.appendChild(schema);
+    // Meta Pixel ViewContent
+    if (typeof window !== 'undefined' && (window as any).fbq) {
+      (window as any).fbq('track', 'ViewContent', {
+        content_name: product.name,
+        content_ids: [product.id],
+        content_type: 'product',
+        value: product.price,
+        currency: 'MAD',
+      });
+    }
+    return () => { schema.remove(); };
+  }, [id, product]);
 
   const extraImages: Record<string, string[]> = {
     elixir: ['/images/elixir-1.jpg', '/images/elixir-2.jpg'],

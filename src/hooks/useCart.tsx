@@ -55,6 +55,15 @@ export function CartProvider({ children }: { children: ReactNode }) {
       return [...prev, { product, quantity: 1 }];
     });
     setModalOpen(true);
+    if (typeof window !== 'undefined' && (window as any).fbq) {
+      (window as any).fbq('track', 'AddToCart', {
+        content_name: product.name,
+        content_ids: [product.id],
+        content_type: 'product',
+        value: product.price,
+        currency: 'MAD',
+      });
+    }
   }, []);
 
   const removeItem = useCallback((productId: string) => {
