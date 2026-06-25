@@ -26,7 +26,7 @@ export const PRODUCTS: Product[] = [
     nameAr: 'التوتية الإسماعيلية',
     cat: 'corps',
     catLabel: 'Corps',
-    price: 199,
+    price: 169,
     oldPrice: 338,
     badge: 'Pierre Naturelle',
     img: '/images/toutia/toutia.jpg',
