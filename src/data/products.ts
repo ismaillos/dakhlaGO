@@ -1023,6 +1023,44 @@ export const PRODUCTS: Product[] = [
       'مناسب لجميع أنواع البشرة'
     ],
   },
+  {
+    id: 'vitamined3k2',
+    name: 'Vitamine D3+K2',
+    nameAr: 'فيتامين D3+K2',
+    cat: 'complements',
+    catLabel: 'Complements',
+    price: 149,
+    oldPrice: 249,
+    badge: '60 Capsules',
+    img: '/images/vitamined3k2/d3k2.jpg',
+    hook: 'La synergie D3+K2 — os solides, immunite renforcee et coeur protege. 60 capsules = 2 mois.',
+    description: 'La Vitamine D3+K2 de Dakhla Artisanal est la combinaison la plus efficace pour votre sante osseuse et cardiovasculaire. La vitamine D3 (2000 UI) stimule l\'absorption du calcium dans l\'intestin — jusqu\'a 40 fois plus efficace sans D3 — tandis que la vitamine K2 (MK-7, 75 mcg) dirige ce calcium directement vers les os et les dents, en l\'empechant de se deposer dans les arteres.\n\nCette synergie unique resout un probleme critique : beaucoup de gens prennent du calcium ou de la D3 seuls, mais sans K2, le calcium peut s\'accumuler dans les vaisseaux sanguins. Avec D3+K2, chaque molecule de calcium va exactement ou elle doit aller.\n\nFormule ultra-biodisponible : notre D3 est sous forme de cholecalciferol (la forme naturelle synthetisee par la peau au soleil) et notre K2 est sous forme de MK-7 — la forme la plus stable et la plus longue duree d\'action, active pendant 24 heures dans le corps.\n\n60 capsules vegetales = 2 mois de traitement. Fabrique sous controle qualite rigoureux.',
+    descriptionAr: 'فيتامين D3+K2 من داخلة أرتيزانال هو المزيج الأكثر فاعلية لصحة عظامك وقلبك. فيتامين D3 (2000 وحدة دولية) يحفز امتصاص الكالسيوم في الأمعاء — يصل إلى 40 مرة أكثر فاعلية بدون D3 — بينما فيتامين K2 (MK-7، 75 ميكروغرام) يوجه هذا الكالسيوم مباشرة إلى العظام والأسنان، مانعاً إياه من الترسب في الشرايين.\n\nهذا التآزر الفريد يحل مشكلة حرجة: كثير من الناس يأخذون الكالسيوم أو D3 بمفردهما، لكن بدون K2، يمكن أن يتراكم الكالسيوم في الأوعية الدموية. مع D3+K2، كل جزيء من الكالسيوم يذهب إلى المكان الصحيح تماماً.\n\n60 كبسولة نباتية = شهران من العلاج. مصنوع تحت رقابة صارمة للجودة.',
+    ingredients: 'Vitamine D3 cholecalciferol 2000 UI, Vitamine K2 MK-7 75 mcg, Huile d\'olive vierge extra (excipient), Enveloppe vegetale (HPMC), Silice naturelle.',
+    ingredientsAr: 'فيتامين D3 كوليكالسيفيرول 2000 وحدة دولية، فيتامين K2 MK-7 75 ميكروغرام، زيت الزيتون البكر الممتاز (سواغ)، غلاف نباتي (HPMC)، سيليكا طبيعية.',
+    usage: 'Prendre 1 capsule par jour avec un repas contenant des graisses (le D3 est liposoluble, il s\'absorbe mieux avec les lipides). De preference le matin ou le midi. Cure de 2 mois, renouvelable apres analyse sanguine. Ne pas depasser 2 capsules par jour sans avis medical.',
+    usageAr: 'تناول كبسولة واحدة يومياً مع وجبة تحتوي على دهون (D3 قابل للذوبان في الدهون، يمتص بشكل أفضل مع الدهون). يفضل صباحاً أو ظهراً. علاج شهرين قابل للتجديد بعد تحليل الدم. لا تتجاوز كبسولتين يومياً دون استشارة طبية.',
+    benefits: [
+      'Os solides — absorption calcium x40',
+      'Immunite renforcee — defense naturelle',
+      'Coeur protege — pas de calcification arterielle',
+      'D3 2000 UI + K2 MK-7 75 mcg — dose optimale',
+      'Capsules vegetales — 100% halal',
+      '60 capsules = 2 mois de traitement',
+      'Forme MK-7 — active 24h dans le corps',
+      'Biodisponibilite maximale avec huile d\'olive'
+    ],
+    benefitsAr: [
+      'عظام قوية — امتصاص الكالسيوم x40',
+      'مناعة معززة — دفاع طبيعي',
+      'قلب محمي — لا تكلس شرياني',
+      'D3 2000 وحدة + K2 MK-7 75 ميكروغرام — جرعة مثلى',
+      'كبسولات نباتية — 100٪ حلال',
+      '60 كبسولة = شهران من العلاج',
+      'شكل MK-7 — نشط 24 ساعة في الجسم',
+      'امتصاص أقصى مع زيت الزيتون'
+    ],
+  },
 ];
 
 export const CATEGORIES = [
