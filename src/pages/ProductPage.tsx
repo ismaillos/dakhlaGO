@@ -103,17 +103,19 @@ export default function ProductPage() {
       },
     });
     document.head.appendChild(schema);
-    // Meta Pixel ViewContent
-    if (typeof window !== 'undefined' && (window as any).fbq) {
-      (window as any).fbq('track', 'ViewContent', {
-        content_name: product.name,
-        content_ids: [product.id],
-        content_type: 'product',
-        value: product.price,
-        currency: 'MAD',
-      });
-    }
-    return () => { schema.remove(); };
+    // Meta Pixel ViewContent — setTimeout ensures fbq is ready after React render
+    const fbqTimer = setTimeout(() => {
+      try {
+        (window as any).fbq('track', 'ViewContent', {
+          content_name: product.name,
+          content_ids: [product.id],
+          content_type: 'product',
+          value: product.price,
+          currency: 'MAD',
+        });
+      } catch (_) {}
+    }, 300);
+    return () => { schema.remove(); clearTimeout(fbqTimer); };
   }, [id, product]);
 
   const extraImages: Record<string, string[]> = {

@@ -102,7 +102,7 @@ export default function OrderForm({ product }: OrderFormProps) {
     });
 
     if (ok) {
-      if (typeof window !== 'undefined' && (window as any).fbq) {
+      try {
         (window as any).fbq('track', 'Purchase', {
           value: selectedOption.price,
           currency: 'MAD',
@@ -112,7 +112,7 @@ export default function OrderForm({ product }: OrderFormProps) {
           contents: [{ id: product.id, quantity: parseInt(selectedOption.value), item_price: product.price }],
           num_items: parseInt(selectedOption.value),
         });
-      }
+      } catch (_) {}
       setStatus('success');
     } else {
       setStatus('error');
