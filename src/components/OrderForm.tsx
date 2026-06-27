@@ -106,8 +106,11 @@ export default function OrderForm({ product }: OrderFormProps) {
         (window as any).fbq('track', 'Purchase', {
           value: selectedOption.price,
           currency: 'MAD',
+          content_ids: [product.id],
           content_name: product.name,
           content_type: 'product',
+          contents: [{ id: product.id, quantity: parseInt(selectedOption.value), item_price: product.price }],
+          num_items: parseInt(selectedOption.value),
         });
       }
       setStatus('success');

@@ -105,6 +105,9 @@ export default function OrderModal() {
           value: total,
           currency: 'MAD',
           content_type: 'product',
+          content_ids: items.map(i => i.product.id),
+          contents: items.map(i => ({ id: i.product.id, quantity: i.quantity, item_price: i.product.price })),
+          num_items: items.reduce((sum, i) => sum + i.quantity, 0),
         });
       }
       setCustomerName(form.nom);
