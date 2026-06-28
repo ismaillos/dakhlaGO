@@ -381,12 +381,12 @@ const IngredientIcon = ({ type }: { type: string }) => {
 function Ingredients() {
   const { t } = useLang();
   const items = [
-    { type: 'stone', name: 'Toutia', origin: 'Jebel Saghro, Sud-Est', desc: 'Pierre ancestrale aux propriétés purifiantes et déodorantes. Utilisée depuis l\'Antiquité.' },
-    { type: 'leaf', name: 'Argan Bio', origin: 'Souss-Massa, Maroc', desc: 'Or liquide du Maroc. Nourrit, protège et illumine la peau et les cheveux.' },
-    { type: 'flower', name: 'Rose de Damas', origin: 'Vallée du Dadès', desc: 'Reine des fleurs. Hydrate en profondeur et apaise les peaux sensibles.' },
-    { type: 'cactus', name: 'Aloe du Sahara', origin: 'Sahara Marocain', desc: 'Géant de l\'hydratation. Répare, cicatrise et rafraîchit intensément.' },
-    { type: 'root', name: 'Curcuma', origin: 'Plaines de Marrakech', desc: 'Or jaune anti-inflammatoire. Soulage les articulations et réduit l\'inflammation.' },
-    { type: 'seed', name: 'Nigelle', origin: 'Récoltes rurales du Maroc', desc: 'La "graine de bénédiction". Fortifie les cheveux et booste l\'immunité naturellement.' },
+    { type: 'stone', name: t.ingredients2.i1n, origin: t.ingredients2.i1o, desc: t.ingredients2.i1d },
+    { type: 'leaf', name: t.ingredients2.i2n, origin: t.ingredients2.i2o, desc: t.ingredients2.i2d },
+    { type: 'flower', name: t.ingredients2.i3n, origin: t.ingredients2.i3o, desc: t.ingredients2.i3d },
+    { type: 'cactus', name: t.ingredients2.i4n, origin: t.ingredients2.i4o, desc: t.ingredients2.i4d },
+    { type: 'root', name: t.ingredients2.i5n, origin: t.ingredients2.i5o, desc: t.ingredients2.i5d },
+    { type: 'seed', name: t.ingredients2.i6n, origin: t.ingredients2.i6o, desc: t.ingredients2.i6d },
   ];
   return (
     <section className="py-20 px-5 bg-[#141414] relative overflow-hidden zellige-pattern">
@@ -417,26 +417,27 @@ function Ingredients() {
 
 /* ─── STORY ─── */
 function Story() {
+  const { t } = useLang();
   return (
     <section id="story" className="py-24 px-5 bg-[#0A0A0A] relative overflow-hidden">
       <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#D4A574]/[0.12] blur-[100px] rounded-full pointer-events-none" />
       <div className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
-          <div className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.2em] mb-4">Notre Histoire</div>
+          <div className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.2em] mb-4">{t.story.tag}</div>
           <h2 className="text-[clamp(32px,4vw,52px)] font-extrabold mb-6 leading-[1.05] font-serif text-white">
-            Des Mains du <em className="text-[#E8732F] not-italic">Sahara</em>,<br />Pour Votre Beauté
+            {t.story.title1} <em className="text-[#E8732F] not-italic">{t.story.title2}</em><br />{t.story.title3}
           </h2>
           <p className="text-white/60 text-base leading-[1.8] mb-4">
-            Dakhla Artisanal naît des mains expertes des <strong className="text-white">femmes rurales du Maroc</strong> — des femmes fortes du <strong className="text-white">Sud-Est</strong>, de l&apos;Anti-Atlas, et de toutes les régions du Sahara Marocain.
+            {t.story.p1}
           </p>
           <p className="text-white/60 text-[15px] leading-[1.8] mb-8">
-            Pendant des siècles, ces femmes ont transmis des secrets de beauté ancestraux, utilisant les plantes médicinales et les minéraux purs du désert. Aujourd&apos;hui, Dakhla Artisanal perpétue ce savoir-faire pour vous offrir des produits <strong className="text-white">100% naturels, authentiques et efficaces</strong>.
+            {t.story2.p2}
           </p>
           <div className="grid grid-cols-3 gap-4">
             {[
-              { icon: '🌵', title: '7+ Régions', sub: 'du Sahara Marocain' },
-              { icon: '👩‍🌾', title: '50+ Femmes', sub: 'Artisanes partenaires' },
-              { icon: '🌿', title: '100%', sub: 'Naturel & Fait Main' },
+              { icon: '🌵', title: t.story2.stat1, sub: t.story2.stat1s },
+              { icon: '👩‍🌾', title: t.story2.stat2, sub: t.story2.stat2s },
+              { icon: '🌿', title: t.story2.stat3, sub: t.story2.stat3s },
             ].map(c => (
               <div key={c.title} className="bg-[#141414] border border-white/[0.08] rounded-xl p-5 text-center hover:border-[#E8732F]/30 transition-colors">
                 <div className="text-2xl mb-2">{c.icon}</div>
@@ -938,16 +939,17 @@ function BlogPreview() {
 
 /* ─── YOUTUBE ─── */
 function YouTube() {
+  const { t } = useLang();
   return (
     <section className="py-24 px-5 bg-[#141414]">
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center mb-12">
           <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Notre Chaîne</div>
           <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold mb-4 font-serif text-white">
-            Découvrez <em className="text-[#E8732F] not-italic">nos secrets</em> en vidéo
+            {t.youtube.title}
           </h2>
           <p className="text-white/60 text-base max-w-[500px] mx-auto">
-            Tutoriels, recettes et coulisses de notre atelier artisanal du Sahara Marocain.
+            {t.youtube.sub}
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -972,16 +974,16 @@ function YouTube() {
                 <div className="text-white/60 text-sm">@dakhlaartisanal</div>
               </div>
             </div>
-            <h3 className="text-2xl font-extrabold text-white mb-3 font-serif">Secrets du Sahara en vidéo</h3>
+            <h3 className="text-2xl font-extrabold text-white mb-3 font-serif">{t.youtube.title}</h3>
             <p className="text-white/60 leading-relaxed mb-6">
-              Rejoignez notre communauté et découvrez les secrets de beauté ancestraux du Sahara Marocain. Tutoriels, recettes naturelles et histoires de nos artisanes — directement depuis nos ateliers.
+              {t.youtube.sub}
             </p>
             <div className="grid grid-cols-2 gap-3 mb-6">
               {[
-                { icon: '🎥', label: 'Tutoriels beauté' },
-                { icon: '🌿', label: 'Recettes naturelles' },
-                { icon: '👩‍🍳', label: 'Coulisses atelier' },
-                { icon: '📦', label: 'Unboxing produits' },
+                { icon: '🎥', label: t.youtube.l1 },
+                { icon: '🌿', label: t.youtube.l2 },
+                { icon: '👩‍🍳', label: t.youtube.l3 },
+                { icon: '📦', label: t.youtube.l4 },
               ].map(item => (
                 <div key={item.label} className="flex items-center gap-2 bg-white/[0.05] border border-white/[0.08] rounded-xl px-3 py-2.5">
                   <span>{item.icon}</span>
@@ -994,7 +996,7 @@ function YouTube() {
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg>
-              Voir la chaîne YouTube
+              {t.youtube.btn}
             </a>
           </div>
         </div>

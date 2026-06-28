@@ -122,6 +122,26 @@ export const translations = {
       close: 'Fermer',
       noResult: 'Rupture de stock',
     },
+    story2: {
+      p2: 'Pendant des siècles, ces artisans ont transmis des secrets de beauté ancestraux, utilisant les plantes médicinales et les minéraux purs du désert. Aujourd\'hui, Dakhla Artisanal perpétue ce savoir-faire pour vous offrir des produits 100% naturels, authentiques et efficaces.',
+      stat1: '7+ Régions', stat1s: 'du Sahara Marocain',
+      stat2: '50+ Artisans', stat2s: 'Partenaires de confiance',
+      stat3: '100%', stat3s: 'Naturel & Fait Main',
+    },
+    ingredients2: {
+      i1n: 'Toutia', i1o: 'Jebel Saghro, Sud-Est', i1d: 'Pierre ancestrale aux propriétés purifiantes et déodorantes. Utilisée depuis l\'Antiquité.',
+      i2n: 'Argan Bio', i2o: 'Souss-Massa, Maroc', i2d: 'Or liquide du Maroc. Nourrit, protège et illumine la peau et les cheveux.',
+      i3n: 'Rose de Damas', i3o: 'Vallée du Dadès', i3d: 'Reine des fleurs. Hydrate en profondeur et apaise les peaux sensibles.',
+      i4n: 'Aloe du Sahara', i4o: 'Sahara Marocain', i4d: 'Géant de l\'hydratation. Répare, cicatrise et rafraîchit intensément.',
+      i5n: 'Curcuma', i5o: 'Plaines de Marrakech', i5d: 'Or jaune anti-inflammatoire. Soulage les articulations et réduit l\'inflammation.',
+      i6n: 'Nigelle', i6o: 'Récoltes rurales du Maroc', i6d: 'La "graine de bénédiction". Fortifie les cheveux et booste l\'immunité naturellement.',
+    },
+    youtube: {
+      title: 'Secrets du Sahara en vidéo',
+      sub: 'Rejoignez notre communauté et découvrez les secrets de beauté ancestraux du Sahara Marocain. Tutoriels, recettes naturelles et coulisses de nos ateliers.',
+      l1: 'Tutoriels beauté', l2: 'Recettes naturelles', l3: 'Coulisses atelier', l4: 'Unboxing produits',
+      btn: 'Voir la chaîne YouTube',
+    },
   },
 
   ar: {
@@ -237,6 +257,26 @@ export const translations = {
       successSub: 'سيتم تحضير المنتج لك — سنتصل بك أولاً لمعرفة احتياجك بالضبط.',
       close: 'إغلاق',
       noResult: 'غير متوفر حالياً',
+    },
+    story2: {
+      p2: 'على مدى قرون، نقل هؤلاء الحرفيون أسرار الجمال الموروثة، مستخدمين الأعشاب الطبية والمعادن النقية من الصحراء. اليوم، تواصل دخلة أرتيزانال هذه المعرفة لتقديم منتجات طبيعية 100%، أصيلة وفعّالة.',
+      stat1: '+7 مناطق', stat1s: 'من الصحراء المغربية',
+      stat2: '+50 حرفياً', stat2s: 'شركاء موثوقون',
+      stat3: '100%', stat3s: 'طبيعي وصنع يدوي',
+    },
+    ingredients2: {
+      i1n: 'التوتيا', i1o: 'جبل صاغرو، الجنوب الشرقي', i1d: 'حجر عريق بخصائص تنقية ومضادة للرائحة. مستخدم منذ العصور القديمة.',
+      i2n: 'أركان بيو', i2o: 'سوس ماسة، المغرب', i2d: 'الذهب السائل المغربي. يغذي ويحمي ويضيء البشرة والشعر.',
+      i3n: 'وردة دمشق', i3o: 'وادي دادس', i3d: 'ملكة الزهور. تُرطب عمقاً وتهدئ البشرة الحساسة.',
+      i4n: 'صبار الصحراء', i4o: 'الصحراء المغربية', i4d: 'عملاق الترطيب. يُصلح ويشفي ويُنعش بكثافة.',
+      i5n: 'الكركم', i5o: 'سهول مراكش', i5d: 'الذهب الأصفر المضاد للالتهابات. يُريح المفاصل ويقلل الالتهاب.',
+      i6n: 'الحبة السوداء', i6o: 'حصاد ريفي مغربي', i6d: '"حبة البركة". تقوي الشعر وتعزز المناعة بشكل طبيعي.',
+    },
+    youtube: {
+      title: 'أسرار الصحراء في فيديو',
+      sub: 'انضم إلى مجتمعنا واكتشف أسرار الجمال الموروثة من الصحراء المغربية. دروس تعليمية، وصفات طبيعية وكواليس ورشنا.',
+      l1: 'دروس التجميل', l2: 'الوصفات الطبيعية', l3: 'كواليس الورشة', l4: 'فتح العلب',
+      btn: 'زيارة قناة يوتيوب',
     },
   },
 
@@ -354,6 +394,26 @@ export const translations = {
       close: 'Close',
       noResult: 'Out of stock',
     },
+    story2: {
+      p2: 'For centuries, these artisans have passed down ancestral beauty secrets, using medicinal plants and pure minerals from the desert. Today, Dakhla Artisanal continues this heritage to offer you 100% natural, authentic and effective products.',
+      stat1: '7+ Regions', stat1s: 'of the Moroccan Sahara',
+      stat2: '50+ Artisans', stat2s: 'Trusted partners',
+      stat3: '100%', stat3s: 'Natural & Handmade',
+    },
+    ingredients2: {
+      i1n: 'Toutia', i1o: 'Jebel Saghro, South-East', i1d: 'Ancient stone with purifying and deodorizing properties. Used since Antiquity.',
+      i2n: 'Organic Argan', i2o: 'Souss-Massa, Morocco', i2d: 'Morocco\'s liquid gold. Nourishes, protects and illuminates skin and hair.',
+      i3n: 'Damascus Rose', i3o: 'Dadès Valley', i3d: 'Queen of flowers. Deeply hydrates and soothes sensitive skin.',
+      i4n: 'Sahara Aloe', i4o: 'Moroccan Sahara', i4d: 'Hydration giant. Repairs, heals and intensely refreshes.',
+      i5n: 'Turmeric', i5o: 'Marrakech Plains', i5d: 'Yellow anti-inflammatory gold. Relieves joints and reduces inflammation.',
+      i6n: 'Black Seed', i6o: 'Rural Moroccan harvests', i6d: 'The "seed of blessing". Strengthens hair and naturally boosts immunity.',
+    },
+    youtube: {
+      title: 'Sahara Secrets on Video',
+      sub: 'Join our community and discover the ancestral beauty secrets of the Moroccan Sahara. Tutorials, natural recipes and behind the scenes of our workshops.',
+      l1: 'Beauty tutorials', l2: 'Natural recipes', l3: 'Workshop behind-the-scenes', l4: 'Product unboxing',
+      btn: 'Visit our YouTube channel',
+    },
   },
 
   es: {
@@ -469,6 +529,26 @@ export const translations = {
       successSub: 'El producto será preparado para ti — te contactaremos primero para conocer exactamente tu necesidad.',
       close: 'Cerrar',
       noResult: 'Agotado',
+    },
+    story2: {
+      p2: 'Durante siglos, estos artesanos han transmitido secretos de belleza ancestrales, utilizando plantas medicinales y minerales puros del desierto. Hoy, Dakhla Artisanal perpetúa este saber hacer para ofrecerte productos 100% naturales, auténticos y eficaces.',
+      stat1: '7+ Regiones', stat1s: 'del Sáhara Marroquí',
+      stat2: '50+ Artesanos', stat2s: 'Socios de confianza',
+      stat3: '100%', stat3s: 'Natural & Hecho a mano',
+    },
+    ingredients2: {
+      i1n: 'Toutia', i1o: 'Jebel Saghro, Sureste', i1d: 'Piedra ancestral con propiedades purificantes y desodorantes. Utilizada desde la Antigüedad.',
+      i2n: 'Argán Bio', i2o: 'Souss-Massa, Marruecos', i2d: 'El oro líquido de Marruecos. Nutre, protege e ilumina piel y cabello.',
+      i3n: 'Rosa de Damasco', i3o: 'Valle del Dadès', i3d: 'Reina de las flores. Hidrata en profundidad y calma la piel sensible.',
+      i4n: 'Aloe del Sáhara', i4o: 'Sáhara Marroquí', i4d: 'Gigante de la hidratación. Repara, cicatriza y refresca intensamente.',
+      i5n: 'Cúrcuma', i5o: 'Llanuras de Marrakech', i5d: 'Oro amarillo antiinflamatorio. Alivia las articulaciones y reduce la inflamación.',
+      i6n: 'Nigela', i6o: 'Cosechas rurales de Marruecos', i6d: 'La "semilla de bendición". Fortalece el cabello y potencia la inmunidad de forma natural.',
+    },
+    youtube: {
+      title: 'Secretos del Sáhara en vídeo',
+      sub: 'Únete a nuestra comunidad y descubre los secretos de belleza ancestrales del Sáhara Marroquí. Tutoriales, recetas naturales y el backstage de nuestros talleres.',
+      l1: 'Tutoriales de belleza', l2: 'Recetas naturales', l3: 'Backstage del taller', l4: 'Unboxing de productos',
+      btn: 'Ver el canal de YouTube',
     },
   },
 } as const;
