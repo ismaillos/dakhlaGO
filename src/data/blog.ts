@@ -18,14 +18,14 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     date: '2025-01-15',
     readTime: '9 min',
     category: 'Soins Corps',
-    image: '/images/toutia/toutia.jpg',
+    image: '/images/toutia.jpg',
     content: `## Transpiration Excessive : Un Problème Qui Gâche le Quotidien
 
 Vous évitez de lever les bras en public ? Vous changez de vêtements plusieurs fois par jour ? Vous utilisez des déodorants industriels sans résultat durable ? Vous n\'êtes pas seul(e).
 
 La transpiration excessive et les mauvaises odeurs corporelles touchent des millions de personnes au Maroc. Ce problème, souvent tabou, a des répercussions réelles sur la confiance en soi, les relations sociales et la qualité de vie.
 
-[IMAGE:/images/toutia/toutia.jpg]
+[IMAGE:/images/toutia.jpg]
 
 ## Pourquoi Transpire-t-on Autant ?
 
