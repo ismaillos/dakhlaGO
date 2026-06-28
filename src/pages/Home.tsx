@@ -72,11 +72,11 @@ function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#produits" className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.products}</a>
-          <a href="#story" className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.story}</a>
+          <button onClick={() => document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' })} className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.products}</button>
+          <button onClick={() => document.getElementById('story')?.scrollIntoView({ behavior: 'smooth' })} className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.story}</button>
           <Link to="/blog" className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.blog}</Link>
-          <a href="#avis" className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.reviews}</a>
-          <a href="#contact" className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.contact}</a>
+          <button onClick={() => document.getElementById('avis')?.scrollIntoView({ behavior: 'smooth' })} className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.reviews}</button>
+          <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.nav.contact}</button>
           {itemCount > 0 && (
             <button onClick={openModal} className="relative text-white/60 text-sm font-medium hover:text-[#E8732F] transition-colors">
               {t.nav.cart}
@@ -114,11 +114,11 @@ function Navbar() {
 
       {mobileOpen && (
         <div className="md:hidden bg-[#0A0A0A]/97 backdrop-blur-xl border-t border-white/[0.08] px-5 py-4 space-y-3">
-          <a href="#produits" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.products}</a>
-          <a href="#story" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.story}</a>
+          <button onClick={() => { setMobileOpen(false); document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' }); }} className="block text-white/60 text-sm py-2 w-full text-left">{t.nav.products}</button>
+          <button onClick={() => { setMobileOpen(false); document.getElementById('story')?.scrollIntoView({ behavior: 'smooth' }); }} className="block text-white/60 text-sm py-2 w-full text-left">{t.nav.story}</button>
           <Link to="/blog" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.blog}</Link>
-          <a href="#avis" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.reviews}</a>
-          <a href="#contact" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.contact}</a>
+          <button onClick={() => { setMobileOpen(false); document.getElementById('avis')?.scrollIntoView({ behavior: 'smooth' }); }} className="block text-white/60 text-sm py-2 w-full text-left">{t.nav.reviews}</button>
+          <button onClick={() => { setMobileOpen(false); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }} className="block text-white/60 text-sm py-2 w-full text-left">{t.nav.contact}</button>
         </div>
       )}
     </nav>
@@ -1039,7 +1039,7 @@ function Footer() {
         <div>
           <h4 className="text-white/50 text-xs uppercase tracking-[0.1em] mb-3.5 font-semibold">Liens</h4>
           <a href="#produits" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Produits</a>
-          <a href="#story" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Notre Histoire</a>
+          <button onClick={() => document.getElementById('story')?.scrollIntoView({ behavior: 'smooth' })} className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors text-left">Notre Histoire</button>
           <Link to="/blog" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Blog</Link>
           <a href="#avis" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Avis Clients</a>
         </div>
