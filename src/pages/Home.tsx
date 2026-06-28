@@ -150,7 +150,7 @@ function Hero() {
             <span className="text-white">{t.hero.line3}</span>
           </h1>
 
-          <p className="text-white/60 text-[16px] max-w-[460px] mb-8 leading-[1.75]">
+          <p className="text-white/50 text-[13px] max-w-[560px] mb-8 leading-[1.85]">
             {t.hero.sub}
           </p>
 
