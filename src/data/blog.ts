@@ -136,14 +136,14 @@ Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La n
     date: '2025-02-01',
     readTime: '10 min',
     category: 'Soins Cheveux',
-    image: '/images/spray-1.jpg',
+    image: '/images/shampoing-lifestyle-1.jpg',
     content: `## La Chute de Cheveux Chez la Femme : Un Drame Silencieux
 
 Vous trouvez des poignées de cheveux dans votre brosse chaque matin ? Votre chignon est de plus en plus fin ? Votre raie s\'élargit et votre cuir chevelu devient visible ? Ce n\'est pas dans votre tête — et vous n\'êtes pas seule.
 
 La chute de cheveux féminine touche près d\'une femme sur trois au Maroc, tous âges confondus. Contrairement aux hommes, chez la femme, ce phénomène est souvent diffus, global, et profondément lié à l\'équilibre hormonal et nutritionnel.
 
-[IMAGE:/images/spray-1.jpg]
+[IMAGE:/images/shampoing-lifestyle-1.jpg]
 
 ## Les Vraies Causes de la Chute de Cheveux Féminine
 
@@ -169,7 +169,7 @@ La chute de cheveux est souvent le premier signe visible d\'une carence :
 - Chaleur excessive (lisseur, sèche-cheveux)
 - Stress chronique (effluvium télogène)
 
-[IMAGE:/images/spray-2.jpg]
+[IMAGE:/images/shampoing-result-1.jpg]
 
 ## Les Conséquences d\'une Chute Non Traitée
 
@@ -185,7 +185,7 @@ Ne pas agir rapidement peut mener à :
 
 Le **Pack Anti-Chute** combine deux produits complémentaires pour une action double : en profondeur sur le cuir chevelu ET sur la fibre capillaire.
 
-### Spray Anti-Chute — 169 DH
+### Spray Anti-Chute
 
 Le **Spray Anti-Chute** est un fortifiant naturel à utilisation quotidienne. Il pénètre directement le cuir chevelu pour :
 - Stimuler la circulation sanguine au niveau des follicules
@@ -194,7 +194,7 @@ Le **Spray Anti-Chute** est un fortifiant naturel à utilisation quotidienne. Il
 
 **Application :** Vaporiser sur cuir chevelu sec ou légèrement humide, masser 2-3 minutes. Sans rinçage.
 
-### Shampoing Protéines Sans Sulfate — 179 DH
+### Shampoing Protéines Sans Sulfate
 
 Le **Shampoing Protéines** nettoie sans agresser. Sa formule sans sulfate :
 - Préserve le film hydrolipidique naturel du cuir chevelu
@@ -231,7 +231,9 @@ Consultez votre médecin avant tout traitement pendant la grossesse. En généra
 
 ## Commander le Pack Anti-Chute
 
-**Pack Anti-Chute (Spray + Shampoing) — 299 DH** | Économisez sur l\'achat groupé | Livraison partout au Maroc | Paiement à la livraison
+**[Commander le Pack Anti-Chute chez Dakhla Artisanal →](/#/produit/pack-anti-chute)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 Votre chevelure mérite mieux que de continuer à tomber. Agissez maintenant.
 
@@ -246,14 +248,14 @@ Votre chevelure mérite mieux que de continuer à tomber. Agissez maintenant.
     date: '2025-02-15',
     readTime: '10 min',
     category: 'Santé Naturelle',
-    image: '/images/floro-calm-1.jpg',
+    image: '/images/pack-floro-calm-lifestyle-1.jpg',
     content: `## Douleurs Articulaires : Quand Chaque Geste Devient une Épreuve
 
 Se lever le matin et sentir cette raideur douloureuse dans les genoux. Monter un escalier et grimacer. Tendre le bras et ressentir une douleur aiguë dans l\'épaule. Si vous vous reconnaissez dans ces situations, vous souffrez probablement de douleurs articulaires chroniques.
 
 Au Maroc, les rhumatismes et l\'arthrose touchent des millions de personnes, particulièrement après 40 ans. Et pourtant, beaucoup continuent de souffrir en silence, craignant les médicaments chimiques et leurs effets secondaires.
 
-[IMAGE:/images/floro-calm-1.jpg]
+[IMAGE:/images/pack-floro-calm-lifestyle-1.jpg]
 
 ## Comprendre les Douleurs Articulaires
 
@@ -274,7 +276,7 @@ Au Maroc, les rhumatismes et l\'arthrose touchent des millions de personnes, par
 - Inflammation chronique de bas grade liée à l\'alimentation
 - Hérédité et facteurs génétiques
 
-[IMAGE:/images/floro-calm-2.jpg]
+[IMAGE:/images/pack-floro-calm-result-1.jpg]
 
 ## Pourquoi les Anti-Inflammatoires Classiques Ne Suffisent Pas
 
@@ -288,7 +290,7 @@ Les AINS (ibuprofène, diclofénac) soulagent temporairement mais n\'agissent pa
 
 ## Pack Floro Calm : L\'Alliance Puissante Intérieur + Extérieur
 
-Le **Pack Floro Calm** (329 DH) combine deux produits complémentaires pour une action complète sur les articulations douloureuses.
+Le **Pack Floro Calm** combine deux produits complémentaires pour une action complète sur les articulations douloureuses.
 
 ### Floro Calm Capsules — Curcuma + Lin + Calcium
 
@@ -349,7 +351,9 @@ Non. L\'huile chauffante au camphre est contre-indiquée pendant la grossesse. C
 
 ## Commandez le Pack Floro Calm
 
-**Pack Floro Calm — 329 DH** (Capsules 60 + Huile 100ml) | Livraison partout au Maroc | Paiement à la livraison
+**[Commander le Pack Floro Calm chez Dakhla Artisanal →](/#/produit/pack-floro-calm)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 Votre corps mérite de bouger librement. Reprenez le contrôle sur votre douleur.
 
@@ -364,14 +368,14 @@ Votre corps mérite de bouger librement. Reprenez le contrôle sur votre douleur
     date: '2025-03-01',
     readTime: '9 min',
     category: 'Santé Naturelle',
-    image: '/images/vitamin-c-3.jpg',
+    image: '/images/elixir-maca-lifestyle-1.jpg',
     content: `## Fatigue Chronique : Quand L\'Épuisement Devient Votre Quotidien
 
 Vous dormez 8 heures et vous réveillez fatigué. Votre café du matin ne fait plus effet. Vous n\'avez plus d\'élan pour vos activités favorites. Chaque tâche vous demande un effort surhumain.
 
 Ce tableau clinique, vous le reconnaissez ? La fatigue chronique n\'est pas une faiblesse de caractère. C\'est un signal d\'alarme de votre corps qui réclame de l\'aide.
 
-[IMAGE:/images/vitamin-c-3.jpg]
+[IMAGE:/images/elixir-maca-lifestyle-1.jpg]
 
 ## Les Vraies Causes de la Fatigue Chronique
 
@@ -396,7 +400,7 @@ Ce tableau clinique, vous le reconnaissez ? La fatigue chronique n\'est pas une 
 - Déficit en testostérone chez l\'homme (après 35 ans)
 - Dérèglement de la glycémie (pics et chutes de sucre)
 
-[IMAGE:/images/vitamin-c-4.jpg]
+[IMAGE:/images/elixir-maca-energy-1.jpg]
 
 ## Conséquences d\'une Fatigue Non Traitée
 
@@ -411,7 +415,7 @@ Ignorer la fatigue chronique mène à :
 
 Deux compléments naturels puissants, chacun ciblant une dimension de votre énergie vitale.
 
-### Vitamin C + Spirulina — 159 DH
+### Vitamin C + Spirulina
 
 **Le duo immunité-énergie par excellence :**
 
@@ -420,7 +424,7 @@ Deux compléments naturels puissants, chacun ciblant une dimension de votre éne
 
 **Posologie :** 2 capsules par jour avec un grand verre d\'eau, de préférence le matin.
 
-### Elixir Maca — 189 DH
+### Elixir Maca
 
 **L\'adaptogène naturel pour une énergie durable :**
 
@@ -472,7 +476,9 @@ La spiruline est contre-indiquée en cas de phénylcétonurie. La maca est déco
 
 ## Commandez Votre Protocole Énergie
 
-**Vitamin C + Spirulina — 159 DH** | **Elixir Maca — 189 DH** | Livraison partout au Maroc | Paiement à la livraison
+**[Commander chez Dakhla Artisanal →](/#/produit/vitamin-c-spirulina)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 Votre énergie n\'attend pas. Reprenez le contrôle de votre vitalité dès aujourd\'hui.
 
@@ -487,14 +493,14 @@ Votre énergie n\'attend pas. Reprenez le contrôle de votre vitalité dès aujo
     date: '2025-03-15',
     readTime: '9 min',
     category: 'Beauté Naturelle',
-    image: '/images/v-eclat-3.jpg',
+    image: '/images/v-eclat-lifestyle-1.jpg',
     content: `## Peau Terne et Taches : Pourquoi Votre Éclat Naturel Disparaît
 
 Vous regardez dans le miroir et vous ne reconnaissez plus votre peau. Ce teint gris, ces taches brunes qui s\'étendent, ces pores béants, cette texture inégale... La peau terne est l\'un des problèmes esthétiques les plus frustrants car il donne l\'air fatigué, vieilli, même quand on va bien.
 
 Au Maroc, l\'exposition solaire intense, l\'eau calcaire, la pollution et le stress quotidien accélèrent le vieillissement cutané et la formation de taches.
 
-[IMAGE:/images/v-eclat-3.jpg]
+[IMAGE:/images/v-eclat-lifestyle-1.jpg]
 
 ## Pourquoi la Peau Perd Son Éclat ?
 
@@ -513,7 +519,7 @@ Au Maroc, l\'exposition solaire intense, l\'eau calcaire, la pollution et le str
 - Stress oxydatif et inflammation silencieuse
 - Manque de collagène après 30 ans
 
-[IMAGE:/images/v-eclat-4.jpg]
+[IMAGE:/images/v-eclat-result-1.jpg]
 
 ## L\'Erreur Que Beaucoup Font
 
@@ -526,7 +532,7 @@ Utiliser des produits éclaircissants à base d\'hydroquinone ou de mercure (ile
 
 ## Le Duo Éclat : V-Eclat Sérum + Bio Eclat B8
 
-### V-Eclat Sérum — Vitamine C + Acide Hyaluronique — 189 DH
+### V-Eclat Sérum — Vitamine C + Acide Hyaluronique
 
 Le **Sérum V-Eclat** est votre allié éclat quotidien :
 
@@ -536,7 +542,7 @@ Le **Sérum V-Eclat** est votre allié éclat quotidien :
 
 **Application :** 2-3 gouttes sur visage propre, matin et/ou soir. Laisser pénétrer avant la crème hydratante.
 
-### Bio Eclat B8 — Glutathion + Collagène + Spiruline + Biotine — 229 DH
+### Bio Eclat B8 — Glutathion + Collagène + Spiruline + Biotine
 
 Le **Bio Eclat B8** agit de l\'intérieur pour une beauté rayonnante durable :
 
@@ -588,7 +594,9 @@ Le mélasma est une hyperpigmentation hormonale profonde. Ce protocole aide à l
 
 ## Commandez le Duo Éclat
 
-**V-Eclat Sérum — 189 DH** + **Bio Eclat B8 — 229 DH** | Livraison partout au Maroc | Paiement à la livraison
+**[Commander chez Dakhla Artisanal →](/#/produit/v-eclat)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 Votre peau lumineuse existe encore. Il suffit de lui donner les bons outils pour réapparaître.
 
@@ -603,7 +611,7 @@ Votre peau lumineuse existe encore. Il suffit de lui donner les bons outils pour
     date: '2025-03-28',
     readTime: '9 min',
     category: 'Bien-être',
-    image: '/images/tranquilysse-3.jpg',
+    image: '/images/tranquilysse-sleep-1.jpg',
     content: `## Stress et Insomnie : Le Duo Infernal du XXIe Siècle
 
 Il est 2h du matin. Vous êtes allongé dans votre lit, les yeux grands ouverts. Votre cerveau passe en revue la journée, les soucis de demain, les factures à payer. Le silence de la nuit amplifie chaque pensée négative.
@@ -612,7 +620,7 @@ Le lendemain, épuisé, vous affrontez une nouvelle journée stressante. Et le s
 
 Le stress chronique et l\'insomnie forment un cercle vicieux qui détruit progressivement votre santé physique et mentale. Au Maroc, ce problème est en forte augmentation, notamment chez les actifs entre 25 et 55 ans.
 
-[IMAGE:/images/tranquilysse-3.jpg]
+[IMAGE:/images/tranquilysse-sleep-1.jpg]
 
 ## Comment le Stress Devient Chronique
 
@@ -632,7 +640,7 @@ Le problème : notre cerveau ne distingue pas un tigre d\'un email urgent. Il r�
 6. Dépression réactionnelle
 7. Accélération du vieillissement cellulaire
 
-[IMAGE:/images/tranquilysse-4.jpg]
+[IMAGE:/images/tranquilysse-relax-1.jpg]
 
 ## Les Somnifères : Une Fausse Solution
 
@@ -646,7 +654,7 @@ Les benzodiazépines (lexomil, xanax, stilnox) créent rapidement une dépendanc
 
 ## Tranquilysse : La Formule Anti-Stress Naturelle
 
-**Tranquilysse** (189 DH) est une formule synergique de trois plantes adaptogènes scientifiquement reconnues pour leur action sur le système nerveux.
+**Tranquilysse** est une formule synergique de trois plantes adaptogènes scientifiquement reconnues pour leur action sur le système nerveux.
 
 ### Les 3 Actifs Puissants
 
@@ -700,7 +708,9 @@ Déconseillé en dessous de 18 ans sans avis médical. Les adultes et seniors en
 
 ## Commandez Tranquilysse
 
-**Tranquilysse — 189 DH** | 60 capsules | Livraison partout au Maroc | Paiement à la livraison
+**[Commander Tranquilysse chez Dakhla Artisanal →](/#/produit/tranquilysse)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 Votre cerveau mérite le repos. Votre corps mérite la sérénité. Agissez naturellement.
 
@@ -715,14 +725,14 @@ Votre cerveau mérite le repos. Votre corps mérite la sérénité. Agissez natu
     date: '2025-04-10',
     readTime: '8 min',
     category: 'Beauté Naturelle',
-    image: '/images/eclat-artisan-3.jpg',
+    image: '/images/eclat-artisan-lifestyle-1.jpg',
     content: `## L\'Acné : Bien Plus Qu\'un Problème de Peau
 
 Un bouton qui apparaît la veille d\'un entretien. Un front couvert de points noirs malgré des soins quotidiens. Ces plaques rouges douloureuses sur les joues que vous essayez de camoufler sous du maquillage.
 
 L\'acné n\'est pas qu\'un problème esthétique. Elle impacte profondément l\'estime de soi, les relations sociales et la qualité de vie. Au Maroc, elle touche principalement les adolescents, mais 30% des adultes en souffrent encore après 25 ans.
 
-[IMAGE:/images/eclat-artisan-3.jpg]
+[IMAGE:/images/eclat-artisan-lifestyle-1.jpg]
 
 ## Pourquoi Votre Peau Fait de l\'Acné ?
 
@@ -742,7 +752,7 @@ L\'acné se forme quand :
 - **Cosmétiques comédogènes** : crèmes trop grasses qui bouchent les pores
 - **Alimentation** : manque d\'eau, de fibres et d\'antioxydants
 
-[IMAGE:/images/eclat-artisan-4.jpg]
+[IMAGE:/images/eclat-artisan-result-1.jpg]
 
 ## L\'Erreur des Produits Agressifs
 
@@ -755,7 +765,7 @@ Beaucoup utilisent des produits desséchants (alcool, benzoyle peroxyde à haute
 
 ## Eclat D\'Artisan : La Purification Naturelle
 
-**Eclat D\'Artisan** (159 DH) combine deux actifs purifiants reconnus dans une formule douce pour peau acnéique.
+**Eclat D\'Artisan** combine deux actifs purifiants reconnus dans une formule douce pour peau acnéique.
 
 ### Charbon Actif Végétal
 
@@ -821,7 +831,9 @@ Eclat D\'Artisan est formulé avec une association charbon + acide salicylique o
 
 ## Commandez Eclat D\'Artisan
 
-**Eclat D\'Artisan — 159 DH** | Livraison partout au Maroc | Paiement à la livraison
+**[Commander Eclat D\'Artisan chez Dakhla Artisanal →](/#/produit/eclat-artisan)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 Une peau nette n\'est pas un luxe. C\'est votre droit. Commencez votre transformation aujourd\'hui.
 
@@ -836,7 +848,7 @@ Une peau nette n\'est pas un luxe. C\'est votre droit. Commencez votre transform
     date: '2025-04-25',
     readTime: '10 min',
     category: 'Beauté Naturelle',
-    image: '/images/retinol-pack-1.jpg',
+    image: '/images/retinol-lifestyle-1.jpg',
     content: `## Les Rides : Le Signe du Temps Que Vous Pouvez Ralentir
 
 À 35 ans, vous remarquez les premières rides d\'expression. À 45 ans, votre peau a perdu cette fermeté et cet éclat de vos 25 ans. La patte d\'oie s\'installe, le sillon naso-labial se creuse, l\'ovale du visage commence à se relâcher.
@@ -845,7 +857,7 @@ Le vieillissement cutané est inévitable. Son accélération, elle, peut être 
 
 Au Maroc, le soleil intense, la chaleur et les écarts hydriques accélèrent considérablement ce processus. Une Marocaine de 40 ans peut paraître 10 ans plus âgée qu\'une Européenne du même âge si elle n\'adopte pas une routine anti-âge adaptée.
 
-[IMAGE:/images/retinol-pack-1.jpg]
+[IMAGE:/images/retinol-lifestyle-1.jpg]
 
 ## Comprendre le Vieillissement Cutané
 
@@ -863,7 +875,7 @@ Au Maroc, le soleil intense, la chaleur et les écarts hydriques accélèrent co
 3. **Rides de déshydratation** : peau fine et ridée par manque d\'eau
 4. **Rides solaires** : vieillissement photo-induit (le plus fréquent au Maroc)
 
-[IMAGE:/images/retinol-pack-2.jpg]
+[IMAGE:/images/retinol-result-1.jpg]
 
 ## Pourquoi le Rétinol Est le Gold Standard Anti-Âge
 
@@ -875,7 +887,7 @@ Le rétinol (vitamine A) est l\'actif anti-âge le plus documenté scientifiquem
 - Régule la mélanine (estompe les taches)
 - Resserre les pores dilatés
 
-## Pack Rétinol Dakhla Artisanal — 299 DH
+## Pack Rétinol Dakhla Artisanal
 
 Le **Pack Rétinol** associe deux formules complémentaires pour une action anti-âge complète.
 
@@ -941,7 +953,9 @@ Oui, mais séparez-les : vitamine C le matin, rétinol le soir. Les utiliser ens
 
 ## Commandez le Pack Rétinol
 
-**Pack Rétinol (Sérum 30ml + Crème 50ml) — 299 DH** | Livraison partout au Maroc | Paiement à la livraison
+**[Commander le Pack Rétinol chez Dakhla Artisanal →](/#/produit/pack-retinol)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 Le temps passe. Votre peau n\'est pas obligée de suivre.
 
@@ -956,14 +970,14 @@ Le temps passe. Votre peau n\'est pas obligée de suivre.
     date: '2025-05-10',
     readTime: '10 min',
     category: 'Santé Naturelle',
-    image: '/images/cycle-bio-3.jpg',
+    image: '/images/cycle-bio-lifestyle-1.jpg',
     content: `## Dérèglement Hormonal Féminin : Quand Votre Corps Envoie des Signaux
 
 Règles qui n\'arrivent pas, ou qui arrivent deux fois par mois. Douleurs pelviennes qui clouent au lit. Syndrome prémenstruel débilitant : larmes, irritabilité, ballonnements, seins douloureux. Prise de poids inexpliquée, acné cyclique, fatigue extrême en milieu de cycle.
 
 Ces symptômes ne sont pas "normaux" et ne doivent pas être ignorés. Ils signalent un déséquilibre hormonal que votre corps essaie désespérément de corriger.
 
-[IMAGE:/images/cycle-bio-3.jpg]
+[IMAGE:/images/cycle-bio-lifestyle-1.jpg]
 
 ## Comprendre le Déséquilibre Hormonal Féminin
 
@@ -985,7 +999,7 @@ Quand l\'une déraille, toute l\'orchestration est perturbée.
 5. **Thyroïde** : toute dysfonction thyroïdienne dérègle le cycle
 6. **Excès ou insuffisance de poids** : le tissu adipeux produit des œstrogènes
 
-[IMAGE:/images/cycle-bio-4.jpg]
+[IMAGE:/images/cycle-bio-energy-1.jpg]
 
 ## Les Conséquences d\'un Cycle Irrégulier Non Traité
 
@@ -997,7 +1011,7 @@ Quand l\'une déraille, toute l\'orchestration est perturbée.
 
 ## Cycle Bio : La Régulation Hormonale par les Plantes
 
-**Cycle Bio** (199 DH) est une formule phytothérapeutique de trois plantes adaptogènes spécifiquement choisies pour leur action sur le cycle féminin.
+**Cycle Bio** est une formule phytothérapeutique de trois plantes adaptogènes spécifiquement choisies pour leur action sur le cycle féminin.
 
 ### Qust Hindi (Costus Indien)
 
@@ -1063,7 +1077,9 @@ Oui, la sauge est particulièrement efficace pour les symptômes ménopausiques 
 
 ## Commandez Cycle Bio
 
-**Cycle Bio — 199 DH** | 60 capsules | Livraison partout au Maroc | Paiement à la livraison
+**[Commander Cycle Bio chez Dakhla Artisanal →](/#/produit/cycle-bio)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 Votre cycle est le reflet de votre équilibre. Prenez-en soin naturellement.
 
@@ -1078,14 +1094,14 @@ Votre cycle est le reflet de votre équilibre. Prenez-en soin naturellement.
     date: '2025-05-25',
     readTime: '9 min',
     category: 'Soins Corps',
-    image: '/images/eclarte-3.jpg',
+    image: '/images/eclarte-lifestyle-1.jpg',
     content: `## Soin Intime Féminin : Un Sujet Encore Trop Tabou
 
 Les démangeaisons intimes qui reviennent chaque mois. Cette odeur légère mais persistante qui génère de l\'anxiété. La peau intime assombrie ou irritée. Les pertes vaginales anormales qui perturbent le quotidien.
 
 Ces problèmes, des millions de femmes au Maroc les vivent en silence. La pudeur et la honte créent souvent un retard dans la prise en charge, alors que des solutions naturelles, douces et efficaces existent.
 
-[IMAGE:/images/eclarte-3.jpg]
+[IMAGE:/images/eclarte-lifestyle-1.jpg]
 
 ## Les Problèmes Intimes les Plus Fréquents Chez la Femme
 
@@ -1106,7 +1122,7 @@ L\'hyperpigmentation des zones intimes (vulve, aine, entre les cuisses) est trè
 - Hyperpigmentation post-inflammatoire
 - Facteurs hormonaux (grossesse, pilule)
 
-[IMAGE:/images/eclarte-4.jpg]
+[IMAGE:/images/eclarte-result-1.jpg]
 
 ### Sécheresse et Inconfort Intime
 
@@ -1117,7 +1133,7 @@ Particulièrement après l\'accouchement, pendant l\'allaitement, à la péri-m�
 
 ## Le Protocole Naturel 3 Produits Dakhla Artisanal
 
-### Eclarte Gel Intime — Aloe + Lavande + Arbre à Thé — 149 DH
+### Eclarte Gel Intime — Aloe + Lavande + Arbre à Thé
 
 **Eclarte Gel Intime** est votre soin quotidien de base. Formulé à pH neutre pour respecter l\'écosystème vaginal :
 
@@ -1128,7 +1144,7 @@ Particulièrement après l\'accouchement, pendant l\'allaitement, à la péri-m�
 
 **Utilisation :** 1 fois par jour à la toilette, sur les parties externes uniquement. Ne jamais utiliser à l\'intérieur du vagin.
 
-### Spray Rawnaq — Herbes Sahariennes — 159 DH
+### Spray Rawnaq — Herbes Sahariennes
 
 **Spray Rawnaq** est un soin déodorant et assainissant formulé avec des herbes sahariennes traditionnelles :
 - Neutralise les odeurs intimes sans perturber la flore
@@ -1138,7 +1154,7 @@ Particulièrement après l\'accouchement, pendant l\'allaitement, à la péri-m�
 
 **Utilisation :** vaporiser sur zone intime propre et sèche. Usage externe uniquement.
 
-### Serum Zone Intime — Acide Glycolique + Aloe + Vitamine C — 159 DH
+### Serum Zone Intime — Acide Glycolique + Aloe + Vitamine C
 
 **Serum Zone Intime** est votre soin éclaircissant et régénérant :
 
@@ -1185,9 +1201,9 @@ Oui, Eclarte Gel Intime est idéal après épilation : il apaise, hydrate et pr�
 
 ## Commandez Votre Protocole Intime
 
-**Eclarte Gel Intime — 149 DH** | **Spray Rawnaq — 159 DH** | **Serum Zone Intime — 159 DH**
+**[Commander chez Dakhla Artisanal →](/#/produit/eclarte)**
 
-Livraison discrète partout au Maroc | Paiement à la livraison | Emballage neutre
+Livraison discrète · Emballage neutre · Paiement à la livraison
 
 Prenez soin de vous avec respect et bienveillance. Vous le méritez.
 
@@ -1202,7 +1218,7 @@ Prenez soin de vous avec respect et bienveillance. Vous le méritez.
     date: '2025-06-20',
     readTime: '7 min',
     category: 'Soins Cheveux',
-    image: '/images/biotin-1.jpg',
+    image: '/images/biotin/biotin-lifestyle-1.jpg',
     content: `## MAX Biotin : Le Produit Marocain qui Fait le Buzz
 
 **MAX Biotin** est devenu le **produit capillaire le plus buzzé au Maroc**. Ce complement alimentaire 100% naturel, riche en biotine et aux herbes sahariennes, promet des cheveux forts, une pousse acceleree et une beauté naturelle.
@@ -1287,9 +1303,9 @@ Les retours sont tres positifs. Les utilisatrices marocaines apprecient particul
 
 **MAX Biotin** est disponible en livraison **partout au Maroc** avec **paiement a la livraison**.
 
-- **Prix : 119 DH** (au lieu de 229 DH)
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** des 2 produits
+**[Commander MAX Biotin chez Dakhla Artisanal →](/#/produit/max-biotin)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 ## Notre Avis sur MAX Biotin
 
@@ -1315,7 +1331,7 @@ Sa formule naturelle, certifiee ISO, fabriquee au Maroc, en fait un **produit de
     date: '2025-07-25',
     readTime: '6 min',
     category: 'Soins Sante',
-    image: '/images/hemorcalm-3.jpg',
+    image: '/images/hemorcalm-lifestyle-1.jpg',
     content: `## Hemorcalm : Soulagement Naturel des Hemorroides
 
 **Hemorcalm** est le **spray naturel le plus efficace au Maroc** pour soulager les hemorroides. Sa formule 100% naturelle a base de menthe poivree, ricin, girofle et acide salicylique calme la douleur, reduit l\'inflammation et apaise les demangeaisons des la premiere application.
@@ -1409,10 +1425,9 @@ Oui, Hemorcalm est 100% naturel et peut etre utilise en complement d\'autres tra
 
 **Hemorcalm** est disponible en livraison **partout au Maroc** avec **paiement a la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 50ml**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** des 2 produits
+**[Commander Hemorcalm chez Dakhla Artisanal →](/#/produit/hemorcalm)**
+
+Livraison partout au Maroc · Paiement à la livraison
 
 ## Notre Avis sur Hemorcalm
 
@@ -1438,7 +1453,7 @@ Sa formule 100% naturelle avec menthe poivree et ricin en fait un **produit de c
     date: '2025-07-22',
     readTime: '6 min',
     category: 'Bien-etre',
-    image: '/images/tranquilysse-3.jpg',
+    image: '/images/tranquilysse-sleep-1.jpg',
     content: `## Tranquilysse : Dormez en Paix, Reveillez-Vous en Forme
 
 **Tranquilysse** est le **complement anti-stress et sommeil le plus efficace au Maroc**. Sa formule 100% naturelle a base de Passiflore, Valeriane, Melisse et Zinc favorise un sommeil profond et reparateur, pour un reveil frais et dynamique.
@@ -1530,10 +1545,6 @@ Si vous prenez des medicaments, notamment des sedatifs ou des antidepresseurs, *
 
 **Tranquilysse** est disponible en livraison **partout au Maroc** avec **paiement a la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 60 capsules** (1 a 2 mois selon dosage)
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** des 2 produits
 
 ## Notre Avis sur Tranquilysse
 
@@ -1559,7 +1570,7 @@ Sa formule 100% naturelle avec Passiflore et Valeriane, certifiee ISO + CMP + FD
     date: '2025-07-20',
     readTime: '7 min',
     category: 'Soins Visage',
-    image: '/images/retinol-pack-1.jpg',
+    image: '/images/retinol-lifestyle-1.jpg',
     content: `## Pack Rétinol : Le Duo Anti-Âge Ultime
 
 **Le Pack Rétinol** est le **duo anti-âge le plus efficace au Maroc**. Composé d'un sérum concentré (30ml) et d'une crème nourrissante (50ml), ce pack naturel stimule le renouvellement cellulaire, réduit les rides et unifie le teint.
@@ -1663,11 +1674,6 @@ Il est recommandé de **consulter votre médecin** avant d'utiliser des produits
 
 **Le Pack Rétinol** est disponible en livraison **partout au Maroc** avec **paiement à la livraison**.
 
-- **Prix : 349 DH** (au lieu de 458 DH)
-- **Économisez : 109 DH**
-- **Contenance : Sérum 30ml + Crème 50ml**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** dès 2 produits
 
 ## Notre Avis sur le Pack Rétinol
 
@@ -1693,7 +1699,7 @@ Sa formule naturelle avec Rétinol, Aloe vera et Vitamine C en fait un **produit
     date: '2025-07-18',
     readTime: '6 min',
     category: 'Soins Peau',
-    image: '/images/bio-eclat-3.jpg',
+    image: '/images/bio-eclat-lifestyle-1.jpg',
     content: `## Bio Eclat B8 : L'Éclat Naturel de Votre Corps
 
 **Bio Eclat B8** est le **complément éclaircissant corps le plus efficace au Maroc**. Cette formule 100% naturelle, riche en Glutathion, Collagène, Spiruline et Biotine, unifie le teint, réduit les taches sombres et améliore l'élasticité de la peau.
@@ -1784,10 +1790,6 @@ Non, Bio Eclat B8 est 100% naturel et généralement bien toléré. En cas de r�
 
 **Bio Eclat B8** est disponible en livraison **partout au Maroc** avec **paiement à la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 60 capsules**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** dès 2 produits
 
 ## Notre Avis sur Bio Eclat B8
 
@@ -1813,7 +1815,7 @@ Sa formule unique avec Glutathion et Collagène en fait un **produit de confianc
     date: '2025-07-15',
     readTime: '6 min',
     category: 'Bien-etre Feminin',
-    image: '/images/cycle-bio-3.jpg',
+    image: '/images/cycle-bio-lifestyle-1.jpg',
     content: `## Cycle Bio : Retrouvez l'Equilibre Hormonal au Naturel
 
 **Cycle Bio** est le **regulateur hormonal naturel le plus efficace au Maroc pour les femmes**. Cette formule 100% naturelle, a base de Qust Hindi, Sauge, Gattilier et Aubepine, regule les cycles menstruels, soulage les douleurs et ameliore l'humeur.
@@ -1904,10 +1906,6 @@ Non, Cycle Bio est 100% naturel et generalement bien tolere. En cas de reaction 
 
 **Cycle Bio** est disponible en livraison **partout au Maroc** avec **paiement a la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 60 capsules**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** des 2 produits
 
 ## Notre Avis sur Cycle Bio
 
@@ -1933,7 +1931,7 @@ Sa formule unique avec Qust Hindi et Gattilier, inspiree des traditions saharien
     date: '2025-07-12',
     readTime: '5 min',
     category: 'Maquillage Naturel',
-    image: '/images/blush-3.jpg',
+    image: '/images/blush-lifestyle-1.jpg',
     content: `## Blush Laaker-El-Fassi : La Rosee Naturelle du Sahara
 
 **Blush Laaker-El-Fassi** est le **blush naturel le plus authentique au Maroc**. A base d'Alkhar Fassi, ce pigment vegetal traditionnel utilise depuis des siecles par les femmes du Sud Marocain, ce blush donne un teint rose naturel et durable aux joues et aux levres.
@@ -2021,10 +2019,6 @@ Utilisez simplement **un demaquillant doux** ou de l'huile de coco pour dissoudr
 
 **Blush Laaker-El-Fassi** est disponible en livraison **partout au Maroc** avec **paiement a la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 30ml** (dure plusieurs mois)
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** dès 2 produits
 
 ## Notre Avis sur le Blush Laaker-El-Fassi
 
@@ -2050,7 +2044,7 @@ Sa formule authentique a base d'Alkhar Fassi, utilisee depuis des siecles, en fa
     date: '2025-07-05',
     readTime: '6 min',
     category: 'Soins Visage',
-    image: '/images/v-eclat-3.jpg',
+    image: '/images/v-eclat-lifestyle-1.jpg',
     content: `## Sérum V-Eclat : L'Éclat Naturel de Votre Peau
 
 **Sérum V-Eclat** est le **sérum blanchissant du visage le plus efficace au Maroc**. Cette formule 100% naturelle, enrichie en Vitamine C et Acide Hyaluronique, unifie le teint, réduit les taches sombres et apporte un éclat naturel à la peau.
@@ -2143,10 +2137,6 @@ Il est recommandé de **consulter votre médecin** avant d'utiliser tout produit
 
 **Sérum V-Eclat** est disponible en livraison **partout au Maroc** avec **paiement à la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 50ml**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** dès 2 produits
 
 ## Notre Avis sur Sérum V-Eclat
 
@@ -2172,7 +2162,7 @@ Sa formule 100% naturelle avec Vitamine C et Acide Hyaluronique en fait un **pro
     date: '2025-07-10',
     readTime: '6 min',
     category: 'Bien-etre',
-    image: '/images/elixir-maca-3.jpg',
+    image: '/images/elixir-maca-lifestyle-1.jpg',
     content: `## ELIXIR MACA : Le Secret de l'Energie et de l'Endurance
 
 **ELIXIR MACA** est le **complement energie le plus puissant au Maroc**. Cette formule 100% naturelle combine la Maca peruvienne et les herbes sahariennes pour augmenter l'energie, favoriser la sante sexuelle et reduire les fluctuations hormonales.
@@ -2262,10 +2252,6 @@ Si vous prenez des medicaments ou avez des problemes de sante, **consultez votre
 
 **ELIXIR MACA** est disponible en livraison **partout au Maroc** avec **paiement a la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 60 capsules** (1 mois de cure)
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** des 2 produits
 
 ## Notre Avis sur ELIXIR MACA
 
@@ -2292,7 +2278,7 @@ Sa formule unique avec Maca peruvienne et herbes sahariennes, certifiee ISO + GM
     date: '2025-06-25',
     readTime: '8 min',
     category: 'Bien-etre',
-    image: '/images/floro-calm-3.jpg',
+    image: '/images/pack-floro-calm-lifestyle-1.jpg',
     content: `## Floro Calm : Dites Adieu aux Douleurs Articulaires
 
 **Floro Calm** est le **ménagement articulations le plus efficace au Maroc**. Ce complément alimentaire 100% naturel, enrichi aux herbes sahariennes, apporte un soulagement durable des douleurs articulaires et améliore la mobilité.
@@ -2405,10 +2391,6 @@ Il est recommandé de **consulter votre médecin** avant utilisation pendant la 
 
 **Floro Calm** est disponible en livraison **partout au Maroc** avec **paiement à la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 60 capsules** (1 mois de cure)
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** dès 2 produits
 
 ## Notre Avis sur Floro Calm
 
@@ -2435,7 +2417,7 @@ Sa formule naturelle avec Curcuma, Graines de Lin, Calcium et Fluor en fait un *
     date: '2025-07-08',
     readTime: '7 min',
     category: 'Soins Peau',
-    image: '/images/psoriasis-3.jpg',
+    image: '/images/psoriasis-lifestyle-1.jpg',
     content: `## Serum Psoriasis : Soulagez Votre Peau Naturellement
 
 **Serum Psoriasis** est le **serum reparateur le plus efficace au Maroc** contre le psoriasis. Cette formule 100% naturelle, aux herbes sahariennes et huiles essentielles, calme les demangeaisons, reduit les rougeurs et redonne confort a la peau.
@@ -2528,10 +2510,6 @@ Le serum est recommande pour les **adultes et adolescents de plus de 12 ans**. P
 
 **Serum Psoriasis** est disponible en livraison **partout au Maroc** avec **paiement a la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 100ml**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** des 2 produits
 
 ## Notre Avis sur le Serum Psoriasis
 
@@ -2557,7 +2535,7 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
     date: '2025-07-02',
     readTime: '6 min',
     category: 'Soins Intimes',
-    image: '/images/rawnaq-3.jpg',
+    image: '/images/rawnaq-lifestyle-1.jpg',
     content: `## Spray Rawnaq : Retrouvez Confiance et Fraicheur au Naturel
 
 **Spray Rawnaq** est le **spray intime naturel le plus innovant au Maroc**. Cette formule 100% naturelle, aux herbes sahariennes et huiles essentielles, aide a renforcer la tonicité des tissus et procure une sensation de raffermissement naturel pour un confort intime optimal.
@@ -2649,10 +2627,6 @@ Non, le spray est 100% naturel. En cas de reaction inhabituelle, cessez l'utilis
 
 **Spray Rawnaq** est disponible en livraison **partout au Maroc** avec **paiement a la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 100ml**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** des 2 produits
 
 ## Notre Avis sur Spray Rawnaq
 
@@ -2678,7 +2652,7 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
     date: '2025-06-30',
     readTime: '6 min',
     category: 'Soins Intimes',
-    image: '/images/eclarte-3.jpg',
+    image: '/images/eclarte-lifestyle-1.jpg',
     content: `## Eclarte Gel Intime : La Fraîcheur Naturelle au Quotidien
 
 **Eclarte Gel Intime** est le **gel d'hygiène intime le plus apprécié au Maroc**. Cette formule 100% naturelle, enrichie en Aloe vera, Lavande et Arbre à Thé, assure un nettoyage doux, une hydratation profonde et une fraîcheur durable pour la zone intime.
@@ -2769,10 +2743,6 @@ Dès la **première utilisation**, vous ressentirez un confort et une fraîcheur
 
 **Eclarte Gel Intime** est disponible en livraison **partout au Maroc** avec **paiement à la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 125ml** (2 mois d'utilisation)
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** dès 2 produits
 
 ## Notre Avis sur Eclarte Gel Intime
 
@@ -2798,7 +2768,7 @@ Sa formule 100% naturelle, à pH neutre et sans produits chimiques en fait un **
     date: '2025-06-22',
     readTime: '7 min',
     category: 'Soins Cheveux',
-    image: '/images/masque-1.jpg',
+    image: '/images/masque/masque-lifestyle-1.jpg',
     content: `## Masque Trésor du Désert : Le Secret des Cheveux Parfaits
 
 **Le Masque Trésor du Désert** est devenu le **masque cheveux le plus apprécié au Maroc**. Cette formule 100% naturelle aux actifs du Sahara Marocain — **Cacao, Karité et Huile de Coco** — promet une hydratation profonde, une réparation intense et une brillance naturelle.
@@ -2889,9 +2859,6 @@ Le pot de **200g** contient environ **8 à 10 applications**, selon la longueur 
 
 **Le Masque Trésor du Désert** est disponible en livraison **partout au Maroc** avec **paiement à la livraison**.
 
-- **Prix : 229 DH**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** dès 2 produits
 
 ## Notre Avis sur le Masque Trésor du Désert
 
@@ -2963,7 +2930,6 @@ Ce produit naturel est d'une efficacite remarquable au fil de la journee. C'est 
 
 La **Toutia Ismailiya Dakhla Artisanal** est disponible en livraison partout au Maroc avec **paiement a la livraison**. Commandez directement sur WhatsApp au **+212 677 031 561**.
 
-**Prix : 199 DH** au lieu de 338 DH — Profitez de la promotion !
 
 ---
 
@@ -2976,7 +2942,7 @@ La **Toutia Ismailiya Dakhla Artisanal** est disponible en livraison partout au 
     date: '2025-06-28',
     readTime: '7 min',
     category: 'Soins Cheveux',
-    image: '/images/shampoing-proteines-3.jpg',
+    image: '/images/shampoing-lifestyle-1.jpg',
     content: `## Shampoing aux Protéines Trésor du Désert : Le Secret des Cheveux Parfaits
 
 **Le Shampoing aux Protéines Trésor du Désert** est devenu le **shampoing naturel le plus apprécié au Maroc**. Cette formule 100% naturelle, riche en protéines et aux herbes sahariennes, promet des cheveux forts, brillants et pleins de vie.
@@ -3067,10 +3033,6 @@ Non, ce shampoing est 100% naturel et ne provoque aucun effet secondaire. En cas
 
 **Le Shampoing aux Protéines Trésor du Désert** est disponible en livraison **partout au Maroc** avec **paiement à la livraison**.
 
-- **Prix : 229 DH**
-- **Contenance : 150ml**
-- **Commande par WhatsApp** : +212 677 031 561
-- **Livraison gratuite** dès 2 produits
 
 ## Notre Avis sur le Shampoing aux Protéines
 
@@ -3097,7 +3059,7 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
     date: '2025-06-08',
     readTime: '6 min',
     category: 'Soins Cheveux',
-    image: '/images/shampoing.jpg',
+    image: '/images/shampoing-lifestyle-1.jpg',
     content: `## Le Meilleur Shampoing Naturel Anti-Chute au Maroc
 
 La perte de cheveux est un problème courant au Maroc à cause de l'eau dure, du stress et de la pollution. Le **Secret d'Atlas Shampoing** est le **meilleur shampoing naturel anti-chute** du Maroc avec triple certification **ISO + GMP + OCP**.
@@ -3126,12 +3088,9 @@ Le **Secret d'Atlas Shampoing Anti-Chute** est formulé avec les herbes précieu
 
 Le **Shampoing aux Protéines Trésor du Désert** complète parfaitement le Secret d'Atlas. Riche en aloe vera et en kératine végétale, il rend les cheveux brillants et soyeux.
 
-**Prix : 199 DH** pour le Shampoing Protéines
-**Prix : 229 DH** pour le Secret d'Atlas Shampoing
 
 ## Pack Promo Shampoing + Sérum
 
-Profitez du **Pack Duo Cheveux** : Sérum Hydratant 60ml + Shampoing Protéines 150ml pour seulement **299 DH** au lieu de 428 DH ! Économisez 129 DH !
 
 ## Comment Commander ?
 
@@ -3148,7 +3107,7 @@ Livraison partout au Maroc avec paiement à la livraison. Contactez-nous sur Wha
     date: '2025-06-15',
     readTime: '5 min',
     category: 'Bien-être',
-    image: '/images/floro-1.jpg',
+    image: '/images/floro/floro-massage-1.jpg',
     content: `## Huile de Massage Naturelle pour Douleurs Articulaires
 
 Les douleurs musculaires et articulaires touchent des millions de personnes au Maroc. **Floro Calm Huile** est une **huile de massage naturelle** aux actifs chauffants qui soulage efficacement les douleurs.
@@ -3178,7 +3137,6 @@ Contrairement aux crèmes chimiques, le **Floro Calm** agit naturellement. L'eff
 
 Découvrez aussi le **Spray Anti-Chute Secret d'Atlas** pour compléter votre routine bien-être. Formule aux extraits de romarin et menthe poivrée.
 
-**Pack Promo :** Spray Anti-Chute 100ml + Shampoing Anti-Chute 150ml = **349 DH** seulement !
 
 ## Comment Utiliser Floro Calm ?
 
@@ -3188,7 +3146,6 @@ Appliquez sur la zone douloureuse et massez circulairement jusqu'à absorption c
 
 **Floro Calm Huile 100ml** est disponible en livraison partout au Maroc. Commandez sur WhatsApp : **+212 677 031 561**
 
-**Prix : 229 DH** - Livraison gratuite !
 
 ---
 
@@ -3266,7 +3223,6 @@ Les premiers résultats apparaissent en 1-2 semaines, optimum à 4-6 semaines.
 
 **Sérum Anti-Acné Eclat D\'artisan 30ml** disponible en livraison partout au Maroc :
 
-- **Prix : 179 DH**
 - Livraison gratuite
 - Paiement à la livraison
 - Commandez sur WhatsApp : **+212 677 031 561**
@@ -3351,7 +3307,6 @@ Une legere sensation de fraicheur due a la menthe poivree est normale et tempora
 
 **Serum Loubane Repulpant Levres 30ml** disponible en livraison partout au Maroc :
 
-- **Prix : 149 DH**
 - Livraison gratuite
 - Paiement à la livraison
 - Commandez sur WhatsApp : **+212 677 031 561**
@@ -3448,8 +3403,6 @@ Deconseille aux femmes enceintes. Consulter un medecin si vous prenez des antico
 
 **Pack Floro Calm (Huile 100ml + Complement 60 caps)** disponible en livraison partout au Maroc :
 
-- **Prix : 399 DH** (au lieu de 458 DH)
-- Economisez 59 DH avec le pack
 - Livraison gratuite
 - Paiement a la livraison
 - Commandez sur WhatsApp : **+212 677 031 561**
