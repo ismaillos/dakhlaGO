@@ -113,6 +113,13 @@ export default function OrderForm({ product }: OrderFormProps) {
           num_items: parseInt(selectedOption.value),
         });
       } catch (_) {}
+      try {
+        (window as any).gtag('event', 'conversion', {
+          send_to: 'AW-502274695/RgS0CNbR5YocEIe1wO8B',
+          value: selectedOption.price,
+          currency: 'MAD',
+        });
+      } catch (_) {}
       setStatus('success');
     } else {
       setStatus('error');

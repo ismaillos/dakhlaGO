@@ -110,6 +110,13 @@ export default function OrderModal() {
           num_items: items.reduce((sum, i) => sum + i.quantity, 0),
         });
       } catch (_) {}
+      try {
+        (window as any).gtag('event', 'conversion', {
+          send_to: 'AW-502274695/RgS0CNbR5YocEIe1wO8B',
+          value: total,
+          currency: 'MAD',
+        });
+      } catch (_) {}
       setCustomerName(form.nom);
       clearCart();
       setView('success');
