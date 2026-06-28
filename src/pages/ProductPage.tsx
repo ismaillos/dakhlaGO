@@ -62,7 +62,7 @@ export default function ProductPage() {
   const { id } = useParams<{ id: string }>();
 
   if (id === 'toutia') {
-    window.location.replace('https://www.dakhla-artisanal.com/products/toutia-ismailiya');
+    window.location.replace('https://dakhla-artisanal.com/pages/toutia-ismailiya-a');
     return null;
   }
 
