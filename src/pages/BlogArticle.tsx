@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { BLOG_ARTICLES } from '../data/blog';
 import { WHATSAPP_NUMBER } from '../data/products';
 
@@ -25,6 +25,7 @@ function Navbar() {
 
 export default function BlogArticle() {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const article = BLOG_ARTICLES.find(a => a.id === id);
 
   if (!article) {
@@ -79,6 +80,20 @@ export default function BlogArticle() {
         <div className="max-w-[800px] mx-auto">
           <div className="prose-custom text-white/60 text-base leading-[1.9]">
             {article.content.split('\n\n').map((paragraph, i) => {
+              if (paragraph.startsWith('## Commander')) {
+                return (
+                  <div key={i} className="my-8 rounded-2xl p-6 text-center border border-white/[0.08]" style={{ background: `${article.ctaColor}15` }}>
+                    <button
+                      onClick={() => navigate(article.ctaUrl)}
+                      className="inline-block text-white px-8 py-3 rounded-full text-sm font-bold transition-all hover:opacity-90 shadow-[0_4px_16px_rgba(0,0,0,0.25)]"
+                      style={{ background: article.ctaColor }}
+                    >
+                      🛒 {article.ctaLabel}
+                    </button>
+                    <p className="text-white/40 text-xs mt-3">Livraison partout au Maroc · Paiement à la livraison</p>
+                  </div>
+                );
+              }
               if (paragraph.startsWith('## ')) {
                 return <h2 key={i} className="text-xl font-bold text-white mt-10 mb-4 font-serif">{paragraph.replace('## ', '')}</h2>;
               }
@@ -93,6 +108,10 @@ export default function BlogArticle() {
               if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
                 return <p key={i} className="text-[#E8732F] font-semibold my-4">{paragraph.replace(/\*\*/g, '')}</p>;
               }
+              if (paragraph.match(/^\*\*\[/)) {
+                // Inline CTA link like **[🛒 Commander ... →](url)**
+                return null;
+              }
               if (paragraph.match(/^\d+\./)) {
                 return <p key={i} className="my-3 pl-4 border-l-2 border-[#E8732F]/30">{paragraph}</p>;
               }
@@ -101,10 +120,17 @@ export default function BlogArticle() {
           </div>
 
           {/* CTA */}
-          <div className="mt-12 bg-[#141414] border border-white/[0.08] rounded-2xl p-8 text-center">
-            <h3 className="text-xl font-bold mb-3 font-serif text-white">Découvrez nos produits</h3>
-            <p className="text-white/60 text-sm mb-6">Transformez votre routine beauté avec les secrets du Sahara Marocain.</p>
-            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="inline-block bg-[#E8732F] text-white px-8 py-3 rounded-full text-sm font-bold hover:bg-[#c45e22] transition-colors shadow-[0_4px_16px_rgba(196,98,45,0.25)]">Commander sur WhatsApp</a>
+          <div className="mt-12 rounded-2xl p-8 text-center border border-white/[0.08]" style={{ background: `${article.ctaColor}15` }}>
+            <h3 className="text-xl font-bold mb-3 font-serif text-white">Commander ce produit</h3>
+            <p className="text-white/60 text-sm mb-6">Livraison partout au Maroc · Paiement à la livraison · Emballage discret</p>
+            <button
+              onClick={() => navigate(article.ctaUrl)}
+              className="inline-block text-white px-8 py-3 rounded-full text-sm font-bold transition-all hover:opacity-90 shadow-[0_4px_16px_rgba(0,0,0,0.25)] mr-3"
+              style={{ background: article.ctaColor }}
+            >
+              🛒 {article.ctaLabel}
+            </button>
+            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="inline-block bg-[#25D366] text-white px-6 py-3 rounded-full text-sm font-bold hover:opacity-90 transition-all shadow-[0_4px_16px_rgba(0,0,0,0.25)]">WhatsApp</a>
           </div>
         </div>
       </section>

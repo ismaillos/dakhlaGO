@@ -7,6 +7,9 @@ export interface BlogArticle {
   category: string;
   image: string;
   content: string;
+  ctaUrl: string;
+  ctaLabel: string;
+  ctaColor: string;
 }
 
 
@@ -127,7 +130,10 @@ Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La n
 
 ---
 
-*mots clés : transpiration excessive Maroc, mauvaise odeur corps solution naturelle, déodorant pierre naturelle sans aluminium, toutia alun Maroc, mycose pieds traitement naturel, anti-odeur naturel, hygiène naturelle Maroc*`
+*mots clés : transpiration excessive Maroc, mauvaise odeur corps solution naturelle, déodorant pierre naturelle sans aluminium, toutia alun Maroc, mycose pieds traitement naturel, anti-odeur naturel, hygiène naturelle Maroc*`,
+    ctaUrl: '/produit/toutia',
+    ctaLabel: 'Commander la Toutia Ismailiya',
+    ctaColor: '#5B7B5E',
   },
   {
     id: 'chute-cheveux-femme',
@@ -239,7 +245,10 @@ Votre chevelure mérite mieux que de continuer à tomber. Agissez maintenant.
 
 ---
 
-*mots clés : chute cheveux femme Maroc, perte cheveux féminine solution naturelle, spray anti-chute efficace, shampoing sans sulfate, chute cheveux post partum, effluvium télogène traitement, fortifiant capillaire naturel, cheveux fins clairsemés remède*`
+*mots clés : chute cheveux femme Maroc, perte cheveux féminine solution naturelle, spray anti-chute efficace, shampoing sans sulfate, chute cheveux post partum, effluvium télogène traitement, fortifiant capillaire naturel, cheveux fins clairsemés remède*`,
+    ctaUrl: '/produit/pack-anti-chute',
+    ctaLabel: 'Commander le Pack Anti-Chute',
+    ctaColor: '#7C3AED',
   },
   {
     id: 'douleurs-articulaires-naturel',
@@ -359,7 +368,10 @@ Votre corps mérite de bouger librement. Reprenez le contrôle sur votre douleur
 
 ---
 
-*mots clés : douleurs articulaires traitement naturel Maroc, arthrose genou remède naturel, rhumatisme solution sans médicaments, curcuma articulations, huile chauffante douleur musculaire, Floro Calm avis, complement articulaire naturel Maroc*`
+*mots clés : douleurs articulaires traitement naturel Maroc, arthrose genou remède naturel, rhumatisme solution sans médicaments, curcuma articulations, huile chauffante douleur musculaire, Floro Calm avis, complement articulaire naturel Maroc*`,
+    ctaUrl: '/produit/floro-calm',
+    ctaLabel: 'Commander Floro-Calm',
+    ctaColor: '#EA580C',
   },
   {
     id: 'fatigue-chronique-energie',
@@ -484,7 +496,10 @@ Votre énergie n\'attend pas. Reprenez le contrôle de votre vitalité dès aujo
 
 ---
 
-*mots clés : fatigue chronique traitement naturel Maroc, manque énergie solution naturelle, spiruline bienfaits fatigue, vitamine C énergie, maca fatigue hormonale, complément alimentaire énergie Maroc, épuisement remède naturel*`
+*mots clés : fatigue chronique traitement naturel Maroc, manque énergie solution naturelle, spiruline bienfaits fatigue, vitamine C énergie, maca fatigue hormonale, complément alimentaire énergie Maroc, épuisement remède naturel*`,
+    ctaUrl: '/produit/elixir-maca',
+    ctaLabel: "Commander l'Élixir Maca",
+    ctaColor: '#2563EB',
   },
   {
     id: 'peau-terne-taches-eclat',
@@ -602,7 +617,10 @@ Votre peau lumineuse existe encore. Il suffit de lui donner les bons outils pour
 
 ---
 
-*mots clés : peau terne taches brunes Maroc, teint inégal solution naturelle, sérum vitamine C visage, glutathion éclat peau, hyperpigmentation traitement naturel, taches soleil éliminer naturellement, collagène peau beauté Maroc*`
+*mots clés : peau terne taches brunes Maroc, teint inégal solution naturelle, sérum vitamine C visage, glutathion éclat peau, hyperpigmentation traitement naturel, taches soleil éliminer naturellement, collagène peau beauté Maroc*`,
+    ctaUrl: '/produit/bio-eclat-b8',
+    ctaLabel: 'Commander Bio-Éclat B8',
+    ctaColor: '#DB2777',
   },
   {
     id: 'stress-insomnie-naturel',
@@ -716,7 +734,10 @@ Votre cerveau mérite le repos. Votre corps mérite la sérénité. Agissez natu
 
 ---
 
-*mots clés : stress chronique traitement naturel Maroc, insomnie solution naturelle, passiflore valériane sommeil, anxiété remède naturel, somnifère naturel sans dépendance, stress anxiété Maroc, Tranquilysse avis, plantes anti-stress*`
+*mots clés : stress chronique traitement naturel Maroc, insomnie solution naturelle, passiflore valériane sommeil, anxiété remède naturel, somnifère naturel sans dépendance, stress anxiété Maroc, Tranquilysse avis, plantes anti-stress*`,
+    ctaUrl: '/produit/tranquilysse',
+    ctaLabel: 'Commander Tranquilysse',
+    ctaColor: '#4F46E5',
   },
   {
     id: 'acne-boutons-peau-grasse',
@@ -839,7 +860,10 @@ Une peau nette n\'est pas un luxe. C\'est votre droit. Commencez votre transform
 
 ---
 
-*mots clés : acné boutons traitement naturel Maroc, peau grasse pores dilatés solution, charbon actif acné, acide salicylique anti-acné naturel, points noirs éliminer, soin visage purifiant naturel, acné adulte remède, Eclat D\'Artisan avis*`
+*mots clés : acné boutons traitement naturel Maroc, peau grasse pores dilatés solution, charbon actif acné, acide salicylique anti-acné naturel, points noirs éliminer, soin visage purifiant naturel, acné adulte remède, Eclat D\'Artisan avis*`,
+    ctaUrl: '/produit/eclat-artisan',
+    ctaLabel: 'Commander Éclat Artisan',
+    ctaColor: '#0D9488',
   },
   {
     id: 'rides-anti-age-naturel',
@@ -961,7 +985,10 @@ Le temps passe. Votre peau n\'est pas obligée de suivre.
 
 ---
 
-*mots clés : rides traitement naturel Maroc, anti-rides rétinol efficace, vieillissement cutané solution, sérum rétinol Maroc, crème anti-âge naturelle, rides profondes estomper, collagène peau après 40 ans, pack anti-rides Maroc*`
+*mots clés : rides traitement naturel Maroc, anti-rides rétinol efficace, vieillissement cutané solution, sérum rétinol Maroc, crème anti-âge naturelle, rides profondes estomper, collagène peau après 40 ans, pack anti-rides Maroc*`,
+    ctaUrl: '/produit/pack-retinol',
+    ctaLabel: 'Commander le Pack Rétinol',
+    ctaColor: '#B45309',
   },
   {
     id: 'dereglement-hormonal-femme',
@@ -1085,7 +1112,10 @@ Votre cycle est le reflet de votre équilibre. Prenez-en soin naturellement.
 
 ---
 
-*mots clés : dérèglement hormonal femme traitement naturel, règles irrégulières solution, syndrome prémenstruel remède naturel, SOPK plantes, gattilier cycle féminin, qust hindi bienfaits, sauge hormones femme, régulation hormonale naturelle Maroc*`
+*mots clés : dérèglement hormonal femme traitement naturel, règles irrégulières solution, syndrome prémenstruel remède naturel, SOPK plantes, gattilier cycle féminin, qust hindi bienfaits, sauge hormones femme, régulation hormonale naturelle Maroc*`,
+    ctaUrl: '/produit/cycle-bio',
+    ctaLabel: 'Commander Cycle Bio',
+    ctaColor: '#EC4899',
   },
   {
     id: 'soin-intime-femme-naturel',
@@ -1209,7 +1239,10 @@ Prenez soin de vous avec respect et bienveillance. Vous le méritez.
 
 ---
 
-*mots clés : soin intime femme naturel Maroc, hygiène intime féminine, gel intime pH neutre, démangeaisons intimes solution naturelle, odeur intime traitement, peau intime éclaircie, Eclarte Rawnaq avis, zone intime soin quotidien Maroc*`
+*mots clés : soin intime femme naturel Maroc, hygiène intime féminine, gel intime pH neutre, démangeaisons intimes solution naturelle, odeur intime traitement, peau intime éclaircie, Eclarte Rawnaq avis, zone intime soin quotidien Maroc*`,
+    ctaUrl: '/produit/eclarte-gel-intime',
+    ctaLabel: 'Commander Éclarte Gel Intime',
+    ctaColor: '#8B5CF6',
   },
   {
     id: 'max-biotin-avis-maroc',
@@ -1321,7 +1354,10 @@ Sa formule naturelle, certifiee ISO, fabriquee au Maroc, en fait un **produit de
 
 ---
 
-*mots cles : max biotin avis maroc, max biotin prix, max biotin resultats, complement cheveux maroc, biotine cheveux, pousse cheveux rapide, produit naturel cheveux, anti chute cheveux femme, ongles cassants solution*`
+*mots cles : max biotin avis maroc, max biotin prix, max biotin resultats, complement cheveux maroc, biotine cheveux, pousse cheveux rapide, produit naturel cheveux, anti chute cheveux femme, ongles cassants solution*`,
+    ctaUrl: '/produit/max-biotin',
+    ctaLabel: 'Commander Max-Biotin',
+    ctaColor: '#7C3AED',
   },
   {
     id: 'hemorcalm-avis',
@@ -1442,7 +1478,10 @@ Sa formule 100% naturelle avec menthe poivree et ricin en fait un **produit de c
 
 ---
 
-*mots cles : hemorcalm avis, spray hemorroides naturel, traitement hemorroides maroc, menthe poivree ricin hemorroides, soulagement hemorroides, huile hemorroides naturelle, produit naturel hemorroides maroc, anti hemorroides spray*`
+*mots cles : hemorcalm avis, spray hemorroides naturel, traitement hemorroides maroc, menthe poivree ricin hemorroides, soulagement hemorroides, huile hemorroides naturelle, produit naturel hemorroides maroc, anti hemorroides spray*`,
+    ctaUrl: '/produit/hemorcalm',
+    ctaLabel: 'Commander Hémorocalm',
+    ctaColor: '#DC2626',
   },
   {
     id: 'tranquilysse-avis',
@@ -1561,7 +1600,10 @@ Sa formule 100% naturelle avec Passiflore et Valeriane, certifiee ISO + CMP + FD
 
 ---
 
-*mots cles : tranquilysse avis, complement sommeil naturel, anti stress maroc, passiflore valeriane melisse, sommeil reparateur, insomnie solution naturelle, zinc vitamine b6 sommeil, produit naturel stress maroc, complement anti anxiete*`
+*mots cles : tranquilysse avis, complement sommeil naturel, anti stress maroc, passiflore valeriane melisse, sommeil reparateur, insomnie solution naturelle, zinc vitamine b6 sommeil, produit naturel stress maroc, complement anti anxiete*`,
+    ctaUrl: '/produit/tranquilysse',
+    ctaLabel: 'Commander Tranquilysse',
+    ctaColor: '#4F46E5',
   },
   {
     id: 'pack-retinol-avis',
@@ -1690,7 +1732,10 @@ Sa formule naturelle avec Rétinol, Aloe vera et Vitamine C en fait un **produit
 
 ---
 
-*mots clés : pack rétinol avis, sérum rétinol maroc, crème rétinol anti-âge, soin visage rides, taches sombres visage, vitamine c rétinol, aloe vera peau, produit naturel anti-âge maroc, routine soin visage*`
+*mots clés : pack rétinol avis, sérum rétinol maroc, crème rétinol anti-âge, soin visage rides, taches sombres visage, vitamine c rétinol, aloe vera peau, produit naturel anti-âge maroc, routine soin visage*`,
+    ctaUrl: '/produit/pack-retinol',
+    ctaLabel: 'Commander le Pack Rétinol',
+    ctaColor: '#B45309',
   },
   {
     id: 'bio-eclat-b8-avis',
@@ -1806,7 +1851,10 @@ Sa formule unique avec Glutathion et Collagène en fait un **produit de confianc
 
 ---
 
-*mots clés : bio eclat b8 avis, éclaircissant corps naturel, glutathion collagène maroc, blanchiment corps, taches sombres corps, spiruline biotine peau, complément peau éclat, produit naturel éclaircissant maroc*`
+*mots clés : bio eclat b8 avis, éclaircissant corps naturel, glutathion collagène maroc, blanchiment corps, taches sombres corps, spiruline biotine peau, complément peau éclat, produit naturel éclaircissant maroc*`,
+    ctaUrl: '/produit/bio-eclat-b8',
+    ctaLabel: 'Commander Bio-Éclat B8',
+    ctaColor: '#DB2777',
   },
   {
     id: 'cycle-bio-avis',
@@ -1924,7 +1972,10 @@ Sa formule unique avec Qust Hindi et Gattilier, inspiree des traditions saharien
 
 ---
 
-*mots cles : cycle bio avis, regulateur hormonal naturel femme, qust hindi gattilier, douleurs menstruelles soulager, equilibre hormonal maroc, complement femme hormones, kaf mariam cycle menstruel, bien etre feminin naturel, troubles hormonaux femmes*`
+*mots cles : cycle bio avis, regulateur hormonal naturel femme, qust hindi gattilier, douleurs menstruelles soulager, equilibre hormonal maroc, complement femme hormones, kaf mariam cycle menstruel, bien etre feminin naturel, troubles hormonaux femmes*`,
+    ctaUrl: '/produit/cycle-bio',
+    ctaLabel: 'Commander Cycle Bio',
+    ctaColor: '#EC4899',
   },
   {
     id: 'blush-laaker-el-fassi-avis',
@@ -2039,7 +2090,10 @@ Sa formule authentique a base d'Alkhar Fassi, utilisee depuis des siecles, en fa
 
 ---
 
-*mots cles : blush laaker el fassi avis, blush naturel maroc, alkhar fassi blush, maquillage naturel joues levres, blush liquide naturel, pigment vegetal maroc, tradition beaute marocaine, teint rose naturel, produit maquillage bio maroc*`
+*mots cles : blush laaker el fassi avis, blush naturel maroc, alkhar fassi blush, maquillage naturel joues levres, blush liquide naturel, pigment vegetal maroc, tradition beaute marocaine, teint rose naturel, produit maquillage bio maroc*`,
+    ctaUrl: '/produit/blush-laaker',
+    ctaLabel: 'Commander Blush Laaker El Fassi',
+    ctaColor: '#E11D48',
   },
   {
     id: 'v-eclat-serum-avis',
@@ -2157,7 +2211,10 @@ Sa formule 100% naturelle avec Vitamine C et Acide Hyaluronique en fait un **pro
 
 ---
 
-*mots clés : sérum v-eclat avis, sérum blanchissant visage, vitamine c sérum, acide hyaluronique maroc, unifier teint, réduire taches sombres, éclat peau naturel, soin visage homme femme, produit naturel visage maroc*`
+*mots clés : sérum v-eclat avis, sérum blanchissant visage, vitamine c sérum, acide hyaluronique maroc, unifier teint, réduire taches sombres, éclat peau naturel, soin visage homme femme, produit naturel visage maroc*`,
+    ctaUrl: '/produit/v-eclat-serum',
+    ctaLabel: 'Commander V-Éclat Sérum',
+    ctaColor: '#0891B2',
   },
   {
     id: 'elixir-maca-avis',
@@ -2275,7 +2332,10 @@ Sa formule unique avec Maca peruvienne et herbes sahariennes, certifiee ISO + GM
 
 ---
 
-*mots cles : elixir maca avis, maca peruvienne maroc, complement energie endurance, maca homme femme, complement libido naturel, qust hindi kaf mariam, vitex agnus castus, tribulus terrestris, maca hormonal, produit naturel energie maroc*`
+*mots cles : elixir maca avis, maca peruvienne maroc, complement energie endurance, maca homme femme, complement libido naturel, qust hindi kaf mariam, vitex agnus castus, tribulus terrestris, maca hormonal, produit naturel energie maroc*`,
+    ctaUrl: '/produit/elixir-maca',
+    ctaLabel: "Commander l'Élixir Maca",
+    ctaColor: '#2563EB',
   },
   {
     id: 'floro-calm-avis-maroc',
@@ -2420,7 +2480,10 @@ Sa formule naturelle avec Curcuma, Graines de Lin, Calcium et Fluor en fait un *
 
 Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 
-*mots cles : floro calm avis maroc, menagement articulations naturel, curcuma articulations, soulager douleurs genoux, arthrose remede naturel, complement articulations sport, calcium fluor articulations, bien etre naturel maroc, douleur articulation senior, graines de lin omega 3*`
+*mots cles : floro calm avis maroc, menagement articulations naturel, curcuma articulations, soulager douleurs genoux, arthrose remede naturel, complement articulations sport, calcium fluor articulations, bien etre naturel maroc, douleur articulation senior, graines de lin omega 3*`,
+    ctaUrl: '/produit/floro-calm',
+    ctaLabel: 'Commander Floro-Calm',
+    ctaColor: '#EA580C',
   },
   {
     id: 'serum-psoriasis-avis',
@@ -2540,7 +2603,10 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
 
 ---
 
-*mots cles : serum psoriasis avis, serum reparateur psoriasis, traitement psoriasis naturel, soin psoriasis maroc, absinthe lavande psoriasis, aloe vera peau irritee, huile argan psoriasis, produit naturel psoriasis, demangeaisons peau solution, plaques rouges peau*`
+*mots cles : serum psoriasis avis, serum reparateur psoriasis, traitement psoriasis naturel, soin psoriasis maroc, absinthe lavande psoriasis, aloe vera peau irritee, huile argan psoriasis, produit naturel psoriasis, demangeaisons peau solution, plaques rouges peau*`,
+    ctaUrl: '/produit/serum-psoriasis',
+    ctaLabel: 'Commander le Sérum Psoriasis',
+    ctaColor: '#16A34A',
   },
   {
     id: 'rawnaq-spray-avis',
@@ -2659,7 +2725,10 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
 
 ---
 
-*mots cles : spray rawnaq avis, spray intime naturel, spray intime maroc, soin intime femme, raffermissement naturel, hamamelis spray intime, huile essentielle rose intimite, confiance feminine, produit intime bio maroc*`
+*mots cles : spray rawnaq avis, spray intime naturel, spray intime maroc, soin intime femme, raffermissement naturel, hamamelis spray intime, huile essentielle rose intimite, confiance feminine, produit intime bio maroc*`,
+    ctaUrl: '/produit/rawnaq-spray',
+    ctaLabel: 'Commander Rawnaq Spray Intime',
+    ctaColor: '#8B5CF6',
   },
   {
     id: 'eclarte-gel-intime-avis',
@@ -2775,7 +2844,10 @@ Sa formule 100% naturelle, à pH neutre et sans produits chimiques en fait un **
 
 ---
 
-*mots clés : eclarte gel intime avis, gel hygiene intime naturel, soin intime femme maroc, aloe vera gel intime, gel intime sans sulfate, gel intime ph neutre, soin intime naturel, produit intime bio maroc, lavande gel intime, fraicheur intime*`
+*mots clés : eclarte gel intime avis, gel hygiene intime naturel, soin intime femme maroc, aloe vera gel intime, gel intime sans sulfate, gel intime ph neutre, soin intime naturel, produit intime bio maroc, lavande gel intime, fraicheur intime*`,
+    ctaUrl: '/produit/eclarte-gel-intime',
+    ctaLabel: 'Commander Éclarte Gel Intime',
+    ctaColor: '#8B5CF6',
   },
   {
     id: 'masque-tresor-desert-avis',
@@ -2891,7 +2963,10 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
 
 ---
 
-*mots clés : masque tresor du desert avis, masque cheveux naturel, masque hydratant cheveux, cacao karite cheveux, soins cheveux secs, masque cheveux abimes, produits naturels cheveux maroc, huile coco cheveux, secret beaute cheveux femme*`
+*mots clés : masque tresor du desert avis, masque cheveux naturel, masque hydratant cheveux, cacao karite cheveux, soins cheveux secs, masque cheveux abimes, produits naturels cheveux maroc, huile coco cheveux, secret beaute cheveux femme*`,
+    ctaUrl: '/produit/masque-tresor-desert',
+    ctaLabel: 'Commander le Masque Trésor du Désert',
+    ctaColor: '#D97706',
   },
   {
     id: 'deodorant-naturel-maroc',
@@ -2951,7 +3026,10 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 
 ---
 
-*mots cles : toutia ismailiya, pierre deodorant naturel, deodorant sans aluminium maroc, toutia ismailiya poudre, deodorant naturel femme, deodorant naturel homme, produits naturels sud est maroc, beaute naturelle marocaine, blanchisseur parties intimes, anti mycoses pieds*`
+*mots cles : toutia ismailiya, pierre deodorant naturel, deodorant sans aluminium maroc, toutia ismailiya poudre, deodorant naturel femme, deodorant naturel homme, produits naturels sud est maroc, beaute naturelle marocaine, blanchisseur parties intimes, anti mycoses pieds*`,
+    ctaUrl: '/produit/toutia',
+    ctaLabel: 'Commander la Toutia Ismailiya',
+    ctaColor: '#5B7B5E',
   },
   {
     id: 'shampoing-proteines-avis',
@@ -3068,7 +3146,10 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
 
 ---
 
-*mots clés : shampoing proteines avis, shampoing naturel maroc, shampoing sans sulfate, shampoing cheveux abimes, soins cheveux naturels, aloe vera cheveux, proteines soie cheveux, tresor du desert, beaute cheveux femme, shampoing bio maroc*`
+*mots clés : shampoing proteines avis, shampoing naturel maroc, shampoing sans sulfate, shampoing cheveux abimes, soins cheveux naturels, aloe vera cheveux, proteines soie cheveux, tresor du desert, beaute cheveux femme, shampoing bio maroc*`,
+    ctaUrl: '/produit/shampoing-proteines',
+    ctaLabel: 'Commander le Shampoing Protéines',
+    ctaColor: '#7C3AED',
   },
   {
     id: 'shampoing-naturel-cheveux',
@@ -3119,7 +3200,10 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 
 ---
 
-*mots clés : shampoing naturel maroc, shampoing anti-chute, meilleur shampoing cheveux, secret d'atlas, shampoing sans sulfate, soins cheveux naturels, huile argan cheveux, produits cheveux marocains*`
+*mots clés : shampoing naturel maroc, shampoing anti-chute, meilleur shampoing cheveux, secret d'atlas, shampoing sans sulfate, soins cheveux naturels, huile argan cheveux, produits cheveux marocains*`,
+    ctaUrl: '/produit/shampoing-proteines',
+    ctaLabel: 'Commander le Shampoing Naturel',
+    ctaColor: '#7C3AED',
   },
   {
     id: 'huile-massage-douleurs',
@@ -3169,7 +3253,10 @@ Appliquez sur la zone douloureuse et massez circulairement jusqu'à absorption c
 
 ---
 
-*mots clés : huile massage douleurs, huile articulations maroc, soulager douleurs musculaires, camphre ginseng menthol, arthrose remède naturel, huile chauffante, florocalm, douleur dos solution naturelle, bien-être naturel maroc*`
+*mots clés : huile massage douleurs, huile articulations maroc, soulager douleurs musculaires, camphre ginseng menthol, arthrose remède naturel, huile chauffante, florocalm, douleur dos solution naturelle, bien-être naturel maroc*`,
+    ctaUrl: '/produit/floro-calm',
+    ctaLabel: 'Commander Floro-Calm',
+    ctaColor: '#EA580C',
   },
   {
     readTime: "5 min",
@@ -3248,7 +3335,11 @@ Les premiers résultats apparaissent en 1-2 semaines, optimum à 4-6 semaines.
 
 ---
 
-*mots clés : sérum anti-acné Maroc, charbon actif acné, acide salicylique boutons, tea tree peau grasse, soin naturel acné, éliminer points noirs, sérum peau claire, traitement acné adulte, skincare naturel, Dakhla Artisanal*`},
+*mots clés : sérum anti-acné Maroc, charbon actif acné, acide salicylique boutons, tea tree peau grasse, soin naturel acné, éliminer points noirs, sérum peau claire, traitement acné adulte, skincare naturel, Dakhla Artisanal*`,
+    ctaUrl: '/produit/eclat-artisan',
+    ctaLabel: 'Commander Éclat Artisan',
+    ctaColor: '#0D9488',
+  },
   {
 readTime: "5 min",
 category: "Blog",
@@ -3331,7 +3422,11 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 
 ---
 
-*mots clés : serum repulpant levres Maroc, huile nokhchef chefaf, levres pleines naturel, soin levres naturel, menthe poivree levres, huile de coco levres, serum levres Dakhla Artisanal, beaute naturelle Maroc*`},
+*mots clés : serum repulpant levres Maroc, huile nokhchef chefaf, levres pleines naturel, soin levres naturel, menthe poivree levres, huile de coco levres, serum levres Dakhla Artisanal, beaute naturelle Maroc*`,
+    ctaUrl: '/produit/serum-loubane',
+    ctaLabel: 'Commander Sérum Loubane Lèvres',
+    ctaColor: '#D97706',
+  },
   {
     readTime: "5 min",
 category: "Blog",
@@ -3426,7 +3521,11 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 
 ---
 
-*mots clés : pack articulations Maroc, douleurs articulaires solution naturelle, huile massage chauffante, complement curcuma articulations, arthrose remede naturel, rhumatisme traitement naturel, Floro Calm avis, pack douleurs musculaires, bien-etre naturel Maroc*`},
+*mots clés : pack articulations Maroc, douleurs articulaires solution naturelle, huile massage chauffante, complement curcuma articulations, arthrose remede naturel, rhumatisme traitement naturel, Floro Calm avis, pack douleurs musculaires, bien-etre naturel Maroc*`,
+    ctaUrl: '/produit/pack-floro-calm',
+    ctaLabel: 'Commander le Pack Floro-Calm',
+    ctaColor: '#EA580C',
+  },
   {
     id: 'vitamine-d3-k2-bienfaits',
     title: 'Vitamine D3 + K2 : Pourquoi Cette Combinaison Est Indispensable Pour Vos Os et Votre Cœur',
@@ -3591,5 +3690,8 @@ La Vitamine D3+K2 de Dakhla Artisanal vous offre cette synergie dans une capsule
 ---
 
 *Mots clés : vitamine D3 K2 Maroc, carence vitamine D Maroc, complement vitamine D3 K2, os solides naturellement, calcification arterielle prevention, MK-7 vitamine K2, vitamine D immunite, cholecalciferol Maroc, complement osseux halal, fatigue carence vitamine D, D3 K2 synergie bienfaits*`,
+    ctaUrl: '/produit/vitamine-d3-k2',
+    ctaLabel: 'Commander Vitamine D3+K2',
+    ctaColor: '#16A34A',
   },
 ];
