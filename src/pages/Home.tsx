@@ -311,10 +311,17 @@ function Bestsellers() {
                   <span className="text-[#E8732F] text-[22px] font-extrabold">{p.price} DH</span>
                   {p.oldPrice && <span className="text-[#D4A574]/40 text-sm line-through ml-2">{p.oldPrice} DH</span>}
                 </div>
-                <button onClick={() => addItem(p)}
-                  className="bg-[#E8732F] text-white px-5 py-2.5 rounded-full text-[12px] font-bold hover:bg-[#c45e22] transition-colors shadow-[0_4px_16px_rgba(196,98,45,0.25)]">
-                  {t.bestsellers.order}
-                </button>
+                {p.id === 'toutia' ? (
+                  <a href="https://www.dakhla-artisanal.com/products/toutia-ismailiya" target="_blank" rel="noopener noreferrer"
+                    className="bg-[#E8732F] text-white px-5 py-2.5 rounded-full text-[12px] font-bold hover:bg-[#c45e22] transition-colors shadow-[0_4px_16px_rgba(196,98,45,0.25)]">
+                    {t.bestsellers.order}
+                  </a>
+                ) : (
+                  <button onClick={() => addItem(p)}
+                    className="bg-[#E8732F] text-white px-5 py-2.5 rounded-full text-[12px] font-bold hover:bg-[#c45e22] transition-colors shadow-[0_4px_16px_rgba(196,98,45,0.25)]">
+                    {t.bestsellers.order}
+                  </button>
+                )}
               </div>
             </div>
           ))}
@@ -841,7 +848,11 @@ function Products({ searchQuery, onSearch }: { searchQuery: string; onSearch: (q
                 </div>
                 <div className="flex gap-2 mt-3">
                   <Link to={`/produit/${p.id}`} className="flex-1 text-center border border-white/[0.08] text-white/60 py-2 rounded-full text-[11px] font-semibold hover:border-[#E8732F] hover:text-[#E8732F] transition-colors">Détails</Link>
-                  <Link to={`/produit/${p.id}`} className="flex-1 text-center bg-[#E8732F] text-white py-2 rounded-full text-[11px] font-bold hover:bg-[#c45e22] transition-colors">Commander</Link>
+                  {p.id === 'toutia' ? (
+                    <a href="https://www.dakhla-artisanal.com/products/toutia-ismailiya" target="_blank" rel="noopener noreferrer" className="flex-1 text-center bg-[#E8732F] text-white py-2 rounded-full text-[11px] font-bold hover:bg-[#c45e22] transition-colors">Commander</a>
+                  ) : (
+                    <Link to={`/produit/${p.id}`} className="flex-1 text-center bg-[#E8732F] text-white py-2 rounded-full text-[11px] font-bold hover:bg-[#c45e22] transition-colors">Commander</Link>
+                  )}
                 </div>
               </div>
             </div>
