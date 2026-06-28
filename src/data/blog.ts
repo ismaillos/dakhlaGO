@@ -21,7 +21,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     date: '2025-01-15',
     readTime: '9 min',
     category: 'Soins Corps',
-    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80',
+    image: '/images/toutia.jpg',
     content: `## Transpiration Excessive : Un Problème Qui Gâche le Quotidien
 
 Vous évitez de lever les bras en public ? Vous changez de vêtements plusieurs fois par jour ? Vous utilisez des déodorants industriels sans résultat durable ? Vous n\'êtes pas seul(e).
@@ -142,7 +142,7 @@ Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La n
     date: '2025-02-01',
     readTime: '10 min',
     category: 'Soins Cheveux',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80',
+    image: '/images/shampoing-lifestyle-1.jpg',
     content: `## La Chute de Cheveux Chez la Femme : Un Drame Silencieux
 
 Vous trouvez des poignées de cheveux dans votre brosse chaque matin ? Votre chignon est de plus en plus fin ? Votre raie s\'élargit et votre cuir chevelu devient visible ? Ce n\'est pas dans votre tête — et vous n\'êtes pas seule.
@@ -257,7 +257,7 @@ Votre chevelure mérite mieux que de continuer à tomber. Agissez maintenant.
     date: '2025-02-15',
     readTime: '10 min',
     category: 'Santé Naturelle',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80',
+    image: '/images/pack-floro-calm-lifestyle-1.jpg',
     content: `## Douleurs Articulaires : Quand Chaque Geste Devient une Épreuve
 
 Se lever le matin et sentir cette raideur douloureuse dans les genoux. Monter un escalier et grimacer. Tendre le bras et ressentir une douleur aiguë dans l\'épaule. Si vous vous reconnaissez dans ces situations, vous souffrez probablement de douleurs articulaires chroniques.
@@ -380,7 +380,7 @@ Votre corps mérite de bouger librement. Reprenez le contrôle sur votre douleur
     date: '2025-03-01',
     readTime: '9 min',
     category: 'Santé Naturelle',
-    image: 'https://images.unsplash.com/photo-1541199249251-f713e6145474?auto=format&fit=crop&w=800&q=80',
+    image: '/images/elixir-maca-lifestyle-1.jpg',
     content: `## Fatigue Chronique : Quand L\'Épuisement Devient Votre Quotidien
 
 Vous dormez 8 heures et vous réveillez fatigué. Votre café du matin ne fait plus effet. Vous n\'avez plus d\'élan pour vos activités favorites. Chaque tâche vous demande un effort surhumain.
@@ -508,7 +508,7 @@ Votre énergie n\'attend pas. Reprenez le contrôle de votre vitalité dès aujo
     date: '2025-03-15',
     readTime: '9 min',
     category: 'Beauté Naturelle',
-    image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=80',
+    image: '/images/v-eclat-lifestyle-1.jpg',
     content: `## Peau Terne et Taches : Pourquoi Votre Éclat Naturel Disparaît
 
 Vous regardez dans le miroir et vous ne reconnaissez plus votre peau. Ce teint gris, ces taches brunes qui s\'étendent, ces pores béants, cette texture inégale... La peau terne est l\'un des problèmes esthétiques les plus frustrants car il donne l\'air fatigué, vieilli, même quand on va bien.
@@ -629,7 +629,7 @@ Votre peau lumineuse existe encore. Il suffit de lui donner les bons outils pour
     date: '2025-03-28',
     readTime: '9 min',
     category: 'Bien-être',
-    image: 'https://images.unsplash.com/photo-1455642305367-68834a1da7ab?auto=format&fit=crop&w=800&q=80',
+    image: '/images/tranquilysse-sleep-1.jpg',
     content: `## Stress et Insomnie : Le Duo Infernal du XXIe Siècle
 
 Il est 2h du matin. Vous êtes allongé dans votre lit, les yeux grands ouverts. Votre cerveau passe en revue la journée, les soucis de demain, les factures à payer. Le silence de la nuit amplifie chaque pensée négative.
@@ -746,7 +746,7 @@ Votre cerveau mérite le repos. Votre corps mérite la sérénité. Agissez natu
     date: '2025-04-10',
     readTime: '8 min',
     category: 'Beauté Naturelle',
-    image: 'https://images.unsplash.com/photo-1503023345310-bd7428a21b67?auto=format&fit=crop&w=800&q=80',
+    image: '/images/eclat-artisan-lifestyle-1.jpg',
     content: `## L\'Acné : Bien Plus Qu\'un Problème de Peau
 
 Un bouton qui apparaît la veille d\'un entretien. Un front couvert de points noirs malgré des soins quotidiens. Ces plaques rouges douloureuses sur les joues que vous essayez de camoufler sous du maquillage.
@@ -872,7 +872,7 @@ Une peau nette n\'est pas un luxe. C\'est votre droit. Commencez votre transform
     date: '2025-04-25',
     readTime: '10 min',
     category: 'Beauté Naturelle',
-    image: 'https://images.unsplash.com/photo-1616394583988-2cccc9b8ef53?auto=format&fit=crop&w=800&q=80',
+    image: '/images/retinol-lifestyle-1.jpg',
     content: `## Les Rides : Le Signe du Temps Que Vous Pouvez Ralentir
 
 À 35 ans, vous remarquez les premières rides d\'expression. À 45 ans, votre peau a perdu cette fermeté et cet éclat de vos 25 ans. La patte d\'oie s\'installe, le sillon naso-labial se creuse, l\'ovale du visage commence à se relâcher.
@@ -997,7 +997,7 @@ Le temps passe. Votre peau n\'est pas obligée de suivre.
     date: '2025-05-10',
     readTime: '10 min',
     category: 'Santé Naturelle',
-    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/cycle-bio-lifestyle-1.jpg',
     content: `## Dérèglement Hormonal Féminin : Quand Votre Corps Envoie des Signaux
 
 Règles qui n\'arrivent pas, ou qui arrivent deux fois par mois. Douleurs pelviennes qui clouent au lit. Syndrome prémenstruel débilitant : larmes, irritabilité, ballonnements, seins douloureux. Prise de poids inexpliquée, acné cyclique, fatigue extrême en milieu de cycle.
@@ -1124,7 +1124,7 @@ Votre cycle est le reflet de votre équilibre. Prenez-en soin naturellement.
     date: '2025-05-25',
     readTime: '9 min',
     category: 'Soins Corps',
-    image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80',
+    image: '/images/eclarte-lifestyle-1.jpg',
     content: `## Soin Intime Féminin : Un Sujet Encore Trop Tabou
 
 Les démangeaisons intimes qui reviennent chaque mois. Cette odeur légère mais persistante qui génère de l\'anxiété. La peau intime assombrie ou irritée. Les pertes vaginales anormales qui perturbent le quotidien.
@@ -1251,7 +1251,7 @@ Prenez soin de vous avec respect et bienveillance. Vous le méritez.
     date: '2025-06-20',
     readTime: '7 min',
     category: 'Soins Cheveux',
-    image: 'https://images.unsplash.com/photo-1560869713-bf509339aa1a?auto=format&fit=crop&w=800&q=80',
+    image: '/images/biotin/biotin-lifestyle-1.jpg',
     content: `## MAX Biotin : Le Produit Marocain qui Fait le Buzz
 
 **MAX Biotin** est devenu le **produit capillaire le plus buzzé au Maroc**. Ce complement alimentaire 100% naturel, riche en biotine et aux herbes sahariennes, promet des cheveux forts, une pousse acceleree et une beauté naturelle.
@@ -1366,7 +1366,7 @@ Sa formule naturelle, certifiee ISO, fabriquee au Maroc, en fait un **produit de
     date: '2025-07-25',
     readTime: '6 min',
     category: 'Soins Sante',
-    image: 'https://images.unsplash.com/photo-1510894347713-bdad3a9e30fa?auto=format&fit=crop&w=800&q=80',
+    image: '/images/hemorcalm-lifestyle-1.jpg',
     content: `## Hemorcalm : Soulagement Naturel des Hemorroides
 
 **Hemorcalm** est le **spray naturel le plus efficace au Maroc** pour soulager les hemorroides. Sa formule 100% naturelle a base de menthe poivree, ricin, girofle et acide salicylique calme la douleur, reduit l\'inflammation et apaise les demangeaisons des la premiere application.
@@ -1490,7 +1490,7 @@ Sa formule 100% naturelle avec menthe poivree et ricin en fait un **produit de c
     date: '2025-07-22',
     readTime: '6 min',
     category: 'Bien-etre',
-    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80',
+    image: '/images/tranquilysse-sleep-1.jpg',
     content: `## Tranquilysse : Dormez en Paix, Reveillez-Vous en Forme
 
 **Tranquilysse** est le **complement anti-stress et sommeil le plus efficace au Maroc**. Sa formule 100% naturelle a base de Passiflore, Valeriane, Melisse et Zinc favorise un sommeil profond et reparateur, pour un reveil frais et dynamique.
@@ -1612,7 +1612,7 @@ Sa formule 100% naturelle avec Passiflore et Valeriane, certifiee ISO + CMP + FD
     date: '2025-07-20',
     readTime: '7 min',
     category: 'Soins Visage',
-    image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
+    image: '/images/retinol-lifestyle-1.jpg',
     content: `## Pack Rétinol : Le Duo Anti-Âge Ultime
 
 **Le Pack Rétinol** est le **duo anti-âge le plus efficace au Maroc**. Composé d'un sérum concentré (30ml) et d'une crème nourrissante (50ml), ce pack naturel stimule le renouvellement cellulaire, réduit les rides et unifie le teint.
@@ -1744,7 +1744,7 @@ Sa formule naturelle avec Rétinol, Aloe vera et Vitamine C en fait un **produit
     date: '2025-07-18',
     readTime: '6 min',
     category: 'Soins Peau',
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80',
+    image: '/images/bio-eclat-lifestyle-1.jpg',
     content: `## Bio Eclat B8 : L'Éclat Naturel de Votre Corps
 
 **Bio Eclat B8** est le **complément éclaircissant corps le plus efficace au Maroc**. Cette formule 100% naturelle, riche en Glutathion, Collagène, Spiruline et Biotine, unifie le teint, réduit les taches sombres et améliore l'élasticité de la peau.
@@ -1863,7 +1863,7 @@ Sa formule unique avec Glutathion et Collagène en fait un **produit de confianc
     date: '2025-07-15',
     readTime: '6 min',
     category: 'Bien-etre Feminin',
-    image: 'https://images.unsplash.com/photo-1547038577-da80abbc4f19?auto=format&fit=crop&w=800&q=80',
+    image: '/images/cycle-bio-lifestyle-1.jpg',
     content: `## Cycle Bio : Retrouvez l'Equilibre Hormonal au Naturel
 
 **Cycle Bio** est le **regulateur hormonal naturel le plus efficace au Maroc pour les femmes**. Cette formule 100% naturelle, a base de Qust Hindi, Sauge, Gattilier et Aubepine, regule les cycles menstruels, soulage les douleurs et ameliore l'humeur.
@@ -1984,7 +1984,7 @@ Sa formule unique avec Qust Hindi et Gattilier, inspiree des traditions saharien
     date: '2025-07-12',
     readTime: '5 min',
     category: 'Maquillage Naturel',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80',
+    image: '/images/blush-lifestyle-1.jpg',
     content: `## Blush Laaker-El-Fassi : La Rosee Naturelle du Sahara
 
 **Blush Laaker-El-Fassi** est le **blush naturel le plus authentique au Maroc**. A base d'Alkhar Fassi, ce pigment vegetal traditionnel utilise depuis des siecles par les femmes du Sud Marocain, ce blush donne un teint rose naturel et durable aux joues et aux levres.
@@ -2102,7 +2102,7 @@ Sa formule authentique a base d'Alkhar Fassi, utilisee depuis des siecles, en fa
     date: '2025-07-05',
     readTime: '6 min',
     category: 'Soins Visage',
-    image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80',
+    image: '/images/v-eclat-lifestyle-1.jpg',
     content: `## Sérum V-Eclat : L'Éclat Naturel de Votre Peau
 
 **Sérum V-Eclat** est le **sérum blanchissant du visage le plus efficace au Maroc**. Cette formule 100% naturelle, enrichie en Vitamine C et Acide Hyaluronique, unifie le teint, réduit les taches sombres et apporte un éclat naturel à la peau.
@@ -2223,7 +2223,7 @@ Sa formule 100% naturelle avec Vitamine C et Acide Hyaluronique en fait un **pro
     date: '2025-07-10',
     readTime: '6 min',
     category: 'Bien-etre',
-    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80',
+    image: '/images/elixir-maca-lifestyle-1.jpg',
     content: `## ELIXIR MACA : Le Secret de l'Energie et de l'Endurance
 
 **ELIXIR MACA** est le **complement energie le plus puissant au Maroc**. Cette formule 100% naturelle combine la Maca peruvienne et les herbes sahariennes pour augmenter l'energie, favoriser la sante sexuelle et reduire les fluctuations hormonales.
@@ -2344,7 +2344,7 @@ Sa formule unique avec Maca peruvienne et herbes sahariennes, certifiee ISO + GM
     date: '2025-06-25',
     readTime: '8 min',
     category: 'Bien-etre',
-    image: 'https://images.unsplash.com/photo-1493655161922-ef98929de9d8?auto=format&fit=crop&w=800&q=80',
+    image: '/images/pack-floro-calm-lifestyle-1.jpg',
     content: `## Floro Calm : Dites Adieu aux Douleurs Articulaires
 
 **Floro Calm** est le **ménagement articulations le plus efficace au Maroc**. Ce complément alimentaire 100% naturel, enrichi aux herbes sahariennes, apporte un soulagement durable des douleurs articulaires et améliore la mobilité.
@@ -2492,7 +2492,7 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
     date: '2025-07-08',
     readTime: '7 min',
     category: 'Soins Peau',
-    image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&q=80',
+    image: '/images/psoriasis-lifestyle-1.jpg',
     content: `## Serum Psoriasis : Soulagez Votre Peau Naturellement
 
 **Serum Psoriasis** est le **serum reparateur le plus efficace au Maroc** contre le psoriasis. Cette formule 100% naturelle, aux herbes sahariennes et huiles essentielles, calme les demangeaisons, reduit les rougeurs et redonne confort a la peau.
@@ -2615,7 +2615,7 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
     date: '2025-07-02',
     readTime: '6 min',
     category: 'Soins Intimes',
-    image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80',
+    image: '/images/rawnaq-lifestyle-1.jpg',
     content: `## Spray Rawnaq : Retrouvez Confiance et Fraicheur au Naturel
 
 **Spray Rawnaq** est le **spray intime naturel le plus innovant au Maroc**. Cette formule 100% naturelle, aux herbes sahariennes et huiles essentielles, aide a renforcer la tonicité des tissus et procure une sensation de raffermissement naturel pour un confort intime optimal.
@@ -2737,7 +2737,7 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
     date: '2025-06-30',
     readTime: '6 min',
     category: 'Soins Intimes',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
+    image: '/images/eclarte-lifestyle-1.jpg',
     content: `## Eclarte Gel Intime : La Fraîcheur Naturelle au Quotidien
 
 **Eclarte Gel Intime** est le **gel d'hygiène intime le plus apprécié au Maroc**. Cette formule 100% naturelle, enrichie en Aloe vera, Lavande et Arbre à Thé, assure un nettoyage doux, une hydratation profonde et une fraîcheur durable pour la zone intime.
@@ -2856,7 +2856,7 @@ Sa formule 100% naturelle, à pH neutre et sans produits chimiques en fait un **
     date: '2025-06-22',
     readTime: '7 min',
     category: 'Soins Cheveux',
-    image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=800&q=80',
+    image: '/images/masque/masque-lifestyle-1.jpg',
     content: `## Masque Trésor du Désert : Le Secret des Cheveux Parfaits
 
 **Le Masque Trésor du Désert** est devenu le **masque cheveux le plus apprécié au Maroc**. Cette formule 100% naturelle aux actifs du Sahara Marocain — **Cacao, Karité et Huile de Coco** — promet une hydratation profonde, une réparation intense et une brillance naturelle.
@@ -2975,7 +2975,7 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
     date: '2025-06-01',
     readTime: '6 min',
     category: 'Produits Naturels',
-    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80',
+    image: '/images/toutia.jpg',
     content: `## Pourquoi Choisir un Deodorant Naturel Sans Aluminium ?
 
 De plus en plus de Marocains et de Marocaines cherchent un **deodorant naturel sans aluminium** pour proteger leur sante. Les deodorants chimiques classiques contiennent des sels d'aluminium qui bloquent les pores, empechent la peau de respirer et peuvent causer des irritations.
@@ -3038,7 +3038,7 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
     date: '2025-06-28',
     readTime: '7 min',
     category: 'Soins Cheveux',
-    image: 'https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=800&q=80',
+    image: '/images/shampoing-lifestyle-1.jpg',
     content: `## Shampoing aux Protéines Trésor du Désert : Le Secret des Cheveux Parfaits
 
 **Le Shampoing aux Protéines Trésor du Désert** est devenu le **shampoing naturel le plus apprécié au Maroc**. Cette formule 100% naturelle, riche en protéines et aux herbes sahariennes, promet des cheveux forts, brillants et pleins de vie.
@@ -3158,7 +3158,7 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
     date: '2025-06-08',
     readTime: '6 min',
     category: 'Soins Cheveux',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80',
+    image: '/images/shampoing-lifestyle-1.jpg',
     content: `## Le Meilleur Shampoing Naturel Anti-Chute au Maroc
 
 La perte de cheveux est un problème courant au Maroc à cause de l'eau dure, du stress et de la pollution. Le **Secret d'Atlas Shampoing** est le **meilleur shampoing naturel anti-chute** du Maroc avec triple certification **ISO + GMP + OCP**.
@@ -3212,7 +3212,7 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
     date: '2025-06-15',
     readTime: '5 min',
     category: 'Bien-être',
-    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80',
+    image: '/images/floro/floro-massage-1.jpg',
     content: `## Huile de Massage Naturelle pour Douleurs Articulaires
 
 Les douleurs musculaires et articulaires touchent des millions de personnes au Maroc. **Floro Calm Huile** est une **huile de massage naturelle** aux actifs chauffants qui soulage efficacement les douleurs.
@@ -3264,7 +3264,7 @@ category: "Blog",
     id: 'eclat-artisan-serum-anti-acne',
     title: 'Eclat D\'artisan Sérum Anti-Acné : Peau Claire Sans Boutons',
     excerpt: 'Charbon actif, acide salicylique et tea tree pour eliminer l\'acné. Découvrez le sérum naturel qui purifie votre peau en profondeur.',
-    image: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80',
+    image: '/images/eclat-artisan-lifestyle-1.jpg',
     date: '15 Juin 2025',
     content: `**L\'acné touche plus de 80% des adolescents et 40% des adultes au Maroc.** Les solutions chimiques agressent la peau et créent un effet rebond. Découvrez le sérum naturel **Eclat D\'artisan** qui combine charbon actif, acide salicylique et tea tree pour une peau nette et éclatante.
 
@@ -3346,7 +3346,7 @@ category: "Blog",
     id: 'serum-loubane-repulpant-levres',
     title: 'Serum Loubane : Des Levres Pleines et Sublimes au Naturel',
     excerpt: 'Decouvrez le secret de levres pulpeuses et hydratees avec le Serum Loubane. Menthe poivree, huile de coco et herbes sahariennes pour un effet repulpant naturel.',
-    image: 'https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=800&q=80',
+    image: '/images/loubane-lifestyle-1.jpg',
     date: '15 Juin 2025',
     content: `**Rever de levres pleines, douces et hydratees sans injections ni chimie ?** Le **Serum Loubane** de Dakhla Artisanal est la solution naturelle qui repulpe, hydrate et sublime vos levres grace a un melange unique d\'huiles vegetales et d\'herbes sahariennes.
 
@@ -3433,7 +3433,7 @@ category: "Blog",
     id: 'pack-floro-calm-articulations',
     title: 'Pack Floro Calm : La Solution Complete pour Vos Articulations',
     excerpt: 'Pack huile + complement pour soulager les douleurs articulaires. Curcuma, ginseng, camphre et graine de lin pour des articulations souples et sans douleur.',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80',
+    image: '/images/pack-floro-calm-lifestyle-1.jpg',
     date: '15 Juin 2025',
     content: `**Plus de 7 millions de Marocains souffrent de douleurs articulaires.** Le **Pack Floro Calm** combine une huile de massage chauffante et un complement alimentaire pour une action synergique interieure et exterieure contre les douleurs.
 
@@ -3533,7 +3533,7 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
     date: '2026-06-27',
     readTime: '10 min',
     category: 'Compléments',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80',
+    image: '/images/vitamined3k2/d3k2.jpg',
     content: `## 80% des Marocains Sont Carencés en Vitamine D — Êtes-Vous l'Un d'Eux ?
 
 Paradoxe frappant : le Maroc est l'un des pays les plus ensoleillés du monde, et pourtant, selon les études épidémiologiques publiées dans la *Revue Marocaine de Rhumatologie*, plus de **80% de la population marocaine** présente une insuffisance ou une carence en vitamine D.
