@@ -955,7 +955,7 @@ function YouTube() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="aspect-video rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(61,43,31,0.14)] bg-[#141414]">
             <iframe
-              src="https://www.youtube.com/embed?listType=user_uploads&list=dakhlaartisanal"
+              src="https://www.youtube.com/embed/5xnmaqDTKpY?playlist=EutvbCmyLZw&rel=0&modestbranding=1"
               title="Dakhla Artisanal — Chaîne YouTube"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
