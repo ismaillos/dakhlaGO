@@ -55,15 +55,15 @@ Ignorer ce problème peut aggraver la situation :
 - Impact psychologique : retrait social, perte de confiance
 - Vêtements endommagés par les traces d\'humidité et d\'aluminium
 
-## La Solution Ancestrale : La Pierre d\'Alun Toutia Ismailiya
+## La Solution Ancestrale : La Toutia Ismailiya en Poudre Pure
 
-Utilisée depuis des siècles dans le monde arabe et berbère, la **Toutia (pierre d\'alun naturelle)** est reconnue pour ses propriétés antibactériennes, antifongiques et astringentes.
+Utilisée depuis des siècles dans le monde arabe et berbère, la **Toutia Ismailiya** est une poudre minérale 100% naturelle, aussi fine que du talc, sans aucune odeur. Elle n\'est mélangée à rien : ni cheba, ni talc, ni aucun produit chimique. **C\'est la pierre brute de la nature, réduite en poudre pure, sans aucun additif.**
 
 [IMAGE:/images/toutia/toutia.jpg]
 
 ### Comment Fonctionne la Toutia ?
 
-La Toutia Ismailiya agit en créant un environnement hostile aux bactéries responsables des mauvaises odeurs. Elle resserre les pores sans les boucher, régule la transpiration naturellement et assainit la peau en profondeur.
+La Toutia Ismailiya agit en créant un environnement hostile aux bactéries responsables des mauvaises odeurs. Elle resserre les pores sans les boucher, régule la transpiration naturellement et assainit la peau en profondeur — le tout sans humidité, sans odeur, et sans aucun produit ajouté.
 
 ### Bénéfices de la Toutia Ismailiya Dakhla Artisanal
 
@@ -71,57 +71,59 @@ La Toutia Ismailiya agit en créant un environnement hostile aux bactéries resp
 - Efficace 24h après une seule application
 - Neutralise les odeurs des aisselles, des pieds et des zones sensibles
 - Action antifongique puissante contre les mycoses des pieds
-- 100% naturelle, sans aluminium synthétique, sans paraben, sans alcool
+- 100% naturelle, sans aluminium synthétique, sans paraben, sans alcool, sans parfum
 
 **Pour toute la famille :**
 - Convient aux peaux sensibles, aux femmes enceintes et aux hommes
 - Peut s\'utiliser après rasage sans brûlure
-- Dure plusieurs mois (économique et écologique)
+- Un seul pot dure plusieurs mois (économique et écologique)
 
 ## Résultats Attendus
 
 **Dès la 1ère semaine :**
 - Réduction notable des odeurs dès le premier jour
-- Sensation de fraîcheur prolongée
+- Sensation de fraîcheur sèche et prolongée
 
 **Après 1 mois :**
 - Peau assainie, moins d\'irritations
 - Mycoses des pieds significativement réduites
 - Confiance retrouvée au quotidien
 
-> *"J\'utilisais des déodorants à l\'aluminium depuis 10 ans. Depuis que j\'utilise la Toutia, mes aisselles ne s\'irritent plus et l\'odeur est contrôlée toute la journée."* — Fatima Z., Casablanca
+> *"J\'utilisais des déodorants à l\'aluminium depuis 10 ans. Depuis que j\'utilise la Toutia en poudre, mes aisselles ne s\'irritent plus et l\'odeur est contrôlée toute la journée."* — Fatima Z., Casablanca
 
-## Comment Utiliser la Toutia Ismailiya ?
+## Comment Utiliser la Toutia Ismailiya en Poudre ?
 
-1. Mouillez légèrement la pierre sous l\'eau
-2. Appliquez directement sur les aisselles propres et sèches
-3. Laissez sécher quelques secondes avant de vous habiller
-4. Pour les pieds : frottez entre les orteils et sous la plante
+**Important : la Toutia Ismailiya ne se mouille pas. C\'est une poudre sèche qui s\'applique directement, comme du talc.**
 
-**Conseil :** Pour les mycoses des pieds, appliquez matin et soir pendant 3 semaines pour un résultat optimal.
+1. Après la douche, assurez-vous que la zone est propre et bien sèche
+2. Prélevez une petite quantité de poudre avec les doigts ou un applicateur
+3. Appliquez directement sur les aisselles, les pieds ou les zones sensibles
+4. Aucun rinçage nécessaire — laissez agir toute la journée
+
+**Conseil :** Pour les mycoses des pieds, saupoudrez entre les orteils et sous la plante, matin et soir pendant 3 semaines pour un résultat optimal.
 
 ## FAQ Transpiration et Toutia
+
+**La Toutia Ismailiya est-elle une pierre ou une poudre ?**
+C\'est une poudre minérale pure, aussi fine que du talc, obtenue à partir de la pierre naturelle brute. Elle ne se mouille pas et ne se mélange à aucun autre produit. Aucun additif, aucune cheba, aucun talc, aucune substance chimique.
 
 **La Toutia Ismailiya est-elle efficace contre la transpiration excessive ?**
 Oui. La Toutia resserre naturellement les pores et neutralise les bactéries responsables des odeurs. Elle réduit significativement la transpiration sans bloquer le processus naturel d\'élimination toxinique.
 
 **Peut-on utiliser la Toutia sur les pieds contre les mycoses ?**
-Absolument. Ses propriétés antifongiques en font un remède naturel efficace contre les champignons des pieds. À utiliser après chaque douche sur des pieds propres et secs.
+Absolument. Ses propriétés antifongiques en font un remède naturel efficace contre les champignons des pieds. Saupoudrez directement sur des pieds propres et secs après chaque douche.
 
 **La Toutia convient-elle aux peaux sensibles ?**
 Oui, c\'est même son grand avantage. Contrairement aux déodorants industriels, elle ne contient aucun irritant. Elle peut être utilisée après épilation ou rasage sans provoquer de brûlures.
 
-**Combien de temps dure une pierre Toutia ?**
-Une pierre Toutia Ismailiya dure en moyenne 1 mois selon la fréquence d\'utilisation — bien plus économique qu\'un déodorant classique.
-
 **Peut-on utiliser la Toutia pendant la grossesse ?**
-Oui. La Toutia est 100% naturelle et sans substance chimique dangereuse, ce qui la rend adaptée aux femmes enceintes ou allaitantes.
+Oui. La Toutia est 100% naturelle et sans aucune substance chimique, ce qui la rend adaptée aux femmes enceintes ou allaitantes.
 
 ## Commandez la Toutia Ismailiya Dakhla Artisanal
 
-**Toutia Ismailiya — 199 DH** | Livraison partout au Maroc | Paiement à la livraison
-
 Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La nature a la solution depuis des siècles.
+
+**[Commander la Toutia Ismailiya chez Dakhla Artisanal →](https://dakhla-artisanal.com/pages/toutia-ismailiya-a)**
 
 ---
 
