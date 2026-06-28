@@ -944,11 +944,11 @@ function YouTube() {
     <section className="py-24 px-5 bg-[#141414]">
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center mb-12">
-          <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Notre Chaîne</div>
-          <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold mb-4 font-serif text-white">
+          <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">{t.youtube.tag}</div>
+          <h2 className="text-[clamp(24px,3.5vw,42px)] font-extrabold mb-4 font-serif text-white max-w-[720px] mx-auto leading-tight">
             {t.youtube.title}
           </h2>
-          <p className="text-white/60 text-base max-w-[500px] mx-auto">
+          <p className="text-white/60 text-[14px] max-w-[680px] mx-auto leading-relaxed">
             {t.youtube.sub}
           </p>
         </div>
@@ -981,9 +981,9 @@ function YouTube() {
             <div className="grid grid-cols-2 gap-3 mb-6">
               {[
                 { icon: '🎥', label: t.youtube.l1 },
-                { icon: '🌿', label: t.youtube.l2 },
-                { icon: '👩‍🍳', label: t.youtube.l3 },
-                { icon: '📦', label: t.youtube.l4 },
+                { icon: '👨‍⚕️', label: t.youtube.l2 },
+                { icon: '🌿', label: t.youtube.l3 },
+                { icon: '🇲🇦', label: t.youtube.l4 },
               ].map(item => (
                 <div key={item.label} className="flex items-center gap-2 bg-white/[0.05] border border-white/[0.08] rounded-xl px-3 py-2.5">
                   <span>{item.icon}</span>
