@@ -82,6 +82,11 @@ export default function BlogArticle() {
     lang === 'en' ? (a.categoryEn || a.category) :
     lang === 'es' ? (a.categoryEs || a.category) : a.category;
 
+  const getContent = (a: typeof BLOG_ARTICLES[0]) =>
+    lang === 'ar' ? (a.contentAr || a.content) :
+    lang === 'en' ? (a.contentEn || a.content) :
+    lang === 'es' ? (a.contentEs || a.content) : a.content;
+
   if (!article) {
     return (
       <div className="min-h-screen bg-white text-[#2D1F0A] flex items-center justify-center">
@@ -133,7 +138,7 @@ export default function BlogArticle() {
       <section className="px-5 pb-16">
         <div className="max-w-[800px] mx-auto">
           <div className="prose-custom text-[#4A3728] text-base leading-[1.9]">
-            {article.content.split('\n\n').map((paragraph, i) => {
+            {getContent(article).split('\n\n').map((paragraph, i) => {
               if (paragraph.startsWith('## Commander')) {
                 return (
                   <div key={i} className="my-8 rounded-2xl p-6 text-center border border-[#C4A882]/30 bg-[#FAF6EF]">
