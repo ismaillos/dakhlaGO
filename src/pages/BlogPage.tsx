@@ -66,7 +66,23 @@ function Navbar() {
 }
 
 export default function BlogPage() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
+
+  const getTitle = (a: typeof BLOG_ARTICLES[0]) =>
+    lang === 'ar' ? (a.titleAr || a.title) :
+    lang === 'en' ? (a.titleEn || a.title) :
+    lang === 'es' ? (a.titleEs || a.title) : a.title;
+
+  const getExcerpt = (a: typeof BLOG_ARTICLES[0]) =>
+    lang === 'ar' ? (a.excerptAr || a.excerpt) :
+    lang === 'en' ? (a.excerptEn || a.excerpt) :
+    lang === 'es' ? (a.excerptEs || a.excerpt) : a.excerpt;
+
+  const getCategory = (a: typeof BLOG_ARTICLES[0]) =>
+    lang === 'ar' ? (a.categoryAr || a.category) :
+    lang === 'en' ? (a.categoryEn || a.category) :
+    lang === 'es' ? (a.categoryEs || a.category) : a.category;
+
   return (
     <div className="min-h-screen bg-[#FAF6EF] text-[#2D1F0A]">
       <Navbar />
@@ -91,11 +107,11 @@ export default function BlogPage() {
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-[10px] bg-[#E8732F]/10 text-[#E8732F] px-2.5 py-0.5 rounded-full font-semibold">{a.category}</span>
+                  <span className="text-[10px] bg-[#E8732F]/10 text-[#E8732F] px-2.5 py-0.5 rounded-full font-semibold">{getCategory(a)}</span>
                   <span className="text-[10px] text-[#8B5E34]">{a.readTime} {t.blogPage.readTime}</span>
                 </div>
-                <h2 className="text-lg font-bold mb-2 text-[#2D1F0A] group-hover:text-[#E8732F] transition-colors leading-snug">{a.title}</h2>
-                <p className="text-[13px] text-[#4A3728]/70 leading-relaxed mb-3">{a.excerpt}</p>
+                <h2 className="text-lg font-bold mb-2 text-[#2D1F0A] group-hover:text-[#E8732F] transition-colors leading-snug">{getTitle(a)}</h2>
+                <p className="text-[13px] text-[#4A3728]/70 leading-relaxed mb-3">{getExcerpt(a)}</p>
                 <span className="text-[11px] text-[#8B5E34]/60">{a.date}</span>
               </div>
             </Link>

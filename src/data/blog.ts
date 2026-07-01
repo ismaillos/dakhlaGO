@@ -1,12 +1,24 @@
 export interface BlogArticle {
   id: string;
   title: string;
+  titleAr?: string;
+  titleEn?: string;
+  titleEs?: string;
   excerpt: string;
+  excerptAr?: string;
+  excerptEn?: string;
+  excerptEs?: string;
   date: string;
   readTime: string;
   category: string;
+  categoryAr?: string;
+  categoryEn?: string;
+  categoryEs?: string;
   image: string;
   content: string;
+  contentAr?: string;
+  contentEn?: string;
+  contentEs?: string;
   ctaUrl: string;
   ctaLabel: string;
   ctaColor: string;
@@ -17,10 +29,19 @@ export const BLOG_ARTICLES: BlogArticle[] = [
   {
     id: 'transpiration-odeurs-naturel',
     title: 'Transpiration Excessive et Mauvaise Odeur : La Solution Naturelle Sans Aluminium',
+    titleAr: 'التعرق الزائد والروائح الكريهة: الحل الطبيعي بدون ألومنيوم',
+    titleEn: 'Excessive Sweating and Body Odor: Natural Solution Without Aluminum',
+    titleEs: 'Sudoración Excesiva y Mal Olor: Solución Natural Sin Aluminio',
     excerpt: 'Vous souffrez de transpiration excessive ou de mauvaises odeurs ? Découvrez comment la Toutia Ismailiya élimine les odeurs naturellement, sans produits chimiques.',
+    excerptAr: 'هل تعاني من التعرق الزائد أو الروائح الكريهة؟ اكتشف كيف تقضي تويتية إسماعيلية على الروائح بشكل طبيعي، بدون مواد كيميائية.',
+    excerptEn: 'Do you suffer from excessive sweating or body odor? Discover how Toutia Ismailiya eliminates odors naturally, without chemicals.',
+    excerptEs: '¿Sufres de sudoración excesiva o mal olor? Descubre cómo la Toutia Ismailiya elimina los olores naturalmente, sin productos químicos.',
     date: '2025-01-15',
     readTime: '9 min',
     category: 'Soins Corps',
+    categoryAr: 'العناية بالجسم',
+    categoryEn: 'Body Care',
+    categoryEs: 'Cuidado Corporal',
     image: '/images/toutia.jpg',
     content: `## Transpiration Excessive : Un Problème Qui Gâche le Quotidien
 
@@ -138,10 +159,19 @@ Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La n
   {
     id: 'chute-cheveux-femme',
     title: 'Chute de Cheveux Chez la Femme : Causes, Solutions Naturelles et Résultats',
+    titleAr: 'تساقط الشعر لدى المرأة: الأسباب والحلول الطبيعية والنتائج',
+    titleEn: 'Female Hair Loss: Causes, Natural Solutions and Results',
+    titleEs: 'Caída del Cabello en la Mujer: Causas, Soluciones Naturales y Resultados',
     excerpt: 'La chute de cheveux chez la femme est souvent silencieuse mais dévastatrice. Découvrez les vraies causes et le protocole naturel Pack Anti-Chute pour retrouver une chevelure dense.',
+    excerptAr: 'تساقط الشعر لدى المرأة غالباً صامت لكنه مدمر. اكتشفي الأسباب الحقيقية وبروتوكول باك مضاد للتساقط لاسترداد شعر كثيف.',
+    excerptEn: 'Female hair loss is often silent but devastating. Discover the real causes and the Anti-Hair Loss Pack natural protocol to regain thick hair.',
+    excerptEs: 'La caída del cabello en la mujer es a menudo silenciosa pero devastadora. Descubra las causas reales y el protocolo natural Pack Anti-Caída.',
     date: '2025-02-01',
     readTime: '10 min',
     category: 'Soins Cheveux',
+    categoryAr: 'العناية بالشعر',
+    categoryEn: 'Hair Care',
+    categoryEs: 'Cuidado Capilar',
     image: '/images/shampoing-lifestyle-1.jpg',
     content: `## La Chute de Cheveux Chez la Femme : Un Drame Silencieux
 
@@ -253,10 +283,19 @@ Votre chevelure mérite mieux que de continuer à tomber. Agissez maintenant.
   {
     id: 'douleurs-articulaires-naturel',
     title: 'Douleurs Articulaires et Rhumatismes : Traitement Naturel Sans Médicaments',
+    titleAr: 'آلام المفاصل والروماتيزم: علاج طبيعي بدون أدوية',
+    titleEn: 'Joint Pain and Rheumatism: Natural Treatment Without Medication',
+    titleEs: 'Dolores Articulares y Reumatismo: Tratamiento Natural Sin Medicamentos',
     excerpt: 'Arthrose, rhumatismes, douleurs au genou ou au dos : découvrez comment le Pack Floro Calm soulage naturellement les articulations grâce au curcuma et aux huiles sahariennes.',
+    excerptAr: 'التهاب المفاصل، الروماتيزم، آلام الركبة أو الظهر: اكتشف كيف يخفف باك فلورو كالم المفاصل طبيعياً بالكركم وزيوت الصحراء.',
+    excerptEn: 'Arthritis, rheumatism, knee or back pain: discover how the Floro Calm Pack naturally relieves joints with turmeric and Saharan oils.',
+    excerptEs: 'Artrosis, reumatismo, dolor de rodilla o espalda: descubre cómo el Pack Floro Calm alivia naturalmente las articulaciones con cúrcuma y aceites saharianos.',
     date: '2025-02-15',
     readTime: '10 min',
     category: 'Santé Naturelle',
+    categoryAr: 'الصحة الطبيعية',
+    categoryEn: 'Natural Health',
+    categoryEs: 'Salud Natural',
     image: '/images/pack-floro-calm-lifestyle-1.jpg',
     content: `## Douleurs Articulaires : Quand Chaque Geste Devient une Épreuve
 
@@ -376,10 +415,19 @@ Votre corps mérite de bouger librement. Reprenez le contrôle sur votre douleur
   {
     id: 'fatigue-chronique-energie',
     title: 'Fatigue Chronique et Manque d\'Énergie : Retrouvez la Vitalité Naturellement',
+    titleAr: 'التعب المزمن وضعف الطاقة: استعد حيويتك بشكل طبيعي',
+    titleEn: 'Chronic Fatigue and Lack of Energy: Regain Vitality Naturally',
+    titleEs: 'Fatiga Crónica y Falta de Energía: Recupera la Vitalidad Naturalmente',
     excerpt: 'Épuisé dès le réveil, sans énergie malgré 8h de sommeil ? Découvrez les vraies causes de la fatigue chronique et les solutions naturelles Vitamin C Spirulina + Elixir Maca.',
+    excerptAr: 'منهك من الاستيقاظ رغم 8 ساعات نوم؟ اكتشف الأسباب الحقيقية للتعب المزمن والحلول الطبيعية فيتامين ج سبيرولينا + إكسير ماكا.',
+    excerptEn: 'Exhausted upon waking despite 8 hours of sleep? Discover the real causes of chronic fatigue and natural solutions Vitamin C Spirulina + Elixir Maca.',
+    excerptEs: '¿Agotado al despertar a pesar de 8 horas de sueño? Descubre las causas reales de la fatiga crónica y las soluciones naturales Vitamina C Spirulina + Elixir Maca.',
     date: '2025-03-01',
     readTime: '9 min',
     category: 'Santé Naturelle',
+    categoryAr: 'الصحة الطبيعية',
+    categoryEn: 'Natural Health',
+    categoryEs: 'Salud Natural',
     image: '/images/elixir-maca-lifestyle-1.jpg',
     content: `## Fatigue Chronique : Quand L\'Épuisement Devient Votre Quotidien
 
@@ -504,10 +552,19 @@ Votre énergie n\'attend pas. Reprenez le contrôle de votre vitalité dès aujo
   {
     id: 'peau-terne-taches-eclat',
     title: 'Peau Terne, Taches et Teint Inégal : Retrouvez l\'Éclat Naturel de Votre Peau',
+    titleAr: 'البشرة الباهتة، البقع وعدم تناسق اللون: استعيدي توهج بشرتك الطبيعي',
+    titleEn: 'Dull Skin, Spots and Uneven Tone: Regain Your Skin\'s Natural Glow',
+    titleEs: 'Piel Opaca, Manchas y Tono Desigual: Recupera el Brillo Natural de tu Piel',
     excerpt: 'Teint terne, taches brunes et pores dilatés gâchent votre confiance ? Découvrez le duo V-Eclat + Bio Eclat B8 pour une peau lumineuse et unifiée en 4 semaines.',
+    excerptAr: 'البشرة الباهتة والبقع البنية والمسام الموسعة تضر بثقتك؟ اكتشف ثنائي في-إيكلا + بيو إيكلا B8 لبشرة مضيئة في 4 أسابيع.',
+    excerptEn: 'Dull complexion, dark spots and enlarged pores damaging your confidence? Discover the V-Eclat + Bio Eclat B8 duo for luminous skin in 4 weeks.',
+    excerptEs: '¿Tez opaca, manchas oscuras y poros dilatados arruinan tu confianza? Descubre el dúo V-Eclat + Bio Eclat B8 para una piel luminosa en 4 semanas.',
     date: '2025-03-15',
     readTime: '9 min',
     category: 'Beauté Naturelle',
+    categoryAr: 'الجمال الطبيعي',
+    categoryEn: 'Natural Beauty',
+    categoryEs: 'Belleza Natural',
     image: '/images/v-eclat-lifestyle-1.jpg',
     content: `## Peau Terne et Taches : Pourquoi Votre Éclat Naturel Disparaît
 
@@ -625,10 +682,19 @@ Votre peau lumineuse existe encore. Il suffit de lui donner les bons outils pour
   {
     id: 'stress-insomnie-naturel',
     title: 'Stress, Anxiété et Insomnie : Comment Retrouver la Sérénité Naturellement',
+    titleAr: 'التوتر والقلق والأرق: كيف تستعيد الهدوء بشكل طبيعي',
+    titleEn: 'Stress, Anxiety and Insomnia: How to Regain Serenity Naturally',
+    titleEs: 'Estrés, Ansiedad e Insomnio: Cómo Recuperar la Serenidad Naturalmente',
     excerpt: 'Vous n\'arrivez plus à dormir, votre esprit tourne en boucle, vous êtes épuisé mais hypertendu ? Tranquilysse, la solution naturelle à base de passiflore et valériane, peut vous aider.',
+    excerptAr: 'لا تستطيع النوم، عقلك في دوامة، منهك لكن متوتر؟ ترانكيليس، الحل الطبيعي بالباشونفلور والناردين، يمكنه مساعدتك.',
+    excerptEn: 'You can\'t sleep, your mind is racing, you\'re exhausted but tense? Tranquilysse, the natural solution based on passionflower and valerian, can help you.',
+    excerptEs: '¿No puedes dormir, tu mente da vueltas, estás agotado pero tenso? Tranquilysse, la solución natural a base de pasiflora y valeriana, puede ayudarte.',
     date: '2025-03-28',
     readTime: '9 min',
     category: 'Bien-être',
+    categoryAr: 'الرفاهية',
+    categoryEn: 'Well-being',
+    categoryEs: 'Bienestar',
     image: '/images/tranquilysse-sleep-1.jpg',
     content: `## Stress et Insomnie : Le Duo Infernal du XXIe Siècle
 
@@ -742,10 +808,19 @@ Votre cerveau mérite le repos. Votre corps mérite la sérénité. Agissez natu
   {
     id: 'acne-boutons-peau-grasse',
     title: 'Acné et Boutons : Traitement Naturel Pour Peau Grasse et Pores Dilatés',
+    titleAr: 'حب الشباب والبثور: علاج طبيعي للبشرة الدهنية والمسام الموسعة',
+    titleEn: 'Acne and Pimples: Natural Treatment for Oily Skin and Enlarged Pores',
+    titleEs: 'Acné y Granos: Tratamiento Natural para Piel Grasa y Poros Dilatados',
     excerpt: 'L\'acné ruine votre confiance ? Charbon actif + acide salicylique : découvrez comment Eclat D\'Artisan purifie votre peau en profondeur et réduit les boutons sans dessécher.',
+    excerptAr: 'حب الشباب يدمر ثقتك؟ الفحم النشط + حمض الساليسيليك: اكتشف كيف يطهر إيكلا دارتيزان بشرتك بعمق ويقلل البثور دون تجفيف.',
+    excerptEn: 'Acne ruining your confidence? Activated charcoal + salicylic acid: discover how Eclat D\'Artisan deeply cleanses your skin and reduces pimples without drying.',
+    excerptEs: '¿El acné arruina tu confianza? Carbón activado + ácido salicílico: descubre cómo Eclat D\'Artisan purifica tu piel en profundidad y reduce los granos sin resecar.',
     date: '2025-04-10',
     readTime: '8 min',
     category: 'Beauté Naturelle',
+    categoryAr: 'الجمال الطبيعي',
+    categoryEn: 'Natural Beauty',
+    categoryEs: 'Belleza Natural',
     image: '/images/eclat-artisan-lifestyle-1.jpg',
     content: `## L\'Acné : Bien Plus Qu\'un Problème de Peau
 
@@ -868,10 +943,19 @@ Une peau nette n\'est pas un luxe. C\'est votre droit. Commencez votre transform
   {
     id: 'rides-anti-age-naturel',
     title: 'Rides et Vieillissement Cutané : Traitement Anti-Âge Naturel et Efficace',
+    titleAr: 'التجاعيد وشيخوخة الجلد: علاج مضاد للشيخوخة طبيعي وفعال',
+    titleEn: 'Wrinkles and Skin Aging: Natural and Effective Anti-Aging Treatment',
+    titleEs: 'Arrugas y Envejecimiento Cutáneo: Tratamiento Antienvejecimiento Natural y Eficaz',
     excerpt: 'Les rides et la perte de fermeté vous préoccupent ? Découvrez comment le Pack Rétinol de Dakhla Artisanal efface visiblement les signes de l\'âge en 4 semaines.',
+    excerptAr: 'التجاعيد وفقدان الثبات يقلقانك؟ اكتشف كيف يمحو باك ريتينول من دخلا أرتيزانال علامات التقدم في السن بشكل واضح في 4 أسابيع.',
+    excerptEn: 'Worried about wrinkles and loss of firmness? Discover how Dakhla Artisanal\'s Retinol Pack visibly erases signs of aging in 4 weeks.',
+    excerptEs: '¿Las arrugas y la pérdida de firmeza te preocupan? Descubre cómo el Pack Retinol de Dakhla Artisanal borra visiblemente los signos de la edad en 4 semanas.',
     date: '2025-04-25',
     readTime: '10 min',
     category: 'Beauté Naturelle',
+    categoryAr: 'الجمال الطبيعي',
+    categoryEn: 'Natural Beauty',
+    categoryEs: 'Belleza Natural',
     image: '/images/retinol-lifestyle-1.jpg',
     content: `## Les Rides : Le Signe du Temps Que Vous Pouvez Ralentir
 
@@ -993,10 +1077,19 @@ Le temps passe. Votre peau n\'est pas obligée de suivre.
   {
     id: 'dereglement-hormonal-femme',
     title: 'Dérèglement Hormonal et Règles Irrégulières : Retrouvez l\'Équilibre Naturellement',
+    titleAr: 'اضطراب الهرمونات ودورات الحيض غير المنتظمة: استعيدي توازنك بشكل طبيعي',
+    titleEn: 'Hormonal Imbalance and Irregular Periods: Regain Balance Naturally',
+    titleEs: 'Desequilibrio Hormonal y Reglas Irregulares: Recupera el Equilibrio Naturalmente',
     excerpt: 'Règles douloureuses, cycles irréguliers, sautes d\'humeur et syndrome prémenstruel ? Découvrez comment Cycle Bio régule naturellement vos hormones avec le Qust Hindi et la sauge.',
+    excerptAr: 'دورات مؤلمة، حيض غير منتظم، تقلبات مزاجية؟ اكتشفي كيف تنظم سايكل بيو هرموناتك بالقسط الهندي والمريمية.',
+    excerptEn: 'Painful periods, irregular cycles, mood swings and PMS? Discover how Cycle Bio naturally regulates your hormones with Qust Hindi and sage.',
+    excerptEs: '¿Períodos dolorosos, ciclos irregulares, cambios de humor y síndrome premenstrual? Descubre cómo Cycle Bio regula naturalmente tus hormonas.',
     date: '2025-05-10',
     readTime: '10 min',
     category: 'Santé Naturelle',
+    categoryAr: 'الصحة الطبيعية',
+    categoryEn: 'Natural Health',
+    categoryEs: 'Salud Natural',
     image: '/images/cycle-bio-lifestyle-1.jpg',
     content: `## Dérèglement Hormonal Féminin : Quand Votre Corps Envoie des Signaux
 
@@ -1120,10 +1213,19 @@ Votre cycle est le reflet de votre équilibre. Prenez-en soin naturellement.
   {
     id: 'soin-intime-femme-naturel',
     title: 'Soin Intime Féminin Naturel : Hygiène, Éclat et Confiance au Quotidien',
+    titleAr: 'العناية الحميمة الأنثوية الطبيعية: النظافة، التألق والثقة يومياً',
+    titleEn: 'Natural Female Intimate Care: Hygiene, Radiance and Daily Confidence',
+    titleEs: 'Cuidado Íntimo Femenino Natural: Higiene, Luminosidad y Confianza Diaria',
     excerpt: 'Démangeaisons, odeurs intimes, peau intime terne ou irritée ? Découvrez le protocole naturel Eclarte + Rawnaq + Serum Zone Intime pour une hygiène intime saine et épanouie.',
+    excerptAr: 'حكة، روائح حميمة، بشرة حميمة باهتة أو متهيجة؟ اكتشفي بروتوكول إيكلارت + رونق + سيروم المنطقة الحميمة للنظافة الحميمة الصحية.',
+    excerptEn: 'Itching, intimate odors, dull or irritated intimate skin? Discover the Eclarte + Rawnaq + Serum Zone Intime natural protocol for healthy intimate hygiene.',
+    excerptEs: '¿Picazón, olores íntimos, piel íntima apagada o irritada? Descubre el protocolo natural Eclarte + Rawnaq + Serum Zone Intime para una higiene íntima saludable.',
     date: '2025-05-25',
     readTime: '9 min',
     category: 'Soins Corps',
+    categoryAr: 'العناية بالجسم',
+    categoryEn: 'Body Care',
+    categoryEs: 'Cuidado Corporal',
     image: '/images/eclarte-lifestyle-1.jpg',
     content: `## Soin Intime Féminin : Un Sujet Encore Trop Tabou
 
@@ -1247,10 +1349,19 @@ Prenez soin de vous avec respect et bienveillance. Vous le méritez.
   {
     id: 'max-biotin-avis-maroc',
     title: 'MAX Biotin Avis Maroc 2025 | Le Produit Capillaire 100% Naturel',
+    titleAr: 'MAX بيوتين آراء المغرب 2025 | منتج الشعر 100% طبيعي',
+    titleEn: 'MAX Biotin Reviews Morocco 2025 | 100% Natural Hair Product',
+    titleEs: 'MAX Biotin Opiniones Marruecos 2025 | Producto Capilar 100% Natural',
     excerpt: 'MAX Biotin avis : le complement capillaire 100% naturel au Maroc. Biotine + Herbes sahariennes. Cheveux forts, pousse rapide, ongles sains. Resultats en 3-4 semaines.',
+    excerptAr: 'آراء MAX بيوتين: المكمل الغذائي للشعر 100% طبيعي في المغرب. بيوتين + أعشاب صحراوية. شعر قوي، نمو سريع، أظافر صحية. نتائج في 3-4 أسابيع.',
+    excerptEn: 'MAX Biotin reviews: 100% natural hair supplement in Morocco. Biotin + Saharan herbs. Strong hair, fast growth, healthy nails. Results in 3-4 weeks.',
+    excerptEs: 'MAX Biotin opiniones: suplemento capilar 100% natural en Marruecos. Biotina + Hierbas saharianas. Cabello fuerte, crecimiento rápido, uñas sanas. Resultados en 3-4 semanas.',
     date: '2025-06-20',
     readTime: '7 min',
     category: 'Soins Cheveux',
+    categoryAr: 'العناية بالشعر',
+    categoryEn: 'Hair Care',
+    categoryEs: 'Cuidado Capilar',
     image: '/images/biotin/biotin-lifestyle-1.jpg',
     content: `## MAX Biotin : Le Produit Marocain qui Fait le Buzz
 
@@ -1362,10 +1473,19 @@ Sa formule naturelle, certifiee ISO, fabriquee au Maroc, en fait un **produit de
   {
     id: 'hemorcalm-avis',
     title: 'Hemorcalm Avis | Spray Naturel pour Hemorroides au Maroc',
+    titleAr: 'هيموركالم آراء | بخاخ طبيعي للبواسير في المغرب',
+    titleEn: 'Hemorcalm Reviews | Natural Spray for Hemorrhoids in Morocco',
+    titleEs: 'Hemorcalm Opiniones | Spray Natural para Hemorroides en Marruecos',
     excerpt: 'Hemorcalm avis : spray naturel 100% pour soulager les hemorroides au Maroc. Menthe poivree, Ricin, Girofle, Acide salicylique. 50ml. Soulagement immediat.',
+    excerptAr: 'آراء هيموركالم: بخاخ طبيعي 100% لتخفيف البواسير في المغرب. نعناع البيبرمنت، خروع، قرنفل، حمض الساليسيليك. 50 مل. راحة فورية.',
+    excerptEn: 'Hemorcalm reviews: 100% natural spray to relieve hemorrhoids in Morocco. Peppermint, Castor oil, Clove, Salicylic acid. 50ml. Immediate relief.',
+    excerptEs: 'Hemorcalm opiniones: spray 100% natural para aliviar las hemorroides en Marruecos. Menta piperita, Aceite de ricino, Clavo, Ácido salicílico. 50ml. Alivio inmediato.',
     date: '2025-07-25',
     readTime: '6 min',
     category: 'Soins Sante',
+    categoryAr: 'صحة العناية',
+    categoryEn: 'Health Care',
+    categoryEs: 'Cuidado de Salud',
     image: '/images/hemorcalm-lifestyle-1.jpg',
     content: `## Hemorcalm : Soulagement Naturel des Hemorroides
 
@@ -1486,10 +1606,19 @@ Sa formule 100% naturelle avec menthe poivree et ricin en fait un **produit de c
   {
     id: 'tranquilysse-avis',
     title: 'Tranquilysse Avis | Anti-Stress et Sommeil Reparateur Naturel',
+    titleAr: 'ترانكيليس آراء | مضاد التوتر ونوم مريح طبيعي',
+    titleEn: 'Tranquilysse Reviews | Anti-Stress and Restful Natural Sleep',
+    titleEs: 'Tranquilysse Opiniones | Antiestrés y Sueño Reparador Natural',
     excerpt: 'Tranquilysse avis : complement anti-stress et sommeil au Maroc. Passiflore, Valeriane, Melisse, Zinc. 60 capsules. Certifie ISO + CMP + FDA. Sommeil profond, reveil frais.',
+    excerptAr: 'آراء ترانكيليس: مكمل مضاد للتوتر والنوم في المغرب. باشونفلور، ناردين، ميليس، زنك. 60 كبسولة. نوم عميق، استيقاظ منتعش.',
+    excerptEn: 'Tranquilysse reviews: anti-stress and sleep supplement in Morocco. Passionflower, Valerian, Melissa, Zinc. 60 capsules. Deep sleep, fresh awakening.',
+    excerptEs: 'Tranquilysse opiniones: suplemento antiestrés y sueño en Marruecos. Pasiflora, Valeriana, Melisa, Zinc. 60 cápsulas. Sueño profundo, despertar fresco.',
     date: '2025-07-22',
     readTime: '6 min',
     category: 'Bien-etre',
+    categoryAr: 'الرفاهية',
+    categoryEn: 'Well-being',
+    categoryEs: 'Bienestar',
     image: '/images/tranquilysse-sleep-1.jpg',
     content: `## Tranquilysse : Dormez en Paix, Reveillez-Vous en Forme
 
@@ -1608,10 +1737,19 @@ Sa formule 100% naturelle avec Passiflore et Valeriane, certifiee ISO + CMP + FD
   {
     id: 'pack-retinol-avis',
     title: 'Pack Rétinol Avis | Sérum 30ml + Crème 50ml Anti-Âge',
+    titleAr: 'باك ريتينول آراء | سيروم 30 مل + كريم 50 مل مضاد للشيخوخة',
+    titleEn: 'Pack Retinol Reviews | 30ml Serum + 50ml Cream Anti-Aging',
+    titleEs: 'Pack Retinol Opiniones | Sérum 30ml + Crema 50ml Antienvejecimiento',
     excerpt: 'Pack Rétinol avis : duo anti-âge au Maroc. Sérum 30ml + Crème 50ml. Rétinol, Aloe vera, Vitamine C. Réduit rides et taches. pH 5.5. Économisez 109 DH.',
+    excerptAr: 'آراء باك ريتينول: ثنائي مضاد للشيخوخة في المغرب. سيروم 30 مل + كريم 50 مل. ريتينول، صبار، فيتامين ج. يقلل التجاعيد والبقع. pH 5.5. وفر 109 درهم.',
+    excerptEn: 'Pack Retinol reviews: anti-aging duo in Morocco. Serum 30ml + Cream 50ml. Retinol, Aloe vera, Vitamin C. Reduces wrinkles and spots. pH 5.5. Save 109 DH.',
+    excerptEs: 'Pack Retinol opiniones: dúo antienvejecimiento en Marruecos. Sérum 30ml + Crema 50ml. Retinol, Aloe vera, Vitamina C. Reduce arrugas y manchas. pH 5.5. Ahorra 109 DH.',
     date: '2025-07-20',
     readTime: '7 min',
     category: 'Soins Visage',
+    categoryAr: 'العناية بالوجه',
+    categoryEn: 'Face Care',
+    categoryEs: 'Cuidado Facial',
     image: '/images/retinol-lifestyle-1.jpg',
     content: `## Pack Rétinol : Le Duo Anti-Âge Ultime
 
@@ -1740,10 +1878,19 @@ Sa formule naturelle avec Rétinol, Aloe vera et Vitamine C en fait un **produit
   {
     id: 'bio-eclat-b8-avis',
     title: 'Bio Eclat B8 Avis | Éclaircissant Corps Glutathion + Collagène',
+    titleAr: 'بيو إيكلا B8 آراء | مفتح الجسم بالغلوتاثيون + الكولاجين',
+    titleEn: 'Bio Eclat B8 Reviews | Body Brightener Glutathione + Collagen',
+    titleEs: 'Bio Eclat B8 Opiniones | Iluminador Corporal Glutatión + Colágeno',
     excerpt: 'Bio Eclat B8 avis : complément éclaircissant corps au Maroc. Glutathion, Collagène, Spiruline, Biotine. Unifie le teint, réduit les taches sombres. 60 capsules.',
+    excerptAr: 'آراء بيو إيكلا B8: مكمل تفتيح الجسم في المغرب. غلوتاثيون، كولاجين، سبيرولينا، بيوتين. يوحد لون البشرة ويقلل البقع الداكنة. 60 كبسولة.',
+    excerptEn: 'Bio Eclat B8 reviews: body brightening supplement in Morocco. Glutathione, Collagen, Spirulina, Biotin. Unifies skin tone, reduces dark spots. 60 capsules.',
+    excerptEs: 'Bio Eclat B8 opiniones: suplemento iluminador corporal en Marruecos. Glutatión, Colágeno, Espirulina, Biotina. Unifica el tono de piel, reduce manchas oscuras. 60 cápsulas.',
     date: '2025-07-18',
     readTime: '6 min',
     category: 'Soins Peau',
+    categoryAr: 'العناية بالبشرة',
+    categoryEn: 'Skin Care',
+    categoryEs: 'Cuidado de Piel',
     image: '/images/bio-eclat-lifestyle-1.jpg',
     content: `## Bio Eclat B8 : L'Éclat Naturel de Votre Corps
 
@@ -1859,10 +2006,19 @@ Sa formule unique avec Glutathion et Collagène en fait un **produit de confianc
   {
     id: 'cycle-bio-avis',
     title: 'Cycle Bio Avis | Regulateur Hormonal Naturel pour Femmes',
+    titleAr: 'سايكل بيو آراء | منظم هرمونات طبيعي للنساء',
+    titleEn: 'Cycle Bio Reviews | Natural Hormonal Regulator for Women',
+    titleEs: 'Cycle Bio Opiniones | Regulador Hormonal Natural para Mujeres',
     excerpt: 'Cycle Bio avis : complement alimentaire naturel pour regulariser les hormones chez les femmes au Maroc. Qust Hindi, Sauge, Gattilier. Soulage les douleurs menstruelles. 60 capsules.',
+    excerptAr: 'آراء سايكل بيو: مكمل غذائي طبيعي لتنظيم الهرمونات لدى النساء في المغرب. قسط هندي، مريمية، فيتكس. يخفف آلام الدورة. 60 كبسولة.',
+    excerptEn: 'Cycle Bio reviews: natural dietary supplement to regulate hormones in women in Morocco. Qust Hindi, Sage, Vitex. Relieves menstrual pain. 60 capsules.',
+    excerptEs: 'Cycle Bio opiniones: suplemento natural para regular las hormonas en mujeres en Marruecos. Qust Hindi, Salvia, Sauzgatillo. Alivia dolores menstruales. 60 cápsulas.',
     date: '2025-07-15',
     readTime: '6 min',
     category: 'Bien-etre Feminin',
+    categoryAr: 'الرفاهية الأنثوية',
+    categoryEn: 'Female Well-being',
+    categoryEs: 'Bienestar Femenino',
     image: '/images/cycle-bio-lifestyle-1.jpg',
     content: `## Cycle Bio : Retrouvez l'Equilibre Hormonal au Naturel
 
@@ -1980,10 +2136,19 @@ Sa formule unique avec Qust Hindi et Gattilier, inspiree des traditions saharien
   {
     id: 'blush-laaker-el-fassi-avis',
     title: 'Blush Laaker-El-Fassi Avis | Blush Naturel Joues et Levres',
+    titleAr: 'بلاش لاكر الفاسي آراء | بلاش طبيعي للخدود والشفاه',
+    titleEn: 'Blush Laaker-El-Fassi Reviews | Natural Blush for Cheeks and Lips',
+    titleEs: 'Blush Laaker-El-Fassi Opiniones | Colorete Natural para Mejillas y Labios',
     excerpt: 'Blush Laaker-El-Fassi avis : blush naturel 100% pour joues et levres au Maroc. Alkhar Fassi traditionnel + Aloe vera. Teint rose durable. Convient a toutes les teintes.',
+    excerptAr: 'آراء بلاش لاكر الفاسي: بلاش طبيعي 100% للخدود والشفاه في المغرب. الأخضر الفاسي التقليدي + صبار. لون وردي دائم. مناسب لجميع درجات ألوان البشرة.',
+    excerptEn: 'Blush Laaker-El-Fassi reviews: 100% natural blush for cheeks and lips in Morocco. Traditional Alkhar Fassi + Aloe vera. Lasting pink color. Suitable for all skin tones.',
+    excerptEs: 'Blush Laaker-El-Fassi opiniones: colorete 100% natural para mejillas y labios en Marruecos. Alkhar Fassi tradicional + Aloe vera. Color rosado duradero. Apto para todos los tonos.',
     date: '2025-07-12',
     readTime: '5 min',
     category: 'Maquillage Naturel',
+    categoryAr: 'مكياج طبيعي',
+    categoryEn: 'Natural Makeup',
+    categoryEs: 'Maquillaje Natural',
     image: '/images/blush-lifestyle-1.jpg',
     content: `## Blush Laaker-El-Fassi : La Rosee Naturelle du Sahara
 
@@ -2098,10 +2263,19 @@ Sa formule authentique a base d'Alkhar Fassi, utilisee depuis des siecles, en fa
   {
     id: 'v-eclat-serum-avis',
     title: 'Sérum V-Eclat Avis | Sérum Blanchissant Visage Vitamine C',
+    titleAr: 'سيروم في-إيكلا آراء | سيروم مفتح الوجه بفيتامين ج',
+    titleEn: 'V-Eclat Serum Reviews | Vitamin C Face Brightening Serum',
+    titleEs: 'Sérum V-Eclat Opiniones | Sérum Blanqueador Facial Vitamina C',
     excerpt: 'Sérum V-Eclat avis : sérum blanchissant du visage au Maroc. Vitamine C + Acide Hyaluronique. Unifie le teint, réduit les taches sombres. Éclat naturel en 2-4 semaines.',
+    excerptAr: 'آراء سيروم في-إيكلا: سيروم تفتيح الوجه في المغرب. فيتامين ج + حمض الهيالورونيك. يوحد لون البشرة ويقلل البقع الداكنة. توهج طبيعي في 2-4 أسابيع.',
+    excerptEn: 'V-Eclat Serum reviews: face brightening serum in Morocco. Vitamin C + Hyaluronic Acid. Unifies skin tone, reduces dark spots. Natural glow in 2-4 weeks.',
+    excerptEs: 'V-Eclat Serum opiniones: sérum blanqueador facial en Marruecos. Vitamina C + Ácido Hialurónico. Unifica el tono de piel, reduce manchas oscuras. Brillo natural en 2-4 semanas.',
     date: '2025-07-05',
     readTime: '6 min',
     category: 'Soins Visage',
+    categoryAr: 'العناية بالوجه',
+    categoryEn: 'Face Care',
+    categoryEs: 'Cuidado Facial',
     image: '/images/v-eclat-lifestyle-1.jpg',
     content: `## Sérum V-Eclat : L'Éclat Naturel de Votre Peau
 
@@ -2219,10 +2393,19 @@ Sa formule 100% naturelle avec Vitamine C et Acide Hyaluronique en fait un **pro
   {
     id: 'elixir-maca-avis',
     title: 'ELIXIR MACA Avis | Maca Peruvienne + Herbes Sahariennes',
+    titleAr: 'إكسير ماكا آراء | الماكا البيروفية + الأعشاب الصحراوية',
+    titleEn: 'ELIXIR MACA Reviews | Peruvian Maca + Saharan Herbs',
+    titleEs: 'ELIXIR MACA Opiniones | Maca Peruana + Hierbas Saharianas',
     excerpt: 'ELIXIR MACA avis : complement energie et endurance au Maroc. Maca peruvienne, Qust Hindi, Kaf Mariam. Pour hommes et femmes. 60 capsules. Certifie ISO + GMP + FDA.',
+    excerptAr: 'آراء إكسير ماكا: مكمل الطاقة والقدرة على التحمل في المغرب. ماكا بيروفية، قسط هندي، كف مريم. للرجال والنساء. 60 كبسولة. شهادات ISO + GMP + FDA.',
+    excerptEn: 'ELIXIR MACA reviews: energy and endurance supplement in Morocco. Peruvian Maca, Qust Hindi, Kaf Mariam. For men and women. 60 capsules. ISO + GMP + FDA certified.',
+    excerptEs: 'ELIXIR MACA opiniones: suplemento de energía y resistencia en Marruecos. Maca peruana, Qust Hindi, Kaf Mariam. Para hombres y mujeres. 60 cápsulas. Certificado ISO + GMP + FDA.',
     date: '2025-07-10',
     readTime: '6 min',
     category: 'Bien-etre',
+    categoryAr: 'الرفاهية',
+    categoryEn: 'Well-being',
+    categoryEs: 'Bienestar',
     image: '/images/elixir-maca-lifestyle-1.jpg',
     content: `## ELIXIR MACA : Le Secret de l'Energie et de l'Endurance
 
@@ -2340,10 +2523,19 @@ Sa formule unique avec Maca peruvienne et herbes sahariennes, certifiee ISO + GM
   {
     id: 'floro-calm-avis-maroc',
     title: 'Floro Calm Avis Maroc 2025 | Ménagement Articulations 60 Capsules',
+    titleAr: 'فلورو كالم آراء المغرب 2025 | العناية بالمفاصل 60 كبسولة',
+    titleEn: 'Floro Calm Reviews Morocco 2025 | Joint Care 60 Capsules',
+    titleEs: 'Floro Calm Opiniones Marruecos 2025 | Cuidado Articular 60 Cápsulas',
     excerpt: 'Floro Calm avis : ménagement naturel pour articulations au Maroc. Curcuma, Graines de Lin, Calcium, Fluor. 60 capsules. Soulage douleurs, réduit inflammations. Pour seniors, sportifs et personnes actives.',
+    excerptAr: 'آراء فلورو كالم: رعاية طبيعية للمفاصل في المغرب. كركم، بذور الكتان، كالسيوم، فلور. 60 كبسولة. يخفف الآلام ويقلل الالتهابات. للمسنين والرياضيين.',
+    excerptEn: 'Floro Calm reviews: natural joint care in Morocco. Turmeric, Flaxseed, Calcium, Fluoride. 60 capsules. Relieves pain, reduces inflammation. For seniors, athletes, and active people.',
+    excerptEs: 'Floro Calm opiniones: cuidado articular natural en Marruecos. Cúrcuma, Semillas de Lino, Calcio, Flúor. 60 cápsulas. Alivia dolores, reduce inflamaciones. Para mayores, deportistas y personas activas.',
     date: '2025-06-25',
     readTime: '8 min',
     category: 'Bien-etre',
+    categoryAr: 'الرفاهية',
+    categoryEn: 'Well-being',
+    categoryEs: 'Bienestar',
     image: '/images/pack-floro-calm-lifestyle-1.jpg',
     content: `## Floro Calm : Dites Adieu aux Douleurs Articulaires
 
@@ -2488,10 +2680,19 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
   {
     id: 'serum-psoriasis-avis',
     title: 'Serum Psoriasis Avis | Serum Reparateur 100% Naturel au Maroc',
+    titleAr: 'سيروم الصدفية آراء | سيروم مرمم 100% طبيعي في المغرب',
+    titleEn: 'Psoriasis Serum Reviews | 100% Natural Repair Serum in Morocco',
+    titleEs: 'Sérum Psoriasis Opiniones | Sérum Reparador 100% Natural en Marruecos',
     excerpt: 'Serum Psoriasis avis : serum reparateur 100% naturel au Maroc. Herbes sahariennes, Lavande, Aloe vera. Calme les demangeaisons, reduit les rougeurs.',
+    excerptAr: 'آراء سيروم الصدفية: سيروم مرمم 100% طبيعي في المغرب. أعشاب صحراوية، لافندر، صبار. يهدئ الحكة ويقلل الاحمرار.',
+    excerptEn: 'Psoriasis Serum reviews: 100% natural repair serum in Morocco. Saharan herbs, Lavender, Aloe vera. Calms itching, reduces redness.',
+    excerptEs: 'Sérum Psoriasis opiniones: sérum reparador 100% natural en Marruecos. Hierbas saharianas, Lavanda, Aloe vera. Calma el picor, reduce el enrojecimiento.',
     date: '2025-07-08',
     readTime: '7 min',
     category: 'Soins Peau',
+    categoryAr: 'العناية بالبشرة',
+    categoryEn: 'Skin Care',
+    categoryEs: 'Cuidado de Piel',
     image: '/images/psoriasis-lifestyle-1.jpg',
     content: `## Serum Psoriasis : Soulagez Votre Peau Naturellement
 
@@ -2611,10 +2812,19 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
   {
     id: 'rawnaq-spray-avis',
     title: 'Spray Rawnaq Avis | Spray Intime Naturel au Maroc',
+    titleAr: 'بخاخ رونق آراء | بخاخ حميم طبيعي في المغرب',
+    titleEn: 'Rawnaq Spray Reviews | Natural Intimate Spray in Morocco',
+    titleEs: 'Spray Rawnaq Opiniones | Spray Íntimo Natural en Marruecos',
     excerpt: 'Spray Rawnaq avis : spray intime 100% naturel au Maroc. Herbes sahariennes et huiles essentielles. Raffermissement naturel, confiance et fraicheur.',
+    excerptAr: 'آراء بخاخ رونق: بخاخ حميم 100% طبيعي في المغرب. أعشاب صحراوية وزيوت عطرية. شد طبيعي، ثقة ونضارة.',
+    excerptEn: 'Rawnaq Spray reviews: 100% natural intimate spray in Morocco. Saharan herbs and essential oils. Natural tightening, confidence and freshness.',
+    excerptEs: 'Rawnaq Spray opiniones: spray íntimo 100% natural en Marruecos. Hierbas saharianas y aceites esenciales. Tonificación natural, confianza y frescura.',
     date: '2025-07-02',
     readTime: '6 min',
     category: 'Soins Intimes',
+    categoryAr: 'العناية الحميمة',
+    categoryEn: 'Intimate Care',
+    categoryEs: 'Cuidado Íntimo',
     image: '/images/rawnaq-lifestyle-1.jpg',
     content: `## Spray Rawnaq : Retrouvez Confiance et Fraicheur au Naturel
 
@@ -2733,10 +2943,19 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
   {
     id: 'eclarte-gel-intime-avis',
     title: 'Eclarte Gel Intime Avis | Gel Hygiène Intime 100% Naturel',
+    titleAr: 'إيكلارت جل حميم آراء | جل نظافة حميمة 100% طبيعي',
+    titleEn: 'Eclarte Intimate Gel Reviews | 100% Natural Intimate Hygiene Gel',
+    titleEs: 'Eclarte Gel Íntimo Opiniones | Gel de Higiene Íntima 100% Natural',
     excerpt: 'Eclarte Gel Intime avis : gel d\'hygiène intime 100% naturel au Maroc. Aloe vera, Lavande, Arbre à Thé. pH neutre, sans sulfate, sans silicone. Fraîcheur et confort durable.',
+    excerptAr: 'آراء إيكلارت جل حميم: جل نظافة حميمة 100% طبيعي في المغرب. صبار، لافندر، شجرة الشاي. pH محايد، بدون كبريتات، بدون سيليكون. نضارة ومريح دائم.',
+    excerptEn: 'Eclarte Intimate Gel reviews: 100% natural intimate hygiene gel in Morocco. Aloe vera, Lavender, Tea Tree. Neutral pH, sulfate-free, silicone-free. Lasting freshness and comfort.',
+    excerptEs: 'Eclarte Gel Íntimo opiniones: gel de higiene íntima 100% natural en Marruecos. Aloe vera, Lavanda, Árbol de Té. pH neutro, sin sulfatos, sin silicona. Frescura y confort duraderos.',
     date: '2025-06-30',
     readTime: '6 min',
     category: 'Soins Intimes',
+    categoryAr: 'العناية الحميمة',
+    categoryEn: 'Intimate Care',
+    categoryEs: 'Cuidado Íntimo',
     image: '/images/eclarte-lifestyle-1.jpg',
     content: `## Eclarte Gel Intime : La Fraîcheur Naturelle au Quotidien
 
@@ -2852,10 +3071,19 @@ Sa formule 100% naturelle, à pH neutre et sans produits chimiques en fait un **
   {
     id: 'masque-tresor-desert-avis',
     title: 'Masque Trésor du Désert Avis | Masque Cheveux Naturel au Cacao et Karité',
+    titleAr: 'قناع كنز الصحراء آراء | قناع شعر طبيعي بالكاكاو والشيا',
+    titleEn: 'Trésor du Désert Mask Reviews | Natural Hair Mask with Cocoa and Shea',
+    titleEs: 'Mascarilla Trésor du Désert Opiniones | Mascarilla Capilar Natural con Cacao y Karité',
     excerpt: 'Masque Trésor du Désert avis : le masque hydratant cheveux 100% naturel du Maroc. Cacao + Karité + Huile de Coco. Réparation intense pour cheveux secs et abîmés.',
+    excerptAr: 'آراء قناع كنز الصحراء: قناع مرطب للشعر 100% طبيعي من المغرب. كاكاو + زبدة شيا + زيت جوز الهند. إصلاح مكثف للشعر الجاف والتالف.',
+    excerptEn: 'Trésor du Désert mask reviews: 100% natural moisturizing hair mask from Morocco. Cocoa + Shea Butter + Coconut Oil. Intensive repair for dry and damaged hair.',
+    excerptEs: 'Mascarilla Trésor du Désert opiniones: mascarilla hidratante capilar 100% natural de Marruecos. Cacao + Manteca de Karité + Aceite de Coco. Reparación intensa para cabello seco y dañado.',
     date: '2025-06-22',
     readTime: '7 min',
     category: 'Soins Cheveux',
+    categoryAr: 'العناية بالشعر',
+    categoryEn: 'Hair Care',
+    categoryEs: 'Cuidado Capilar',
     image: '/images/masque/masque-lifestyle-1.jpg',
     content: `## Masque Trésor du Désert : Le Secret des Cheveux Parfaits
 
@@ -2971,10 +3199,19 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
   {
     id: 'deodorant-naturel-maroc',
     title: 'Toutia Ismailiya | Pierre Deodorant Naturel du Maroc Sans Aluminium',
+    titleAr: 'تويتية إسماعيلية | حجر مزيل عرق طبيعي من المغرب بدون ألومنيوم',
+    titleEn: 'Toutia Ismailiya | Natural Deodorant Stone from Morocco Without Aluminum',
+    titleEs: 'Toutia Ismailiya | Piedra Desodorante Natural de Marruecos Sin Aluminio',
     excerpt: 'La Toutia Ismailiya : pierre naturelle du Sud-Est marocain utilisee depuis l\'Antiquite comme deodorant naturel et blanchisseur des parties intimes. Sans aluminium, sans danger.',
+    excerptAr: 'تويتية إسماعيلية: حجر طبيعي من جنوب شرق المغرب يُستخدم منذ العصور القديمة كمزيل عرق طبيعي ومفتح للمناطق الحميمة. بدون ألومنيوم، بدون أضرار.',
+    excerptEn: 'Toutia Ismailiya: natural stone from southeastern Morocco used since antiquity as a natural deodorant and brightener for intimate areas. Without aluminum, without danger.',
+    excerptEs: 'Toutia Ismailiya: piedra natural del sureste marroquí usada desde la Antigüedad como desodorante natural y blanqueador de zonas íntimas. Sin aluminio, sin peligro.',
     date: '2025-06-01',
     readTime: '6 min',
     category: 'Produits Naturels',
+    categoryAr: 'المنتجات الطبيعية',
+    categoryEn: 'Natural Products',
+    categoryEs: 'Productos Naturales',
     image: '/images/toutia.jpg',
     content: `## Pourquoi Choisir un Deodorant Naturel Sans Aluminium ?
 
@@ -3034,10 +3271,19 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
   {
     id: 'shampoing-proteines-avis',
     title: 'Shampoing aux Protéines Trésor du Désert Avis | Cheveux Forts et Brillants',
+    titleAr: 'شامبو البروتين كنز الصحراء آراء | شعر قوي ولامع',
+    titleEn: 'Trésor du Désert Protein Shampoo Reviews | Strong and Shiny Hair',
+    titleEs: 'Champú de Proteínas Trésor du Désert Opiniones | Cabello Fuerte y Brillante',
     excerpt: 'Shampoing aux Protéines Trésor du Désert avis : shampoing 100% naturel sans sulfate. Protéines + Aloe vera + Herbes sahariennes. Cheveux forts, brillants et sans fourches.',
+    excerptAr: 'آراء شامبو البروتين كنز الصحراء: شامبو 100% طبيعي بدون كبريتات. بروتينات + صبار + أعشاب صحراوية. شعر قوي، لامع وبدون تقصف.',
+    excerptEn: 'Trésor du Désert Protein Shampoo reviews: 100% natural sulfate-free shampoo. Proteins + Aloe vera + Saharan herbs. Strong, shiny hair without split ends.',
+    excerptEs: 'Champú de Proteínas Trésor du Désert opiniones: champú 100% natural sin sulfatos. Proteínas + Aloe vera + Hierbas saharianas. Cabello fuerte, brillante y sin puntas abiertas.',
     date: '2025-06-28',
     readTime: '7 min',
     category: 'Soins Cheveux',
+    categoryAr: 'العناية بالشعر',
+    categoryEn: 'Hair Care',
+    categoryEs: 'Cuidado Capilar',
     image: '/images/shampoing-lifestyle-1.jpg',
     content: `## Shampoing aux Protéines Trésor du Désert : Le Secret des Cheveux Parfaits
 
@@ -3154,10 +3400,19 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
   {
     id: 'shampoing-naturel-cheveux',
     title: 'Shampoing Naturel Anti-Chute | Secret d\'Atlas Dakhla Artisanal',
+    titleAr: 'شامبو طبيعي مضاد لتساقط الشعر | سر الأطلس - دخلا أرتيزانال',
+    titleEn: 'Natural Anti-Hair Loss Shampoo | Secret d\'Atlas Dakhla Artisanal',
+    titleEs: 'Champú Natural Anticaída | Secret d\'Atlas Dakhla Artisanal',
     excerpt: 'Le meilleur shampoing naturel anti-chute au Maroc. Triple certification ISO GMP OCP. Aux herbes de l\'Atlas pour des cheveux forts et brillants.',
+    excerptAr: 'أفضل شامبو طبيعي مضاد لتساقط الشعر في المغرب. شهادة ثلاثية ISO GMP OCP. بأعشاب الأطلس لشعر قوي ولامع.',
+    excerptEn: 'The best natural anti-hair loss shampoo in Morocco. Triple certification ISO GMP OCP. With Atlas herbs for strong and shiny hair.',
+    excerptEs: 'El mejor champú natural anticaída en Marruecos. Triple certificación ISO GMP OCP. Con hierbas del Atlas para un cabello fuerte y brillante.',
     date: '2025-06-08',
     readTime: '6 min',
     category: 'Soins Cheveux',
+    categoryAr: 'العناية بالشعر',
+    categoryEn: 'Hair Care',
+    categoryEs: 'Cuidado Capilar',
     image: '/images/shampoing-lifestyle-1.jpg',
     content: `## Le Meilleur Shampoing Naturel Anti-Chute au Maroc
 
@@ -3208,10 +3463,19 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
   {
     id: 'huile-massage-douleurs',
     title: 'Huile de Massage pour Douleurs Articulaires | Floro Calm',
+    titleAr: 'زيت مساج لآلام المفاصل | فلورو كالم',
+    titleEn: 'Massage Oil for Joint Pain | Floro Calm',
+    titleEs: 'Aceite de Masaje para Dolores Articulares | Floro Calm',
     excerpt: 'Floro Calm : huile de massage naturelle aux actifs chauffants. Camphre, ginseng, menthol. Soulage les douleurs musculaires et articulaires rapidement.',
+    excerptAr: 'فلورو كالم: زيت مساج طبيعي بمواد نشطة مدفئة. كافور، جينسنغ، منثول. يخفف آلام العضلات والمفاصل بسرعة.',
+    excerptEn: 'Floro Calm: natural massage oil with warming active ingredients. Camphor, ginseng, menthol. Quickly relieves muscle and joint pain.',
+    excerptEs: 'Floro Calm: aceite de masaje natural con ingredientes activos calentadores. Alcanfor, ginseng, mentol. Alivia rápidamente los dolores musculares y articulares.',
     date: '2025-06-15',
     readTime: '5 min',
     category: 'Bien-être',
+    categoryAr: 'الرفاهية',
+    categoryEn: 'Well-being',
+    categoryEs: 'Bienestar',
     image: '/images/floro/floro-massage-1.jpg',
     content: `## Huile de Massage Naturelle pour Douleurs Articulaires
 
@@ -3261,9 +3525,18 @@ Appliquez sur la zone douloureuse et massez circulairement jusqu'à absorption c
   {
     readTime: "5 min",
 category: "Blog",
+    categoryAr: 'مدونة',
+    categoryEn: 'Blog',
+    categoryEs: 'Blog',
     id: 'eclat-artisan-serum-anti-acne',
     title: 'Eclat D\'artisan Sérum Anti-Acné : Peau Claire Sans Boutons',
+    titleAr: 'سيروم إيكلا دارتيزان مضاد لحب الشباب: بشرة صافية بدون بثور',
+    titleEn: 'Eclat D\'Artisan Anti-Acne Serum: Clear Skin Without Pimples',
+    titleEs: 'Sérum Eclat D\'Artisan Antiacné: Piel Clara Sin Granos',
     excerpt: 'Charbon actif, acide salicylique et tea tree pour eliminer l\'acné. Découvrez le sérum naturel qui purifie votre peau en profondeur.',
+    excerptAr: 'الفحم النشط وحمض الساليسيليك والشجرة الشايية للقضاء على حب الشباب. اكتشف السيروم الطبيعي الذي يطهر بشرتك في العمق.',
+    excerptEn: 'Activated charcoal, salicylic acid and tea tree to eliminate acne. Discover the natural serum that deeply cleanses your skin.',
+    excerptEs: 'Carbón activado, ácido salicílico y árbol de té para eliminar el acné. Descubre el sérum natural que purifica tu piel en profundidad.',
     image: '/images/eclat-artisan-lifestyle-1.jpg',
     date: '15 Juin 2025',
     content: `**L\'acné touche plus de 80% des adolescents et 40% des adultes au Maroc.** Les solutions chimiques agressent la peau et créent un effet rebond. Découvrez le sérum naturel **Eclat D\'artisan** qui combine charbon actif, acide salicylique et tea tree pour une peau nette et éclatante.
@@ -3343,9 +3616,18 @@ Les premiers résultats apparaissent en 1-2 semaines, optimum à 4-6 semaines.
   {
 readTime: "5 min",
 category: "Blog",
+    categoryAr: 'مدونة',
+    categoryEn: 'Blog',
+    categoryEs: 'Blog',
     id: 'serum-loubane-repulpant-levres',
     title: 'Serum Loubane : Des Levres Pleines et Sublimes au Naturel',
+    titleAr: 'سيروم لوبانة: شفاه ممتلئة ورائعة بشكل طبيعي',
+    titleEn: 'Loubane Serum: Full and Sublime Lips Naturally',
+    titleEs: 'Sérum Loubana: Labios Llenos y Sublimes de Forma Natural',
     excerpt: 'Decouvrez le secret de levres pulpeuses et hydratees avec le Serum Loubane. Menthe poivree, huile de coco et herbes sahariennes pour un effet repulpant naturel.',
+    excerptAr: 'اكتشف سر الشفاه الممتلئة والمرطبة مع سيروم لوبانة. نعناع البيبرمنت وزيت جوز الهند والأعشاب الصحراوية لتأثير تجميل طبيعي.',
+    excerptEn: 'Discover the secret to plump and hydrated lips with Loubane Serum. Peppermint, coconut oil and Saharan herbs for a natural plumping effect.',
+    excerptEs: 'Descubre el secreto de unos labios voluminosos e hidratados con el Sérum Loubana. Menta piperita, aceite de coco y hierbas saharianas para un efecto voluminizador natural.',
     image: '/images/loubane-lifestyle-1.jpg',
     date: '15 Juin 2025',
     content: `**Rever de levres pleines, douces et hydratees sans injections ni chimie ?** Le **Serum Loubane** de Dakhla Artisanal est la solution naturelle qui repulpe, hydrate et sublime vos levres grace a un melange unique d\'huiles vegetales et d\'herbes sahariennes.
@@ -3430,9 +3712,18 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
   {
     readTime: "5 min",
 category: "Blog",
+    categoryAr: 'مدونة',
+    categoryEn: 'Blog',
+    categoryEs: 'Blog',
     id: 'pack-floro-calm-articulations',
     title: 'Pack Floro Calm : La Solution Complete pour Vos Articulations',
+    titleAr: 'باك فلورو كالم: الحل الشامل لمفاصلك',
+    titleEn: 'Pack Floro Calm: The Complete Solution for Your Joints',
+    titleEs: 'Pack Floro Calm: La Solución Completa para tus Articulaciones',
     excerpt: 'Pack huile + complement pour soulager les douleurs articulaires. Curcuma, ginseng, camphre et graine de lin pour des articulations souples et sans douleur.',
+    excerptAr: 'باك زيت + مكمل لتخفيف آلام المفاصل. كركم، جينسنغ، كافور وبذور الكتان لمفاصل مرنة وبدون ألم.',
+    excerptEn: 'Oil + supplement pack to relieve joint pain. Turmeric, ginseng, camphor and flaxseed for flexible and pain-free joints.',
+    excerptEs: 'Pack aceite + suplemento para aliviar los dolores articulares. Cúrcuma, ginseng, alcanfor y semillas de lino para articulaciones flexibles y sin dolor.',
     image: '/images/pack-floro-calm-lifestyle-1.jpg',
     date: '15 Juin 2025',
     content: `**Plus de 7 millions de Marocains souffrent de douleurs articulaires.** Le **Pack Floro Calm** combine une huile de massage chauffante et un complement alimentaire pour une action synergique interieure et exterieure contre les douleurs.
@@ -3529,10 +3820,19 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
   {
     id: 'vitamine-d3-k2-bienfaits',
     title: 'Vitamine D3 + K2 : Pourquoi Cette Combinaison Est Indispensable Pour Vos Os et Votre Cœur',
+    titleAr: 'فيتامين D3 + K2: لماذا هذا المزيج ضروري لعظامك وقلبك',
+    titleEn: 'Vitamin D3 + K2: Why This Combination Is Essential for Your Bones and Heart',
+    titleEs: 'Vitamina D3 + K2: Por Qué Esta Combinación Es Indispensable para tus Huesos y Corazón',
     excerpt: 'Carence en vitamine D3 au Maroc, os fragilisés, fatigue chronique, immunité affaiblie... La synergie D3+K2 est la solution que les médecins recommandent. Découvrez pourquoi les prendre séparément ne suffit pas.',
+    excerptAr: 'نقص فيتامين D3 في المغرب، عظام هشة، تعب مزمن، مناعة ضعيفة... تآزر D3+K2 هو الحل الذي يوصي به الأطباء. اكتشف لماذا تناولهما بشكل منفصل لا يكفي.',
+    excerptEn: 'Vitamin D3 deficiency in Morocco, weakened bones, chronic fatigue, lowered immunity... The D3+K2 synergy is the solution doctors recommend. Discover why taking them separately is not enough.',
+    excerptEs: 'Deficiencia de vitamina D3 en Marruecos, huesos debilitados, fatiga crónica, inmunidad reducida... La sinergia D3+K2 es la solución que recomiendan los médicos. Descubre por qué tomarlos por separado no es suficiente.',
     date: '2026-06-27',
     readTime: '10 min',
     category: 'Compléments',
+    categoryAr: 'المكملات الغذائية',
+    categoryEn: 'Supplements',
+    categoryEs: 'Suplementos',
     image: '/images/vitamined3k2/d3k2.jpg',
     content: `## 80% des Marocains Sont Carencés en Vitamine D — Êtes-Vous l'Un d'Eux ?
 

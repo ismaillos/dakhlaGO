@@ -69,8 +69,18 @@ function Navbar() {
 export default function BlogArticle() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const article = BLOG_ARTICLES.find(a => a.id === id);
+
+  const getTitle = (a: typeof BLOG_ARTICLES[0]) =>
+    lang === 'ar' ? (a.titleAr || a.title) :
+    lang === 'en' ? (a.titleEn || a.title) :
+    lang === 'es' ? (a.titleEs || a.title) : a.title;
+
+  const getCategory = (a: typeof BLOG_ARTICLES[0]) =>
+    lang === 'ar' ? (a.categoryAr || a.category) :
+    lang === 'en' ? (a.categoryEn || a.category) :
+    lang === 'es' ? (a.categoryEs || a.category) : a.category;
 
   if (!article) {
     return (
@@ -98,7 +108,7 @@ export default function BlogArticle() {
           <div className="flex items-center gap-2 text-[12px] text-[#8B5E34]">
             <Link to="/" className="hover:text-[#E8732F] transition-colors">{t.blogArticle.home}</Link><span>/</span>
             <Link to="/blog" className="hover:text-[#E8732F] transition-colors">{t.blogArticle.blog}</Link><span>/</span>
-            <span className="text-[#4A3728]/60">{article.title}</span>
+            <span className="text-[#4A3728]/60">{getTitle(article)}</span>
           </div>
         </div>
       </div>
@@ -110,11 +120,11 @@ export default function BlogArticle() {
             <img src={article.image} alt={article.title} className="w-full h-full object-cover" loading="eager" />
           </div>
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-[10px] bg-[#E8732F] text-white px-3 py-1 rounded-full font-bold">{article.category}</span>
+            <span className="text-[10px] bg-[#E8732F] text-white px-3 py-1 rounded-full font-bold">{getCategory(article)}</span>
             <span className="text-[12px] text-[#8B5E34]">{article.date}</span>
             <span className="text-[12px] text-[#8B5E34]">{article.readTime} {t.blogArticle.readTime}</span>
           </div>
-          <h1 className="text-[clamp(24px,4vw,40px)] font-extrabold mb-4 leading-tight font-serif text-[#2D1F0A]">{article.title}</h1>
+          <h1 className="text-[clamp(24px,4vw,40px)] font-extrabold mb-4 leading-tight font-serif text-[#2D1F0A]">{getTitle(article)}</h1>
           <p className="text-[#8B5E34] text-sm mb-6" dir="rtl">{t.blogArticle.articleBy}</p>
         </div>
       </section>
@@ -190,8 +200,8 @@ export default function BlogArticle() {
                     <img src={a.image} alt={a.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
                   </div>
                   <div className="p-5">
-                    <span className="text-[10px] bg-[#E8732F]/10 text-[#E8732F] px-2 py-0.5 rounded-full">{a.category}</span>
-                    <h3 className="text-sm font-bold mt-2 text-[#2D1F0A] group-hover:text-[#E8732F] transition-colors">{a.title}</h3>
+                    <span className="text-[10px] bg-[#E8732F]/10 text-[#E8732F] px-2 py-0.5 rounded-full">{getCategory(a)}</span>
+                    <h3 className="text-sm font-bold mt-2 text-[#2D1F0A] group-hover:text-[#E8732F] transition-colors">{getTitle(a)}</h3>
                   </div>
                 </Link>
               ))}
