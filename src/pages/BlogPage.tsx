@@ -1,8 +1,51 @@
+import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BLOG_ARTICLES } from '../data/blog';
 import { WHATSAPP_NUMBER } from '../data/products';
+import { useLang } from '../hooks/useLanguage';
+import { LANGS } from '../i18n/translations';
+
+function LangSwitcher() {
+  const { lang, setLang } = useLang();
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const current = LANGS.find(l => l.code === lang)!;
+
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+      <button onClick={() => setOpen(v => !v)}
+        className="flex items-center gap-1.5 text-[#4A3728]/70 hover:text-[#E8732F] transition-colors text-[13px] font-medium px-2 py-1 rounded-lg">
+        <span>{current.flag}</span>
+        <span className="uppercase text-[11px] font-bold tracking-wide">{current.code}</span>
+        <svg className={`w-3 h-3 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      {open && (
+        <div className="absolute top-full right-0 mt-1.5 bg-white border border-[#C4A882]/20 rounded-xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,0.15)] z-50 min-w-[130px]">
+          {LANGS.map(l => (
+            <button key={l.code} onClick={() => { setLang(l.code); setOpen(false); }}
+              className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 text-[13px] transition-colors text-left ${l.code === lang ? 'bg-[#E8732F]/10 text-[#E8732F]' : 'text-[#2D1F0A] hover:bg-[#FAF6EF] hover:text-[#E8732F]'}`}>
+              <span className="text-base">{l.flag}</span>
+              <span className="font-medium">{l.label}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 function Navbar() {
+  const { t } = useLang();
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FAF6EF]/95 backdrop-blur-xl border-b border-[#C4A882]/20">
       <div className="max-w-[1200px] mx-auto px-5 py-3.5 flex items-center justify-between">
@@ -13,8 +56,9 @@ function Navbar() {
           </div>
         </Link>
         <div className="flex items-center gap-6">
-          <Link to="/" className="text-[#4A3728]/70 text-sm font-medium hover:text-[#E8732F] transition-colors">Accueil</Link>
+          <Link to="/" className="text-[#4A3728]/70 text-sm font-medium hover:text-[#E8732F] transition-colors">{t.blogPage.home}</Link>
           <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="bg-[#E8732F] text-white px-5 py-2 rounded-full text-[12px] font-bold hover:bg-[#c45e22] transition-colors">WhatsApp</a>
+          <LangSwitcher />
         </div>
       </div>
     </nav>
@@ -22,6 +66,7 @@ function Navbar() {
 }
 
 export default function BlogPage() {
+  const { t } = useLang();
   return (
     <div className="min-h-screen bg-[#FAF6EF] text-[#2D1F0A]">
       <Navbar />
@@ -29,11 +74,11 @@ export default function BlogPage() {
       <div className="pt-28 pb-8 px-5 bg-gradient-to-b from-[#F0E8D8] to-[#FAF6EF]">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-2 text-[12px] text-[#8B5E34] mb-6">
-            <Link to="/" className="hover:text-[#E8732F] transition-colors">Accueil</Link><span>/</span><span className="text-[#4A3728]/60">Blog</span>
+            <Link to="/" className="hover:text-[#E8732F] transition-colors">{t.blogPage.home}</Link><span>/</span><span className="text-[#4A3728]/60">{t.blogPage.blog}</span>
           </div>
-          <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">Conseils & Recettes</div>
-          <h1 className="text-[clamp(36px,5vw,56px)] font-extrabold mb-4 font-serif text-[#2D1F0A]">Blog <em className="text-[#E8732F] not-italic">Dakhla</em></h1>
-          <p className="text-[#4A3728]/70 text-lg max-w-[600px]">Conseils, recettes et histoires autour des produits naturels du Sahara Marocain.</p>
+          <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">{t.blogPage.tag}</div>
+          <h1 className="text-[clamp(36px,5vw,56px)] font-extrabold mb-4 font-serif text-[#2D1F0A]">{t.blogPage.title} <em className="text-[#E8732F] not-italic">{t.blogPage.titleEm}</em></h1>
+          <p className="text-[#4A3728]/70 text-lg max-w-[600px]">{t.blogPage.sub}</p>
         </div>
       </div>
 
@@ -47,7 +92,7 @@ export default function BlogPage() {
               <div className="p-6">
                 <div className="flex items-center gap-3 mb-3">
                   <span className="text-[10px] bg-[#E8732F]/10 text-[#E8732F] px-2.5 py-0.5 rounded-full font-semibold">{a.category}</span>
-                  <span className="text-[10px] text-[#8B5E34]">{a.readTime} de lecture</span>
+                  <span className="text-[10px] text-[#8B5E34]">{a.readTime} {t.blogPage.readTime}</span>
                 </div>
                 <h2 className="text-lg font-bold mb-2 text-[#2D1F0A] group-hover:text-[#E8732F] transition-colors leading-snug">{a.title}</h2>
                 <p className="text-[13px] text-[#4A3728]/70 leading-relaxed mb-3">{a.excerpt}</p>
