@@ -152,6 +152,186 @@ Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La n
 ---
 
 *mots clés : transpiration excessive Maroc, mauvaise odeur corps solution naturelle, déodorant pierre naturelle sans aluminium, toutia alun Maroc, mycose pieds traitement naturel, anti-odeur naturel, hygiène naturelle Maroc*`,
+    contentAr: `## التعرق المفرط: مشكلة تؤثر على حياتك اليومية
+
+هل تتجنب رفع ذراعيك في الأماكن العامة؟ هل تغير ملابسك عدة مرات يومياً؟ هل تستخدم مزيلات العرق الصناعية دون نتيجة دائمة؟ أنت لست وحدك.
+
+التعرق المفرط والروائح الكريهة تؤثر على ملايين الأشخاص في المغرب. هذه المشكلة، التي كثيراً ما تكون من المحرمات، لها تداعيات حقيقية على الثقة بالنفس والعلاقات الاجتماعية وجودة الحياة.
+
+[IMAGE:/images/toutia.jpg]
+
+## لماذا نتعرق كثيراً؟
+
+### الأسباب الفيزيولوجية
+
+التعرق هو آلية طبيعية لتنظيم حرارة الجسم. غير أن عوامل معينة تضخم هذه الظاهرة:
+
+1. فرط التعرق: إنتاج مفرط للعرق بشكل غير طبيعي
+2. اختلال هرموني (البلوغ، انقطاع الطمث، الحمل)
+3. التوتر والقلق المزمن
+4. نظام غذائي غني بالتوابل أو الكافيين أو الكحول
+5. زيادة الوزن وقلة النشاط البدني
+6. الاستعداد الوراثي
+
+### لماذا تفشل مزيلات العرق التقليدية؟
+
+تحتوي مزيلات العرق الصناعية على الألومنيوم الذي يسد الغدد العرقية. هذا الانسداد لا يعالج السبب - بل يخفيه مؤقتاً. النتيجة: تهيج جلدي، بقع صفراء على الملابس، وأحياناً مشاكل صحية مرتبطة بتراكم الألومنيوم.
+
+**الحل الحقيقي؟ تحييد البكتيريا المسببة للروائح، وليس منع التعرق.**
+
+## التوتيا الإسماعيلية: الحل الطبيعي الأصيل
+
+التوتيا الإسماعيلية مسحوق معدني 100% طبيعي، ناعم كالتلك، بدون أي رائحة. لا يُخلط بأي شيء: لا شبة، لا تلك، لا مادة كيميائية. إنه الحجر الخام للطبيعة، مطحون بنقاء تام.
+
+[IMAGE:/images/toutia/toutia.jpg]
+
+### كيف تعمل التوتيا؟
+
+تعمل التوتيا الإسماعيلية على خلق بيئة معادية للبكتيريا المسببة للروائح. تُضيِّق المسام دون سدها، تنظم التعرق بشكل طبيعي وتطهر البشرة من الأعماق - كل ذلك بدون رطوبة، بدون رائحة، وبدون أي مواد مضافة.
+
+### فوائد التوتيا الإسماعيلية دخلة أرتيزانال
+
+**حماية طويلة الأمد:**
+- فعّالة 24 ساعة بعد تطبيق واحد
+- تُحيِّد روائح الإبطين والقدمين والمناطق الحساسة
+- تأثير مضاد للفطريات القوية ضد فطريات القدمين
+- 100% طبيعية، بدون ألومنيوم، بدون بارابين، بدون كحول، بدون عطر
+
+**للعائلة بأكملها:**
+- مناسبة للبشرة الحساسة، والحوامل، والرجال
+- يمكن استخدامها بعد الحلاقة بدون حرق
+- وعاء واحد يدوم لأشهر عديدة (اقتصادي وصديق للبيئة)
+
+## النتائج المتوقعة
+
+**منذ الأسبوع الأول:**
+- انخفاض ملحوظ في الروائح من اليوم الأول
+- إحساس بالنضارة الجافة والمطوّلة
+
+**بعد شهر واحد:**
+- بشرة أكثر صحة، تهيج أقل
+- تراجع كبير في فطريات القدمين
+- استعادة الثقة بالنفس يومياً
+
+> *"كنت أستخدم مزيلات العرق بالألومنيوم منذ 10 سنوات. منذ أن بدأت استخدام التوتيا المسحوقة، لم يتهيج إبطي بعد الآن والرائحة مسيطر عليها طوال اليوم."* — فاطمة ز.، الدار البيضاء
+
+## كيفية استخدام التوتيا الإسماعيلية المسحوقة؟
+
+**مهم: التوتيا الإسماعيلية لا تُبلَّل. إنها مسحوق جاف يُطبَّق مباشرة مثل التلك.**
+
+1. بعد الاستحمام، تأكد من نظافة المنطقة وجفافها جيداً
+2. خذ كمية صغيرة من المسحوق بأصابعك أو بمبخر
+3. ضعها مباشرة على الإبطين أو القدمين أو المناطق الحساسة
+4. لا حاجة للشطف — دعها تعمل طوال اليوم
+
+**نصيحة:** لفطريات القدمين، انثر المسحوق بين الأصابع وأسفل القدم، صباحاً ومساءً لمدة 3 أسابيع للحصول على أفضل نتيجة.
+
+## أسئلة شائعة حول التوتيا
+
+**هل التوتيا الإسماعيلية حجر أم مسحوق؟**
+إنها مسحوق معدني نقي، ناعم كالتلك، يُستخرج من الحجر الطبيعي الخام. لا تُبلَّل ولا تُخلط بأي منتج آخر.
+
+**هل التوتيا فعّالة ضد التعرق المفرط؟**
+نعم. التوتيا تُضيِّق المسام بشكل طبيعي وتُحيِّد البكتيريا المسببة للروائح. تقلل التعرق بشكل ملحوظ دون عرقلة عملية التخلص الطبيعي من السموم.
+
+## اطلب التوتيا الإسماعيلية دخلة أرتيزانال
+
+قولي وداعاً للتعرق المحرج ومزيلات العرق الكيميائية. الطبيعة لديها الحل منذ قرون.
+
+**[اطلب التوتيا الإسماعيلية من دخلة أرتيزانال ←](https://dakhla-artisanal.com/pages/toutia-ismailiya-a)**`,
+    contentEn: `## Excessive Sweating: A Problem That Ruins Your Daily Life
+
+Do you avoid raising your arms in public? Do you change clothes several times a day? Do you use industrial deodorants without lasting results? You are not alone.
+
+Excessive sweating and body odor affect millions of people in Morocco. This problem, often taboo, has real repercussions on self-confidence, social relationships, and quality of life.
+
+[IMAGE:/images/toutia.jpg]
+
+## Why Do We Sweat So Much?
+
+### Physiological Causes
+
+Sweating is a natural mechanism for regulating body temperature. However, certain factors amplify this phenomenon:
+
+1. Hyperhidrosis: abnormally high sweat production
+2. Hormonal imbalance (puberty, menopause, pregnancy)
+3. Chronic stress and anxiety
+4. Diet rich in spices, caffeine or alcohol
+5. Overweight and lack of physical activity
+6. Genetic predisposition
+
+### Why Do Classic Deodorants Fail?
+
+Industrial deodorants contain aluminum that clogs the sweat glands. This obstruction does not treat the cause — it masks it temporarily. Result: skin irritations, yellow stains on clothes, and sometimes health problems linked to aluminum accumulation.
+
+**The real solution? Neutralize the bacteria responsible for odors, not block sweating.**
+
+## The Ancestral Solution: Toutia Ismailiya Pure Powder
+
+Used for centuries in the Arab and Berber world, **Toutia Ismailiya** is a 100% natural mineral powder, as fine as talc, with no odor whatsoever. It is mixed with nothing: no sheba, no talc, no chemical product. **It is raw stone from nature, ground into pure powder, without any additives.**
+
+[IMAGE:/images/toutia/toutia.jpg]
+
+### How Does Toutia Work?
+
+Toutia Ismailiya works by creating a hostile environment for the bacteria responsible for bad odors. It tightens pores without clogging them, naturally regulates sweating and cleanses the skin in depth — all without moisture, without odor, and without any added products.
+
+### Benefits of Toutia Ismailiya Dakhla Artisanal
+
+**Long-lasting protection:**
+- Effective for 24 hours after a single application
+- Neutralizes odors from armpits, feet and sensitive areas
+- Powerful antifungal action against foot fungus
+- 100% natural, without synthetic aluminum, without paraben, without alcohol, without fragrance
+
+**For the whole family:**
+- Suitable for sensitive skin, pregnant women and men
+- Can be used after shaving without burning
+- One pot lasts several months (economical and ecological)
+
+## Expected Results
+
+**From week 1:**
+- Notable reduction in odors from the first day
+- Sensation of dry, prolonged freshness
+
+**After 1 month:**
+- Healthier skin, fewer irritations
+- Foot fungus significantly reduced
+- Confidence restored in daily life
+
+> *"I had been using aluminum deodorants for 10 years. Since I started using Toutia powder, my armpits no longer get irritated and the odor is controlled all day long."* — Fatima Z., Casablanca
+
+## How to Use Toutia Ismailiya Powder?
+
+**Important: Toutia Ismailiya does not get wet. It is a dry powder applied directly, like talc.**
+
+1. After showering, make sure the area is clean and completely dry
+2. Take a small amount of powder with your fingers or an applicator
+3. Apply directly to armpits, feet or sensitive areas
+4. No rinsing needed — let it work all day long
+
+**Tip:** For foot fungus, sprinkle between the toes and under the sole, morning and evening for 3 weeks for optimal results.
+
+## FAQ on Sweating and Toutia
+
+**Is Toutia Ismailiya a stone or a powder?**
+It is a pure mineral powder, as fine as talc, obtained from raw natural stone. It does not get wet and is not mixed with any other product.
+
+**Is Toutia Ismailiya effective against excessive sweating?**
+Yes. Toutia naturally tightens pores and neutralizes the bacteria responsible for odors. It significantly reduces sweating without blocking the natural toxin elimination process.
+
+**Can Toutia be used on feet against fungus?**
+Absolutely. Its antifungal properties make it an effective natural remedy against foot fungus. Sprinkle directly on clean, dry feet after each shower.
+
+**Is Toutia suitable for sensitive skin?**
+Yes, that is even its great advantage. Unlike industrial deodorants, it contains no irritants. It can be used after waxing or shaving without causing burns.
+
+## Order Toutia Ismailiya Dakhla Artisanal
+
+Say goodbye to embarrassing sweating and chemical deodorants. Nature has had the solution for centuries.
+
+**[Order Toutia Ismailiya from Dakhla Artisanal →](https://dakhla-artisanal.com/pages/toutia-ismailiya-a)**`,
     ctaUrl: '/produit/toutia',
     ctaLabel: 'Commander la Toutia Ismailiya',
     ctaColor: '#5B7B5E',
@@ -276,6 +456,170 @@ Votre chevelure mérite mieux que de continuer à tomber. Agissez maintenant.
 ---
 
 *mots clés : chute cheveux femme Maroc, perte cheveux féminine solution naturelle, spray anti-chute efficace, shampoing sans sulfate, chute cheveux post partum, effluvium télogène traitement, fortifiant capillaire naturel, cheveux fins clairsemés remède*`,
+    contentAr: `## تساقط الشعر عند المرأة: مأساة صامتة
+
+هل تجدين خصلات من شعرك في فرشاة الشعر كل صباح؟ هل أصبحت ضفيرتك أرفع من ذي قبل؟ هل يتسع فرق رأسك ويصبح فروة رأسك مرئية؟ الأمر ليس وهماً - وأنت لست وحدك.
+
+تساقط شعر المرأة يمس قرابة واحدة من كل ثلاث نساء في المغرب، من مختلف الأعمار. على عكس الرجال، يكون هذا الظاهرة عند المرأة منتشرة وشاملة، مرتبطة ارتباطاً وثيقاً بالتوازن الهرموني والغذائي.
+
+[IMAGE:/images/shampoing-lifestyle-1.jpg]
+
+## الأسباب الحقيقية لتساقط شعر المرأة
+
+### الأسباب الهرمونية
+
+1. **ما بعد الوضع**: التساقط بعد الولادة مرتبط بالانخفاض الحاد في مستوى الإستروجين
+2. **انقطاع الطمث**: اختلال توازن الإستروجين/الأندروجين يضعف الجريبات
+3. **متلازمة تكيس المبايض**: زيادة الأندروجينات
+4. **الغدة الدرقية**: قصور أو فرط نشاط الغدة الدرقية
+
+### نقص التغذية
+
+تساقط الشعر غالباً ما يكون أول علامة مرئية لنقص:
+- نقص الحديد (الأكثر شيوعاً عند النساء)
+- نقص البيوتين والزنك وفيتامين D
+- بروتينات غير كافية في النظام الغذائي
+- أحماض أوميغا-3 غير كافية
+
+### العوامل الخارجية
+
+- تسريحات ضيقة جداً (ضفائر، كعكة شعر شديدة الشد)
+- صبغ كيميائي متكرر
+- حرارة مفرطة (مسطحة الشعر، مجفف الشعر)
+- الإجهاد المزمن (التهاب التيلوجين)
+
+[IMAGE:/images/shampoing-result-1.jpg]
+
+## عواقب التساقط غير المعالج
+
+عدم التصرف بسرعة قد يؤدي إلى:
+- تقليص تدريجي لجريبات الشعر
+- مناطق صلع لا يمكن عكسها
+- فقدان الثقة بالنفس والاكتئاب
+- صعوبة استعادة الحجم الطبيعي حتى بعد العلاج المتأخر
+
+**كلما تصرفت مبكراً، كانت النتائج أفضل.**
+
+## البروتوكول الطبيعي لمكافحة التساقط: باك مضاد التساقط دخلة أرتيزانال
+
+يجمع **باك مضاد التساقط** بين منتجين تكامليين لتأثير مزدوج: في الأعماق على فروة الرأس وعلى شعرة الشعر.
+
+### سبراي مضاد التساقط
+
+**سبراي مضاد التساقط** هو مقوٍّ طبيعي للاستخدام اليومي. يخترق فروة الرأس مباشرة لـ:
+- تحفيز الدورة الدموية على مستوى الجريبات
+- تقوية الجذور الضعيفة
+- تقليل التساقط بحجب الهرمونات المسؤولة عن التقليص
+
+**التطبيق:** رش على فروة الرأس الجافة أو الرطبة قليلاً، تدليك 2-3 دقائق. بدون شطف.
+
+### شامبو البروتينات بدون كبريتات
+
+**شامبو البروتينات** ينظف دون إيذاء. تركيبته الخالية من الكبريتات:
+- تحافظ على الغشاء الدهني الطبيعي لفروة الرأس
+- تقوي شعرة الشعر من الداخل بفضل البروتينات النباتية
+- تهدئ فروات الرأس الحساسة والمتهيجة
+- تحفز تجديد الخلايا مع الألوفيرا
+
+## النتائج المتوقعة مع باك مضاد التساقط
+
+**الأسبوعان 1-2:** أقل من الشعر في الفرشاة، فروة رأس أقل حساسية
+
+**الأسبوعان 3-4:** تقليل مرئي للتساقط بنسبة 40-60%
+
+**بعد شهرين:** نمو شعر جديد، شعر أكثر كثافة وقوة
+
+> *"فقدت نصف شعري بعد الولادة. بعد 6 أسابيع مع باك مضاد التساقط، أرى بالفعل شعراً صغيراً ينمو على صدغيّ. إنه معجزة!"* — نادية ب.، الرباط
+
+## اطلب باك مضاد التساقط
+
+**[اطلب باك مضاد التساقط من دخلة أرتيزانال ←](/#/produit/pack-anti-chute)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+شعرك يستحق أفضل من الاستمرار في التساقط. تصرف الآن.`,
+    contentEn: `## Female Hair Loss: A Silent Drama
+
+Do you find handfuls of hair in your brush every morning? Is your bun getting thinner and thinner? Is your parting widening and your scalp becoming visible? It is not in your head — and you are not alone.
+
+Female hair loss affects nearly one in three women in Morocco, across all ages. Unlike men, in women, this phenomenon is often diffuse, global, and deeply linked to hormonal and nutritional balance.
+
+[IMAGE:/images/shampoing-lifestyle-1.jpg]
+
+## The Real Causes of Female Hair Loss
+
+### Hormonal Causes
+
+1. **Post-partum**: hair loss after childbirth is linked to the sudden drop in estrogens
+2. **Menopause**: the estrogen/androgen imbalance weakens follicles
+3. **PCOS** (Polycystic Ovary Syndrome): excess androgens
+4. **Thyroid**: hypothyroidism or hyperthyroidism
+
+### Nutritional Deficiencies
+
+Hair loss is often the first visible sign of a deficiency:
+- Iron deficiency (the most common in women)
+- Lack of biotin, zinc and vitamin D
+- Insufficient protein in the diet
+- Insufficient Omega-3
+
+### External Factors
+
+- Hairstyles that are too tight (braids, pulled-back buns)
+- Frequent chemical coloring
+- Excessive heat (straightener, hair dryer)
+- Chronic stress (telogen effluvium)
+
+[IMAGE:/images/shampoing-result-1.jpg]
+
+## Consequences of Untreated Hair Loss
+
+Not acting quickly can lead to:
+- Progressive miniaturization of hair follicles
+- Irreversible bald spots
+- Loss of self-confidence and depression
+- Difficulty regaining normal volume even after late treatment
+
+**The sooner you act, the better the results.**
+
+## The Natural Anti-Hair Loss Protocol: Anti-Hair Loss Pack Dakhla Artisanal
+
+The **Anti-Hair Loss Pack** combines two complementary products for a double action: in-depth on the scalp AND on the hair fiber.
+
+### Anti-Hair Loss Spray
+
+The **Anti-Hair Loss Spray** is a natural strengthener for daily use. It penetrates directly into the scalp to:
+- Stimulate blood circulation at the follicle level
+- Strengthen weakened roots
+- Reduce hair loss by blocking the hormones responsible for miniaturization
+
+**Application:** Spray onto dry or slightly damp scalp, massage for 2-3 minutes. No rinsing needed.
+
+### Sulfate-Free Protein Shampoo
+
+The **Protein Shampoo** cleanses without aggressing. Its sulfate-free formula:
+- Preserves the scalp's natural hydrolipidic film
+- Strengthens the hair fiber from within thanks to plant proteins
+- Soothes sensitive and irritated scalps
+- Stimulates cell renewal with aloe vera
+
+## Expected Results with Anti-Hair Loss Pack
+
+**Weeks 1-2:** Less hair in the brush, less sensitive scalp
+
+**Weeks 3-4:** Visible reduction in hair loss of 40-60%
+
+**After 2 months:** New hair growth, denser and stronger hair
+
+> *"I lost half of my hair after childbirth. After 6 weeks with the Anti-Hair Loss Pack, I can already see small hairs growing back on my temples. It is a miracle!"* — Nadia B., Rabat
+
+## Order the Anti-Hair Loss Pack
+
+**[Order the Anti-Hair Loss Pack from Dakhla Artisanal →](/#/produit/pack-anti-chute)**
+
+Delivery throughout Morocco · Cash on delivery
+
+Your hair deserves better than to keep falling. Act now.`,
     ctaUrl: '/produit/pack-anti-chute',
     ctaLabel: 'Commander le Pack Anti-Chute',
     ctaColor: '#7C3AED',
@@ -408,6 +752,162 @@ Votre corps mérite de bouger librement. Reprenez le contrôle sur votre douleur
 ---
 
 *mots clés : douleurs articulaires traitement naturel Maroc, arthrose genou remède naturel, rhumatisme solution sans médicaments, curcuma articulations, huile chauffante douleur musculaire, Floro Calm avis, complement articulaire naturel Maroc*`,
+    contentAr: `## آلام المفاصل: حين تصبح كل حركة معاناة
+
+الاستيقاظ صباحاً والشعور بتلك الصلابة المؤلمة في الركبتين. صعود الدرج والتجعد من الألم. مد الذراع والشعور بألم حاد في الكتف. إذا كنت تتعرف على هذه المواقف، فمن المحتمل أنك تعاني من آلام مفاصل مزمنة.
+
+في المغرب، يصيب الروماتيزم والفصال العظمي ملايين الأشخاص، خاصة بعد سن الأربعين. ومع ذلك، يستمر كثيرون في المعاناة في صمت، خوفاً من الأدوية الكيميائية وآثارها الجانبية.
+
+[IMAGE:/images/pack-floro-calm-lifestyle-1.jpg]
+
+## فهم آلام المفاصل
+
+### أنواع آلام المفاصل
+
+1. **الفصال العظمي**: تدهور تدريجي للغضروف المفصلي
+2. **التهاب المفاصل**: التهاب المفاصل (ذو أصل مناعي ذاتي)
+3. **الروماتيزم**: مصطلح عام لآلام العضلات والعظام
+4. **آلام أسفل الظهر**: آلام مزمنة في أسفل الظهر
+5. **التهاب الأوتار**: التهاب الأوتار
+
+### الأسباب الرئيسية
+
+- الشيخوخة الطبيعية للغضاريف
+- زيادة الوزن: كل كيلو إضافي = 4 كيلو ضغط على الركبتين
+- العمل البدني المكثف أو الجلوس المطول
+- نقص الكالسيوم وفيتامين D
+- التهاب مزمن منخفض الدرجة مرتبط بالنظام الغذائي
+- الوراثة والعوامل الجينية
+
+[IMAGE:/images/pack-floro-calm-result-1.jpg]
+
+## لماذا لا تكفي مضادات الالتهاب الكلاسيكية
+
+مضادات الالتهاب غير الستيرويدية (الإيبوبروفين، الديكلوفيناك) تخفف مؤقتاً لكنها لا تعمل على السبب. على المدى البعيد:
+- تهيج وقرحة معدية معوية
+- زيادة خطر القلب والأوعية الدموية
+- تسارع تدهور الغضروف مع بعض الأدوية
+- الاعتماد وفقدان الفاعلية مع الوقت
+
+**الطب الطبيعي يقدم بديلاً: العمل على الالتهاب من مصدره.**
+
+## باك فلورو كالم: التحالف القوي الداخلي + الخارجي
+
+يجمع **باك فلورو كالم** بين منتجين تكامليين لتأثير شامل على المفاصل المؤلمة.
+
+### كبسولات فلورو كالم — كركم + كتان + كالسيوم
+
+**كبسولات فلورو كالم** تعمل من الداخل:
+- **الكركم** (الكركومين): مضاد التهاب طبيعي مثبت سريرياً
+- **الكتان**: غني بالأوميغا-3، يزيت المفاصل
+- **الكالسيوم**: يقوي العظام ويمنع هشاشة العظام
+
+الجرعة: كبسولة 1 صباحاً + كبسولة 1 مساءً، أثناء الوجبة.
+
+### فلورو كالم زيت التدفئة — كافور + جنسنج + فلفل
+
+**زيت التدفئة** يعمل خارجياً بالعلاج الحراري الطبيعي:
+- **الكافور**: يخترق بعمق، يخفف الألم في دقائق
+- **الجنسنج**: مضاد التهاب، يجدد الأنسجة
+- **الفلفل الأسود**: موسع للأوعية، يحسن الدورة الدموية المحلية
+
+التطبيق: تدليك 5-10 دقائق على المنطقة المؤلمة، مرتين يومياً.
+
+## النتائج المتوقعة
+
+**الأسبوع 1:** إحساس بالدفء والراحة الفورية بعد الزيت
+
+**الأسابيع 2-3:** تقليل الألم في الراحة، تراجع التصلب الصباحي
+
+**بعد شهر:** تحسن في الحركة، نوبات ألم أقل
+
+> *"أعاني من فصال عظمي في الركبة منذ 5 سنوات. باك فلورو كالم هو أول شيء خففني فعلاً بدون آثار جانبية. أصعد السلم الآن بشكل طبيعي."* — حسن م.، فاس
+
+## اطلب باك فلورو كالم
+
+**[اطلب باك فلورو كالم من دخلة أرتيزانال ←](/#/produit/pack-floro-calm)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+جسمك يستحق التحرك بحرية. استعد السيطرة على ألمك.`,
+    contentEn: `## Joint Pain: When Every Movement Becomes a Trial
+
+Waking up in the morning and feeling that painful stiffness in the knees. Climbing stairs and wincing in pain. Reaching your arm out and feeling sharp pain in the shoulder. If you recognize yourself in these situations, you are probably suffering from chronic joint pain.
+
+In Morocco, rheumatism and osteoarthritis affect millions of people, particularly after age 40. And yet, many continue to suffer in silence, fearing chemical medications and their side effects.
+
+[IMAGE:/images/pack-floro-calm-lifestyle-1.jpg]
+
+## Understanding Joint Pain
+
+### Types of Joint Pain
+
+1. **Osteoarthritis**: progressive degradation of joint cartilage
+2. **Arthritis**: inflammation of the joints (of autoimmune origin)
+3. **Rheumatism**: general term for musculoskeletal pain
+4. **Lumbalgia**: chronic lower back pain
+5. **Tendinitis**: inflammation of tendons
+
+### Main Causes
+
+- Natural aging of cartilages
+- Overweight: each extra kilo = 4 kg of pressure on the knees
+- Intense physical work or prolonged sitting
+- Calcium and vitamin D deficiency
+- Chronic low-grade inflammation linked to diet
+- Heredity and genetic factors
+
+[IMAGE:/images/pack-floro-calm-result-1.jpg]
+
+## Why Classic Anti-Inflammatories Are Not Enough
+
+NSAIDs (ibuprofen, diclofenac) temporarily relieve but do not address the cause. Long-term:
+- Gastrointestinal irritation and ulcers
+- Increased cardiovascular risk
+- Acceleration of cartilage degradation with certain medications
+- Dependence and loss of effectiveness over time
+
+**Natural medicine offers an alternative: act on inflammation at the source.**
+
+## Floro Calm Pack: The Powerful Inside + Outside Alliance
+
+The **Floro Calm Pack** combines two complementary products for complete action on painful joints.
+
+### Floro Calm Capsules — Turmeric + Flax + Calcium
+
+**Floro Calm capsules** work from the inside:
+- **Turmeric** (curcumin): clinically proven natural anti-inflammatory
+- **Flax**: rich in omega-3, lubricates the joints
+- **Calcium**: strengthens the bone and prevents osteoporosis
+
+Dosage: 1 capsule morning + 1 capsule evening, during a meal.
+
+### Floro Calm Warming Oil — Camphor + Ginseng + Pepper
+
+The **warming oil** works externally through natural thermotherapy:
+- **Camphor**: penetrates deeply, relieves pain in minutes
+- **Ginseng**: anti-inflammatory, regenerates tissues
+- **Black pepper**: vasodilator, improves local circulation
+
+Application: massage 5-10 minutes on the painful area, twice a day.
+
+## Expected Results
+
+**Week 1:** Sensation of warmth and immediate relief after the oil
+
+**Weeks 2-3:** Reduction of pain at rest, morning stiffness diminished
+
+**After 1 month:** Improved mobility, fewer painful episodes
+
+> *"I have had knee osteoarthritis for 5 years. The Floro Calm Pack is the first thing that really relieved me without side effects. I now go up stairs normally."* — Hassan M., Fez
+
+## Order Floro Calm Pack
+
+**[Order Floro Calm Pack from Dakhla Artisanal →](/#/produit/pack-floro-calm)**
+
+Delivery throughout Morocco · Cash on delivery
+
+Your body deserves to move freely. Regain control over your pain.`,
     ctaUrl: '/produit/floro-calm',
     ctaLabel: 'Commander Floro-Calm',
     ctaColor: '#EA580C',
@@ -545,6 +1045,150 @@ Votre énergie n\'attend pas. Reprenez le contrôle de votre vitalité dès aujo
 ---
 
 *mots clés : fatigue chronique traitement naturel Maroc, manque énergie solution naturelle, spiruline bienfaits fatigue, vitamine C énergie, maca fatigue hormonale, complément alimentaire énergie Maroc, épuisement remède naturel*`,
+    contentAr: `## التعب المزمن: حين يكون التعب أكثر من مجرد نعاس
+
+تستيقظ منهكاً رغم أنك نمت 8 ساعات. تشرب قهوة تلو أخرى لتبقى مستيقظاً. تفتقر إلى الحافز والتركيز حتى لأبسط المهام. إذا كنت تعيش هذا كل يوم، فأنت تعاني على الأرجح من التعب المزمن.
+
+التعب المزمن ليس كسلاً - إنه إشارة جسدية حقيقية تستحق الاهتمام. في المغرب، يؤثر هذا الاضطراب على ملايين الأشخاص الذين يعيشون بطاقة مستنزفة باستمرار.
+
+## الفرق بين التعب العادي والتعب المزمن
+
+**التعب العادي:**
+- يحدث بعد مجهود جسدي أو ذهني
+- يختفي بعد النوم والراحة
+- مؤقت ومرتبط بسبب محدد
+
+**التعب المزمن:**
+- يستمر رغم النوم الكافي
+- يؤثر على التركيز والمزاج
+- مرتبط بأسباب عميقة: هرمونية، غذائية، عصبية
+
+## الأسباب الرئيسية للتعب المزمن
+
+### الأسباب الغذائية
+
+1. نقص الحديد والأنيميا
+2. نقص فيتامين D وB12
+3. قصور في البروتينات والأحماض الأمينية الأساسية
+4. نقص المغنيسيوم (يؤثر على إنتاج الطاقة الخلوية)
+
+### الأسباب الهرمونية
+
+- خلل الغدة الدرقية (قصور شائع عند النساء)
+- تذبذب السكر في الدم
+- انتشار هرمون الكورتيزول نتيجة الضغط المزمن
+- انخفاض هرمون التستوستيرون عند الرجال بعد 40
+
+### الأسباب العصبية والنفسية
+
+- الاكتئاب واضطرابات القلق
+- اضطرابات النوم (انقطاع النفس، الأرق)
+- الإجهاد العاطفي المزمن
+
+## الحلول الطبيعية لاستعادة الطاقة
+
+### إكسير ماكا — طاقة وحيوية
+
+**إكسير ماكا** هو مزيج فريد من ماكا البيروفية والأعشاب الصحراوية المغربية:
+- **الماكا**: منشط طبيعي قوي، يوازن الهرمونات، يحسن القدرة الجسدية والذهنية
+- **الجنسنج**: يكافح الإجهاد، يزيد من قدرة التحمل
+- **الأعشاب الصحراوية**: أدابتوجينات طبيعية تساعد الجسم على التكيف مع الضغط
+
+### فيتامين ج + سبيرولينا
+
+هذا المزيج الطبيعي القوي يعمل كمضاد للأكسدة وطاقة خلوية:
+- **فيتامين C**: ضروري لإنتاج الطاقة وامتصاص الحديد
+- **السبيرولينا**: سوبرفود يحتوي على البروتينات والحديد والكلوروفيل
+
+## النتائج المتوقعة
+
+**الأسبوعان 1-2:** نوم أعمق، يقظة صباحية أفضل
+
+**الأسابيع 3-4:** طاقة أكثر استدامة على مدار اليوم
+
+**بعد شهرين:** حيوية مستعادة، تركيز محسّن، نظرة أكثر إيجابية
+
+> *"كنت أنام 9 ساعات وأستيقظ منهكاً. بعد شهر من إكسير ماكا، أستيقظ بنشاط وأمضي يومي بطاقة كاملة."* — يوسف ك.، مراكش
+
+## اطلب الحل الطبيعي لطاقتك
+
+**[اطلب إكسير ماكا من دخلة أرتيزانال ←](/#/produit/elixir-maca)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+أعد اكتشاف الطاقة الطبيعية. جسمك قادر على ذلك.`,
+    contentEn: `## Chronic Fatigue: When Tiredness Is More Than Just Sleepiness
+
+You wake up exhausted despite having slept 8 hours. You drink coffee after coffee to stay awake. You lack motivation and focus even for the simplest tasks. If you live this every day, you are probably suffering from chronic fatigue.
+
+Chronic fatigue is not laziness — it is a real physical signal that deserves attention. In Morocco, this disorder affects millions of people who live with constantly drained energy.
+
+## The Difference Between Normal Tiredness and Chronic Fatigue
+
+**Normal tiredness:**
+- Occurs after physical or mental effort
+- Disappears after sleep and rest
+- Temporary and linked to a specific cause
+
+**Chronic fatigue:**
+- Persists despite adequate sleep
+- Affects concentration and mood
+- Linked to deep causes: hormonal, nutritional, neurological
+
+## Main Causes of Chronic Fatigue
+
+### Nutritional Causes
+
+1. Iron deficiency and anemia
+2. Vitamin D and B12 deficiency
+3. Insufficient protein and essential amino acids
+4. Magnesium deficiency (affects cellular energy production)
+
+### Hormonal Causes
+
+- Thyroid dysfunction (hypothyroidism common in women)
+- Blood sugar fluctuations
+- Elevated cortisol from chronic stress
+- Decreased testosterone in men over 40
+
+### Neurological and Psychological Causes
+
+- Depression and anxiety disorders
+- Sleep disorders (sleep apnea, insomnia)
+- Chronic emotional exhaustion
+
+## Natural Solutions to Regain Energy
+
+### Elixir Maca — Energy and Vitality
+
+**Elixir Maca** is a unique blend of Peruvian maca and Moroccan Saharan herbs:
+- **Maca**: powerful natural energizer, balances hormones, improves physical and mental capacity
+- **Ginseng**: fights fatigue, increases endurance
+- **Saharan herbs**: natural adaptogens that help the body adapt to stress
+
+### Vitamin C + Spirulina
+
+This powerful natural combination works as antioxidant and cellular energy:
+- **Vitamin C**: essential for energy production and iron absorption
+- **Spirulina**: superfood containing proteins, iron and chlorophyll
+
+## Expected Results
+
+**Weeks 1-2:** Deeper sleep, better morning alertness
+
+**Weeks 3-4:** More sustained energy throughout the day
+
+**After 2 months:** Restored vitality, improved concentration, more positive outlook
+
+> *"I was sleeping 9 hours and waking up exhausted. After a month of Elixir Maca, I wake up energized and spend my day with full energy."* — Youssef K., Marrakech
+
+## Order the Natural Solution for Your Energy
+
+**[Order Elixir Maca from Dakhla Artisanal →](/#/produit/elixir-maca)**
+
+Delivery throughout Morocco · Cash on delivery
+
+Rediscover your natural energy. Your body is capable of it.`,
     ctaUrl: '/produit/elixir-maca',
     ctaLabel: "Commander l'Élixir Maca",
     ctaColor: '#2563EB',
