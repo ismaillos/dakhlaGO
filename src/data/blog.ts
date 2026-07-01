@@ -1319,6 +1319,118 @@ Votre peau lumineuse existe encore. Il suffit de lui donner les bons outils pour
 ---
 
 *mots clés : peau terne taches brunes Maroc, teint inégal solution naturelle, sérum vitamine C visage, glutathion éclat peau, hyperpigmentation traitement naturel, taches soleil éliminer naturellement, collagène peau beauté Maroc*`,
+    contentAr: `## البشرة الباهتة والبقع: استعادة الإشراق الطبيعي
+
+بشرتك باهتة وفاقدة لإشراقها؟ هل تلاحظين بقعاً داكنة وتفاوتاً في لون البشرة؟ أنت لست وحدك. تأثيرات الشمس والتلوث والإجهاد تجعل البشرة تبدو متعبة ومتجانسة الكمال.
+
+في المغرب، تعاني كثير من النساء من البشرة غير المتجانسة اللون وفرط التصبغ، خاصة في المناطق المعرضة للشمس.
+
+## لماذا تصبح البشرة باهتة وغير متجانسة؟
+
+### العوامل الخارجية
+
+1. **أشعة الشمس**: فوق البنفسجية تحفز الميلانين وتسبب البقع الداكنة
+2. **التلوث**: الجسيمات الدقيقة تؤكسد البشرة وتبهت اللون
+3. **الماء الكلسي**: الكلس + منتجات العناية = بقايا تسد المسام
+4. **مستحضرات العناية العدوانية**: المنظفات والكحول والبارابين تدمر الغشاء الدهني
+
+### العوامل الداخلية
+
+- تراكم الخلايا الميتة (تجديد الخلايا البطيء)
+- نقص فيتامين C (مضاد أكسدة ضروري لتصنيع الكولاجين)
+- الجفاف المزمن
+- الإجهاد التأكسدي والالتهاب الصامت
+
+## الحلول الطبيعية لبشرة مشرقة ومتجانسة
+
+### سيروم V-إيكلا بفيتامين C
+
+**سيروم V-إيكلا** هو سيروم مركّز بفيتامين C الطبيعي:
+- يوحد لون البشرة ويمحو البقع الداكنة
+- يحفز إنتاج الكولاجين لبشرة أكثر شباباً
+- يحمي من أضرار أشعة الشمس
+- يرطب ويشدّ البشرة
+
+### بيو إيكلا B8 - الغلوتاثيون والكولاجين
+
+**بيو إيكلا B8** مشروب الجمال الطبيعي:
+- **الغلوتاثيون**: مضاد أكسدة قوي يعادل فرط التصبغ
+- **الكولاجين**: يعيد المرونة والنضارة للبشرة
+- **فيتامين C**: يضاعف تأثير الغلوتاثيون
+
+## النتائج المتوقعة
+
+**الأسبوعان 1-2:** بشرة أكثر نضارة ولمعاناً
+
+**الأسابيع 3-4:** تفتيح ملحوظ للبقع الداكنة
+
+**بعد شهرين:** توحد اللون، تحسن ملمس البشرة، إشراق طبيعي
+
+> *"كانت بشرتي تبدو متعبة ومملة. بعد شهر من سيروم V-إيكلا، يسألني الناس عما إذا كنت قد ذهبت في إجازة!"* — سلمى أ.، الدار البيضاء
+
+## اطلب منتجات إشراق البشرة
+
+**[اطلب بيو إيكلا B8 من دخلة أرتيزانال ←](/#/produit/bio-eclat-b8)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+بشرتك تستحق أن تتألق.`,
+    contentEn: `## Dull Skin and Spots: Regaining Natural Radiance
+
+Is your skin dull and lacking radiance? Do you notice dark spots and an uneven skin tone? You are not alone. The effects of sun, pollution and stress make skin look tired and far from perfect.
+
+In Morocco, many women suffer from uneven skin tone and hyperpigmentation, especially in sun-exposed areas.
+
+## Why Does Skin Become Dull and Uneven?
+
+### External Factors
+
+1. **Sun**: UV rays stimulate melanin and cause dark spots
+2. **Pollution**: fine particles oxidize skin and dull the complexion
+3. **Hard water**: limescale + care products = residues that clog pores
+4. **Aggressive cosmetics**: detergents, alcohol and parabens destroy the hydrolipidic film
+
+### Internal Factors
+
+- Accumulation of dead cells (slowed cell renewal)
+- Vitamin C deficiency (essential antioxidant for collagen synthesis)
+- Chronic dehydration
+- Oxidative stress and silent inflammation
+
+## Natural Solutions for Bright, Even Skin
+
+### V-Eclat Serum with Vitamin C
+
+**V-Eclat Serum** is a concentrated serum with natural Vitamin C:
+- Unifies skin tone and erases dark spots
+- Stimulates collagen production for younger-looking skin
+- Protects against sun damage
+- Moisturizes and firms skin
+
+### Bio Eclat B8 — Glutathione and Collagen
+
+**Bio Eclat B8** natural beauty drink:
+- **Glutathione**: powerful antioxidant that counteracts hyperpigmentation
+- **Collagen**: restores skin elasticity and freshness
+- **Vitamin C**: doubles the effect of glutathione
+
+## Expected Results
+
+**Weeks 1-2:** Fresher and more radiant skin
+
+**Weeks 3-4:** Visible lightening of dark spots
+
+**After 2 months:** Even skin tone, improved skin texture, natural glow
+
+> *"My skin used to look tired and dull. After a month of V-Eclat Serum, people ask me if I have been on vacation!"* — Salma A., Casablanca
+
+## Order Skin Brightening Products
+
+**[Order Bio Eclat B8 from Dakhla Artisanal →](/#/produit/bio-eclat-b8)**
+
+Delivery throughout Morocco · Cash on delivery
+
+Your skin deserves to shine.`,
     ctaUrl: '/produit/bio-eclat-b8',
     ctaLabel: 'Commander Bio-Éclat B8',
     ctaColor: '#DB2777',
@@ -1445,6 +1557,140 @@ Votre cerveau mérite le repos. Votre corps mérite la sérénité. Agissez natu
 ---
 
 *mots clés : stress chronique traitement naturel Maroc, insomnie solution naturelle, passiflore valériane sommeil, anxiété remède naturel, somnifère naturel sans dépendance, stress anxiété Maroc, Tranquilysse avis, plantes anti-stress*`,
+    contentAr: `## التوتر والأرق: استعادة الهدوء بشكل طبيعي
+
+قلبك يدق بسرعة دون سبب واضح؟ أفكارك تدور في حلقات لا تتوقف؟ تستلقي في السرير ولا يأتيك النوم؟ إذا كان هذا يصف يومياتك، فأنت تعاني من التوتر المزمن والقلق والأرق.
+
+في المغرب، يمس التوتر المزمن ملايين الأشخاص. وعلى الرغم من شيوعه، يظل خطيراً على الصحة الجسدية والعقلية على حد سواء.
+
+## أعراض التوتر المزمن والقلق
+
+**جسدياً:**
+- توتر عضلي، صداع، ألم في الرقبة والظهر
+- اضطرابات هضمية (القولون العصبي، غثيان)
+- خفقان القلب والتعرق المفرط
+- ضعف جهاز المناعة
+
+**نفسياً وسلوكياً:**
+- صعوبة التركيز والانتباه
+- تهيج وسرعة غضب
+- قلق دائم، مخاوف مفرطة
+- الانسحاب الاجتماعي
+
+## لماذا تحدث الاضطرابات النفسية؟
+
+### دور الكورتيزول
+
+عند التوتر، يفرز الجسم الكورتيزول، هرمون الإجهاد. على المدى القصير، إنه مفيد. على المدى الطويل:
+- يضر بجهاز المناعة
+- يرفع ضغط الدم
+- يعطل النوم
+- يؤثر على الذاكرة والتركيز
+
+### دور ناقلات الأعصاب
+
+السيروتونين والغابا هي ناقلات عصبية ضرورية للهدوء والنوم. نقصها يسبب القلق والأرق.
+
+## الحل الطبيعي: ترانكيليس
+
+**ترانكيليس** يحتوي على مزيج من الأعشاب المهدئة المثبتة علمياً:
+- **أعشاب الباسيفلورا**: تخفف القلق وتحفز الاسترخاء
+- **حشيشة الهر (فاليريان)**: تحسن جودة النوم بشكل طبيعي
+- **الزعتر والنعناع**: يهدئ الجهاز العصبي
+- **المغنيسيوم**: ضروري للاسترخاء العضلي والعصبي
+
+## نصائح طبيعية مكملة
+
+1. تأمل يومي لمدة 10 دقائق
+2. تمارين التنفس العميق (4-7-8)
+3. الحد من الكافيين بعد الظهر
+4. المشي في الطبيعة 30 دقيقة يومياً
+5. تجنب الشاشات قبل النوم بساعة
+
+## النتائج المتوقعة
+
+**الأيام 1-3:** نوم أسرع وأهدأ في الليلة الأولى
+
+**الأسبوع 1-2:** تراجع ملحوظ في القلق اليومي
+
+**بعد شهر:** نوم منتظم، مزاج أفضل، هدوء متجدد
+
+> *"كنت أتناول حبوب النوم منذ سنتين. بعد أسبوع من ترانكيليس، أنام بشكل طبيعي وأستيقظ منتعشاً."* — كريم ب.، الرباط
+
+## اطلب ترانكيليس الآن
+
+**[اطلب ترانكيليس من دخلة أرتيزانال ←](/#/produit/tranquilysse)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+استحق الهدوء الذي تستحقه.`,
+    contentEn: `## Stress and Insomnia: Regaining Serenity Naturally
+
+Does your heart beat fast for no apparent reason? Do your thoughts spin in endless loops? Do you lie in bed unable to sleep? If this describes your daily life, you are suffering from chronic stress, anxiety and insomnia.
+
+In Morocco, chronic stress affects millions of people. Despite being common, it remains dangerous for both physical and mental health.
+
+## Symptoms of Chronic Stress and Anxiety
+
+**Physically:**
+- Muscle tension, headaches, neck and back pain
+- Digestive disorders (irritable bowel, nausea)
+- Palpitations and excessive sweating
+- Weakened immune system
+
+**Psychologically and behaviorally:**
+- Difficulty concentrating and paying attention
+- Irritability and quick temper
+- Constant worry, excessive fears
+- Social withdrawal
+
+## Why Do Mental Disorders Occur?
+
+### The Role of Cortisol
+
+When stressed, the body releases cortisol, the stress hormone. Short-term, it is useful. Long-term:
+- It damages the immune system
+- It raises blood pressure
+- It disrupts sleep
+- It affects memory and concentration
+
+### The Role of Neurotransmitters
+
+Serotonin and GABA are essential neurotransmitters for calm and sleep. Their deficiency causes anxiety and insomnia.
+
+## The Natural Solution: Tranquilysse
+
+**Tranquilysse** contains a blend of scientifically proven calming herbs:
+- **Passionflower**: reduces anxiety and promotes relaxation
+- **Valerian**: naturally improves sleep quality
+- **Thyme and mint**: calms the nervous system
+- **Magnesium**: essential for muscular and nervous relaxation
+
+## Complementary Natural Tips
+
+1. Daily meditation for 10 minutes
+2. Deep breathing exercises (4-7-8 technique)
+3. Limit caffeine after noon
+4. Walk in nature for 30 minutes daily
+5. Avoid screens one hour before bed
+
+## Expected Results
+
+**Days 1-3:** Faster and calmer sleep from the first night
+
+**Weeks 1-2:** Noticeable reduction in daily anxiety
+
+**After 1 month:** Regular sleep, better mood, renewed calm
+
+> *"I had been taking sleeping pills for 2 years. After one week of Tranquilysse, I sleep naturally and wake up refreshed."* — Karim B., Rabat
+
+## Order Tranquilysse Now
+
+**[Order Tranquilysse from Dakhla Artisanal →](/#/produit/tranquilysse)**
+
+Delivery throughout Morocco · Cash on delivery
+
+You deserve the calm you need.`,
     ctaUrl: '/produit/tranquilysse',
     ctaLabel: 'Commander Tranquilysse',
     ctaColor: '#4F46E5',
@@ -1580,6 +1826,126 @@ Une peau nette n\'est pas un luxe. C\'est votre droit. Commencez votre transform
 ---
 
 *mots clés : acné boutons traitement naturel Maroc, peau grasse pores dilatés solution, charbon actif acné, acide salicylique anti-acné naturel, points noirs éliminer, soin visage purifiant naturel, acné adulte remède, Eclat D\'Artisan avis*`,
+    contentAr: `## حب الشباب والبشرة الدهنية: الحل الطبيعي الفعال
+
+البثور تظهر في أسوأ الأوقات؟ بشرتك لامعة ودهنية من منتصف اليوم؟ مساماتك واسعة ومسدودة؟ حب الشباب ليس مشكلة المراهقين فقط - يصيب البالغين أيضاً ويؤثر بعمق على الثقة بالنفس.
+
+في المغرب، تعاني نسبة كبيرة من النساء والرجال من حب الشباب في مرحلة البلوغ، خاصة في المدن الكبرى بسبب التلوث والتوتر.
+
+## لماذا يظهر حب الشباب؟
+
+### الأسباب الرئيسية
+
+1. **فرط إنتاج الزهم**: البشرة الدهنية تنتج زيوتاً مفرطة تسد المسام
+2. **الاختلال الهرموني**: الأندروجينات تحفز الغدد الزهمية
+3. **البكتيريا**: بكتيريا P. acnes تتكاثر في المسام المسدودة
+4. **الالتهاب**: الجهاز المناعي يتفاعل مع البكتيريا بإنتاج البثور
+5. **النظام الغذائي**: السكر المكرر ومنتجات الألبان تفاقم حب الشباب
+
+### أنواع حب الشباب
+
+- **الرؤوس السوداء**: مسام مسدودة مفتوحة تتأكسد
+- **الرؤوس البيضاء**: مسام مسدودة مغلقة
+- **البثور الحمراء**: التهاب البصيلة الدهنية
+- **الأكياس**: أعمق وأكثر إيلاماً، تترك ندوباً
+
+## الحل الطبيعي: سيروم إيكلا أرتيزان
+
+**سيروم إيكلا أرتيزان** يحتوي على قوة الطبيعة لمكافحة حب الشباب:
+
+### المكونات الفعالة
+
+- **الفحم النشط**: يجذب الشوائب والدهون من المسام كالمغناطيس
+- **حمض الساليسيليك الطبيعي**: يقشر بلطف ويوسع المسام المسدودة
+- **زيت شجرة الشاي**: مضاد بكتيري قوي ضد P. acnes
+- **الزبادي الطبيعي**: يوازن pH البشرة ويهدئ الالتهابات
+- **الألوفيرا**: يرطب دون دسم، يهدئ البشرة المتهيجة
+
+## طريقة الاستخدام
+
+1. نظف وجهك بماء فاتر
+2. ضع كمية صغيرة من السيروم على المناطق المصابة
+3. اترك يمتص 10-15 دقيقة
+4. استخدم مرتين يومياً: صباحاً ومساءً
+5. ابتعد عن المنطقة حول العينين
+
+## النتائج المتوقعة
+
+**الأيام 1-3:** تجفيف البثور الموجودة وتهدئة الاحمرار
+
+**الأسبوع 1-2:** تقليل ظهور بثور جديدة
+
+**بعد شهر:** بشرة أنظف، مسام أضيق، ندوب أخف
+
+> *"جربت كل منتجات حب الشباب الكيميائية. سيروم إيكلا أرتيزان هو الوحيد الذي نظف بشرتي بدون تجفيف أو تهيج."* — أمل ت.، فاس
+
+## اطلب سيروم إيكلا أرتيزان
+
+**[اطلب سيروم إيكلا أرتيزان من دخلة أرتيزانال ←](/#/produit/eclat-artisan)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+بشرتك تستحق أن تكون نظيفة وصافية.`,
+    contentEn: `## Acne and Oily Skin: The Effective Natural Solution
+
+Do pimples appear at the worst times? Is your skin shiny and oily by midday? Are your pores wide and clogged? Acne is not just a teenage problem — it also affects adults and deeply impacts self-confidence.
+
+In Morocco, a large proportion of women and men suffer from adult acne, especially in major cities due to pollution and stress.
+
+## Why Does Acne Appear?
+
+### Main Causes
+
+1. **Excess sebum production**: oily skin produces excessive oils that clog pores
+2. **Hormonal imbalance**: androgens stimulate sebaceous glands
+3. **Bacteria**: P. acnes bacteria multiply in clogged pores
+4. **Inflammation**: the immune system reacts to bacteria by producing pimples
+5. **Diet**: refined sugar and dairy products worsen acne
+
+### Types of Acne
+
+- **Blackheads**: open clogged pores that oxidize
+- **Whiteheads**: closed clogged pores
+- **Red pimples**: inflammation of the sebaceous follicle
+- **Cysts**: deeper and more painful, leaving scars
+
+## The Natural Solution: Eclat Artisan Serum
+
+**Eclat Artisan Serum** contains the power of nature to fight acne:
+
+### Active Ingredients
+
+- **Activated charcoal**: attracts impurities and oils from pores like a magnet
+- **Natural salicylic acid**: gently exfoliates and opens clogged pores
+- **Tea tree oil**: powerful antibacterial agent against P. acnes
+- **Natural yogurt**: balances skin pH and soothes inflammation
+- **Aloe vera**: moisturizes without greasiness, soothes irritated skin
+
+## How to Use
+
+1. Cleanse your face with lukewarm water
+2. Apply a small amount of serum to affected areas
+3. Leave to absorb for 10-15 minutes
+4. Use twice daily: morning and evening
+5. Avoid the area around the eyes
+
+## Expected Results
+
+**Days 1-3:** Drying of existing pimples and calming of redness
+
+**Weeks 1-2:** Reduction in new pimple breakouts
+
+**After 1 month:** Cleaner skin, narrower pores, lighter scars
+
+> *"I tried all the chemical acne products. Eclat Artisan Serum is the only one that cleared my skin without drying or irritating it."* — Amal T., Fez
+
+## Order Eclat Artisan Serum
+
+**[Order Eclat Artisan Serum from Dakhla Artisanal →](/#/produit/eclat-artisan)**
+
+Delivery throughout Morocco · Cash on delivery
+
+Your skin deserves to be clean and clear.`,
     ctaUrl: '/produit/eclat-artisan',
     ctaLabel: 'Commander Éclat Artisan',
     ctaColor: '#0D9488',
@@ -1714,6 +2080,140 @@ Le temps passe. Votre peau n\'est pas obligée de suivre.
 ---
 
 *mots clés : rides traitement naturel Maroc, anti-rides rétinol efficace, vieillissement cutané solution, sérum rétinol Maroc, crème anti-âge naturelle, rides profondes estomper, collagène peau après 40 ans, pack anti-rides Maroc*`,
+    contentAr: `## التجاعيد وشيخوخة البشرة: الحل الطبيعي والفعال
+
+التجاعيد حول العينين والفم؟ بشرة أفقدت نضارتها ومرونتها؟ لون باهت وبقع الشيخوخة؟ هذه العلامات طبيعية ولكن يمكن إبطاؤها بشكل ملحوظ مع العناية الصحيحة.
+
+شيخوخة البشرة تبدأ في سن الخامسة والعشرين، حين يتباطأ إنتاج الكولاجين. وفي الأربعين، تصبح التغييرات مرئية بشكل واضح. لكن الطبيعة لديها حلول فعالة.
+
+## لماذا تشيخ البشرة؟
+
+### العوامل الداخلية (البيولوجية)
+
+1. تراجع إنتاج الكولاجين والإيلاستين بعد 25 سنة
+2. تباطؤ تجديد الخلايا
+3. نقص الهرمونات (خاصة الإستروجين بعد انقطاع الطمث)
+4. الإجهاد التأكسدي التراكمي
+
+### العوامل الخارجية
+
+- الشمس: المتسبب الأول في الشيخوخة المبكرة
+- التدخين: يسبب التجاعيد ويبهت البشرة
+- التلوث: الجذور الحرة تدمر الكولاجين
+- الجفاف المزمن
+- التوتر والنوم غير الكافي
+
+## الحل الطبيعي: باك ريتينول
+
+**باك ريتينول** هو النظام الكامل لمكافحة الشيخوخة، يجمع قوة منتجين:
+
+### سيروم ريتينول 30 مل
+
+**سيروم ريتينول** يعمل في عمق البشرة:
+- **الريتينول**: مشتق من فيتامين A، يحفز إنتاج الكولاجين ويجدد الخلايا
+- **حمض الهيالورونيك**: ترطيب عميق، يملأ التجاعيد من الداخل
+- **فيتامين E**: مضاد أكسدة قوي يحمي الكولاجين
+- **مستخلص الورد**: يوحد لون البشرة ويشرق
+
+### كريم ريتينول 50 مل
+
+**كريم ريتينول** يغذي ويحمي على السطح:
+- يختم فوائد السيروم ويمنع فقدان الرطوبة
+- يقوي الحاجز الجلدي
+- يمنح البشرة نعومة وملمساً حريرياً
+
+## كيفية الاستخدام
+
+**الصباح:** السيروم ثم الكريم + واقي شمس
+
+**المساء:** تنظيف عميق، السيروم، الكريم
+
+**تحذير:** ابدأ بتردد منخفض (مرة يومياً) ثم زد تدريجياً. دائماً استخدم واقي الشمس نهاراً مع الريتينول.
+
+## النتائج المتوقعة
+
+**الأسابيع 1-2:** بشرة أكثر نعومة وإشراقاً
+
+**الأسابيع 3-6:** تقليل ملحوظ للتجاعيد الخفيفة
+
+**بعد 3 أشهر:** وجه أكثر شباباً بشكل واضح، بشرة مشدودة ومنتعشة
+
+> *"في سن الخامسة والأربعين، أصبحت أبدو أصغر من الثلاثينيات بعد 3 أشهر من باك ريتينول. منتج مذهل!"* — رجاء م.، الرباط
+
+## اطلب باك ريتينول
+
+**[اطلب باك ريتينول من دخلة أرتيزانال ←](/#/produit/pack-retinol)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+بشرتك قادرة على التجدد. أعطها الفرصة.`,
+    contentEn: `## Wrinkles and Skin Aging: The Natural and Effective Solution
+
+Wrinkles around the eyes and mouth? Skin that has lost its freshness and elasticity? Dull complexion and age spots? These signs are natural but can be significantly slowed down with the right care.
+
+Skin aging begins at age 25, when collagen production slows down. By 40, changes become clearly visible. But nature has effective solutions.
+
+## Why Does Skin Age?
+
+### Internal (Biological) Factors
+
+1. Decline in collagen and elastin production after age 25
+2. Slowing of cell renewal
+3. Hormone deficiency (especially estrogen after menopause)
+4. Cumulative oxidative stress
+
+### External Factors
+
+- Sun: the number one cause of premature aging
+- Smoking: causes wrinkles and dulls skin
+- Pollution: free radicals destroy collagen
+- Chronic dehydration
+- Stress and insufficient sleep
+
+## The Natural Solution: Retinol Pack
+
+**Retinol Pack** is the complete anti-aging system, combining the power of two products:
+
+### Retinol Serum 30ml
+
+**Retinol Serum** works deep within the skin:
+- **Retinol**: vitamin A derivative, stimulates collagen production and renews cells
+- **Hyaluronic acid**: deep hydration, fills wrinkles from within
+- **Vitamin E**: powerful antioxidant protecting collagen
+- **Rose extract**: unifies skin tone and brightens
+
+### Retinol Cream 50ml
+
+**Retinol Cream** nourishes and protects on the surface:
+- Seals the benefits of the serum and prevents moisture loss
+- Strengthens the skin barrier
+- Gives skin silky smoothness and texture
+
+## How to Use
+
+**Morning:** Serum then cream + sunscreen
+
+**Evening:** Deep cleansing, serum, cream
+
+**Warning:** Start at low frequency (once a day) then gradually increase. Always use sunscreen during the day when using retinol.
+
+## Expected Results
+
+**Weeks 1-2:** Smoother and more radiant skin
+
+**Weeks 3-6:** Noticeable reduction in fine lines
+
+**After 3 months:** Visibly younger-looking face, firmer and refreshed skin
+
+> *"At 45, I look younger than my 30s after 3 months of Retinol Pack. An amazing product!"* — Raja M., Rabat
+
+## Order Retinol Pack
+
+**[Order Retinol Pack from Dakhla Artisanal →](/#/produit/pack-retinol)**
+
+Delivery throughout Morocco · Cash on delivery
+
+Your skin is capable of renewal. Give it the chance.`,
     ctaUrl: '/produit/pack-retinol',
     ctaLabel: 'Commander le Pack Rétinol',
     ctaColor: '#B45309',
@@ -1850,6 +2350,128 @@ Votre cycle est le reflet de votre équilibre. Prenez-en soin naturellement.
 ---
 
 *mots clés : dérèglement hormonal femme traitement naturel, règles irrégulières solution, syndrome prémenstruel remède naturel, SOPK plantes, gattilier cycle féminin, qust hindi bienfaits, sauge hormones femme, régulation hormonale naturelle Maroc*`,
+    contentAr: `## اضطراب الهرمونات وعدم انتظام الدورة: استعادة التوازن طبيعياً
+
+دورتك الشهرية غير منتظمة أو مؤلمة للغاية؟ تعانين من متلازمة ما قبل الحيض (PMS)؟ مزاجك يتقلب بشكل مفرط؟ هذه كلها علامات اختلال هرموني يمكن علاجه بشكل طبيعي.
+
+الهرمونات تتحكم في كل شيء تقريباً: المزاج، الطاقة، النوم، الوزن، الخصوبة، والصحة العامة. أي اختلال في توازنها يؤثر على جودة حياة المرأة بشكل عميق.
+
+## أعراض الاختلال الهرموني عند المرأة
+
+**اضطرابات الدورة الشهرية:**
+- دورة غير منتظمة (أقل من 21 يوم أو أكثر من 35)
+- نزيف غزير أو شحيح جداً
+- آلام حيض شديدة (عسر الطمث)
+- توقف مؤقت للدورة
+
+**أعراض ما قبل الحيض:**
+- نفخة وانتفاخ
+- ألم الثدي
+- تقلبات مزاجية شديدة
+- رغبة شديدة في الأكل أو الحزن
+
+**أعراض عامة:**
+- تعب مزمن
+- زيادة الوزن خاصة في البطن
+- حب الشباب الهرموني
+- تساقط الشعر
+
+## الأسباب الشائعة للاختلال الهرموني
+
+1. **متلازمة تكيس المبايض (PCOS)**: السبب الأكثر شيوعاً لعدم انتظام الدورة
+2. **الإجهاد المزمن**: يرفع الكورتيزول على حساب الهرمونات الجنسية
+3. **نقص التغذية**: نقص الزنك والمغنيسيوم وفيتامين B6
+4. **اضطراب الغدة الدرقية**: يؤثر مباشرة على التوازن الهرموني
+5. **زيادة الوزن**: تنتج الدهون هرمونات تشوه التوازن
+
+## الحل الطبيعي: سيكل بيو
+
+**سيكل بيو** يحتوي على أعشاب مختارة لتنظيم الدورة الهرمونية:
+
+- **الحبة السوداء**: تنظم المبايض وتوازن الهرمونات
+- **الشمر**: يحاكي الإستروجين بشكل طبيعي ويخفف آلام الحيض
+- **أوراق التوت البري**: تدعم صحة الجهاز التناسلي
+- **المريمية**: تخفف أعراض انقطاع الطمث وتنظم الدورة
+- **الكركم**: مضاد التهاب يخفف ألم الحيض
+
+## النتائج المتوقعة
+
+**الشهر 1:** تحسن في الآلام، مزاج أكثر استقراراً
+
+**الشهر 2-3:** انتظام الدورة يبدأ في التحسن
+
+**بعد 3-6 أشهر:** توازن هرموني مستعاد، دورة منتظمة وأقل إيلاماً
+
+> *"عانيت من دورات غير منتظمة منذ البلوغ. بعد 3 أشهر من سيكل بيو، دورتي منتظمة للمرة الأولى في حياتي!"* — نجلاء ر.، مراكش
+
+## اطلب سيكل بيو
+
+**[اطلب سيكل بيو من دخلة أرتيزانال ←](/#/produit/cycle-bio)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+جسمك يستحق التوازن الذي يحتاجه.`,
+    contentEn: `## Hormonal Imbalance and Irregular Periods: Regaining Balance Naturally
+
+Are your periods irregular or excessively painful? Do you suffer from PMS (premenstrual syndrome)? Are your moods fluctuating excessively? These are all signs of hormonal imbalance that can be treated naturally.
+
+Hormones control nearly everything: mood, energy, sleep, weight, fertility, and overall health. Any imbalance in their equilibrium deeply affects a woman's quality of life.
+
+## Symptoms of Hormonal Imbalance in Women
+
+**Menstrual cycle disorders:**
+- Irregular cycle (less than 21 days or more than 35)
+- Very heavy or very light bleeding
+- Severe period pain (dysmenorrhea)
+- Temporary cessation of periods
+
+**Premenstrual symptoms:**
+- Bloating and swelling
+- Breast pain
+- Severe mood swings
+- Strong food cravings or sadness
+
+**General symptoms:**
+- Chronic fatigue
+- Weight gain especially in the belly
+- Hormonal acne
+- Hair loss
+
+## Common Causes of Hormonal Imbalance
+
+1. **PCOS** (Polycystic Ovary Syndrome): the most common cause of irregular periods
+2. **Chronic stress**: raises cortisol at the expense of sex hormones
+3. **Nutritional deficiency**: lack of zinc, magnesium and vitamin B6
+4. **Thyroid disorder**: directly affects hormonal balance
+5. **Overweight**: fat produces hormones that distort balance
+
+## The Natural Solution: Cycle Bio
+
+**Cycle Bio** contains selected herbs for regulating the hormonal cycle:
+
+- **Black seed**: regulates the ovaries and balances hormones
+- **Fennel**: naturally mimics estrogen and relieves period pain
+- **Blueberry leaves**: supports reproductive system health
+- **Sage**: relieves menopause symptoms and regulates the cycle
+- **Turmeric**: anti-inflammatory that relieves period pain
+
+## Expected Results
+
+**Month 1:** Improvement in pain, more stable mood
+
+**Months 2-3:** Cycle regularity begins to improve
+
+**After 3-6 months:** Restored hormonal balance, regular and less painful cycle
+
+> *"I had irregular periods since puberty. After 3 months of Cycle Bio, my cycle is regular for the first time in my life!"* — Najlaa R., Marrakech
+
+## Order Cycle Bio
+
+**[Order Cycle Bio from Dakhla Artisanal →](/#/produit/cycle-bio)**
+
+Delivery throughout Morocco · Cash on delivery
+
+Your body deserves the balance it needs.`,
     ctaUrl: '/produit/cycle-bio',
     ctaLabel: 'Commander Cycle Bio',
     ctaColor: '#EC4899',
@@ -1986,6 +2608,140 @@ Prenez soin de vous avec respect et bienveillance. Vous le méritez.
 ---
 
 *mots clés : soin intime femme naturel Maroc, hygiène intime féminine, gel intime pH neutre, démangeaisons intimes solution naturelle, odeur intime traitement, peau intime éclaircie, Eclarte Rawnaq avis, zone intime soin quotidien Maroc*`,
+    contentAr: `## العناية الحميمة الطبيعية للمرأة: نظافة، إشراق، وثقة يومية
+
+العناية الحميمة من أكثر المواضيع حساسية وحياء، لكنها من أهم عناصر صحة المرأة. المنطقة الحميمة تتميز بحساسية استثنائية وتوازن بيولوجي دقيق يجب الحفاظ عليه.
+
+كثير من النساء يستخدمن منتجات غير ملائمة تؤثر سلباً على هذا التوازن. الهدف: منتجات طبيعية تنظف دون تحريف، وتحمي دون إزعاج.
+
+## لماذا العناية الحميمة الطبيعية ضرورية؟
+
+### التوازن البيولوجي الدقيق
+
+المنطقة الحميمة لها درجة حموضة (pH) محددة بين 3.8 و4.5 - أكثر حمضية من الجلد العادي. هذه الحموضة تحمي من:
+- الالتهابات البكتيرية والفطرية
+- الروائح غير المرغوب فيها
+- التهيج والحكة
+
+**المنتجات العادية والصابون ترفع الـ pH وتدمر هذا التوازن.**
+
+### المشاكل الشائعة عند استخدام المنتجات غير المناسبة
+
+- التهابات متكررة (الفطريات والبكتيريا)
+- حكة وتهيج مزمن
+- روائح غير طبيعية
+- جفاف وعدم راحة
+
+## المنتجات الطبيعية الأمثل
+
+### سبراي رونق الحميمي
+
+**سبراي رونق** منتج العناية اليومية الحميمة:
+- تركيبة لطيفة بـ pH محايد
+- مكونات طبيعية 100%: ألوفيرا، لافندر، ماء ورد
+- ينظف ويرطب ويعطر بلطف
+- مناسب للاستخدام اليومي
+
+### جل إيكلارتي الحميمي
+
+**جل إيكلارتي** للنظافة العميقة والتفتيح:
+- ينظف بعمق دون إزالة البكتيريا النافعة
+- يفتح البشرة الداكنة في المنطقة الحميمة
+- مضاد للالتهابات ومهدئ للحكة
+- خالٍ من الصودا اللوريل سلفات (SLS)
+
+## نصائح للعناية الحميمة المثلى
+
+1. اغسلي من الأمام للخلف دائماً
+2. استخدمي مناشف خاصة للمنطقة الحميمة
+3. ارتدي ملابس داخلية من القطن الطبيعي
+4. تجنبي المنتجات المعطرة القوية
+5. استخدمي المنتج الحميمي المتخصص بدل الصابون العادي
+
+## النتائج المتوقعة
+
+**من اليوم الأول:** نظافة أفضل، إحساس بالانتعاش والراحة
+
+**الأسبوع 1-2:** تراجع الحكة وعدم الراحة
+
+**بعد شهر:** توازن أفضل، التهابات أقل، ثقة متجددة
+
+> *"كنت أعاني من حكة وروائح رغم غسيلي اليومي. سبراي رونق غير كل شيء. أشعر بثقة أكبر كل يوم."* — سناء ب.، الدار البيضاء
+
+## اطلب منتجات العناية الحميمة الطبيعية
+
+**[اطلب جل إيكلارتي من دخلة أرتيزانال ←](/#/produit/eclarte-gel-intime)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم
+
+عنايتك بصحتك الحميمة تعني عنايتك بنفسك.`,
+    contentEn: `## Natural Feminine Intimate Care: Hygiene, Radiance and Daily Confidence
+
+Intimate care is one of the most sensitive and private topics, yet it is one of the most important elements of women's health. The intimate area is exceptionally sensitive with a delicate biological balance that must be maintained.
+
+Many women use inappropriate products that negatively affect this balance. The goal: natural products that cleanse without disruption and protect without irritation.
+
+## Why Is Natural Intimate Care Essential?
+
+### The Delicate Biological Balance
+
+The intimate area has a specific pH level between 3.8 and 4.5 — more acidic than regular skin. This acidity protects against:
+- Bacterial and fungal infections
+- Unwanted odors
+- Irritation and itching
+
+**Regular products and soap raise the pH and disrupt this balance.**
+
+### Common Problems When Using Inappropriate Products
+
+- Recurrent infections (fungal and bacterial)
+- Chronic itching and irritation
+- Unusual odors
+- Dryness and discomfort
+
+## The Optimal Natural Products
+
+### Rawnaq Intimate Spray
+
+**Rawnaq Spray** is the daily intimate care product:
+- Gentle formula with neutral pH
+- 100% natural ingredients: aloe vera, lavender, rose water
+- Gently cleanses, moisturizes and perfumes
+- Suitable for daily use
+
+### Eclarte Intimate Gel
+
+**Eclarte Gel** for deep cleansing and brightening:
+- Cleanses deeply without removing beneficial bacteria
+- Brightens darkened skin in the intimate area
+- Anti-inflammatory and soothes itching
+- Free from Sodium Lauryl Sulfate (SLS)
+
+## Tips for Optimal Intimate Care
+
+1. Always wash from front to back
+2. Use towels specifically for the intimate area
+3. Wear natural cotton underwear
+4. Avoid strong fragrant products
+5. Use specialized intimate products instead of regular soap
+
+## Expected Results
+
+**From day 1:** Better hygiene, feeling of freshness and comfort
+
+**Weeks 1-2:** Reduction of itching and discomfort
+
+**After 1 month:** Better balance, fewer infections, renewed confidence
+
+> *"I was suffering from itching and odors despite daily washing. Rawnaq Spray changed everything. I feel more confident every day."* — Sanaa B., Casablanca
+
+## Order Natural Intimate Care Products
+
+**[Order Eclarte Gel from Dakhla Artisanal →](/#/produit/eclarte-gel-intime)**
+
+Delivery throughout Morocco · Cash on delivery
+
+Taking care of your intimate health means taking care of yourself.`,
     ctaUrl: '/produit/eclarte-gel-intime',
     ctaLabel: 'Commander Éclarte Gel Intime',
     ctaColor: '#8B5CF6',
@@ -2110,6 +2866,122 @@ Sa formule naturelle, certifiee ISO, fabriquee au Maroc, en fait un **produit de
 ---
 
 *mots cles : max biotin avis maroc, max biotin prix, max biotin resultats, complement cheveux maroc, biotine cheveux, pousse cheveux rapide, produit naturel cheveux, anti chute cheveux femme, ongles cassants solution*`,
+    contentAr: `## ماكس بيوتين: المكمل الطبيعي الرائد لتساقط الشعر في المغرب
+
+تساقط الشعر مشكلة تؤثر على الملايين في المغرب. ماكس بيوتين هو المكمل الغذائي الطبيعي الذي يعالج المشكلة من الداخل بمكونات مثبتة علمياً.
+
+## ما هو ماكس بيوتين؟
+
+ماكس بيوتين هو مكمل غذائي طبيعي يحتوي على:
+- **البيوتين (فيتامين B7)**: الفيتامين الأساسي لقوة الشعر والأظافر
+- **الزنك**: يحارب تساقط الشعر المرتبط بنقص المعادن
+- **سيليكا**: يقوي شعرة الشعر من الجذر إلى الطرف
+- **فيتامين E**: مضاد أكسدة يحمي فروة الرأس
+- **مستخلصات نباتية طبيعية**: تدعم نمو الشعر بشكل طبيعي
+
+## لماذا ماكس بيوتين؟
+
+### مصنوع في المغرب
+
+ماكس بيوتين يُصنَّع محلياً في المغرب وفق معايير ISO الدولية. هذا يضمن:
+- جودة مضمونة وثابتة
+- مكونات طازجة ومناسبة للمناخ المحلي
+- سعر معقول بدون تكاليف الاستيراد
+
+### نتائج مثبتة
+
+- **8 أسابيع**: انخفاض ملحوظ في التساقط
+- **12 أسبوعاً**: نمو شعر جديد مرئي
+- **6 أشهر**: شعر أكثر كثافة وقوة
+
+## آراء العملاء الحقيقية
+
+> *"بعد الولادة فقدت الكثير من شعري. ماكس بيوتين أعاد شعري في 3 أشهر."* — هدى م.
+
+> *"أظافري كانت تنكسر دائماً. بعد شهرين من ماكس بيوتين، أصبحت قوية جداً."* — كريمة ل.
+
+> *"أفضل مكمل غذائي للشعر جربته في المغرب. سعر ممتاز ونتيجة رائعة."* — سعيد ب.
+
+## طريقة الاستخدام
+
+- **الجرعة**: كبسولة واحدة صباحاً مع وجبة الإفطار
+- **المدة**: 3-6 أشهر للنتيجة الكاملة
+- **تخزين**: في مكان بارد وجاف
+
+## التقييم العام
+
+ماكس بيوتين هو مكمل ممتاز لـ:
+- الأشخاص الذين يفقدون شعرهم
+- الراغبين في تسريع نمو الشعر
+- الأظافر الهشة والمكسورة
+
+تركيبته الطبيعية المعتمدة ISO تجعله **منتجاً موثوقاً** بسعر مناسب جداً.
+
+**التقييم: 9/10**
+
+## اطلب ماكس بيوتين
+
+**[اطلب ماكس بيوتين من دخلة أرتيزانال ←](/#/produit/max-biotin)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## MAX Biotin: The Leading Natural Supplement for Hair Loss in Morocco
+
+Hair loss is a problem affecting millions in Morocco. MAX Biotin is the natural dietary supplement that treats the problem from within with scientifically proven ingredients.
+
+## What Is MAX Biotin?
+
+MAX Biotin is a natural dietary supplement containing:
+- **Biotin (Vitamin B7)**: the essential vitamin for strong hair and nails
+- **Zinc**: fights hair loss linked to mineral deficiency
+- **Silica**: strengthens the hair fiber from root to tip
+- **Vitamin E**: antioxidant that protects the scalp
+- **Natural plant extracts**: naturally support hair growth
+
+## Why MAX Biotin?
+
+### Made in Morocco
+
+MAX Biotin is manufactured locally in Morocco according to international ISO standards. This ensures:
+- Guaranteed and consistent quality
+- Fresh ingredients suited to the local climate
+- Reasonable price without import costs
+
+### Proven Results
+
+- **8 weeks**: noticeable reduction in hair loss
+- **12 weeks**: visible new hair growth
+- **6 months**: denser and stronger hair
+
+## Real Customer Reviews
+
+> *"After childbirth I lost a lot of my hair. MAX Biotin restored my hair in 3 months."* — Houda M.
+
+> *"My nails were always breaking. After 2 months of MAX Biotin, they became very strong."* — Karima L.
+
+> *"The best hair supplement I have tried in Morocco. Excellent price and great results."* — Said B.
+
+## How to Use
+
+- **Dosage**: one capsule in the morning with breakfast
+- **Duration**: 3-6 months for full results
+- **Storage**: in a cool, dry place
+
+## Overall Assessment
+
+MAX Biotin is an excellent supplement for:
+- People losing their hair
+- Those who want to accelerate hair growth
+- Brittle and broken nails
+
+Its ISO-certified natural formula makes it a **trusted product** at a very affordable price.
+
+**Rating: 9/10**
+
+## Order MAX Biotin
+
+**[Order MAX Biotin from Dakhla Artisanal →](/#/produit/max-biotin)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/max-biotin',
     ctaLabel: 'Commander Max-Biotin',
     ctaColor: '#7C3AED',
@@ -2243,6 +3115,148 @@ Sa formule 100% naturelle avec menthe poivree et ricin en fait un **produit de c
 ---
 
 *mots cles : hemorcalm avis, spray hemorroides naturel, traitement hemorroides maroc, menthe poivree ricin hemorroides, soulagement hemorroides, huile hemorroides naturelle, produit naturel hemorroides maroc, anti hemorroides spray*`,
+    contentAr: `## هيموركالم: الراحة الطبيعية من البواسير
+
+**هيموركالم** هو **أفضل سبراي طبيعي في المغرب** لتخفيف البواسير. تركيبته الطبيعية 100% على أساس نعناع البيبرمنت والخروع والقرنفل وحمض الساليسيليك يهدئ الألم، يقلل الالتهاب ويخفف الحكة من أول تطبيق.
+
+## ما هو هيموركالم؟
+
+**هيموركالم** سبراي طبيعي مصنوع في المغرب من قبل **دخلة أرتيزانال**. مُصمَّم خصيصاً لتقديم راحة فورية ودائمة من أعراض البواسير.
+
+**التركيبة الطبيعية 100%:**
+- **زيت نعناع البيبرمنت** - تأثير منعش ومسكن فوري
+- **زيت الخروع** - مضاد التهاب ومهدئ
+- **مستخلص القرنفل** - خصائص تخدير طبيعية
+- **حمض الساليسيليك** - يقلل التورم والألم
+- **الألوفيرا** - يهدئ ويرطب الجلد المتهيج
+- **فيتامين E** - يسهل تجديد الأنسجة
+
+[IMAGE:/images/hemorcalm-ingredients-1.jpg]
+
+## المزايا الرئيسية لهيموركالم
+
+### 1. راحة فورية
+نعناع البيبرمنت والقرنفل يعملان **فورياً** لتهدئة الألم والحكة.
+
+### 2. يقلل الالتهاب
+زيت الخروع وحمض الساليسيليك **يقللان التورم** والالتهاب.
+
+### 3. سبراي عملي مع طرف مُطبِّق
+يسمح بـ**تطبيق دقيق وصحي** دون لمس المنطقة.
+
+### 4. 100% طبيعي بدون كورتيزون
+على عكس العلاجات الكيميائية، هيموركالم **طبيعي تماماً** بدون آثار جانبية.
+
+## طريقة استخدام هيموركالم
+
+**خطوات بسيطة:**
+1. **نظف** المنطقة بماء دافئ وصابون لطيف
+2. **جفف** بلطف بمنشفة نظيفة
+3. **اهزّ** الزجاجة قبل الاستخدام
+4. **رش** مباشرة على المنطقة المصابة
+5. **اترك يعمل** ساعتين على الأقل قبل النوم
+
+[IMAGE:/images/hemorcalm-use-1.jpg]
+
+## قبل / بعد: أشعر بالفرق
+
+**قبل الاستخدام:**
+- ألم وحرقان شديدان
+- حكة مستمرة
+- تورم والتهاب
+- انزعاج يومي
+
+**بعد الاستخدام:**
+- راحة فورية من الألم
+- حكة مخففة بشكل كبير
+- تورم خفيف
+- راحة يومية مستعادة
+
+## التقييم العام
+
+**هيموركالم** منتج ممتاز لـ:
+- الأشخاص الذين يعانون من بواسير مؤلمة
+- أصحاب الحكة وعدم الراحة المستمر
+- الباحثين عن حل طبيعي بدون كورتيزون
+
+**التقييم: 9.5/10**
+
+## اطلب هيموركالم
+
+**[اطلب هيموركالم من دخلة أرتيزانال ←](/#/produit/hemorcalm)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم · تغليف سري`,
+    contentEn: `## Hemorcalm: Natural Relief from Hemorrhoids
+
+**Hemorcalm** is the **most effective natural spray in Morocco** for relieving hemorrhoids. Its 100% natural formula based on peppermint, castor oil, clove and salicylic acid calms pain, reduces inflammation and soothes itching from the first application.
+
+## What Is Hemorcalm?
+
+**Hemorcalm** is a natural spray manufactured in Morocco by **Dakhla Artisanal**. It is specially designed to provide immediate and lasting relief from hemorrhoid symptoms.
+
+**100% natural composition:**
+- **Peppermint oil** - Immediate refreshing and analgesic effect
+- **Castor oil** - Anti-inflammatory and soothing
+- **Clove extract** - Natural anesthetic properties
+- **Salicylic acid** - Reduces swelling and pain
+- **Aloe vera** - Soothes and moisturizes irritated skin
+- **Vitamin E** - Facilitates tissue regeneration
+
+[IMAGE:/images/hemorcalm-ingredients-1.jpg]
+
+## Main Advantages of Hemorcalm
+
+### 1. Immediate Relief
+Peppermint and clove act **instantly** to calm pain and itching.
+
+### 2. Reduces Inflammation
+Castor oil and salicylic acid **reduce swelling** and inflammation.
+
+### 3. Practical Spray with Applicator Tip
+Allows **targeted and hygienic application** without touching the area.
+
+### 4. 100% Natural Without Cortisone
+Unlike chemical treatments, Hemorcalm is **completely natural** with no side effects.
+
+## How to Use Hemorcalm
+
+**Simple steps:**
+1. **Clean** the area with warm water and gentle soap
+2. **Dry** gently with a clean towel
+3. **Shake** the bottle before use
+4. **Spray** directly on the affected area
+5. **Leave to act** at least 2 hours before sleeping
+
+[IMAGE:/images/hemorcalm-use-1.jpg]
+
+## Before / After: Feel the Difference
+
+**Before use:**
+- Intense pain and burning
+- Persistent itching
+- Swelling and inflammation
+- Daily discomfort
+
+**After use:**
+- Immediate pain relief
+- Considerably reduced itching
+- Reduced swelling
+- Daily comfort restored
+
+## Overall Assessment
+
+**Hemorcalm** is an excellent product for:
+- People suffering from painful hemorrhoids
+- Those with persistent itching and discomfort
+- People seeking a natural solution without cortisone
+
+**Rating: 9.5/10**
+
+## Order Hemorcalm
+
+**[Order Hemorcalm from Dakhla Artisanal →](/#/produit/hemorcalm)**
+
+Delivery throughout Morocco · Cash on delivery · Discreet packaging`,
     ctaUrl: '/produit/hemorcalm',
     ctaLabel: 'Commander Hémorocalm',
     ctaColor: '#DC2626',
@@ -2374,6 +3388,114 @@ Sa formule 100% naturelle avec Passiflore et Valeriane, certifiee ISO + CMP + FD
 ---
 
 *mots cles : tranquilysse avis, complement sommeil naturel, anti stress maroc, passiflore valeriane melisse, sommeil reparateur, insomnie solution naturelle, zinc vitamine b6 sommeil, produit naturel stress maroc, complement anti anxiete*`,
+    contentAr: `## ترانكيليس: النوم الطبيعي والهدوء بدون إدمان
+
+**ترانكيليس** مكمل غذائي طبيعي للنوم ومكافحة التوتر في المغرب. يحتوي على الباسيفلورا، الفاليريان، الميليس، الزنك - 60 كبسولة - معتمد ISO + CMP + FDA.
+
+## ما هو ترانكيليس؟
+
+ترانكيليس مكمل غذائي طبيعي مصنوع في المغرب من قبل دخلة أرتيزانال، يجمع أفضل الأعشاب المهدئة المعروفة في الطب النباتي:
+
+**التركيبة الطبيعية:**
+- **الباسيفلورا**: تخفف القلق وتحفز النوم الطبيعي
+- **الفاليريان**: يحسن جودة النوم العميق
+- **الميليسا (ليمون بالم)**: تهدئ الجهاز العصبي
+- **الزنك + فيتامين B6**: يدعمان إنتاج السيروتونين والميلاتونين
+
+## لماذا ترانكيليس مختلف؟
+
+### بدون إدمان
+على عكس الحبوب المنومة الكيميائية، ترانكيليس:
+- لا يسبب الإدمان
+- لا يترك تأثيراً مُبطِّئاً في الصباح
+- يمكن إيقافه في أي وقت دون أعراض انسحاب
+
+### معتمد دولياً
+- معتمد ISO (جودة التصنيع)
+- معتمد CMP (ممارسات التصنيع الجيدة)
+- معتمد FDA (السلامة الأمريكية)
+
+## آراء العملاء الحقيقية
+
+> *"كنت أتقلب في السرير ساعات. بعد 3 أيام من ترانكيليس، أنام خلال 20 دقيقة وأستيقظ منتعشاً."* — فيصل م.
+
+> *"التوتر في العمل كان يمنعني من النوم. ترانكيليس أعاد لي هدوئي."* — لمياء ب.
+
+## طريقة الاستخدام
+
+- **الجرعة**: كبسولتان 30-60 دقيقة قبل النوم
+- **المدة**: 1-3 أشهر للنتيجة الكاملة
+- **تحذير**: لا تقد السيارة بعد تناوله
+
+## النتائج المتوقعة
+
+**الليلة 1-3:** تحسن ملحوظ في الاستغراق بالنوم
+
+**الأسبوع 1-2:** نوم أعمق، استيقاظ أكثر نشاطاً
+
+**بعد شهر:** تراجع ملحوظ في التوتر اليومي
+
+**التقييم: 9.5/10**
+
+## اطلب ترانكيليس
+
+**[اطلب ترانكيليس من دخلة أرتيزانال ←](/#/produit/tranquilysse)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## Tranquilysse: Natural Sleep and Calm Without Addiction
+
+**Tranquilysse** is a natural dietary supplement for sleep and stress relief in Morocco. Contains passionflower, valerian, lemon balm, zinc — 60 capsules — ISO + CMP + FDA certified.
+
+## What Is Tranquilysse?
+
+Tranquilysse is a natural dietary supplement made in Morocco by Dakhla Artisanal, combining the best calming herbs known in herbal medicine:
+
+**Natural Composition:**
+- **Passionflower**: reduces anxiety and promotes natural sleep
+- **Valerian**: improves deep sleep quality
+- **Melissa (lemon balm)**: soothes the nervous system
+- **Zinc + Vitamin B6**: support serotonin and melatonin production
+
+## Why Is Tranquilysse Different?
+
+### Non-Addictive
+Unlike chemical sleeping pills, Tranquilysse:
+- Does not cause addiction
+- Leaves no slowing effect in the morning
+- Can be stopped at any time without withdrawal symptoms
+
+### Internationally Certified
+- ISO certified (manufacturing quality)
+- GMP certified (Good Manufacturing Practices)
+- FDA certified (American safety)
+
+## Real Customer Reviews
+
+> *"I used to toss and turn in bed for hours. After 3 days of Tranquilysse, I fall asleep within 20 minutes and wake up refreshed."* — Faisal M.
+
+> *"Work stress was preventing me from sleeping. Tranquilysse restored my calm."* — Lamia B.
+
+## How to Use
+
+- **Dosage**: 2 capsules 30-60 minutes before bed
+- **Duration**: 1-3 months for full results
+- **Warning**: do not drive after taking it
+
+## Expected Results
+
+**Nights 1-3:** Noticeable improvement in falling asleep
+
+**Weeks 1-2:** Deeper sleep, more energized awakening
+
+**After 1 month:** Noticeable reduction in daily stress
+
+**Rating: 9.5/10**
+
+## Order Tranquilysse
+
+**[Order Tranquilysse from Dakhla Artisanal →](/#/produit/tranquilysse)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/tranquilysse',
     ctaLabel: 'Commander Tranquilysse',
     ctaColor: '#4F46E5',
