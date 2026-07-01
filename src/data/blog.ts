@@ -3637,6 +3637,106 @@ Sa formule naturelle avec Rétinol, Aloe vera et Vitamine C en fait un **produit
 ---
 
 *mots clés : pack rétinol avis, sérum rétinol maroc, crème rétinol anti-âge, soin visage rides, taches sombres visage, vitamine c rétinol, aloe vera peau, produit naturel anti-âge maroc, routine soin visage*`,
+    contentAr: `## باك ريتينول: النظام الكامل لمكافحة الشيخوخة
+
+**باك ريتينول** من دخلة أرتيزانال هو نظام العناية الكامل الذي يجمع قوة سيروم الريتينول 30 مل وكريم الريتينول 50 مل في منتج مزدوج الفاعلية لمحاربة التجاعيد وشيخوخة البشرة.
+
+## ماذا يحتوي باك ريتينول؟
+
+### سيروم ريتينول 30 مل
+
+تركيبة مركّزة تعمل في عمق البشرة:
+- **الريتينول**: يحفز تجديد الخلايا وإنتاج الكولاجين
+- **فيتامين C**: يوحد اللون ويمحو البقع الداكنة
+- **الألوفيرا**: يرطب ويهدئ البشرة
+- **حمض الهيالورونيك**: ترطيب عميق يملأ الخطوط الدقيقة
+
+### كريم ريتينول 50 مل
+
+يثبت فوائد السيروم ويغذي على السطح:
+- يقوي حاجز البشرة الطبيعي
+- يمنع فقدان الرطوبة
+- يمنح نعومة وملمساً حريرياً طوال اليوم
+
+## نتائج مثبتة
+
+**الأسبوعان 1-2:** بشرة أكثر نعومة وإشراقاً
+
+**الأسابيع 3-6:** تقليل ملحوظ في التجاعيد الخفيفة
+
+**بعد 3 أشهر:** وجه أكثر شباباً، بشرة مشدودة ومتجددة
+
+## آراء العملاء
+
+> *"في سن 48، يسألني الجميع عن سر مظهري. باك ريتينول غيّر بشرتي في 3 أشهر!"* — رقية أ.
+
+> *"التجاعيد حول عيني خفت بشكل ملحوظ. أفضل استثمار لبشرتي."* — لطيفة م.
+
+## طريقة الاستخدام
+
+**الصباح:** سيروم ثم كريم + واقي شمس إلزامي
+
+**المساء:** تنظيف، سيروم، كريم
+
+**تحذير مهم:** ابدأ مرة يومياً ثم زد تدريجياً. الريتينول يزيد حساسية البشرة للشمس - واقي الشمس إلزامي.
+
+**التقييم: 9.5/10**
+
+## اطلب باك ريتينول
+
+**[اطلب باك ريتينول من دخلة أرتيزانال ←](/#/produit/pack-retinol)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## Retinol Pack: The Complete Anti-Aging System
+
+**Retinol Pack** from Dakhla Artisanal is the complete care system that combines the power of Retinol Serum 30ml and Retinol Cream 50ml in a double-effectiveness product for fighting wrinkles and skin aging.
+
+## What Does Retinol Pack Contain?
+
+### Retinol Serum 30ml
+
+Concentrated formula working deep within the skin:
+- **Retinol**: stimulates cell renewal and collagen production
+- **Vitamin C**: unifies tone and erases dark spots
+- **Aloe vera**: moisturizes and soothes skin
+- **Hyaluronic acid**: deep hydration that fills fine lines
+
+### Retinol Cream 50ml
+
+Locks in serum benefits and nourishes the surface:
+- Strengthens the natural skin barrier
+- Prevents moisture loss
+- Provides silky smoothness and texture all day
+
+## Proven Results
+
+**Weeks 1-2:** Smoother and more radiant skin
+
+**Weeks 3-6:** Noticeable reduction in fine lines
+
+**After 3 months:** Younger-looking face, firmer and renewed skin
+
+## Customer Reviews
+
+> *"At 48, everyone asks me my secret. Retinol Pack transformed my skin in 3 months!"* — Rokia A.
+
+> *"The wrinkles around my eyes faded noticeably. The best investment for my skin."* — Latifa M.
+
+## How to Use
+
+**Morning:** serum then cream + mandatory sunscreen
+
+**Evening:** cleansing, serum, cream
+
+**Important warning:** Start once a day then increase gradually. Retinol increases skin sensitivity to sun — sunscreen is mandatory.
+
+**Rating: 9.5/10**
+
+## Order Retinol Pack
+
+**[Order Retinol Pack from Dakhla Artisanal →](/#/produit/pack-retinol)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/pack-retinol',
     ctaLabel: 'Commander le Pack Rétinol',
     ctaColor: '#B45309',
@@ -3765,6 +3865,110 @@ Sa formule unique avec Glutathion et Collagène en fait un **produit de confianc
 ---
 
 *mots clés : bio eclat b8 avis, éclaircissant corps naturel, glutathion collagène maroc, blanchiment corps, taches sombres corps, spiruline biotine peau, complément peau éclat, produit naturel éclaircissant maroc*`,
+    contentAr: `## بيو إيكلا B8: الغلوتاثيون والكولاجين لبشرة مضيئة
+
+**بيو إيكلا B8** هو مكمل الجمال الطبيعي الشهير في المغرب للحصول على بشرة مضيئة وموحدة اللون. يجمع قوة الغلوتاثيون والكولاجين والسبيرولينا والبيوتين في منتج واحد فعّال.
+
+## ما يحتويه بيو إيكلا B8
+
+**التركيبة الطبيعية المتكاملة:**
+- **الغلوتاثيون**: مضاد أكسدة أقوى مضاد أكسدة في جسم الإنسان، يعادل فرط التصبغ ويضيء البشرة
+- **الكولاجين المائل**: يحسن مرونة البشرة والأظافر والشعر
+- **السبيرولينا**: توفر البروتينات والحديد والكلوروفيل الضرورية لبشرة صحية
+- **البيوتين**: فيتامين B7 لقوة الشعر والأظافر
+
+## فوائد بيو إيكلا B8
+
+### تفتيح البشرة بشكل طبيعي
+الغلوتاثيون يعمل بطريقتين:
+1. يثبط إنزيم التيروزيناز المسؤول عن إنتاج الميلانين
+2. يحول الميلانين الداكن إلى فاتح
+
+### تحسين البشرة والشعر والأظافر
+الكولاجين + البيوتين يعملان معاً لـ:
+- بشرة أكثر مرونة وشباباً
+- شعر أكثر كثافة وقوة
+- أظافر أقوى وأقل هشاشة
+
+## آراء العملاء
+
+> *"بشرتي كانت داكنة وغير منتظمة. بعد شهرين من بيو إيكلا B8، أصبحت مضيئة وناعمة."* — خديجة أ.
+
+> *"البقع الداكنة على وجهي بدأت تختفي بعد 6 أسابيع."* — إيمان ر.
+
+## طريقة الاستخدام
+
+- **الجرعة**: كبسولتان يومياً مع الوجبة
+- **المدة**: 3-6 أشهر للنتيجة الكاملة
+- **للنتائج الأفضل**: أضف واقي الشمس يومياً
+
+## النتائج المتوقعة
+
+**الشهر 1:** بشرة أكثر إشراقاً ونضارة
+
+**الشهر 2-3:** تفتيح ملحوظ للبقع والتصبغات
+
+**بعد 6 أشهر:** توحد اللون، بشرة مضيئة وجذابة
+
+**التقييم: 9/10**
+
+## اطلب بيو إيكلا B8
+
+**[اطلب بيو إيكلا B8 من دخلة أرتيزانال ←](/#/produit/bio-eclat-b8)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## Bio Eclat B8: Glutathione and Collagen for Radiant Skin
+
+**Bio Eclat B8** is the popular natural beauty supplement in Morocco for bright, even-toned skin. It combines the power of glutathione, collagen, spirulina and biotin in one effective product.
+
+## What Bio Eclat B8 Contains
+
+**Comprehensive natural formula:**
+- **Glutathione**: the strongest antioxidant in the human body, counteracts hyperpigmentation and brightens skin
+- **Hydrolyzed collagen**: improves elasticity of skin, nails and hair
+- **Spirulina**: provides proteins, iron and chlorophyll essential for healthy skin
+- **Biotin**: vitamin B7 for strong hair and nails
+
+## Benefits of Bio Eclat B8
+
+### Natural Skin Brightening
+Glutathione works in two ways:
+1. It inhibits the tyrosinase enzyme responsible for melanin production
+2. It converts dark melanin to lighter tones
+
+### Improving Skin, Hair and Nails
+Collagen + biotin work together for:
+- More elastic and younger-looking skin
+- Thicker and stronger hair
+- Stronger, less brittle nails
+
+## Customer Reviews
+
+> *"My skin was dark and uneven. After 2 months of Bio Eclat B8, it became bright and smooth."* — Khadija A.
+
+> *"The dark spots on my face started disappearing after 6 weeks."* — Iman R.
+
+## How to Use
+
+- **Dosage**: 2 capsules daily with a meal
+- **Duration**: 3-6 months for full results
+- **For best results**: add daily sunscreen
+
+## Expected Results
+
+**Month 1:** Brighter and fresher skin
+
+**Months 2-3:** Noticeable lightening of spots and pigmentation
+
+**After 6 months:** Even skin tone, bright and attractive skin
+
+**Rating: 9/10**
+
+## Order Bio Eclat B8
+
+**[Order Bio Eclat B8 from Dakhla Artisanal →](/#/produit/bio-eclat-b8)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/bio-eclat-b8',
     ctaLabel: 'Commander Bio-Éclat B8',
     ctaColor: '#DB2777',
@@ -3895,6 +4099,100 @@ Sa formule unique avec Qust Hindi et Gattilier, inspiree des traditions saharien
 ---
 
 *mots cles : cycle bio avis, regulateur hormonal naturel femme, qust hindi gattilier, douleurs menstruelles soulager, equilibre hormonal maroc, complement femme hormones, kaf mariam cycle menstruel, bien etre feminin naturel, troubles hormonaux femmes*`,
+    contentAr: `## سيكل بيو: المنظم الهرموني الطبيعي للمرأة
+
+**سيكل بيو** هو المكمل الغذائي الطبيعي الفريد لتنظيم الهرمونات الأنثوية في المغرب، مستوحى من التقاليد الصحراوية بمكونات نادرة كالقسط الهندي وعشبة كاف مريم.
+
+## ما يحتويه سيكل بيو
+
+**التركيبة الطبيعية المستوحاة من الطب التقليدي:**
+- **القسط الهندي**: جذر نادر معروف بتنظيم الهرمونات الأنثوية
+- **الغيطيلية (شجرة الإبراهيمية)**: مشهور بتوازن هرمون البروجستيرون
+- **كاف مريم (فاطمة)**: عشبة تقليدية لتنظيم الدورة الشهرية
+- **الزنجبيل**: مضاد التهاب يخفف آلام الحيض
+- **الزعفران**: منظم للمزاج يخفف أعراض ما قبل الحيض
+
+## لمن يُناسب سيكل بيو؟
+
+- المرأة ذات الدورات غير المنتظمة
+- من تعاني من آلام الحيض الشديدة
+- النساء في مرحلة ما قبل انقطاع الطمث
+- من لديها أعراض تكيس المبايض
+
+## آراء العملاء
+
+> *"دورتي كانت كل 45-60 يوماً. بعد 4 أشهر من سيكل بيو، أصبحت كل 28-30 يوماً بانتظام."* — آمنة ق.
+
+> *"الآلام كانت تمنعني من العمل. الآن أعيش دورتي بشكل طبيعي."* — زينب م.
+
+## طريقة الاستخدام
+
+- **الجرعة**: كبسولتان يومياً مع الوجبة
+- **المدة**: 3-6 أشهر للنتيجة الكاملة
+- **مهم**: لا تستخدم أثناء الحمل
+
+## النتائج المتوقعة
+
+**الشهر 1:** تخفيف آلام الحيض، مزاج أكثر استقراراً
+
+**الشهر 2-3:** بداية انتظام الدورة
+
+**بعد 3-6 أشهر:** توازن هرموني مستعاد، دورة منتظمة
+
+**التقييم: 9/10**
+
+## اطلب سيكل بيو
+
+**[اطلب سيكل بيو من دخلة أرتيزانال ←](/#/produit/cycle-bio)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم · تغليف سري`,
+    contentEn: `## Cycle Bio: The Natural Hormonal Regulator for Women
+
+**Cycle Bio** is the unique natural dietary supplement for regulating female hormones in Morocco, inspired by Saharan traditions with rare ingredients like Qust Hindi and Kaf Mariam herb.
+
+## What Cycle Bio Contains
+
+**Natural formula inspired by traditional medicine:**
+- **Qust Hindi**: rare root known for regulating female hormones
+- **Vitex (Chaste Tree)**: famous for balancing progesterone
+- **Kaf Mariam (Rose of Jericho)**: traditional herb for menstrual cycle regulation
+- **Ginger**: anti-inflammatory that relieves period pain
+- **Saffron**: mood regulator that relieves PMS symptoms
+
+## Who Is Cycle Bio For?
+
+- Women with irregular cycles
+- Those suffering from severe period pain
+- Women in the pre-menopausal phase
+- Those with PCOS symptoms
+
+## Customer Reviews
+
+> *"My cycle was every 45-60 days. After 4 months of Cycle Bio, it became every 28-30 days regularly."* — Amina Q.
+
+> *"The pain was preventing me from working. Now I go through my cycle normally."* — Zainab M.
+
+## How to Use
+
+- **Dosage**: 2 capsules daily with a meal
+- **Duration**: 3-6 months for full results
+- **Important**: do not use during pregnancy
+
+## Expected Results
+
+**Month 1:** Relief from period pain, more stable mood
+
+**Months 2-3:** Cycle regularity begins improving
+
+**After 3-6 months:** Restored hormonal balance, regular cycle
+
+**Rating: 9/10**
+
+## Order Cycle Bio
+
+**[Order Cycle Bio from Dakhla Artisanal →](/#/produit/cycle-bio)**
+
+Delivery throughout Morocco · Cash on delivery · Discreet packaging`,
     ctaUrl: '/produit/cycle-bio',
     ctaLabel: 'Commander Cycle Bio',
     ctaColor: '#EC4899',
@@ -4022,6 +4320,92 @@ Sa formule authentique a base d'Alkhar Fassi, utilisee depuis des siecles, en fa
 ---
 
 *mots cles : blush laaker el fassi avis, blush naturel maroc, alkhar fassi blush, maquillage naturel joues levres, blush liquide naturel, pigment vegetal maroc, tradition beaute marocaine, teint rose naturel, produit maquillage bio maroc*`,
+    contentAr: `## بلاش لاكر الفاسي: الجمال المغربي الأصيل
+
+**بلاش لاكر الفاسي** هو البلاش الطبيعي الأصيل من المغرب، المستخرج من الألخار الفاسي (صبغة نباتية تقليدية) المستخدمة منذ قرون لتحمير الخدود والشفاه.
+
+## ما هو بلاش لاكر الفاسي؟
+
+منتج مكياج طبيعي فريد يحتوي على:
+- **الألخار الفاسي**: صبغة نباتية طبيعية تقليدية
+- **مستخلصات نباتية**: تغذي البشرة أثناء المكياج
+- **مكونات مرطبة**: تمنع جفاف الشفاه والخدين
+- **0% مواد كيميائية**: بدون بارابين، بدون رصاص، بدون مواد مصنعة
+
+## مزايا بلاش لاكر الفاسي
+
+### جمال أصيل ومزدوج
+- **الخدود**: احمرار طبيعي يدوم طوال اليوم
+- **الشفاه**: لون وردي طبيعي دون رائحة كيميائية
+
+### مناسب لجميع البشرة
+- البشرة الحساسة
+- البشرة الدهنية
+- البشرة الجافة
+- يمكن استخدامه من قبل الرجال أيضاً لمظهر منتعش
+
+## آراء العملاء
+
+> *"أول مرة أستخدم منتجاً طبيعياً للمكياج ونتيجته أجمل من الكيميائي."* — سمية أ.
+
+> *"اللون يدوم طوال اليوم ولا يبكك. طبيعي وجميل."* — نور ح.
+
+## طريقة الاستخدام
+
+1. ضعي كمية صغيرة على أطراف أصابعك
+2. ضعي بخفة على الخدين بحركة دائرية للأعلى
+3. للشفاه: ضعي مباشرة على الشفاه وازجي بأصبعك
+
+**التقييم: 9/10**
+
+## اطلب بلاش لاكر الفاسي
+
+**[اطلب بلاش لاكر الفاسي من دخلة أرتيزانال ←](/#/produit/blush-laaker)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## Blush Laaker El Fassi: Authentic Moroccan Beauty
+
+**Blush Laaker El Fassi** is the authentic natural blush from Morocco, extracted from Alkhar Fassi (traditional plant dye) used for centuries to color cheeks and lips.
+
+## What Is Blush Laaker El Fassi?
+
+A unique natural makeup product containing:
+- **Alkhar Fassi**: traditional natural plant dye
+- **Plant extracts**: nourish skin during makeup
+- **Moisturizing ingredients**: prevent dryness of lips and cheeks
+- **0% chemicals**: no parabens, no lead, no synthetic substances
+
+## Advantages of Blush Laaker El Fassi
+
+### Authentic and Double Beauty
+- **Cheeks**: natural flush that lasts all day
+- **Lips**: natural pink color without chemical smell
+
+### Suitable for All Skin Types
+- Sensitive skin
+- Oily skin
+- Dry skin
+- Can also be used by men for a fresh look
+
+## Customer Reviews
+
+> *"First time I use a natural makeup product and the result is more beautiful than chemical ones."* — Soumia A.
+
+> *"The color lasts all day and doesn't fade. Natural and beautiful."* — Nour H.
+
+## How to Use
+
+1. Apply a small amount to your fingertips
+2. Apply lightly to cheeks in an upward circular motion
+3. For lips: apply directly to lips and blend with your finger
+
+**Rating: 9/10**
+
+## Order Blush Laaker El Fassi
+
+**[Order Blush Laaker El Fassi from Dakhla Artisanal →](/#/produit/blush-laaker)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/blush-laaker',
     ctaLabel: 'Commander Blush Laaker El Fassi',
     ctaColor: '#E11D48',
@@ -4152,6 +4536,114 @@ Sa formule 100% naturelle avec Vitamine C et Acide Hyaluronique en fait un **pro
 ---
 
 *mots clés : sérum v-eclat avis, sérum blanchissant visage, vitamine c sérum, acide hyaluronique maroc, unifier teint, réduire taches sombres, éclat peau naturel, soin visage homme femme, produit naturel visage maroc*`,
+    contentAr: `## سيروم V-إيكلا: فيتامين C لبشرة مضيئة وموحدة
+
+**سيروم V-إيكلا** هو السيروم المفتح الطبيعي الأكثر مبيعاً في المغرب، يجمع قوة فيتامين C وحمض الهيالورونيك للحصول على بشرة مضيئة وموحدة اللون في 2-4 أسابيع.
+
+## ما يحتويه سيروم V-إيكلا
+
+**التركيبة الفعالة:**
+- **فيتامين C**: مضاد الأكسدة الأقوى لتفتيح البشرة والقضاء على البقع
+- **حمض الهيالورونيك**: ترطيب عميق يملأ الخطوط الدقيقة
+- **نياسيناميد (فيتامين B3)**: يضيق المسام ويوحد اللون
+- **الألوفيرا**: يهدئ البشرة ويزيد من امتصاص المكونات الفعالة
+
+## فوائد سيروم V-إيكلا
+
+### تفتيح البشرة والقضاء على البقع
+فيتامين C يعمل على:
+- تثبيط إنتاج الميلانين (المسبب للبقع الداكنة)
+- تحييد الجذور الحرة التي تتلف البشرة
+- تحفيز إنتاج الكولاجين لبشرة أكثر شباباً
+
+### ترطيب عميق وشباب البشرة
+حمض الهيالورونيك:
+- يحتجز الرطوبة في البشرة ليومين كاملين
+- يخفف الخطوط الدقيقة والتجاعيد الخفيفة
+
+## آراء العملاء
+
+> *"البقع الداكنة على خديّ تقلصت بشكل ملحوظ بعد 3 أسابيع فقط."* — مريم ك.
+
+> *"بشرتي أصبحت مضيئة وصحية. أنصح به لكل من يعاني من عدم انتظام اللون."* — علي ت.
+
+## طريقة الاستخدام
+
+1. نظف وجهك جيداً
+2. ضع 4-5 قطرات على الوجه والرقبة
+3. دلك بلطف حتى الامتصاص الكامل
+4. استخدم صباحاً ومساءً
+5. **إلزامي**: واقي شمس SPF 30+ نهاراً
+
+## النتائج المتوقعة
+
+**الأسبوعان 1-2:** بشرة أكثر نضارة وتوهجاً
+
+**الأسابيع 3-4:** تراجع ملحوظ في البقع الداكنة
+
+**بعد شهرين:** بشرة موحدة ومضيئة بشكل كبير
+
+**التقييم: 9/10**
+
+## اطلب سيروم V-إيكلا
+
+**[اطلب سيروم V-إيكلا من دخلة أرتيزانال ←](/#/produit/v-eclat-serum)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## V-Eclat Serum: Vitamin C for Bright, Even Skin
+
+**V-Eclat Serum** is the best-selling natural brightening serum in Morocco, combining the power of Vitamin C and hyaluronic acid for bright, even-toned skin in 2-4 weeks.
+
+## What V-Eclat Serum Contains
+
+**Effective formula:**
+- **Vitamin C**: the strongest antioxidant for brightening skin and eliminating spots
+- **Hyaluronic acid**: deep hydration that fills fine lines
+- **Niacinamide (Vitamin B3)**: tightens pores and evens tone
+- **Aloe vera**: soothes skin and increases absorption of active ingredients
+
+## Benefits of V-Eclat Serum
+
+### Skin Brightening and Spot Elimination
+Vitamin C works by:
+- Inhibiting melanin production (the cause of dark spots)
+- Neutralizing free radicals that damage skin
+- Stimulating collagen production for younger-looking skin
+
+### Deep Hydration and Skin Youth
+Hyaluronic acid:
+- Retains moisture in skin for two full days
+- Reduces fine lines and light wrinkles
+
+## Customer Reviews
+
+> *"The dark spots on my cheeks reduced noticeably after just 3 weeks."* — Mariam K.
+
+> *"My skin became bright and healthy. I recommend it to everyone suffering from uneven tone."* — Ali T.
+
+## How to Use
+
+1. Cleanse your face well
+2. Apply 4-5 drops to face and neck
+3. Massage gently until fully absorbed
+4. Use morning and evening
+5. **Mandatory**: SPF 30+ sunscreen during the day
+
+## Expected Results
+
+**Weeks 1-2:** Fresher and more radiant skin
+
+**Weeks 3-4:** Noticeable reduction in dark spots
+
+**After 2 months:** Greatly evened and brightened skin
+
+**Rating: 9/10**
+
+## Order V-Eclat Serum
+
+**[Order V-Eclat Serum from Dakhla Artisanal →](/#/produit/v-eclat-serum)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/v-eclat-serum',
     ctaLabel: 'Commander V-Éclat Sérum',
     ctaColor: '#0891B2',
@@ -4282,6 +4774,100 @@ Sa formule unique avec Maca peruvienne et herbes sahariennes, certifiee ISO + GM
 ---
 
 *mots cles : elixir maca avis, maca peruvienne maroc, complement energie endurance, maca homme femme, complement libido naturel, qust hindi kaf mariam, vitex agnus castus, tribulus terrestris, maca hormonal, produit naturel energie maroc*`,
+    contentAr: `## إيليكسير ماكا: طاقة حيوية ورغبة جنسية طبيعية
+
+**إيليكسير ماكا** هو المكمل الطبيعي الفريد الذي يجمع ماكا البيروفية الأصلية مع أعشاب صحراوية مغربية نادرة لتعزيز الطاقة الحيوية والرغبة الجنسية.
+
+## ما يحتويه إيليكسير ماكا
+
+**تركيبة فريدة شرق-غرب:**
+- **ماكا البيروفية**: المنشط الطبيعي الأقوى في العالم للطاقة والرغبة الجنسية
+- **القسط الهندي**: جذر نادر للتوازن الهرموني
+- **كاف مريم**: عشبة تقليدية مغربية للحيوية
+- **تريبولوس تيريستريس**: يرفع مستوى التستوستيرون الطبيعي
+- **جنسنج**: يكافح الإجهاد ويزيد من قدرة التحمل
+
+## لمن يُناسب إيليكسير ماكا؟
+
+- الرجال الذين يعانون من انخفاض الطاقة والرغبة الجنسية
+- النساء اللواتي يعانين من التعب وانخفاض الدافع الجنسي
+- الرياضيون الذين يريدون تعزيز أدائهم
+- أي شخص يحتاج إلى دفعة طبيعية للطاقة
+
+## آراء العملاء
+
+> *"كنت أشعر بالتعب دائماً وانخفاض الرغبة. إيليكسير ماكا غير كل شيء في 3 أسابيع."* — ياسين ر.
+
+> *"منتج رائع. طاقتي مضاعفة وأشعر بحيوية كما في العشرينيات."* — حسن م.
+
+## طريقة الاستخدام
+
+- **الجرعة**: كبسولتان يومياً - واحدة صباحاً وواحدة مساءً
+- **المدة**: 2-3 أشهر للنتيجة الكاملة
+- **مع الطعام**: لامتصاص أفضل
+
+## النتائج المتوقعة
+
+**الأسبوعان 1-2:** طاقة أكبر، نوم أفضل
+
+**الأسابيع 3-4:** زيادة ملحوظة في الرغبة الجنسية
+
+**بعد شهرين:** حيوية مستعادة، أداء محسّن
+
+**التقييم: 9/10**
+
+## اطلب إيليكسير ماكا
+
+**[اطلب إيليكسير ماكا من دخلة أرتيزانال ←](/#/produit/elixir-maca)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## Elixir Maca: Vital Energy and Natural Libido
+
+**Elixir Maca** is the unique natural supplement that combines authentic Peruvian maca with rare Moroccan Saharan herbs to boost vital energy and libido.
+
+## What Elixir Maca Contains
+
+**Unique East-West formula:**
+- **Peruvian Maca**: the world's strongest natural energizer for energy and libido
+- **Qust Hindi**: rare root for hormonal balance
+- **Kaf Mariam**: traditional Moroccan herb for vitality
+- **Tribulus Terrestris**: naturally raises testosterone levels
+- **Ginseng**: fights fatigue and increases endurance
+
+## Who Is Elixir Maca For?
+
+- Men suffering from low energy and libido
+- Women experiencing fatigue and low sexual drive
+- Athletes wanting to boost their performance
+- Anyone needing a natural energy boost
+
+## Customer Reviews
+
+> *"I was always tired and had low desire. Elixir Maca changed everything in 3 weeks."* — Yassin R.
+
+> *"Amazing product. My energy is doubled and I feel as vibrant as in my twenties."* — Hassan M.
+
+## How to Use
+
+- **Dosage**: 2 capsules daily — one in morning, one in evening
+- **Duration**: 2-3 months for full results
+- **With food**: for better absorption
+
+## Expected Results
+
+**Weeks 1-2:** More energy, better sleep
+
+**Weeks 3-4:** Noticeable increase in libido
+
+**After 2 months:** Restored vitality, improved performance
+
+**Rating: 9/10**
+
+## Order Elixir Maca
+
+**[Order Elixir Maca from Dakhla Artisanal →](/#/produit/elixir-maca)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/elixir-maca',
     ctaLabel: "Commander l'Élixir Maca",
     ctaColor: '#2563EB',
@@ -4439,6 +5025,96 @@ Sa formule naturelle avec Curcuma, Graines de Lin, Calcium et Fluor en fait un *
 Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 
 *mots cles : floro calm avis maroc, menagement articulations naturel, curcuma articulations, soulager douleurs genoux, arthrose remede naturel, complement articulations sport, calcium fluor articulations, bien etre naturel maroc, douleur articulation senior, graines de lin omega 3*`,
+    contentAr: `## فلورو كالم: الكبسولات الطبيعية لصحة المفاصل
+
+**فلورو كالم** هو المكمل الطبيعي الرائد في المغرب للعناية بالمفاصل والوقاية من آلام الروماتيزم. 60 كبسولة من الكركم وبذور الكتان والكالسيوم والفلور.
+
+## التركيبة الطبيعية لفلورو كالم
+
+- **الكركم (الكركومين)**: أقوى مضاد التهاب طبيعي لتهدئة المفاصل
+- **بذور الكتان**: غنية بالأوميغا-3 التي تزيت المفاصل وتقلل الصلابة
+- **الكالسيوم**: يقوي العظام ويمنع هشاشة العظام
+- **الفلور**: يحمي طبقة المينا ويعزز كثافة العظام
+
+## لمن يُناسب فلورو كالم؟
+
+- المصابون بالفصال العظمي والروماتيزم
+- الرياضيون النشطون لمنع الإصابات
+- كبار السن الذين يعانون من الصلابة الصباحية
+- أصحاب الآلام المزمنة في الظهر والركبة
+
+## آراء العملاء
+
+> *"أنا رياضي وكنت أعاني من آلام في الركبة. فلورو كالم خفف الألم بشكل ملحوظ خلال أسبوعين."* — عمر ح.
+
+> *"في سن الستين، أصعد السلم الآن دون ألم. شكراً فلورو كالم."* — محمد أ.
+
+## طريقة الاستخدام
+
+- **الجرعة**: كبسولة صباحاً + كبسولة مساءً مع الوجبة
+- **المدة**: 2-3 أشهر للنتيجة الكاملة
+- **للنتائج الأفضل**: دمج مع زيت التدليك فلورو كالم
+
+## النتائج المتوقعة
+
+**الأسبوع 1-2:** تراجع الصلابة الصباحية
+
+**الأسابيع 2-4:** تقليل ملحوظ في آلام الراحة
+
+**بعد شهرين:** تحسن ملموس في الحركة والمرونة
+
+**التقييم: 9/10**
+
+## اطلب فلورو كالم
+
+**[اطلب فلورو كالم من دخلة أرتيزانال ←](/#/produit/pack-floro-calm)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## Floro Calm: Natural Capsules for Joint Health
+
+**Floro Calm** is the leading natural supplement in Morocco for joint care and prevention of rheumatic pain. 60 capsules of turmeric, flax seeds, calcium and fluoride.
+
+## Floro Calm's Natural Formula
+
+- **Turmeric (curcumin)**: the most powerful natural anti-inflammatory for soothing joints
+- **Flax seeds**: rich in omega-3 that lubricates joints and reduces stiffness
+- **Calcium**: strengthens bones and prevents osteoporosis
+- **Fluoride**: protects enamel layer and enhances bone density
+
+## Who Is Floro Calm For?
+
+- Those with osteoarthritis and rheumatism
+- Active athletes to prevent injuries
+- Seniors suffering from morning stiffness
+- People with chronic back and knee pain
+
+## Customer Reviews
+
+> *"I am an athlete and was suffering from knee pain. Floro Calm significantly relieved the pain within two weeks."* — Omar H.
+
+> *"At 60, I can now climb stairs without pain. Thank you Floro Calm."* — Mohammed A.
+
+## How to Use
+
+- **Dosage**: 1 capsule morning + 1 capsule evening with a meal
+- **Duration**: 2-3 months for full results
+- **For best results**: combine with Floro Calm massage oil
+
+## Expected Results
+
+**Weeks 1-2:** Reduction in morning stiffness
+
+**Weeks 2-4:** Noticeable reduction in resting pain
+
+**After 2 months:** Tangible improvement in mobility and flexibility
+
+**Rating: 9/10**
+
+## Order Floro Calm
+
+**[Order Floro Calm from Dakhla Artisanal →](/#/produit/pack-floro-calm)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/floro-calm',
     ctaLabel: 'Commander Floro-Calm',
     ctaColor: '#EA580C',
