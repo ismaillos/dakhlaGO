@@ -25,7 +25,7 @@ function LangSwitcher() {
   return (
     <div ref={ref} className="relative">
       <button onClick={() => setOpen(v => !v)}
-        className="flex items-center gap-1.5 text-white/60 hover:text-white transition-colors text-[13px] font-medium px-2 py-1 rounded-lg hover:bg-[#141414]/[0.05]">
+        className="flex items-center gap-1.5 text-white/60 hover:text-white transition-colors text-[13px] font-medium px-2 py-1 rounded-lg hover:bg-[#261A08]/[0.05]">
         <span>{current.flag}</span>
         <span className="uppercase text-[11px] font-bold tracking-wide">{current.code}</span>
         <svg className={`w-3 h-3 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -33,7 +33,7 @@ function LangSwitcher() {
         </svg>
       </button>
       {open && (
-        <div className="absolute top-full right-0 mt-1.5 bg-[#1A1A1A] border border-white/[0.10] rounded-xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,0.5)] z-50 min-w-[130px]">
+        <div className="absolute top-full right-0 mt-1.5 bg-[#2A1C0A] border border-[#F0C060]/[0.15] rounded-xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,0.5)] z-50 min-w-[130px]">
           {LANGS.map(l => (
             <button key={l.code} onClick={() => { setLang(l.code); setOpen(false); }}
               className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 text-[13px] transition-colors text-left ${l.code === lang ? 'bg-[#E8732F]/15 text-[#E8732F]' : 'text-white/70 hover:bg-white/[0.07] hover:text-white'}`}>
@@ -61,12 +61,12 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#0A0A0A/95] backdrop-blur-xl border-b border-white/[0.08]' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#1A1208]/95 backdrop-blur-xl border-b border-[#F0C060]/[0.12]' : 'bg-transparent'}`}>
       <div className="max-w-[1200px] mx-auto px-5 py-3.5 flex items-center justify-between">
         <Link to="/" className="block">
-          <div className="font-serif text-[22px] font-bold text-[#D4A574] tracking-[0.15em] leading-none">
+          <div className="font-serif text-[22px] font-bold text-[#F0C060] tracking-[0.15em] leading-none">
             DAKHLA
-            <span className="block text-[9px] text-[#D4A574]/60 font-light tracking-[0.5em] font-sans mt-0.5">ARTISANAL</span>
+            <span className="block text-[9px] text-[#F0C060]/60 font-light tracking-[0.5em] font-sans mt-0.5">ARTISANAL</span>
             <span className="block text-[9px] text-[#5B7B5E] tracking-[0.2em] italic mt-[3px]">Nature&apos;s Touch</span>
           </div>
         </Link>
@@ -113,7 +113,7 @@ function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div className="md:hidden bg-[#0A0A0A]/97 backdrop-blur-xl border-t border-white/[0.08] px-5 py-4 space-y-3">
+        <div className="md:hidden bg-[#1A1208]/97 backdrop-blur-xl border-t border-[#F0C060]/[0.12] px-5 py-4 space-y-3">
           <button onClick={() => { setMobileOpen(false); document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' }); }} className="block text-white/60 text-sm py-2 w-full text-left">{t.nav.products}</button>
           <button onClick={() => { setMobileOpen(false); document.getElementById('story')?.scrollIntoView({ behavior: 'smooth' }); }} className="block text-white/60 text-sm py-2 w-full text-left">{t.nav.story}</button>
           <Link to="/blog" onClick={() => setMobileOpen(false)} className="block text-white/60 text-sm py-2">{t.nav.blog}</Link>
@@ -129,11 +129,11 @@ function Navbar() {
 function Hero() {
   const { t } = useLang();
   return (
-    <section className="min-h-screen flex items-center pt-20 pb-0 bg-gradient-to-br from-[#0A0A0A] via-[#141414] to-[#0A0A0A] relative overflow-hidden">
+    <section className="min-h-screen flex items-center pt-20 pb-0 bg-gradient-to-br from-[#1A1208] via-[#231709] to-[#150F05] relative overflow-hidden">
       <div className="absolute inset-0 zellige-pattern opacity-60 pointer-events-none" />
       {/* Soft glow accents */}
-      <div className="absolute top-[15%] right-[-5%] w-[500px] h-[500px] rounded-full bg-[#D4A574]/[0.18] blur-[100px] pointer-events-none" />
-      <div className="absolute bottom-[5%] left-[-5%] w-[400px] h-[400px] rounded-full bg-[#5B7B5E]/[0.10] blur-[80px] pointer-events-none" />
+      <div className="absolute top-[15%] right-[-5%] w-[500px] h-[500px] rounded-full bg-[#F0C060]/[0.12] blur-[100px] pointer-events-none" />
+      <div className="absolute bottom-[5%] left-[-5%] w-[400px] h-[400px] rounded-full bg-[#E8732F]/[0.08] blur-[80px] pointer-events-none" />
 
       <div className="max-w-[1200px] mx-auto px-5 relative z-10 w-full grid md:grid-cols-2 gap-12 items-center pb-16 pt-8">
         <div>
@@ -166,7 +166,7 @@ function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="flex gap-8 pt-6 border-t border-white/[0.08]">
+          <div className="flex gap-8 pt-6 border-t border-[#F0C060]/[0.12]">
             {[
               { n: '26+', label: t.hero.stat1 },
               { n: '10K+', label: t.hero.stat2 },
@@ -174,7 +174,7 @@ function Hero() {
             ].map(s => (
               <div key={s.label}>
                 <div className={`text-[clamp(28px,3.5vw,40px)] font-extrabold leading-none font-serif ${s.color ? 'text-[#E8732F]' : 'text-white'}`}>{s.n}</div>
-                <div className="text-[10px] text-[#D4A574] uppercase tracking-[0.12em] mt-1.5 font-medium">{s.label}</div>
+                <div className="text-[10px] text-[#F0C060] uppercase tracking-[0.12em] mt-1.5 font-medium">{s.label}</div>
               </div>
             ))}
           </div>
@@ -182,12 +182,12 @@ function Hero() {
 
         {/* Hero image */}
         <div className="relative">
-          <div className="absolute -inset-4 bg-gradient-to-br from-[#E8732F]/10 via-transparent to-[#D4A574]/15 rounded-[40px] blur-2xl" />
+          <div className="absolute -inset-4 bg-gradient-to-br from-[#E8732F]/10 via-transparent to-[#F0C060]/15 rounded-[40px] blur-2xl" />
           <div className="relative rounded-[32px] overflow-hidden gold-border shadow-[0_40px_100px_rgba(61,43,31,0.18)]">
             <img src="/images/toutia/toutia.jpg" alt="Toutia Ismailiya — Dakhla Artisanal" className="w-full h-auto object-cover" loading="eager" />
             {/* Overlay badge */}
             <div className="absolute bottom-5 left-5 right-5">
-              <div className="bg-[#141414]/90 backdrop-blur-xl border border-white/[0.12] rounded-2xl px-5 py-3.5 flex items-center justify-between">
+              <div className="bg-[#261A08]/90 backdrop-blur-xl border border-white/[0.12] rounded-2xl px-5 py-3.5 flex items-center justify-between">
                 <div>
                   <div className="text-white font-bold text-[14px]">Toutia Ismailiya</div>
                   <div className="text-white/60 text-[11px]">Pierre naturelle du Sahara · Best-seller</div>
@@ -200,7 +200,7 @@ function Hero() {
           <div className="absolute -top-4 -right-4 bg-[#5B7B5E] text-white text-[10px] font-bold px-3.5 py-2 rounded-full shadow-lg rotate-6">
             ✓ 100% Naturel
           </div>
-          <div className="absolute top-1/2 -left-6 -translate-y-1/2 bg-[#1A1A1A] border border-white/[0.12] rounded-2xl px-4 py-3 shadow-[0_8px_24px_rgba(0,0,0,0.4)] hidden md:block">
+          <div className="absolute top-1/2 -left-6 -translate-y-1/2 bg-[#2A1C0A] border border-white/[0.12] rounded-2xl px-4 py-3 shadow-[0_8px_24px_rgba(0,0,0,0.4)] hidden md:block">
             <div className="flex items-center gap-2 mb-1">
               {[1,2,3,4,5].map(i => <span key={i} className="text-[#E8732F] text-xs">★</span>)}
             </div>
@@ -226,7 +226,7 @@ function TrustStrip() {
     },
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-[#D4A574]">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-[#F0C060]">
           <circle cx="12" cy="12" r="9" /><path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18M3 12h18" />
         </svg>
       ),
@@ -242,7 +242,7 @@ function TrustStrip() {
     },
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-[#D4A574]">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-[#F0C060]">
           <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a4 4 0 00-5.196-3.8M9 20H4v-2a4 4 0 015.196-3.8M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a2 2 0 11-4 0 2 2 0 014 0zM7 12a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
@@ -250,14 +250,14 @@ function TrustStrip() {
     },
   ];
   return (
-    <div className="bg-[#141414] py-5 px-5 overflow-hidden">
+    <div className="bg-[#261A08] py-5 px-5 overflow-hidden">
       <div className="max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
         {items.map(item => (
           <div key={item.title} className="flex items-center gap-3">
             <span className="flex-shrink-0 w-9 h-9 rounded-xl bg-white/[0.08] flex items-center justify-center">{item.icon}</span>
             <div>
               <div className="text-white text-[12px] font-bold">{item.title}</div>
-              <div className="text-[#D4A574]/60 text-[10px]">{item.sub}</div>
+              <div className="text-[#F0C060]/60 text-[10px]">{item.sub}</div>
             </div>
           </div>
         ))}
@@ -273,7 +273,7 @@ function Bestsellers() {
   const { addItem } = useCart();
   const { t } = useLang();
   return (
-    <section className="py-20 px-5 bg-[#0A0A0A]">
+    <section className="py-20 px-5 bg-[#1A1208]">
       <div className="max-w-[1200px] mx-auto">
         <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
           <div>
@@ -282,15 +282,15 @@ function Bestsellers() {
               {t.bestsellers.title1} <em className="text-[#E8732F] not-italic">{t.bestsellers.title2}</em>
             </h2>
           </div>
-          <a href="#produits" className="text-[#D4A574] text-[13px] hover:text-[#E8732F] transition-colors font-medium">
+          <a href="#produits" className="text-[#F0C060] text-[13px] hover:text-[#E8732F] transition-colors font-medium">
             {t.bestsellers.viewAll}
           </a>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
           {picks.map((p, i) => (
-            <div key={p.id} className={`group relative rounded-3xl overflow-hidden bg-[#141414] gold-border hover:shadow-[0_30px_60px_rgba(0,0,0,0.4)] transition-all duration-500 hover:-translate-y-2 ${i === 1 ? 'md:-mt-6' : ''}`}>
+            <div key={p.id} className={`group relative rounded-3xl overflow-hidden bg-[#261A08] gold-border hover:shadow-[0_30px_60px_rgba(0,0,0,0.4)] transition-all duration-500 hover:-translate-y-2 ${i === 1 ? 'md:-mt-6' : ''}`}>
               <Link to={`/produit/${p.id}`}>
-                <div className="relative aspect-[4/5] overflow-hidden bg-[#141414]">
+                <div className="relative aspect-[4/5] overflow-hidden bg-[#261A08]">
                   <img src={p.img} alt={p.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
                   {i === 0 && <div className="absolute top-4 left-4 bg-[#E8732F] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">{t.bestsellers.badge1}</div>}
@@ -309,7 +309,7 @@ function Bestsellers() {
               <div className="p-5 flex items-center justify-between">
                 <div>
                   <span className="text-[#E8732F] text-[22px] font-extrabold">{p.price} DH</span>
-                  {p.oldPrice && <span className="text-[#D4A574]/40 text-sm line-through ml-2">{p.oldPrice} DH</span>}
+                  {p.oldPrice && <span className="text-[#F0C060]/50 text-sm line-through ml-2">{p.oldPrice} DH</span>}
                 </div>
                 {p.id === 'toutia' ? (
                   <a href="https://dakhla-artisanal.com/pages/toutia-ismailiya-a" target="_blank" rel="noopener noreferrer"
@@ -389,10 +389,10 @@ function Ingredients() {
     { type: 'seed', name: t.ingredients2.i6n, origin: t.ingredients2.i6o, desc: t.ingredients2.i6d },
   ];
   return (
-    <section className="py-20 px-5 bg-[#141414] relative overflow-hidden zellige-pattern">
+    <section className="py-20 px-5 bg-[#261A08] relative overflow-hidden zellige-pattern">
       <div className="max-w-[1200px] mx-auto relative z-10">
         <div className="text-center mb-12">
-          <div className="text-[#D4A574] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">{t.ingredients.tag}</div>
+          <div className="text-[#F0C060] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">{t.ingredients.tag}</div>
           <h2 className="text-[clamp(28px,4vw,48px)] font-extrabold mb-4 font-serif text-white">
             {t.ingredients.title1} <em className="text-[#E8732F] not-italic">{t.ingredients.title2}</em>
           </h2>
@@ -402,9 +402,9 @@ function Ingredients() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {items.map(item => (
-            <div key={item.name} className="group bg-white/[0.04] border border-white/[0.08] hover:border-[#D4A574]/50 rounded-2xl p-6 transition-all duration-300 hover:bg-white/[0.08] hover:shadow-[0_8px_24px_rgba(0,0,0,0.3)]">
+            <div key={item.name} className="group bg-white/[0.04] border border-[#F0C060]/[0.12] hover:border-[#F0C060]/50 rounded-2xl p-6 transition-all duration-300 hover:bg-white/[0.08] hover:shadow-[0_8px_24px_rgba(0,0,0,0.3)]">
               <div className="mb-3"><IngredientIcon type={item.type} /></div>
-              <div className="text-[#D4A574] font-bold text-[15px] mb-0.5">{item.name}</div>
+              <div className="text-[#F0C060] font-bold text-[15px] mb-0.5">{item.name}</div>
               <div className="text-white/60/50 text-[10px] uppercase tracking-[0.1em] mb-2.5">{item.origin}</div>
               <p className="text-white/60 text-[12px] leading-relaxed">{item.desc}</p>
             </div>
@@ -419,7 +419,7 @@ function Ingredients() {
 function Story() {
   const { t } = useLang();
   return (
-    <section id="story" className="py-24 px-5 bg-[#0A0A0A] relative overflow-hidden">
+    <section id="story" className="py-24 px-5 bg-[#1A1208] relative overflow-hidden">
       <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#D4A574]/[0.12] blur-[100px] rounded-full pointer-events-none" />
       <div className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
@@ -439,7 +439,7 @@ function Story() {
               { icon: '👩‍🌾', title: t.story2.stat2, sub: t.story2.stat2s },
               { icon: '🌿', title: t.story2.stat3, sub: t.story2.stat3s },
             ].map(c => (
-              <div key={c.title} className="bg-[#141414] border border-white/[0.08] rounded-xl p-5 text-center hover:border-[#E8732F]/30 transition-colors">
+              <div key={c.title} className="bg-[#261A08] border border-[#F0C060]/[0.12] rounded-xl p-5 text-center hover:border-[#E8732F]/30 transition-colors">
                 <div className="text-2xl mb-2">{c.icon}</div>
                 <h4 className="text-[13px] font-bold mb-1 text-white">{c.title}</h4>
                 <p className="text-[10px] text-white/60">{c.sub}</p>
@@ -507,7 +507,7 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
   return (
     <div ref={wrapRef} className="relative max-w-[600px] mb-8">
       <div className="relative">
-        <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#D4A574]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#F0C060]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
         <input
@@ -517,18 +517,18 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
           onChange={(e) => { fuseSearch(e.target.value); setShowSuggestions(true); onSearch(e.target.value); }}
           onFocus={() => { if (value) setShowSuggestions(true); }}
           placeholder={t.products.filterLabel}
-          className="w-full bg-[#1A1A1A] border border-white/[0.10] rounded-full py-3 pl-11 pr-5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-[#E8732F]/50 transition-all shadow-[0_2px_8px_rgba(0,0,0,0.3)]"
+          className="w-full bg-[#2A1C0A] border border-[#F0C060]/[0.15] rounded-full py-3 pl-11 pr-5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-[#E8732F]/50 transition-all shadow-[0_2px_8px_rgba(0,0,0,0.3)]"
         />
         {value && (
           <button onClick={() => { setSuggestions([]); setShowSuggestions(false); onSearch(''); inputRef.current?.focus(); }}
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-[#D4A574] hover:text-white text-xs">✕</button>
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-[#F0C060] hover:text-white text-xs">✕</button>
         )}
       </div>
       {showSuggestions && value.trim().length > 1 && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-[#1A1A1A] border border-white/[0.10] rounded-2xl overflow-y-auto max-h-[480px] z-50 shadow-[0_20px_60px_rgba(0,0,0,0.5)]">
+        <div className="absolute top-full left-0 right-0 mt-2 bg-[#2A1C0A] border border-[#F0C060]/[0.15] rounded-2xl overflow-y-auto max-h-[480px] z-50 shadow-[0_20px_60px_rgba(0,0,0,0.5)]">
           {suggestions.length > 0 ? suggestions.map(p => (
             <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
-              className="flex items-center gap-3 px-4 py-3 hover:bg-[#141414] transition-colors border-b border-white/[0.08]/50 last:border-0">
+              className="flex items-center gap-3 px-4 py-3 hover:bg-[#261A08] transition-colors border-b border-[#F0C060]/[0.12]/50 last:border-0">
               <img src={p.img} alt={p.name} className="w-9 h-9 rounded-lg object-cover flex-shrink-0" />
               <div className="flex-1 min-w-0">
                 <div className="text-sm font-semibold truncate text-white">{p.name}</div>
@@ -619,7 +619,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
   };
 
   return (
-    <section className="py-14 px-5 bg-[#141414] border-y border-white/[0.08] relative">
+    <section className="py-14 px-5 bg-[#261A08] border-y border-[#F0C060]/[0.12] relative">
       <div className="absolute inset-0 zellige-pattern opacity-40 pointer-events-none" />
       <div className="max-w-[800px] mx-auto relative z-10">
         <div className="text-center mb-8">
@@ -642,7 +642,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
               onChange={(e) => handleChange(e.target.value)}
               onFocus={() => { if (localQuery) setShowSuggestions(true); }}
               placeholder={t.search.placeholder}
-              className="w-full bg-[#1A1A1A] border-2 border-white/[0.10] hover:border-[#D4A574]/50 rounded-2xl py-5 pl-14 pr-14 text-base text-white placeholder:text-white/30 focus:outline-none focus:border-[#E8732F]/60 transition-all duration-200 shadow-[0_8px_32px_rgba(0,0,0,0.3)]"
+              className="w-full bg-[#2A1C0A] border-2 border-[#F0C060]/[0.15] hover:border-[#F0C060]/50 rounded-2xl py-5 pl-14 pr-14 text-base text-white placeholder:text-white/30 focus:outline-none focus:border-[#E8732F]/60 transition-all duration-200 shadow-[0_8px_32px_rgba(0,0,0,0.3)]"
             />
             {localQuery ? (
               <button onClick={handleClear}
@@ -658,26 +658,26 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
           </div>
 
           {showSuggestions && localQuery.trim().length > 1 && (
-            <div className="absolute top-full left-0 right-0 mt-3 bg-[#1A1A1A] border border-white/[0.10] rounded-2xl overflow-y-auto max-h-[520px] z-50 shadow-[0_24px_80px_rgba(0,0,0,0.5)]">
+            <div className="absolute top-full left-0 right-0 mt-3 bg-[#2A1C0A] border border-[#F0C060]/[0.15] rounded-2xl overflow-y-auto max-h-[520px] z-50 shadow-[0_24px_80px_rgba(0,0,0,0.5)]">
               {suggestions.length > 0 || blogSuggestions.length > 0 ? (
                 <>
                   {suggestions.length > 0 && (
                     <>
-                      <div className="px-4 pt-3 pb-1.5 text-[10px] text-[#D4A574] uppercase tracking-[0.15em] font-bold border-b border-white/[0.08]/50">
+                      <div className="px-4 pt-3 pb-1.5 text-[10px] text-[#F0C060] uppercase tracking-[0.15em] font-bold border-b border-[#F0C060]/[0.12]/50">
                         {suggestions.length} {suggestions.length > 1 ? t.search.founds : t.search.found}
                       </div>
                       {suggestions.map(p => (
                         <Link key={p.id} to={`/produit/${p.id}`} onClick={() => setShowSuggestions(false)}
-                          className="flex items-center gap-4 px-4 py-3.5 hover:bg-[#141414] transition-colors border-b border-white/[0.08]/40 last:border-0 group">
+                          className="flex items-center gap-4 px-4 py-3.5 hover:bg-[#261A08] transition-colors border-b border-[#F0C060]/[0.12]/40 last:border-0 group">
                           <img src={p.img} alt={p.name} className="w-12 h-12 rounded-xl object-cover flex-shrink-0" />
                           <div className="flex-1 min-w-0">
                             <div className="text-[14px] font-bold truncate text-white group-hover:text-[#E8732F] transition-colors">{p.name}</div>
                             <div className="text-[11px] text-white/60 truncate mt-0.5">{p.hook}</div>
-                            <div className="text-[10px] text-[#D4A574] mt-0.5">{p.catLabel}</div>
+                            <div className="text-[10px] text-[#F0C060] mt-0.5">{p.catLabel}</div>
                           </div>
                           <div className="text-right flex-shrink-0">
                             <div className="text-[#E8732F] font-extrabold text-[15px]">{p.price} DH</div>
-                            {p.oldPrice && <div className="text-[#D4A574]/50 text-[11px] line-through">{p.oldPrice} DH</div>}
+                            {p.oldPrice && <div className="text-[#F0C060]/50 text-[11px] line-through">{p.oldPrice} DH</div>}
                           </div>
                         </Link>
                       ))}
@@ -685,22 +685,22 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                   )}
                   {blogSuggestions.length > 0 && (
                     <>
-                      <div className="px-4 pt-3 pb-1.5 text-[10px] text-[#D4A574] uppercase tracking-[0.15em] font-bold border-b border-white/[0.08]/50">
+                      <div className="px-4 pt-3 pb-1.5 text-[10px] text-[#F0C060] uppercase tracking-[0.15em] font-bold border-b border-[#F0C060]/[0.12]/50">
                         {t.search.blogResults}
                       </div>
                       {blogSuggestions.map(a => (
                         <Link key={a.id} to={`/blog/${a.id}`} onClick={() => setShowSuggestions(false)}
-                          className="flex items-center gap-4 px-4 py-3 hover:bg-[#141414] transition-colors border-b border-white/[0.08]/40 last:border-0 group">
+                          className="flex items-center gap-4 px-4 py-3 hover:bg-[#261A08] transition-colors border-b border-[#F0C060]/[0.12]/40 last:border-0 group">
                           <img src={a.image} alt={a.title} className="w-10 h-10 rounded-lg object-cover flex-shrink-0 opacity-80" />
                           <div className="flex-1 min-w-0">
-                            <div className="text-[13px] font-semibold truncate text-white group-hover:text-[#D4A574] transition-colors">{a.title}</div>
-                            <div className="text-[10px] text-[#D4A574] mt-0.5">{a.category} · {a.readTime}</div>
+                            <div className="text-[13px] font-semibold truncate text-white group-hover:text-[#F0C060] transition-colors">{a.title}</div>
+                            <div className="text-[10px] text-[#F0C060] mt-0.5">{a.category} · {a.readTime}</div>
                           </div>
                         </Link>
                       ))}
                     </>
                   )}
-                  <div className="px-4 py-3 border-t border-white/[0.08]/50">
+                  <div className="px-4 py-3 border-t border-[#F0C060]/[0.12]/50">
                     <button onClick={() => { setShowSuggestions(false); document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' }); }}
                       className="w-full text-center text-[12px] text-[#E8732F] font-semibold hover:text-[#c45e22] transition-colors">
                       {t.search.allResults}
@@ -723,7 +723,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                 className={`px-4 py-2 rounded-full text-[12px] font-semibold transition-all cursor-pointer border ${
                   searchQuery === chip.query
                     ? 'bg-[#E8732F] text-white border-[#E8732F]'
-                    : 'bg-white/[0.05] border-white/[0.10] text-white/60 hover:bg-white/[0.10] hover:text-white hover:border-[#D4A574]/50'
+                    : 'bg-white/[0.05] border-[#F0C060]/[0.15] text-white/60 hover:bg-white/[0.10] hover:text-white hover:border-[#F0C060]/50'
                 }`}>
                 {emoji} {chipLabel}
               </button>
@@ -745,14 +745,14 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
 function ProductNotFound({ query, closest }: { query: string; closest: typeof PRODUCTS }) {
   return (
     <div className="col-span-full">
-      <div className="bg-[#141414] gold-border rounded-2xl p-8 md:p-10 max-w-[680px] mx-auto">
+      <div className="bg-[#261A08] gold-border rounded-2xl p-8 md:p-10 max-w-[680px] mx-auto">
         <ProductRequestForm query={query} />
         {closest.length > 0 && (
-          <div className="mt-8 pt-6 border-t border-white/[0.08]">
-            <p className="text-[#D4A574] text-xs uppercase tracking-[0.15em] mb-4">Produits similaires</p>
+          <div className="mt-8 pt-6 border-t border-[#F0C060]/[0.12]">
+            <p className="text-[#F0C060] text-xs uppercase tracking-[0.15em] mb-4">Produits similaires</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {closest.map(p => (
-                <Link key={p.id} to={`/produit/${p.id}`} className="bg-[#0A0A0A] border border-white/[0.08] rounded-xl p-3 text-left hover:border-[#E8732F]/30 transition-colors block">
+                <Link key={p.id} to={`/produit/${p.id}`} className="bg-[#1A1208] border border-[#F0C060]/[0.12] rounded-xl p-3 text-left hover:border-[#E8732F]/30 transition-colors block">
                   <img src={p.img} alt={p.name} className="w-full aspect-square object-cover rounded-lg mb-2" loading="lazy" />
                   <div className="text-xs font-semibold truncate text-white">{p.name}</div>
                   <div className="text-[#E8732F] text-xs font-bold">{p.price} DH</div>
@@ -810,7 +810,7 @@ function Products({ searchQuery, onSearch }: { searchQuery: string; onSearch: (q
   }, [searchQuery, filtered.length]);
 
   return (
-    <section id="produits" className="py-24 px-5 bg-[#0A0A0A] zellige-pattern">
+    <section id="produits" className="py-24 px-5 bg-[#1A1208] zellige-pattern">
       <div className="max-w-[1200px] mx-auto">
         <div className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.2em] mb-4">Nos Produits</div>
         <h2 className="text-[clamp(32px,4vw,52px)] font-extrabold mb-4 font-serif text-white">Formules du <em className="text-[#E8732F] not-italic">Sahara</em></h2>
@@ -821,7 +821,7 @@ function Products({ searchQuery, onSearch }: { searchQuery: string; onSearch: (q
         <div className="flex gap-2.5 mb-9 flex-wrap">
           {CATEGORIES.map(cat => (
             <button key={cat.key} onClick={() => setActiveFilter(cat.key)}
-              className={`px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-[0.05em] transition-all cursor-pointer ${activeFilter === cat.key ? 'bg-[#E8732F] text-white border border-[#E8732F]' : 'bg-white/[0.05] border border-white/[0.10] text-white/60 hover:bg-white/[0.10] hover:border-[#D4A574]/50 hover:text-white'}`}>
+              className={`px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-[0.05em] transition-all cursor-pointer ${activeFilter === cat.key ? 'bg-[#E8732F] text-white border border-[#E8732F]' : 'bg-white/[0.05] border border-[#F0C060]/[0.15] text-white/60 hover:bg-white/[0.10] hover:border-[#F0C060]/50 hover:text-white'}`}>
               {cat.label}
             </button>
           ))}
@@ -829,26 +829,26 @@ function Products({ searchQuery, onSearch }: { searchQuery: string; onSearch: (q
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {filtered.map(p => (
-            <div key={p.id} className="group bg-[#141414] gold-border rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:border-[#D4A574]/60 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
+            <div key={p.id} className="group bg-[#261A08] gold-border rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:border-[#F0C060]/60 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
               <Link to={`/produit/${p.id}`}>
-                <div className="relative aspect-[3/4] overflow-hidden bg-[#141414]">
+                <div className="relative aspect-[3/4] overflow-hidden bg-[#261A08]">
                   <img src={p.img} alt={p.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-                  <div className="absolute inset-0 bg-[#141414]/0 group-hover:bg-[#141414]/25 transition-all duration-300 flex items-center justify-center">
+                  <div className="absolute inset-0 bg-[#261A08]/0 group-hover:bg-[#261A08]/25 transition-all duration-300 flex items-center justify-center">
                     <span className="bg-[#E8732F] text-white px-7 py-3 rounded-full text-xs font-bold opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 whitespace-nowrap shadow-md">Voir détails</span>
                   </div>
                   <span className="absolute top-3 left-3 bg-[#E8732F] text-white px-3.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-[0.05em] z-10">{p.badge}</span>
                 </div>
               </Link>
               <div className="p-4">
-                <div className="text-[10px] text-[#D4A574] uppercase tracking-[0.15em] font-bold mb-1.5">{p.catLabel}</div>
+                <div className="text-[10px] text-[#F0C060] uppercase tracking-[0.15em] font-bold mb-1.5">{p.catLabel}</div>
                 <Link to={`/produit/${p.id}`}><h3 className="text-[15px] font-bold mb-2 leading-tight text-white hover:text-[#E8732F] transition-colors">{p.name}</h3></Link>
                 <p className="text-[11px] text-white/60 leading-snug mb-3">{p.hook}</p>
                 <div className="flex items-center gap-2.5">
                   <span className="text-[#E8732F] text-xl font-extrabold">{p.price} DH</span>
-                  {p.oldPrice && <span className="text-[#D4A574]/40 text-sm line-through">{p.oldPrice} DH</span>}
+                  {p.oldPrice && <span className="text-[#F0C060]/50 text-sm line-through">{p.oldPrice} DH</span>}
                 </div>
                 <div className="flex gap-2 mt-3">
-                  <Link to={`/produit/${p.id}`} className="flex-1 text-center border border-white/[0.08] text-white/60 py-2 rounded-full text-[11px] font-semibold hover:border-[#E8732F] hover:text-[#E8732F] transition-colors">Détails</Link>
+                  <Link to={`/produit/${p.id}`} className="flex-1 text-center border border-[#F0C060]/[0.12] text-white/60 py-2 rounded-full text-[11px] font-semibold hover:border-[#E8732F] hover:text-[#E8732F] transition-colors">Détails</Link>
                   {p.id === 'toutia' ? (
                     <a href="https://dakhla-artisanal.com/pages/toutia-ismailiya-a" target="_blank" rel="noopener noreferrer" className="flex-1 text-center bg-[#E8732F] text-white py-2 rounded-full text-[11px] font-bold hover:bg-[#c45e22] transition-colors">Commander</a>
                   ) : (
@@ -870,7 +870,7 @@ function Products({ searchQuery, onSearch }: { searchQuery: string; onSearch: (q
 /* ─── REVIEWS ─── */
 function Reviews() {
   return (
-    <section id="avis" className="py-24 px-5 bg-[#141414] zellige-pattern">
+    <section id="avis" className="py-24 px-5 bg-[#261A08] zellige-pattern">
       <div className="max-w-[1200px] mx-auto">
         <div className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.2em] mb-4">Témoignages</div>
         <h2 className="text-[clamp(32px,4vw,52px)] font-extrabold mb-4 font-serif text-white">Ce Que Disent <em className="text-[#E8732F] not-italic">Nos Clients</em></h2>
@@ -878,12 +878,12 @@ function Reviews() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {REVIEWS.map(r => (
-            <div key={r.id} className="bg-[#141414] gold-border rounded-2xl p-6 shadow-[0_4px_16px_rgba(0,0,0,0.3)]">
+            <div key={r.id} className="bg-[#261A08] gold-border rounded-2xl p-6 shadow-[0_4px_16px_rgba(0,0,0,0.3)]">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-[#E8732F]/15 rounded-full flex items-center justify-center text-[#E8732F] font-bold text-sm">{r.avatar}</div>
                 <div>
                   <div className="text-sm font-bold text-white">{r.name}</div>
-                  <div className="text-[10px] text-[#D4A574]">{r.product}</div>
+                  <div className="text-[10px] text-[#F0C060]">{r.product}</div>
                 </div>
               </div>
               <div className="flex gap-0.5 mb-3">
@@ -892,7 +892,7 @@ function Reviews() {
                 ))}
               </div>
               <p className="text-white/60 text-[13px] leading-relaxed mb-3">{r.text}</p>
-              <p className="text-[10px] text-[#D4A574]/60">{r.date}</p>
+              <p className="text-[10px] text-[#F0C060]/60">{r.date}</p>
             </div>
           ))}
         </div>
@@ -905,7 +905,7 @@ function Reviews() {
 function BlogPreview() {
   const articles = BLOG_ARTICLES.slice(0, 3);
   return (
-    <section className="py-24 px-5 bg-[#0A0A0A]">
+    <section className="py-24 px-5 bg-[#1A1208]">
       <div className="max-w-[1200px] mx-auto">
         <div className="text-[#E8732F] text-xs font-bold uppercase tracking-[0.2em] mb-4">Blog</div>
         <h2 className="text-[clamp(32px,4vw,52px)] font-extrabold mb-4 font-serif text-white">Secrets de <em className="text-[#E8732F] not-italic">Beauté</em></h2>
@@ -913,14 +913,14 @@ function BlogPreview() {
 
         <div className="grid md:grid-cols-3 gap-5 mb-8">
           {articles.map(a => (
-            <Link key={a.id} to={`/blog/${a.id}`} className="group bg-[#141414] border border-white/[0.08] rounded-2xl overflow-hidden transition-all hover:border-[#E8732F]/30 hover:shadow-[0_8px_24px_rgba(0,0,0,0.4)] block">
+            <Link key={a.id} to={`/blog/${a.id}`} className="group bg-[#261A08] border border-[#F0C060]/[0.12] rounded-2xl overflow-hidden transition-all hover:border-[#E8732F]/30 hover:shadow-[0_8px_24px_rgba(0,0,0,0.4)] block">
               <div className="aspect-[16/10] overflow-hidden">
                 <img src={a.image} alt={a.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
               </div>
               <div className="p-5">
                 <div className="flex gap-2 mb-2">
                   <span className="text-[10px] bg-[#E8732F]/10 text-[#E8732F] px-2 py-0.5 rounded-full">{a.category}</span>
-                  <span className="text-[10px] text-[#D4A574]">{a.readTime}</span>
+                  <span className="text-[10px] text-[#F0C060]">{a.readTime}</span>
                 </div>
                 <h3 className="text-[15px] font-bold mb-2 leading-tight text-white group-hover:text-[#E8732F] transition-colors">{a.title}</h3>
                 <p className="text-[12px] text-white/60 leading-relaxed">{a.excerpt}</p>
@@ -941,7 +941,7 @@ function BlogPreview() {
 function YouTube() {
   const { t } = useLang();
   return (
-    <section className="py-24 px-5 bg-[#141414]">
+    <section className="py-24 px-5 bg-[#261A08]">
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center mb-12">
           <div className="text-[#E8732F] text-[10px] font-bold uppercase tracking-[0.25em] mb-3">{t.youtube.tag}</div>
@@ -953,7 +953,7 @@ function YouTube() {
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div className="aspect-video rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(61,43,31,0.14)] bg-[#141414]">
+          <div className="aspect-video rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(61,43,31,0.14)] bg-[#261A08]">
             <iframe
               src="https://www.youtube.com/embed/5xnmaqDTKpY?playlist=EutvbCmyLZw&rel=0&modestbranding=1"
               title="Dakhla Artisanal — Chaîne YouTube"
@@ -985,7 +985,7 @@ function YouTube() {
                 { icon: '🌿', label: t.youtube.l3 },
                 { icon: '🇲🇦', label: t.youtube.l4 },
               ].map(item => (
-                <div key={item.label} className="flex items-center gap-2 bg-white/[0.05] border border-white/[0.08] rounded-xl px-3 py-2.5">
+                <div key={item.label} className="flex items-center gap-2 bg-white/[0.05] border border-[#F0C060]/[0.12] rounded-xl px-3 py-2.5">
                   <span>{item.icon}</span>
                   <span className="text-white/60 text-[12px] font-medium">{item.label}</span>
                 </div>
@@ -1008,16 +1008,16 @@ function YouTube() {
 /* ─── CTA ─── */
 function CTA() {
   return (
-    <section id="contact" className="py-24 px-5 text-center bg-[#141414] relative overflow-hidden">
+    <section id="contact" className="py-24 px-5 text-center bg-[#261A08] relative overflow-hidden">
       <div className="absolute inset-0 zellige-pattern opacity-20 pointer-events-none" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#E8732F]/[0.12] blur-3xl pointer-events-none" />
       <div className="relative z-10">
-        <div className="text-[#D4A574] text-[10px] font-bold uppercase tracking-[0.25em] mb-4">Commandez Maintenant</div>
+        <div className="text-[#F0C060] text-[10px] font-bold uppercase tracking-[0.25em] mb-4">Commandez Maintenant</div>
         <h2 className="text-[clamp(36px,5vw,64px)] font-extrabold mb-5 font-serif text-white">Prêt à <em className="text-[#E8732F] not-italic">commander?</em></h2>
         <p className="text-white/70 text-lg mb-9 max-w-[500px] mx-auto">Livraison partout au Maroc. Paiement à la livraison disponible. Commandez sur WhatsApp.</p>
         <div className="flex flex-wrap gap-4 justify-center">
           <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#E8732F] text-white px-8 py-4 rounded-full text-sm font-bold hover:bg-[#c45e22] transition-colors shadow-[0_8px_32px_rgba(196,98,45,0.40)]">Commander sur WhatsApp — +212 677 031 561</a>
-          <a href="#produits" className="inline-flex items-center gap-2 border border-[#D4A574]/40 text-white/60 px-8 py-4 rounded-full text-sm font-semibold hover:border-[#D4A574] hover:text-white transition-colors">Voir les produits</a>
+          <a href="#produits" className="inline-flex items-center gap-2 border border-[#F0C060]/40 text-white/60 px-8 py-4 rounded-full text-sm font-semibold hover:border-[#D4A574] hover:text-white transition-colors">Voir les produits</a>
         </div>
       </div>
     </section>
@@ -1027,11 +1027,11 @@ function CTA() {
 /* ─── FOOTER ─── */
 function Footer() {
   return (
-    <footer className="bg-[#0A0A0A] pt-16 pb-6 px-5">
+    <footer className="bg-[#120D05] pt-16 pb-6 px-5">
       <div className="max-w-[1200px] mx-auto grid md:grid-cols-[2fr_1fr_1fr_1fr] gap-10 mb-9">
         <div>
-          <div className="font-serif text-xl font-bold text-[#D4A574] tracking-[0.12em] leading-none mb-3">
-            DAKHLA<span className="block text-[8px] text-[#D4A574]/50 font-light tracking-[0.5em] font-sans mt-0.5">ARTISANAL</span>
+          <div className="font-serif text-xl font-bold text-[#F0C060] tracking-[0.12em] leading-none mb-3">
+            DAKHLA<span className="block text-[8px] text-[#F0C060]/50 font-light tracking-[0.5em] font-sans mt-0.5">ARTISANAL</span>
             <span className="block text-[9px] text-[#5B7B5E] tracking-[0.2em] italic mt-[3px]">Nature&apos;s Touch</span>
           </div>
           <p className="text-white/40 text-[13px] leading-relaxed">Produits naturels artisanaux du Sahara Marocain. Fabriqués avec passion par des femmes artisanes de Dakhla.</p>
@@ -1059,7 +1059,7 @@ function Footer() {
           <span className="block text-white/30 text-[13px] mb-2.5">Dakhla, Sahara Marocain</span>
         </div>
       </div>
-      <div className="border-t border-white/[0.08]/[0.06] pt-5 max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between gap-2 items-center">
+      <div className="border-t border-[#F0C060]/[0.12]/[0.06] pt-5 max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between gap-2 items-center">
         <p className="text-white/15 text-[11px]">&copy; 2025 Dakhla Artisanal — Nature&apos;s Touch</p>
         <div className="flex items-center gap-4">
           <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
@@ -1126,7 +1126,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#0A0A0A] text-white">
+    <div className="min-h-screen bg-[#1A1208] text-white">
       <Navbar />
       <Hero />
       <TrustStrip />
