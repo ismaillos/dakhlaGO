@@ -45,6 +45,73 @@
       gtag('config', 'AW-502274695');
     </script>
     <!-- End Google Tags -->
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.dakhlaartisanal.com/#organization",
+          "name": "Dakhla Artisanal",
+          "url": "https://www.dakhlaartisanal.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.dakhlaartisanal.com/images/toutia/toutia.jpg"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+212677031561",
+            "contactType": "customer service",
+            "availableLanguage": ["French", "Arabic"]
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "MA",
+            "addressLocality": "Dakhla"
+          },
+          "sameAs": [
+            "https://www.facebook.com/dakhlaartisanal"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.dakhlaartisanal.com/#website",
+          "url": "https://www.dakhlaartisanal.com/",
+          "name": "Dakhla Artisanal",
+          "publisher": { "@id": "https://www.dakhlaartisanal.com/#organization" },
+          "inLanguage": "fr-MA",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.dakhlaartisanal.com/?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Store",
+          "@id": "https://www.dakhlaartisanal.com/#store",
+          "name": "Dakhla Artisanal",
+          "url": "https://www.dakhlaartisanal.com/",
+          "image": "https://www.dakhlaartisanal.com/images/toutia/toutia.jpg",
+          "description": "Produits 100% naturels du Sahara Marocain. Livraison partout au Maroc. Paiement à la livraison.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "MA",
+            "addressLocality": "Dakhla"
+          },
+          "priceRange": "119 MAD - 399 MAD",
+          "telephone": "+212677031561",
+          "currenciesAccepted": "MAD",
+          "paymentAccepted": "Cash on Delivery",
+          "openingHours": "Mo-Su 08:00-22:00"
+        }
+      ]
+    }
+    </script>
+    <!-- End Structured Data -->
   </head>
   <body>
     <div id="root"></div>
