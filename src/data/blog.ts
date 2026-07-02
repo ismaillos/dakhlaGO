@@ -5476,6 +5476,80 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
 ---
 
 *mots cles : spray rawnaq avis, spray intime naturel, spray intime maroc, soin intime femme, raffermissement naturel, hamamelis spray intime, huile essentielle rose intimite, confiance feminine, produit intime bio maroc*`,
+    contentAr: `## بخاخ رونق: استعيدي ثقتك ونضارتك بشكل طبيعي
+
+**بخاخ رونق** هو أكثر بخاخ حميم طبيعي ابتكاراً في المغرب. هذه الفورمولا 100% طبيعية بالأعشاب الصحراوية والزيوت العطرية تساعد على تقوية مرونة الأنسجة وتمنح إحساساً بالشد والانتعاش الدائم.
+
+## لماذا تختاري بخاخ رونق؟
+
+المرأة المغربية تستحق منتجات حميمة طبيعية وآمنة. بخاخ رونق يلبي هذه الحاجة بتركيبة مستوحاة من التراث الصحراوي:
+
+**التركيبة الطبيعية:**
+- الحمامليس: لشد الأنسجة وتضييقها
+- زيت الورد: لترطيب البشرة الحميمة وإضفاء النعومة
+- شجرة الشاي: لخصائصه المضادة للبكتيريا
+- أعشاب صحراوية: سر الشباب والحيوية
+
+## الفوائد الرئيسية
+
+**الشد والتقوية:** يساعد على استعادة مرونة الأنسجة بشكل طبيعي.
+
+**النضارة الدائمة:** إحساس بالنظافة والانتعاش طوال اليوم.
+
+**الثقة والراحة:** عندما تشعرين بالأنثوية الحقيقية، تتغير علاقتك مع نفسك ومع شريكك.
+
+## كيفية الاستخدام
+
+1. نظفي المنطقة الحميمة جيداً
+2. رشي البخاخ من مسافة 15-20 سم
+3. دعيه يجف قبل ارتداء الملابس
+4. استخدمي مرتين يومياً للحصول على أفضل النتائج
+
+## لمن بخاخ رونق؟
+
+بخاخ رونق مناسب لكل امرأة تبحث عن:
+- شد طبيعي للأنسجة الحميمة
+- نضارة ونظافة دائمة
+- ثقة أكبر في حياتها اليومية والعاطفية
+
+تركيبته 100% طبيعية المستوحاة من التقاليد الصحراوية تجعله **منتجاً موثوقاً** للأنوثة الحميمة.`,
+    contentEn: `## Rawnaq Spray: Regain Your Confidence and Freshness Naturally
+
+**Rawnaq Spray** is the most innovative natural intimate spray in Morocco. This 100% natural formula, with Saharan herbs and essential oils, helps strengthen tissue tone and provides a lasting sensation of firmness and freshness.
+
+## Why Choose Rawnaq Spray?
+
+Moroccan women deserve natural and safe intimate products. Rawnaq Spray meets this need with a formula inspired by Saharan tradition:
+
+**Natural Composition:**
+- Witch Hazel: to firm and tighten tissues
+- Rose Oil: to moisturize and soften intimate skin
+- Tea Tree: for its antibacterial properties
+- Saharan herbs: the secret of youth and vitality
+
+## Key Benefits
+
+**Firming and Strengthening:** Helps naturally restore tissue elasticity.
+
+**Lasting Freshness:** A feeling of cleanliness and freshness throughout the day.
+
+**Confidence and Comfort:** When you feel truly feminine, it transforms your relationship with yourself and your partner.
+
+## How to Use
+
+1. Clean the intimate area thoroughly
+2. Spray from a distance of 15-20 cm
+3. Let it dry before getting dressed
+4. Use twice daily for best results
+
+## Who Is Rawnaq Spray For?
+
+Rawnaq Spray is suitable for every woman looking for:
+- Natural firming of intimate tissues
+- Lasting freshness and cleanliness
+- Greater confidence in daily and romantic life
+
+Its 100% natural formula inspired by Saharan traditions makes it a **trusted product** for feminine intimacy.`,
     ctaUrl: '/produit/rawnaq-spray',
     ctaLabel: 'Commander Rawnaq Spray Intime',
     ctaColor: '#8B5CF6',
@@ -5604,6 +5678,82 @@ Sa formule 100% naturelle, à pH neutre et sans produits chimiques en fait un **
 ---
 
 *mots clés : eclarte gel intime avis, gel hygiene intime naturel, soin intime femme maroc, aloe vera gel intime, gel intime sans sulfate, gel intime ph neutre, soin intime naturel, produit intime bio maroc, lavande gel intime, fraicheur intime*`,
+    contentAr: `## إيكلارت جل حميم: النضارة الطبيعية كل يوم
+
+**إيكلارت جل حميم** هو جل النظافة الحميمة الأكثر تقديراً في المغرب. هذه الفورمولا 100% طبيعية المغنية بالصبار واللافندر وشجرة الشاي تضمن تنظيفاً لطيفاً وترطيباً عميقاً ونضارة دائمة.
+
+## ما يميز إيكلارت جل حميم؟
+
+**التركيبة الطبيعية:**
+- صبار: لترطيب البشرة وتهدئتها
+- لافندر: لخصائصه المضادة للبكتيريا والمهدئة
+- شجرة الشاي: لحماية المنطقة الحميمة
+- pH محايد: يحافظ على التوازن الطبيعي
+
+## الفوائد الرئيسية
+
+**تنظيف لطيف:** يزيل الشوائب دون الإضرار بالبكتيريا النافعة.
+
+**ترطيب عميق:** يحافظ على نعومة وترطيب البشرة الحميمة.
+
+**نضارة دائمة:** إحساس بالنظافة والانتعاش طوال اليوم.
+
+**بدون مواد ضارة:** خالٍ من الكبريتات والسيليكون والمواد الكيميائية الضارة.
+
+## كيفية الاستخدام
+
+1. ضعي كمية صغيرة على راحة اليد
+2. امزجيها بالماء الدافئ
+3. نظفي المنطقة الحميمة بلطف
+4. اشطفي جيداً بالماء
+5. استخدمي مرة أو مرتين يومياً
+
+## لمن إيكلارت جل حميم؟
+
+مناسب لكل امرأة تبحث عن:
+- نظافة حميمة طبيعية وآمنة
+- ترطيب وراحة دائمة
+- حماية من التهيجات والعدوى
+
+تركيبته الطبيعية 100% بدون كبريتات أو سيليكون تجعله **الخيار الأمثل** للنظافة الحميمة الصحية.`,
+    contentEn: `## Eclarte Intimate Gel: Natural Freshness Every Day
+
+**Eclarte Intimate Gel** is the most appreciated intimate hygiene gel in Morocco. This 100% natural formula, enriched with Aloe vera, Lavender and Tea Tree, ensures gentle cleansing, deep hydration and lasting freshness.
+
+## What Makes Eclarte Intimate Gel Special?
+
+**Natural Composition:**
+- Aloe Vera: to moisturize and soothe the skin
+- Lavender: for its antibacterial and calming properties
+- Tea Tree: to protect the intimate area
+- Neutral pH: maintains natural balance
+
+## Key Benefits
+
+**Gentle Cleansing:** Removes impurities without harming beneficial bacteria.
+
+**Deep Hydration:** Keeps intimate skin soft and moisturized.
+
+**Lasting Freshness:** A feeling of cleanliness and freshness throughout the day.
+
+**No Harmful Ingredients:** Free from sulfates, silicone and harmful chemicals.
+
+## How to Use
+
+1. Place a small amount in the palm of your hand
+2. Mix with warm water
+3. Gently cleanse the intimate area
+4. Rinse thoroughly with water
+5. Use once or twice daily
+
+## Who Is Eclarte Intimate Gel For?
+
+Suitable for every woman looking for:
+- Natural and safe intimate hygiene
+- Lasting hydration and comfort
+- Protection from irritation and infection
+
+Its 100% natural formula without sulfates or silicone makes it **the ideal choice** for healthy intimate hygiene.`,
     ctaUrl: '/produit/eclarte-gel-intime',
     ctaLabel: 'Commander Éclarte Gel Intime',
     ctaColor: '#8B5CF6',
@@ -5732,7 +5882,71 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
 ---
 
 *mots clés : masque tresor du desert avis, masque cheveux naturel, masque hydratant cheveux, cacao karite cheveux, soins cheveux secs, masque cheveux abimes, produits naturels cheveux maroc, huile coco cheveux, secret beaute cheveux femme*`,
-    ctaUrl: '/produit/masque-tresor-desert',
+    contentAr: `## قناع كنز الصحراء: سر الشعر المثالي
+
+**قناع كنز الصحراء** أصبح القناع المفضل للشعر في المغرب. هذه الفورمولا 100% طبيعية بمكونات الصحراء المغربية — **الكاكاو، زبدة الشيا وزيت جوز الهند** — تعِد بترطيب عميق وإصلاح مكثف للشعر الجاف والتالف.
+
+## لماذا قناع كنز الصحراء؟
+
+**التركيبة الطبيعية:**
+- الكاكاو: يغذي الشعر ويعيد توهجه الطبيعي
+- زبدة الشيا: تملأ الشعر بالرطوبة وتقوي البنية
+- زيت جوز الهند: يخترق الشعر بعمق لإصلاح الأضرار
+
+## الفوائد الرئيسية
+
+**ترطيب عميق:** يصل إلى قلب الشعرة لترطيبها من الداخل.
+**إصلاح الشعر التالف:** يسد الفراغات في القشرة الخارجية للشعر.
+**لمعان طبيعي:** يعيد للشعر بريقه وحيويته.
+**تقليل التقصف:** يقوي الشعر ويقلل من التقصف والكسر.
+
+## كيفية الاستخدام
+
+1. رطبي شعرك جيداً
+2. ضعي كمية وافرة من القناع على الشعر من الجذور للأطراف
+3. اتركيه لمدة 20-30 دقيقة تحت غطاء حراري
+4. اشطفي جيداً بالماء الفاتر
+
+## النتائج المتوقعة
+
+بعد الاستخدام الأول: شعر أكثر نعومة وقابلية للتمشيط.
+بعد أسبوعين: تحسن ملحوظ في الرطوبة والمظهر.
+بعد شهر: شعر أكثر كثافة وصحة وتألقاً.
+
+قناع كنز الصحراء هو **الاستثمار الأفضل** لصحة شعرك.`,
+    contentEn: `## Trésor du Désert Mask: The Secret to Perfect Hair
+
+**The Trésor du Désert Mask** has become the most appreciated hair mask in Morocco. This 100% natural formula with Moroccan Saharan actives — **Cocoa, Shea Butter and Coconut Oil** — promises deep hydration and intensive repair for dry and damaged hair.
+
+## Why Trésor du Désert Mask?
+
+**Natural Composition:**
+- Cocoa: nourishes hair and restores its natural shine
+- Shea Butter: fills hair with moisture and strengthens structure
+- Coconut Oil: deeply penetrates hair to repair damage
+
+## Key Benefits
+
+**Deep Hydration:** Reaches the core of each hair strand to moisturize from within.
+**Repair for Damaged Hair:** Fills gaps in the outer hair cuticle.
+**Natural Shine:** Restores hair's brightness and vitality.
+**Reduced Breakage:** Strengthens hair and reduces split ends and breakage.
+
+## How to Use
+
+1. Wet your hair thoroughly
+2. Apply a generous amount of the mask from roots to tips
+3. Leave for 20-30 minutes under a heat cap
+4. Rinse well with lukewarm water
+
+## Expected Results
+
+After first use: softer, more manageable hair.
+After two weeks: noticeable improvement in moisture and appearance.
+After one month: thicker, healthier and more radiant hair.
+
+The Trésor du Désert Mask is **the best investment** for your hair health.`,
+        ctaUrl: '/produit/masque-tresor-desert',
     ctaLabel: 'Commander le Masque Trésor du Désert',
     ctaColor: '#D97706',
   },
@@ -5804,7 +6018,59 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 ---
 
 *mots cles : toutia ismailiya, pierre deodorant naturel, deodorant sans aluminium maroc, toutia ismailiya poudre, deodorant naturel femme, deodorant naturel homme, produits naturels sud est maroc, beaute naturelle marocaine, blanchisseur parties intimes, anti mycoses pieds*`,
-    ctaUrl: '/produit/toutia',
+    contentAr: `## تويتية إسماعيلية: مزيل العرق الطبيعي بدون ألومنيوم
+
+يبحث عدد متزايد من المغاربة عن **مزيل عرق طبيعي بدون ألومنيوم** لحماية صحتهم. تحتوي مزيلات العرق الكيميائية الكلاسيكية على أملاح الألومنيوم التي تسد المسام وتمنع الجلد من التنفس.
+
+## ما هي تويتية إسماعيلية؟
+
+تويتية إسماعيلية حجر معدني طبيعي من جنوب شرق المغرب. تُستخدم منذ قرون في الطب التقليدي المغربي كـ:
+- مزيل عرق طبيعي فعّال
+- مطهر للمناطق الحميمة
+- مضاد للفطريات الطبيعي
+
+## فوائد تويتية إسماعيلية
+
+**القضاء على الروائح:** تقضي على البكتيريا المسببة للروائح دون سد المسام.
+**السلامة التامة:** بدون ألومنيوم، بدون بارابين، بدون مواد كيميائية.
+**الاقتصاد:** حجر واحد يكفي لأشهر طويلة.
+**تعدد الاستخدامات:** للإبطين، القدمين، والمناطق الحميمة.
+
+## كيفية الاستخدام
+
+1. ابللي الحجر بالماء
+2. مرريه على المنطقة المراد علاجها بلطف
+3. دعي البشرة تجف طبيعياً
+4. نظفي الحجر وخزنيه في مكان جاف
+
+تويتية إسماعيلية هي **الحل الطبيعي الموثوق** لرائحة العرق دون أي مخاطر كيميائية.`,
+    contentEn: `## Toutia Ismailiya: Natural Deodorant Without Aluminum
+
+More and more Moroccans are looking for a **natural deodorant without aluminum** to protect their health. Classic chemical deodorants contain aluminum salts that clog pores and prevent skin from breathing.
+
+## What Is Toutia Ismailiya?
+
+Toutia Ismailiya is a natural mineral stone from southeastern Morocco. It has been used for centuries in traditional Moroccan medicine as:
+- An effective natural deodorant
+- A purifier for intimate areas
+- A natural antifungal
+
+## Benefits of Toutia Ismailiya
+
+**Odor Elimination:** Eliminates odor-causing bacteria without clogging pores.
+**Complete Safety:** No aluminum, no parabens, no chemicals.
+**Economy:** One stone lasts for many months.
+**Multiple Uses:** For underarms, feet and intimate areas.
+
+## How to Use
+
+1. Wet the stone with water
+2. Gently rub it on the area to be treated
+3. Let the skin dry naturally
+4. Clean the stone and store in a dry place
+
+Toutia Ismailiya is **the trusted natural solution** for body odor without any chemical risks.`,
+        ctaUrl: '/produit/toutia',
     ctaLabel: 'Commander la Toutia Ismailiya',
     ctaColor: '#5B7B5E',
   },
@@ -5933,7 +6199,63 @@ Sa formule 100% naturelle, inspirée des traditions sahariennes, en fait un **pr
 ---
 
 *mots clés : shampoing proteines avis, shampoing naturel maroc, shampoing sans sulfate, shampoing cheveux abimes, soins cheveux naturels, aloe vera cheveux, proteines soie cheveux, tresor du desert, beaute cheveux femme, shampoing bio maroc*`,
-    ctaUrl: '/produit/shampoing-proteines',
+    contentAr: `## شامبو البروتين كنز الصحراء: سر الشعر المثالي
+
+**شامبو البروتين كنز الصحراء** أصبح أكثر شامبو طبيعي مرغوباً في المغرب. هذه الفورمولا 100% طبيعية الغنية بالبروتينات والأعشاب الصحراوية تعِد بشعر قوي ولامع وبدون تقصف.
+
+## ما يميز شامبو البروتين؟
+
+**التركيبة الطبيعية:**
+- بروتينات الحرير: تعزز قوة الشعر وتضيف اللمعان
+- صبار الألوفيرا: يرطب فروة الرأس ويقلل التقصف
+- أعشاب صحراوية: تنشط الدورة الدموية في فروة الرأس
+- خالٍ من الكبريتات: ينظف دون تجريد الشعر من زيوته الطبيعية
+
+## الفوائد الرئيسية
+
+**شعر أقوى:** البروتينات تملأ فجوات الشعرة وتقويها من الداخل.
+**لمعان طبيعي:** يعيد للشعر بريقه الطبيعي.
+**تقليل التقصف:** يعالج الأطراف المتقصفة ويمنع تكونها مجدداً.
+**فروة رأس صحية:** يوازن إفراز الزيوت الطبيعية.
+
+## كيفية الاستخدام
+
+1. بللي شعرك بالماء الفاتر
+2. ضعي كمية مناسبة من الشامبو ودلكي فروة الرأس بلطف
+3. اشطفي جيداً بالماء
+4. كرري إذا لزم الأمر
+5. استخدمي 2-3 مرات أسبوعياً
+
+شامبو البروتين كنز الصحراء هو **الاختيار الأمثل** للمرأة التي تريد شعراً صحياً وجميلاً بشكل طبيعي.`,
+    contentEn: `## Trésor du Désert Protein Shampoo: The Secret to Perfect Hair
+
+**The Trésor du Désert Protein Shampoo** has become the most sought-after natural shampoo in Morocco. This 100% natural formula, rich in proteins and Saharan herbs, promises strong, shiny hair without split ends.
+
+## What Makes Protein Shampoo Special?
+
+**Natural Composition:**
+- Silk Proteins: strengthen hair and add shine
+- Aloe Vera: moisturizes the scalp and reduces breakage
+- Saharan herbs: stimulate blood circulation in the scalp
+- Sulfate-free: cleanses without stripping hair of its natural oils
+
+## Key Benefits
+
+**Stronger Hair:** Proteins fill hair gaps and strengthen from within.
+**Natural Shine:** Restores hair's natural brilliance.
+**Reduced Split Ends:** Treats and prevents split ends.
+**Healthy Scalp:** Balances natural oil production.
+
+## How to Use
+
+1. Wet hair with warm water
+2. Apply an appropriate amount of shampoo and gently massage the scalp
+3. Rinse thoroughly with water
+4. Repeat if necessary
+5. Use 2-3 times per week
+
+Trésor du Désert Protein Shampoo is **the ideal choice** for women who want naturally healthy and beautiful hair.`,
+        ctaUrl: '/produit/shampoing-proteines',
     ctaLabel: 'Commander le Shampoing Protéines',
     ctaColor: '#7C3AED',
   },
@@ -5996,7 +6318,47 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 ---
 
 *mots clés : shampoing naturel maroc, shampoing anti-chute, meilleur shampoing cheveux, secret d'atlas, shampoing sans sulfate, soins cheveux naturels, huile argan cheveux, produits cheveux marocains*`,
-    ctaUrl: '/produit/shampoing-proteines',
+    contentAr: `## أفضل شامبو طبيعي مضاد لتساقط الشعر في المغرب
+
+تساقط الشعر مشكلة شائعة في المغرب بسبب المياه الصعبة والتوتر والتلوث. **شامبو سر الأطلس** هو **أفضل شامبو طبيعي مضاد للتساقط** في المغرب بشهادة ثلاثية ISO + GMP + OCP.
+
+## ## ما يميزه؟
+
+شامبو سر الأطلس يختلف عن غيره بتركيبة مستوحاة من أعشاب جبال الأطلس:
+- أعشاب الأطلس: تغذي فروة الرأس وتقوي الجذور
+- بدون كبريتات: تنظيف لطيف يحافظ على الشعر
+- شهادة ثلاثية: ضمان الجودة والأمان
+
+## النتائج المتوقعة
+
+- تقليل التساقط منذ الأسابيع الأولى
+- شعر أكثر كثافة وقوة
+- فروة رأس أكثر صحة وتوازناً
+
+## Commander Shampoing Secret d'Atlas
+
+استخدمه بانتظام 3 مرات أسبوعياً للحصول على أفضل النتائج.`,
+    contentEn: `## The Best Natural Anti-Hair Loss Shampoo in Morocco
+
+Hair loss is a common problem in Morocco due to hard water, stress and pollution. **Secret d'Atlas Shampoo** is the **best natural anti-hair loss shampoo** in Morocco with triple certification ISO + GMP + OCP.
+
+## What Makes It Special?
+
+Secret d'Atlas Shampoo stands out with a formula inspired by Atlas Mountain herbs:
+- Atlas herbs: nourish the scalp and strengthen hair roots
+- Sulfate-free: gentle cleansing that preserves hair health
+- Triple certification: quality and safety guaranteed
+
+## Expected Results
+
+- Reduced hair loss from the first weeks
+- Thicker, stronger hair
+- Healthier, more balanced scalp
+
+## Commander Shampoing Secret d'Atlas
+
+Use regularly 3 times per week for best results.`,
+        ctaUrl: '/produit/shampoing-proteines',
     ctaLabel: 'Commander le Shampoing Naturel',
     ctaColor: '#7C3AED',
   },
@@ -6058,7 +6420,61 @@ Appliquez sur la zone douloureuse et massez circulairement jusqu'à absorption c
 ---
 
 *mots clés : huile massage douleurs, huile articulations maroc, soulager douleurs musculaires, camphre ginseng menthol, arthrose remède naturel, huile chauffante, florocalm, douleur dos solution naturelle, bien-être naturel maroc*`,
-    ctaUrl: '/produit/floro-calm',
+    contentAr: `## زيت مساج فلورو كالم: تخفيف طبيعي لآلام المفاصل
+
+آلام العضلات والمفاصل تمس ملايين المغاربة. **زيت فلورو كالم** هو **زيت مساج طبيعي** بمواد نشطة مدفئة يخفف الآلام بفعالية.
+
+## التركيبة الطبيعية القوية
+
+- الكافور: مضاد للالتهابات ومسكن طبيعي للآلام
+- الجينسنغ: يحسن الدورة الدموية ويخفف التوتر العضلي
+- المنثول: تأثير تبريد فوري يريح الألم
+- زيوت عطرية: تعمق امتصاص المواد الفعالة
+
+## الفوائد الرئيسية
+
+**تخفيف سريع:** يبدأ مفعوله خلال دقائق من التطبيق.
+**تأثير مطوّل:** يستمر تأثيره لساعات.
+**مناسب لجميع الأعمار:** للرياضيين وكبار السن والأشخاص النشطين.
+
+## كيفية الاستخدام
+
+1. ضع كمية من الزيت على المنطقة المؤلمة
+2. دلّك بحركات دائرية لمدة 5-10 دقائق
+3. اترك الزيت يُمتص لمدة 30 دقيقة
+4. كرر 2-3 مرات يومياً حسب الحاجة
+
+## Commander Floro Calm Huile
+
+زيت فلورو كالم هو **حليفك الطبيعي** ضد الآلام اليومية.`,
+    contentEn: `## Floro Calm Massage Oil: Natural Relief for Joint Pain
+
+Muscle and joint pain affects millions of Moroccans. **Floro Calm Oil** is a **natural massage oil** with warming active ingredients that effectively relieves pain.
+
+## Powerful Natural Composition
+
+- Camphor: anti-inflammatory and natural pain reliever
+- Ginseng: improves blood circulation and relieves muscle tension
+- Menthol: immediate cooling effect that soothes pain
+- Essential oils: deepen absorption of active ingredients
+
+## Key Benefits
+
+**Quick Relief:** Takes effect within minutes of application.
+**Long-Lasting Effect:** Its effect lasts for hours.
+**Suitable for All Ages:** For athletes, seniors and active people.
+
+## How to Use
+
+1. Apply a small amount of oil to the painful area
+2. Massage with circular movements for 5-10 minutes
+3. Let the oil absorb for 30 minutes
+4. Repeat 2-3 times daily as needed
+
+## Commander Floro Calm Huile
+
+Floro Calm oil is **your natural ally** against daily aches and pains.`,
+        ctaUrl: '/produit/floro-calm',
     ctaLabel: 'Commander Floro-Calm',
     ctaColor: '#EA580C',
   },
@@ -6149,7 +6565,43 @@ Les premiers résultats apparaissent en 1-2 semaines, optimum à 4-6 semaines.
 ---
 
 *mots clés : sérum anti-acné Maroc, charbon actif acné, acide salicylique boutons, tea tree peau grasse, soin naturel acné, éliminer points noirs, sérum peau claire, traitement acné adulte, skincare naturel, Dakhla Artisanal*`,
-    ctaUrl: '/produit/eclat-artisan',
+    contentAr: `**يؤثر حب الشباب على أكثر من 80% من المراهقين و40% من البالغين في المغرب.** الحلول الكيميائية تهاجم الجلد وتسبب تأثير الارتداد. اكتشف سيروم **إيكلا دارتيزان** الذي يجمع الفحم النشط وحمض الساليسيليك وشجرة الشاي للحصول على بشرة صافية ومشرقة.
+
+## مكونات سيروم إيكلا دارتيزان
+
+**الفحم النشط:** يمتص الزيوت الزائدة والشوائب من عمق المسام.
+**حمض الساليسيليك:** ينظف المسام ويمنع ظهور البثور الجديدة.
+**زيت شجرة الشاي:** مضاد طبيعي للبكتيريا يقلل الالتهاب.
+**صبار الألوفيرا:** يهدئ البشرة ويقلل الاحمرار.
+
+## النتائج المتوقعة
+
+- أسبوع 1-2: تقليل الاحمرار وصغر حجم البثور
+- أسبوع 3-4: تحسن ملحوظ في نقاء البشرة
+- شهر 2: بشرة أكثر صفاء وإشراقاً
+
+## ## Commander Eclat D'Artisan
+
+للحصول على بشرة صافية وخالية من حب الشباب، استخدم سيروم إيكلا دارتيزان صباحاً ومساءً بعد غسل الوجه.`,
+    contentEn: `**Acne affects more than 80% of teenagers and 40% of adults in Morocco.** Chemical solutions attack the skin and create a rebound effect. Discover the **Eclat D'Artisan** serum that combines activated charcoal, salicylic acid and tea tree for clear and radiant skin.
+
+## Eclat D'Artisan Serum Ingredients
+
+**Activated Charcoal:** Absorbs excess oils and impurities from deep within pores.
+**Salicylic Acid:** Cleanses pores and prevents new pimples from forming.
+**Tea Tree Oil:** Natural antibacterial that reduces inflammation.
+**Aloe Vera:** Soothes skin and reduces redness.
+
+## Expected Results
+
+- Week 1-2: Reduced redness and smaller pimple size
+- Week 3-4: Noticeable improvement in skin clarity
+- Month 2: Clearer and more radiant skin
+
+## ## Commander Eclat D'Artisan
+
+For clear, acne-free skin, use Eclat D'Artisan serum morning and evening after washing your face.`,
+        ctaUrl: '/produit/eclat-artisan',
     ctaLabel: 'Commander Éclat Artisan',
     ctaColor: '#0D9488',
   },
@@ -6245,7 +6697,57 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 ---
 
 *mots clés : serum repulpant levres Maroc, huile nokhchef chefaf, levres pleines naturel, soin levres naturel, menthe poivree levres, huile de coco levres, serum levres Dakhla Artisanal, beaute naturelle Maroc*`,
-    ctaUrl: '/produit/serum-loubane',
+    contentAr: `**هل تحلمين بشفاه ممتلئة وناعمة ومرطبة دون حقن أو مواد كيميائية؟** **سيروم لوبانة** من دخلة أرتيزانال هو الحل الطبيعي الذي يجعل الشفاه أكثر امتلاءً وترطيباً ورونقاً بفضل مزيج فريد من الزيوت النباتية والأعشاب الصحراوية.
+
+## مكونات سيروم لوبانة
+
+**نعناع البيبرمنت:** يحفز الشفاه لتبدو أكثر امتلاءً وحيوية.
+**زيت جوز الهند:** يرطب الشفاه بعمق ويحميها من الجفاف.
+**أعشاب صحراوية:** تغذي وتحمي البشرة الرقيقة للشفاه.
+**اللبان الذكر (لوبانة):** خصائص مضادة للشيخوخة وشادة للجلد.
+
+## الفوائد الرئيسية
+
+**تأثير تجميلي طبيعي:** يجعل الشفاه تبدو أكثر امتلاءً فورياً.
+**ترطيب عميق:** يعالج الجفاف والتشقق.
+**حماية دائمة:** يحمي الشفاه من عوامل البيئة.
+
+## كيفية الاستخدام
+
+1. ضعي كمية صغيرة من السيروم على الشفاه
+2. دلكي بلطف بالإصبع
+3. اتركيه يُمتص لبضع دقائق
+4. استخدمي مرتين يومياً ليلاً وصباحاً
+
+## ## Commander Serum Loubane
+
+سيروم لوبانة هو **سر الشفاه الجميلة** بشكل طبيعي وآمن.`,
+    contentEn: `**Dreaming of full, soft and hydrated lips without injections or chemicals?** **Loubane Serum** from Dakhla Artisanal is the natural solution that makes lips fuller, more moisturized and radiant thanks to a unique blend of plant oils and Saharan herbs.
+
+## Loubane Serum Ingredients
+
+**Peppermint:** Stimulates lips to appear fuller and more vibrant.
+**Coconut Oil:** Deeply moisturizes lips and protects them from dryness.
+**Saharan herbs:** Nourish and protect the delicate skin of lips.
+**Frankincense (Loubane):** Anti-aging and skin-firming properties.
+
+## Key Benefits
+
+**Natural Plumping Effect:** Makes lips look fuller instantly.
+**Deep Hydration:** Treats dryness and chapping.
+**Lasting Protection:** Protects lips from environmental factors.
+
+## How to Use
+
+1. Apply a small amount of serum to the lips
+2. Gently massage with fingertip
+3. Let it absorb for a few minutes
+4. Use twice daily, morning and night
+
+## ## Commander Serum Loubane
+
+Loubane Serum is **the secret to beautiful lips** naturally and safely.`,
+        ctaUrl: '/produit/serum-loubane',
     ctaLabel: 'Commander Sérum Loubane Lèvres',
     ctaColor: '#D97706',
   },
@@ -6353,7 +6855,53 @@ Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 ---
 
 *mots clés : pack articulations Maroc, douleurs articulaires solution naturelle, huile massage chauffante, complement curcuma articulations, arthrose remede naturel, rhumatisme traitement naturel, Floro Calm avis, pack douleurs musculaires, bien-etre naturel Maroc*`,
-    ctaUrl: '/produit/pack-floro-calm',
+    contentAr: `**أكثر من 7 ملايين مغربي يعانون من آلام المفاصل.** **باك فلورو كالم** يجمع بين زيت مساج مدفئ ومكمل غذائي للحصول على تأثير تآزري داخلي وخارجي ضد الآلام.
+
+## ما يشمله الباك؟
+
+**زيت فلورو كالم:** زيت مساج طبيعي بالكافور، الجينسنغ والمنثول للتطبيق الخارجي.
+**مكمل فلورو كالم:** كبسولات بالكركم، الكالسيوم وبذور الكتان للعمل من الداخل.
+
+## لماذا المزج بين الخارجي والداخلي؟
+
+الزيت يعمل فورياً على تخفيف الألم وإرخاء العضلات.
+المكمل يعمل على المدى البعيد لتقليل الالتهاب وتقوية المفاصل.
+
+معاً، يوفران **نتائج أسرع وأكثر ديمومة** من الاستخدام المنفصل.
+
+## النتائج المتوقعة
+
+- أسبوع 1: تخفيف الآلام الحادة بالزيت
+- شهر 1: تقليل التهاب المفاصل بالمكمل
+- شهر 2-3: تحسن ملحوظ في مرونة المفاصل
+
+## ## Commander Pack Floro Calm
+
+باك فلورو كالم هو **الحل الشامل** لمشاكل المفاصل والعضلات بشكل طبيعي وآمن.`,
+    contentEn: `**More than 7 million Moroccans suffer from joint pain.** **Pack Floro Calm** combines a warming massage oil and a dietary supplement for synergistic internal and external action against pain.
+
+## What Does the Pack Include?
+
+**Floro Calm Oil:** Natural massage oil with camphor, ginseng and menthol for external application.
+**Floro Calm Supplement:** Capsules with turmeric, calcium and flaxseeds for working from within.
+
+## Why Combine External and Internal?
+
+The oil works immediately to relieve pain and relax muscles.
+The supplement works long-term to reduce inflammation and strengthen joints.
+
+Together, they provide **faster and more lasting results** than using them separately.
+
+## Expected Results
+
+- Week 1: Relief of acute pain with the oil
+- Month 1: Reduction of joint inflammation with the supplement
+- Month 2-3: Noticeable improvement in joint flexibility
+
+## ## Commander Pack Floro Calm
+
+Pack Floro Calm is **the complete solution** for joint and muscle problems naturally and safely.`,
+        ctaUrl: '/produit/pack-floro-calm',
     ctaLabel: 'Commander le Pack Floro-Calm',
     ctaColor: '#EA580C',
   },
@@ -6530,7 +7078,81 @@ La Vitamine D3+K2 de Dakhla Artisanal vous offre cette synergie dans une capsule
 ---
 
 *Mots clés : vitamine D3 K2 Maroc, carence vitamine D Maroc, complement vitamine D3 K2, os solides naturellement, calcification arterielle prevention, MK-7 vitamine K2, vitamine D immunite, cholecalciferol Maroc, complement osseux halal, fatigue carence vitamine D, D3 K2 synergie bienfaits*`,
-    ctaUrl: '/produit/vitamine-d3-k2',
+    contentAr: `## 80% من المغاربة يعانون من نقص فيتامين D — هل أنت منهم؟
+
+مفارقة مثيرة: المغرب من أكثر دول العالم إشماساً، ومع ذلك يعاني أكثر من **80% من السكان** من نقص فيتامين D. السبب؟ الحياة في الداخل، العمل المكتبي، استخدام واقي الشمس والملابس التقليدية.
+
+## لماذا فيتامين D3 + K2 معاً؟
+
+**فيتامين D3 وحده لا يكفي.** بدون K2، الكالسيوم الذي يمتصه D3 قد يتراكم في الشرايين بدلاً من العظام.
+
+**K2 (MK-7) يوجّه الكالسيوم:**
+- إلى العظام: لتقويتها
+- بعيداً عن الشرايين: لحمايتها من التكلس
+
+## فوائد فيتامين D3+K2
+
+**الصحة العظمية:** يقوي العظام ويقي من هشاشة العظام.
+**الجهاز المناعي:** يعزز الدفاعات الطبيعية للجسم.
+**الصحة القلبية:** يحمي الشرايين من التكلس.
+**الطاقة والمزاج:** يقلل التعب ويحسن الحالة النفسية.
+**القوة العضلية:** يحسن أداء العضلات والتوازن.
+
+## علامات نقص فيتامين D
+
+- تعب مزمن وإرهاق
+- آلام في العظام والعضلات
+- ضعف المناعة وتكرار الأمراض
+- اكتئاب وتقلب المزاج
+- بطء التئام الجروح
+
+## الجرعة والاستخدام
+
+فيتامين D3+K2 من دخلة أرتيزانال يحتوي على:
+- D3 (كولي كالسيفيرول): الجرعة المثلى لتصحيح النقص
+- K2 (MK-7): الشكل الأكثر استيعاباً وفعالية
+
+**كيفية الاستخدام:** كبسولة واحدة يومياً مع وجبة دسمة.
+
+فيتامين D3+K2 من دخلة أرتيزانال يمنحك هذا التآزر في كبسولة نباتية واحدة، بتركيبة محسّنة لأقصى امتصاص.`,
+    contentEn: `## 80% of Moroccans Are Deficient in Vitamin D — Are You One of Them?
+
+A striking paradox: Morocco is one of the world's sunniest countries, yet more than **80% of the population** suffers from vitamin D deficiency. The reason? Indoor living, office work, sunscreen use and traditional clothing.
+
+## Why Vitamin D3 + K2 Together?
+
+**Vitamin D3 alone is not enough.** Without K2, the calcium that D3 helps absorb may accumulate in arteries instead of bones.
+
+**K2 (MK-7) directs calcium:**
+- To the bones: to strengthen them
+- Away from arteries: to protect them from calcification
+
+## Benefits of Vitamin D3+K2
+
+**Bone Health:** Strengthens bones and prevents osteoporosis.
+**Immune System:** Boosts the body's natural defenses.
+**Heart Health:** Protects arteries from calcification.
+**Energy and Mood:** Reduces fatigue and improves mental state.
+**Muscle Strength:** Improves muscle performance and balance.
+
+## Signs of Vitamin D Deficiency
+
+- Chronic fatigue and exhaustion
+- Bone and muscle pain
+- Weakened immunity and frequent illness
+- Depression and mood swings
+- Slow wound healing
+
+## Dosage and Use
+
+Dakhla Artisanal Vitamin D3+K2 contains:
+- D3 (Cholecalciferol): optimal dose to correct deficiency
+- K2 (MK-7): the most bioavailable and effective form
+
+**How to Use:** One capsule daily with a fatty meal.
+
+Dakhla Artisanal Vitamin D3+K2 gives you this synergy in one vegetable capsule, with an optimized formulation for maximum absorption.`,
+        ctaUrl: '/produit/vitamine-d3-k2',
     ctaLabel: 'Commander Vitamine D3+K2',
     ctaColor: '#16A34A',
   },
