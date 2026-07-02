@@ -115,8 +115,59 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Static SEO content: visible before React mounts, hidden after -->
+    <style>
+      #seo-static { font-family: sans-serif; max-width: 960px; margin: 0 auto; padding: 24px 16px; color: #111; }
+      #seo-static h1 { font-size: 1.6rem; margin-bottom: 8px; }
+      #seo-static h2 { font-size: 1.2rem; margin: 24px 0 12px; }
+      #seo-static .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+      #seo-static article { border: 1px solid #ddd; border-radius: 8px; padding: 14px; }
+      #seo-static article h3 { font-size: 0.95rem; margin: 0 0 6px; }
+      #seo-static article p { font-size: 0.85rem; color: #444; margin: 0 0 6px; }
+      #seo-static article .price { font-weight: bold; color: #c8501a; }
+      #seo-static footer-info { display: block; margin-top: 24px; font-size: 0.85rem; color: #555; }
+      #root:not(:empty) + #seo-static { display: none; }
+    </style>
+    <div id="seo-static" aria-hidden="false">
+      <h1>Dakhla Artisanal — Produits Naturels 100% du Sahara Marocain</h1>
+      <p>Boutique en ligne de soins naturels artisanaux fabriqués à Dakhla, Maroc. Livraison partout au Maroc. Paiement à la livraison.</p>
+      <h2>Nos Produits Naturels</h2>
+      <div class="products">
+        <article><h3><a href="/produit/toutia">Toutia Ismailiya — Pierre Naturelle Déodorant Sahara</a></h3><p>Pierre minérale naturelle sans aluminium, hypoallergénique. Pour hommes et femmes.</p><span class="price">169 MAD</span></article>
+        <article><h3><a href="/produit/shampoing">Secret d'Atlas Shampoing — Argan Bio Kératine 200ml</a></h3><p>Shampoing 100% naturel en huile d'argan bio, eau de rose et kératine végétale.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/elixir">ELIXIR+ Vigueur — Ginseng Maca Tribulus Zinc 60 Gélules</a></h3><p>Complément alimentaire en ginseng rouge, maca bio, tribulus et zinc bisglycinate.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/masque">Masque Trésor du Désert — Cacao Karité Aloe Vera 200g</a></h3><p>Masque capillaire au beurre de cacao brut, karité bio et aloe vera.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/biotin">MAX Biotin — Biotine Pure 10000mcg Spiruline Zinc 60 Capsules</a></h3><p>Complément alimentaire en biotine pure, spiruline bio du Sahara et zinc.</p><span class="price">119 MAD</span></article>
+        <article><h3><a href="/produit/huile">Huile Secret d'Atlas 60ml — 7 Huiles Naturelles Argan Ricin Jojoba</a></h3><p>Synergie de 7 huiles naturelles : argan, ricin, jojoba, nigelle, sésame et rose musquée.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/serumint">Sérum Hygiène Intime — pH 3 Acide Glycolique Aloe Vera 50ml</a></h3><p>Soin intime à pH équilibré, acide glycolique naturel et aloe vera bio.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/spray">Spray Capillaire Fortifiant — Romarin Menthe Caféine 100ml</a></h3><p>Spray capillaire au romarin, menthe poivrée et caféine végétale. Sans rinçage.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/floro">Floro Calm — Curcuma Lin Calcium Fluor 60 Capsules Végétales</a></h3><p>Complément alimentaire au curcuma, graines de lin, calcium et fluor.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/vitamin-c-spirulina">Vitamine C + Spirulina — Vitamine C 500mg Spiruline Bio 60 Capsules</a></h3><p>Complément en vitamine C, spiruline bio, zinc et sélénium.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/shampoing-proteines">Shampoing Protéines Trésor du Désert — Kératine Argan 150ml</a></h3><p>Shampoing sans sulfate en protéines de soie, kératine végétale et argan bio.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/floro-calm-huile">Floro Calm Huile Massage Chauffante — Camphre Ginseng Menthol 100ml</a></h3><p>Huile de massage naturelle au camphre, ginseng panax, menthol et eucalyptus.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/pack-floro-calm">Pack Floro Calm — Huile Massage 100ml + Complément 60 Capsules</a></h3><p>Pack complet huile de massage chauffante et complément au curcuma.</p><span class="price">399 MAD</span></article>
+        <article><h3><a href="/produit/pack-anti-gris">Pack Anti-Gris Bin Black — Sérum 100ml + Shampoing 150ml</a></h3><p>Pack capillaire sérum nigelle et shampoing aux pigments végétaux et argan.</p><span class="price">349 MAD</span></article>
+        <article><h3><a href="/produit/pack-feminite">Pack Féminité Duo — Capsules Fenugrec Maca + Huile Ricin</a></h3><p>Pack capsules féminité fenugrec, maca et huile de soin ricin et rose musquée.</p><span class="price">379 MAD</span></article>
+        <article><h3><a href="/produit/pack-anti-chute">Pack Capillaire Secret d'Atlas — Spray 100ml + Shampoing 150ml</a></h3><p>Pack spray fortifiant romarin et caféine + shampoing protéines de blé.</p><span class="price">349 MAD</span></article>
+        <article><h3><a href="/produit/eclarte">Eclarte Gel Hygiène Intime — Aloe Vera Lavande Arbre à Thé 125ml</a></h3><p>Gel d'hygiène intime pH neutre, aloe vera bio et huile de lavande.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/rawnaq">Spray Rawnaq — Soin Naturel Intime Hamamélis Huiles Essentielles 100ml</a></h3><p>Spray soin naturel intime à l'hamamélis et huiles essentielles de rose.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/v-eclat">Sérum V-Eclat — Vitamine C Pure 20% Acide Hyaluronique 50ml</a></h3><p>Sérum visage vitamine C pure, acide hyaluronique, alpha arbutin et niacinamide.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/psoriasis">Sérum Soin Peau Sensible — Lavande Aloe Vera Argan Calendula 100ml</a></h3><p>Sérum soin peau sensible à la lavande, aloe vera bio, argan et calendula.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/elixir-maca">ELIXIR MACA — Maca Pérou 500mg Ginseng Tribulus Zinc 60 Capsules</a></h3><p>Complément alimentaire à la maca péruvienne bio, ginseng et tribulus.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/blush">Blush Laaker-El-Fassi — Pigment Naturel Alkhar Fassi Aloe Vera 30ml</a></h3><p>Blush 100% naturel au pigment marocain traditionnel Alkhar Fassi et aloe vera bio.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/cycle-bio">Cycle Bio — Complément Femme Qust Hindi Sauge Gattilier Maca 60 Capsules</a></h3><p>Complément alimentaire femmes au qust hindi, sauge officinale, gattilier et maca.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/bio-eclat">Bio Eclat B8 — Glutathion 500mg Collagène Spiruline Biotine 60 Capsules</a></h3><p>Complément alimentaire au glutathion, collagène hydrolysé et spiruline bio.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/retinol-pack">Pack Rétinol — Sérum Rétinol 0.5% 30ml + Crème Rétinol 0.3% 50ml</a></h3><p>Pack soin visage sérum et crème au rétinol, vitamine C et acide hyaluronique.</p><span class="price">349 MAD</span></article>
+        <article><h3><a href="/produit/tranquilysse">Tranquilysse — Passiflore 200mg Valériane Mélisse Zinc 60 Capsules</a></h3><p>Complément alimentaire à la passiflore, valériane, mélisse et zinc.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/hemorcalm">Hemorcalm — Spray Soin Naturel Menthe Poivrée Ricin Aloe Vera 50ml</a></h3><p>Spray de soin naturel à la menthe poivrée, huile de ricin et aloe vera.</p><span class="price">229 MAD</span></article>
+        <article><h3><a href="/produit/eclat-artisan">Eclat D'artisan — Sérum Purifiant Charbon Actif Tea Tree 30ml</a></h3><p>Sérum visage purifiant au charbon actif, acide salicylique et tea tree.</p><span class="price">179 MAD</span></article>
+        <article><h3><a href="/produit/loubane">Sérum Loubane — Soin Lèvres Menthe Huile de Coco Karité 30ml</a></h3><p>Soin lèvres naturel à la menthe poivrée, huile de coco bio et karité.</p><span class="price">149 MAD</span></article>
+        <article><h3><a href="/produit/vitamined3k2">Vitamine D3+K2 — D3 Cholécalciférol 2000 UI + K2 MK-7 75mcg 60 Capsules</a></h3><p>Complément vitamine D3 cholécalciférol et K2 MK-7 en base d'huile d'olive extra.</p><span class="price">149 MAD</span></article>
+      </div>
+      <footer-info>Contact WhatsApp : +212677031561 &nbsp;|&nbsp; Livraison Maroc uniquement &nbsp;|&nbsp; Paiement à la livraison</footer-info>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
-    <!-- Static content for crawlers — hidden visually but readable by Google -->
+    <!-- Static crawler fallback -->
     <noscript>
       <main style="font-family:sans-serif;max-width:900px;margin:auto;padding:20px">
         <h1>Dakhla Artisanal — Produits Naturels 100% du Sahara Marocain</h1>
