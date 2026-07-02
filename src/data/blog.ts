@@ -5247,6 +5247,104 @@ Sa formule 100% naturelle, inspiree des traditions sahariennes, en fait un **pro
 ---
 
 *mots cles : serum psoriasis avis, serum reparateur psoriasis, traitement psoriasis naturel, soin psoriasis maroc, absinthe lavande psoriasis, aloe vera peau irritee, huile argan psoriasis, produit naturel psoriasis, demangeaisons peau solution, plaques rouges peau*`,
+    contentAr: `## سيروم الصدفية: العلاج الطبيعي لبشرة صحية
+
+**سيروم الصدفية** هو السيروم المرمم الطبيعي المصمم خصيصاً لعلاج الصدفية وحالات الجلد الحساس والمتهيج في المغرب.
+
+## ما يحتويه سيروم الصدفية
+
+**تركيبة طبيعية مستوحاة من الموروث الصحراوي:**
+- **الإفسنتين**: يقلل الحكة والتهيج بفضل خصائصه المضادة للالتهاب
+- **اللافندر**: مهدئ طبيعي يخفف احمرار البشرة ويعطر بلطف
+- **الألوفيرا**: يرطب عمقاً ويرمم الحاجز الجلدي
+- **زيت الأرغان**: مغذٍّ ومضاد للأكسدة يقلل التقشر
+- **زيت المر**: مطهر طبيعي للجلد المتهيج
+
+## لمن يُناسب سيروم الصدفية؟
+
+- المصابون بالصدفية اللويحية والصدفية فروة الرأس
+- من يعانون من الأكزيما والتهابات الجلد
+- أصحاب البشرة الحساسة والجافة
+- كل من يبحث عن حل طبيعي بدون كورتيزون
+
+## آراء العملاء
+
+> *"عانيت من الصدفية على ساعديّ منذ 5 سنوات. بعد 6 أسابيع من السيروم، البقع تراجعت بشكل كبير."* — عبد الكريم ب.
+
+> *"بشرتي حساسة جداً وتتفاعل مع أي منتج. هذا السيروم لطيف جداً ويهدئ فعلاً."* — ليلى م.
+
+## طريقة الاستخدام
+
+1. نظف البشرة بلطف بماء فاتر
+2. جفف برفق
+3. ضع السيروم على المناطق المصابة
+4. اترك يُمتص دون شطف
+5. كرر مرتين يومياً
+
+## النتائج المتوقعة
+
+**الأيام 3-7:** تراجع الحكة والاحمرار
+
+**الأسبوع 2-3:** تحسن ملمس البشرة وتقليل التقشر
+
+**بعد شهر:** بقع أفتح، بشرة أكثر صحة وراحة
+
+**التقييم: 9/10**
+
+## اطلب سيروم الصدفية
+
+**[اطلب سيروم الصدفية من دخلة أرتيزانال ←](/#/produit/psoriasis)**
+
+التوصيل في جميع أنحاء المغرب · الدفع عند التسليم`,
+    contentEn: `## Psoriasis Serum: Natural Treatment for Healthy Skin
+
+**Psoriasis Serum** is the natural repairing serum specially designed to treat psoriasis and sensitive, irritated skin conditions in Morocco.
+
+## What Psoriasis Serum Contains
+
+**Natural formula inspired by Saharan heritage:**
+- **Absinthe**: reduces itching and irritation through its anti-inflammatory properties
+- **Lavender**: natural soother that reduces skin redness and gently perfumes
+- **Aloe vera**: deeply moisturizes and repairs the skin barrier
+- **Argan oil**: nourishing and antioxidant that reduces flaking
+- **Myrrh oil**: natural antiseptic for irritated skin
+
+## Who Is Psoriasis Serum For?
+
+- Those with plaque psoriasis and scalp psoriasis
+- People suffering from eczema and skin inflammations
+- Those with sensitive and dry skin
+- Anyone looking for a natural solution without cortisone
+
+## Customer Reviews
+
+> *"I had psoriasis on my forearms for 5 years. After 6 weeks of the serum, the patches significantly reduced."* — Abdelkarim B.
+
+> *"My skin is very sensitive and reacts to any product. This serum is very gentle and truly soothes."* — Leila M.
+
+## How to Use
+
+1. Gently cleanse skin with lukewarm water
+2. Pat dry gently
+3. Apply serum to affected areas
+4. Leave to absorb without rinsing
+5. Repeat twice daily
+
+## Expected Results
+
+**Days 3-7:** Reduction in itching and redness
+
+**Weeks 2-3:** Improved skin texture and reduced flaking
+
+**After 1 month:** Lighter patches, healthier and more comfortable skin
+
+**Rating: 9/10**
+
+## Order Psoriasis Serum
+
+**[Order Psoriasis Serum from Dakhla Artisanal →](/#/produit/psoriasis)**
+
+Delivery throughout Morocco · Cash on delivery`,
     ctaUrl: '/produit/serum-psoriasis',
     ctaLabel: 'Commander le Sérum Psoriasis',
     ctaColor: '#16A34A',
