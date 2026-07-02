@@ -4,6 +4,7 @@ import { BLOG_ARTICLES } from '../data/blog';
 import { WHATSAPP_NUMBER } from '../data/products';
 import { useLang } from '../hooks/useLanguage';
 import { LANGS } from '../i18n/translations';
+import { useSEO } from '../hooks/useSEO';
 
 function LangSwitcher() {
   const { lang, setLang } = useLang();
@@ -99,6 +100,22 @@ export default function BlogArticle() {
   }
 
   const related = BLOG_ARTICLES.filter(a => a.category === article.category && a.id !== article.id).slice(0, 2);
+
+  const seoTitle = lang === 'ar' ? (article.titleAr || article.title) :
+    lang === 'en' ? (article.titleEn || article.title) :
+    lang === 'es' ? (article.titleEs || article.title) : article.title;
+
+  const seoExcerpt = lang === 'ar' ? (article.excerptAr || article.excerpt) :
+    lang === 'en' ? (article.excerptEn || article.excerpt) :
+    lang === 'es' ? (article.excerptEs || article.excerpt) : article.excerpt;
+
+  useSEO({
+    title: seoTitle,
+    description: seoExcerpt.slice(0, 155),
+    url: `/blog/${article.id}`,
+    image: article.image,
+    lang,
+  });
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });

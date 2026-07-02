@@ -4,6 +4,7 @@ import { BLOG_ARTICLES } from '../data/blog';
 import { WHATSAPP_NUMBER } from '../data/products';
 import { useLang } from '../hooks/useLanguage';
 import { LANGS } from '../i18n/translations';
+import { useSEO } from '../hooks/useSEO';
 
 function LangSwitcher() {
   const { lang, setLang } = useLang();
@@ -67,6 +68,20 @@ function Navbar() {
 
 export default function BlogPage() {
   const { t, lang } = useLang();
+
+  const blogTitles: Record<string, string> = {
+    fr: 'Blog Dakhla Artisanal — Conseils Beauté & Santé Naturelle',
+    ar: 'مدونة دخلة أرتيزانال — نصائح الجمال والصحة الطبيعية',
+    en: 'Dakhla Artisanal Blog — Natural Beauty & Health Tips',
+    es: 'Blog Dakhla Artisanal — Consejos de Belleza y Salud Natural',
+  };
+  const blogDescs: Record<string, string> = {
+    fr: 'Conseils, recettes et guides sur les produits naturels du Sahara Marocain. Toutia, huiles, sérums et compléments pour votre beauté et santé.',
+    ar: 'نصائح ووصفات وأدلة حول المنتجات الطبيعية من الصحراء المغربية. تويتية، زيوت، سيروم ومكملات لجمالك وصحتك.',
+    en: 'Tips, recipes and guides on natural products from the Moroccan Sahara. Toutia, oils, serums and supplements for your beauty and health.',
+    es: 'Consejos, recetas y guías sobre productos naturales del Sahara Marroquí. Toutia, aceites, sérums y suplementos para tu belleza y salud.',
+  };
+  useSEO({ title: blogTitles[lang] || blogTitles.fr, description: blogDescs[lang] || blogDescs.fr, url: '/blog', lang });
 
   const getTitle = (a: typeof BLOG_ARTICLES[0]) =>
     lang === 'ar' ? (a.titleAr || a.title) :

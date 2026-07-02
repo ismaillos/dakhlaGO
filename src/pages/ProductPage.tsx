@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { PRODUCTS, WHATSAPP_NUMBER } from '../data/products';
 import OrderForm from '../components/OrderForm';
 import { useLang } from '../hooks/useLanguage';
+import { useSEO } from '../hooks/useSEO';
 import { LANGS } from '../i18n/translations';
 
 /* ─── IMAGE GALLERY ─── */
@@ -125,6 +126,16 @@ export default function ProductPage() {
   }
 
   const related = PRODUCTS.filter(p => p.cat === product.cat && p.id !== product.id).slice(0, 3);
+
+  const productName = lang === 'ar' && product.nameAr ? product.nameAr : product.name;
+  const productDesc = lang === 'ar' && product.descriptionAr ? product.descriptionAr : product.description;
+  useSEO({
+    title: productName,
+    description: productDesc.slice(0, 155).replace(/\n/g, ' '),
+    url: `/produit/${product.id}`,
+    image: product.img,
+    lang,
+  });
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
