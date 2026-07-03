@@ -44,6 +44,21 @@ export async function submitOrder(payload: OrderPayload): Promise<boolean> {
       headers: { 'Content-Type': 'application/json' },
       mode: 'no-cors',
     });
+    // Fire Google Ads conversion on successful order
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      const value = payload.type === 'single'
+        ? parseFloat(payload.prix) || 0
+        : parseFloat(payload.total) || 0;
+      (window as any).gtag('event', 'conversion', {
+        send_to: 'AW-502274695/purchase',
+        value,
+        currency: 'MAD',
+      });
+      (window as any).gtag('event', 'purchase', {
+        currency: 'MAD',
+        value,
+      });
+    }
     return true;
   } catch (err) {
     console.error('[dakhlaGO] Failed to submit order:', err);
