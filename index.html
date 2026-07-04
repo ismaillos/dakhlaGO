@@ -126,7 +126,18 @@
     }
     </script>
     <!-- End Structured Data -->
-    <!-- Google Customer Reviews -->
+    <!-- Google Customer Reviews Badge -->
+    <script id="merchantWidgetScript" src="https://www.gstatic.com/shopping/merchant/merchantwidget.js" defer></script>
+    <script>
+      document.getElementById('merchantWidgetScript').addEventListener('load', function() {
+        merchantwidget.start({
+          merchant_id: 5747963865,
+          position: 'BOTTOM_RIGHT',
+          region: 'MA',
+        });
+      });
+    </script>
+    <!-- Google Customer Reviews Opt-in -->
     <script>
       window.renderOptIn = function() {
         var d = window._gcrData;
