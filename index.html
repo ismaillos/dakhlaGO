@@ -127,7 +127,22 @@
     </script>
     <!-- End Structured Data -->
     <!-- Google Customer Reviews -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>
+      window.renderOptIn = function() {
+        var d = window._gcrData;
+        if (!d) return;
+        window.gapi.load('surveyoptin', function() {
+          window.gapi.surveyoptin.render({
+            merchant_id: 5747963865,
+            order_id: d.order_id,
+            email: d.email || '',
+            delivery_country: 'MA',
+            estimated_delivery_date: d.delivery_date,
+          });
+        });
+      };
+    </script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
   </head>
   <body>
     <div id="root"></div>

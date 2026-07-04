@@ -5,7 +5,7 @@ import { WHATSAPP_NUMBER } from '../data/products';
 import { submitOrder } from '../lib/api';
 
 type View = 'cart' | 'checkout' | 'success';
-type FormErrors = Partial<Record<'nom' | 'telephone' | 'adresse' | 'ville', string>>;
+type FormErrors = Partial<Record<'nom' | 'telephone' | 'adresse' | 'ville' | 'email', string>>;
 
 const checkoutSchema = z.object({
   nom: z.string().min(2, 'Nom requis (minimum 2 caractères)'),
@@ -37,7 +37,7 @@ export default function OrderModal() {
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState(false);
   const [customerName, setCustomerName] = useState('');
-  const [form, setForm] = useState({ nom: '', telephone: '', adresse: '', ville: '' });
+  const [form, setForm] = useState({ nom: '', telephone: '', adresse: '', ville: '', email: '' });
   const [errors, setErrors] = useState<FormErrors>({});
 
   const resetAndClose = () => {
@@ -118,22 +118,17 @@ export default function OrderModal() {
         });
       } catch (_) {}
       setCustomerName(form.nom);
+      // Set GCR data for renderOptIn
+      const deliveryDate = new Date();
+      deliveryDate.setDate(deliveryDate.getDate() + 5);
+      (window as any)._gcrData = {
+        order_id: `ORD-${Date.now()}`,
+        email: form.email || '',
+        delivery_date: deliveryDate.toISOString().split('T')[0],
+      };
+      try { (window as any).renderOptIn?.(); } catch (_) {}
       clearCart();
       setView('success');
-      // Google Customer Reviews survey opt-in
-      try {
-        const deliveryDate = new Date();
-        deliveryDate.setDate(deliveryDate.getDate() + 5);
-        const estimatedDelivery = deliveryDate.toISOString().split('T')[0];
-        (window as any).gapi?.load('surveyoptin', () => {
-          (window as any).gapi.surveyoptin.render({
-            merchant_id: 5747963865,
-            order_id: `ORD-${Date.now()}`,
-            delivery_country: 'MA',
-            estimated_delivery_date: estimatedDelivery,
-          });
-        });
-      } catch (_) {}
     } else {
       setSubmitError(true);
     }
@@ -329,6 +324,18 @@ export default function OrderModal() {
                   className={`w-full bg-[#0A0A0A] border rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none transition-all ${errors.ville ? 'border-red-400 focus:ring-red-400/30' : 'border-white/[0.08] focus:border-[#E8732F] focus:ring-[#E8732F]/20'}`}
                 />
                 <FieldError msg={errors.ville} />
+              </div>
+
+              {/* Email optionnel pour Google Reviews */}
+              <div>
+                <label className="block text-[11px] text-[#D4A574]/70 uppercase tracking-wider mb-1.5">Email (optionnel — pour recevoir un avis Google)</label>
+                <input
+                  type="email"
+                  value={form.email}
+                  onChange={e => updateField('email', e.target.value)}
+                  placeholder="votre@email.com"
+                  className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-3.5 py-3 text-[13px] text-white placeholder:text-[#D4A574]/50 focus:ring-1 focus:outline-none focus:border-[#E8732F] focus:ring-[#E8732F]/20 transition-all"
+                />
               </div>
 
               {/* Order summary */}
