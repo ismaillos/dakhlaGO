@@ -1090,6 +1090,9 @@ function Footer() {
         </div>
         <p className="text-white/15 text-[11px]">Sahara Marocain — الصحراء المغربية</p>
       </div>
+      <div className="flex justify-center mt-4">
+        <g-rating-badge merchant-id="5747963865" />
+      </div>
     </footer>
   );
 }

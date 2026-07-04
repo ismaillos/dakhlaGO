@@ -120,6 +120,20 @@ export default function OrderModal() {
       setCustomerName(form.nom);
       clearCart();
       setView('success');
+      // Google Customer Reviews survey opt-in
+      try {
+        const deliveryDate = new Date();
+        deliveryDate.setDate(deliveryDate.getDate() + 5);
+        const estimatedDelivery = deliveryDate.toISOString().split('T')[0];
+        (window as any).gapi?.load('surveyoptin', () => {
+          (window as any).gapi.surveyoptin.render({
+            merchant_id: 5747963865,
+            order_id: `ORD-${Date.now()}`,
+            delivery_country: 'MA',
+            estimated_delivery_date: estimatedDelivery,
+          });
+        });
+      } catch (_) {}
     } else {
       setSubmitError(true);
     }
