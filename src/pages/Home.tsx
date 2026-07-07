@@ -1000,6 +1000,47 @@ function YouTube() {
             </a>
           </div>
         </div>
+
+        {/* YouTube Comments */}
+        <div className="mt-14">
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+              <span className="text-white font-bold text-sm">Commentaires YouTube</span>
+            </div>
+            <a
+              href="https://www.youtube.com/watch?v=EutvbCmyLZw&t=134s"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border border-red-500 text-red-400 px-4 py-2 rounded-full text-xs font-bold hover:bg-red-600 hover:text-white transition-colors"
+            >
+              <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z"/></svg>
+              Laisser un commentaire
+            </a>
+          </div>
+          <div className="grid md:grid-cols-3 gap-4">
+            {[
+              { handle: '@رائدالنبالي', time: 'il y a 2 ans', text: 'شكرا عالإفادة وللدكتور الذي يحذر من تأثير المواد الكيماوية على الجسم' },
+              { handle: '@lhassanabanana4674', time: 'il y a 2 mois', text: 'لله يرحم ميمتك كانت تصاوبها لسنا وعملها في قريعات ديال الكحل — مزيل العرق بلا ماتشريوا ولله حتى للون باط يبقى طبيعي بلا كحولية' },
+              { handle: '@serayabdullmateen7286', time: 'il y a 2 ans', text: 'التوتية تحفة سبحان الله يخلق ما يشاء ..' },
+            ].map((c) => (
+              <div key={c.handle} className="bg-white/[0.04] border border-[#F0C060]/[0.10] rounded-2xl p-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="w-8 h-8 rounded-full bg-red-600/20 border border-red-500/30 flex items-center justify-center text-red-400 text-xs font-bold">
+                    {c.handle[1].toUpperCase()}
+                  </div>
+                  <div>
+                    <div className="text-white/80 text-xs font-semibold">{c.handle}</div>
+                    <div className="text-white/30 text-[10px]">{c.time}</div>
+                  </div>
+                </div>
+                <p className="text-white/70 text-sm leading-relaxed text-right" dir="rtl">{c.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
