@@ -1026,69 +1026,104 @@ function CTA() {
 
 /* ─── FOOTER ─── */
 function Footer() {
+  const socials = [
+    {
+      label: 'WhatsApp',
+      href: `https://wa.me/${WHATSAPP_NUMBER}`,
+      color: 'hover:text-[#25D366]',
+      icon: <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.549 4.107 1.51 5.84L.055 23.454a.5.5 0 00.491.617l5.741-.055A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.794 9.794 0 01-4.98-1.363l-.356-.212-3.697.035.978-3.595-.232-.37A9.794 9.794 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.43-4.388 9.818-9.818 9.818z"/></svg>,
+    },
+    {
+      label: 'Facebook',
+      href: 'https://web.facebook.com/Dakhlaartisanal',
+      color: 'hover:text-[#1877F2]',
+      icon: <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>,
+    },
+    {
+      label: 'Instagram',
+      href: 'https://www.instagram.com/dakhlaartisanal1',
+      color: 'hover:text-[#E1306C]',
+      icon: <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>,
+    },
+    {
+      label: 'TikTok',
+      href: 'https://www.tiktok.com/@dakhlaartisanal',
+      color: 'hover:text-white',
+      icon: <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.77a4.85 4.85 0 01-1.01-.08z"/></svg>,
+    },
+  ];
+
   return (
-    <footer className="bg-[#120D05] pt-16 pb-6 px-5">
-      <div className="max-w-[1200px] mx-auto grid md:grid-cols-[2fr_1fr_1fr_1fr] gap-10 mb-9">
-        <div>
-          <div className="font-serif text-xl font-bold text-[#F0C060] tracking-[0.12em] leading-none mb-3">
-            DAKHLA<span className="block text-[8px] text-[#F0C060]/50 font-light tracking-[0.5em] font-sans mt-0.5">ARTISANAL</span>
-            <span className="block text-[9px] text-[#5B7B5E] tracking-[0.2em] italic mt-[3px]">Nature&apos;s Touch</span>
+    <footer className="bg-[#0D0905] border-t border-[#F0C060]/[0.07]">
+      <div className="max-w-[1100px] mx-auto px-5 py-14 grid md:grid-cols-[1.8fr_1fr_1fr] gap-12">
+        {/* Brand */}
+        <div className="space-y-5">
+          <div>
+            <div className="font-serif text-lg font-bold text-[#F0C060] tracking-[0.14em] leading-none">
+              DAKHLA
+              <span className="block text-[7px] text-[#F0C060]/40 font-light tracking-[0.55em] font-sans mt-1">ARTISANAL</span>
+            </div>
+            <p className="text-[#5B7B5E] text-[10px] tracking-[0.22em] italic mt-1">Nature&apos;s Touch</p>
           </div>
-          <p className="text-white/40 text-[13px] leading-relaxed">Produits naturels artisanaux du Sahara Marocain. Fabriqués avec passion par des femmes artisanes de Dakhla.</p>
+          <p className="text-white/35 text-[12.5px] leading-[1.8] max-w-[260px]">
+            Soins naturels artisanaux fabriqués à Dakhla, Maroc. Livraison partout au Maroc. Paiement à la livraison.
+          </p>
+          <div className="flex items-center gap-3 pt-1">
+            {socials.map(s => (
+              <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}
+                className={`text-white/25 ${s.color} transition-colors duration-200`}>
+                {s.icon}
+              </a>
+            ))}
+          </div>
         </div>
-        <div>
-          <h4 className="text-white/50 text-xs uppercase tracking-[0.1em] mb-3.5 font-semibold">Liens</h4>
-          <button onClick={() => document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' })} className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors text-left">Produits</button>
-          <button onClick={() => document.getElementById('story')?.scrollIntoView({ behavior: 'smooth' })} className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors text-left">Notre Histoire</button>
-          <Link to="/blog" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Blog</Link>
-          <a href="#avis" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Avis Clients</a>
+
+        {/* Navigation */}
+        <div className="space-y-4">
+          <p className="text-[#F0C060]/40 text-[10px] uppercase tracking-[0.18em] font-semibold">Navigation</p>
+          {[
+            { label: 'Produits', action: () => document.getElementById('produits')?.scrollIntoView({ behavior: 'smooth' }) },
+            { label: 'Notre Histoire', action: () => document.getElementById('story')?.scrollIntoView({ behavior: 'smooth' }) },
+          ].map(item => (
+            <button key={item.label} onClick={item.action}
+              className="block text-white/30 text-[13px] hover:text-[#E8732F] transition-colors text-left">
+              {item.label}
+            </button>
+          ))}
+          <Link to="/blog" className="block text-white/30 text-[13px] hover:text-[#E8732F] transition-colors">Blog</Link>
+          <Link to="/produit/toutia" className="block text-white/30 text-[13px] hover:text-[#E8732F] transition-colors">Boutique</Link>
         </div>
-        <div>
-          <h4 className="text-white/50 text-xs uppercase tracking-[0.1em] mb-3.5 font-semibold">Produits</h4>
-          <Link to="/produit/toutia" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Toutia Ismailiya</Link>
-          <Link to="/produit/shampoing" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Secret d&apos;Atlas</Link>
-          <Link to="/produit/huile" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">Huile d&apos;Argan</Link>
-          <Link to="/produit/elixir" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">ELIXIR+</Link>
-        </div>
-        <div>
-          <h4 className="text-white/50 text-xs uppercase tracking-[0.1em] mb-3.5 font-semibold">Contact</h4>
-          <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E8732F] transition-colors">WhatsApp: +212 677 031 561</a>
-          <a href="https://web.facebook.com/Dakhlaartisanal" target="_blank" rel="noopener noreferrer" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#1877F2] transition-colors">Facebook: Dakhlaartisanal</a>
-          <a href="https://www.instagram.com/dakhlaartisanal1" target="_blank" rel="noopener noreferrer" className="block text-white/30 text-[13px] mb-2.5 hover:text-[#E1306C] transition-colors">Instagram: @dakhlaartisanal1</a>
-          <a href="https://www.youtube.com/@dakhlaartisanal" target="_blank" rel="noopener noreferrer" className="block text-white/30 text-[13px] mb-2.5 hover:text-red-500 transition-colors">YouTube: @dakhlaartisanal</a>
-          <span className="block text-white/30 text-[13px] mb-2.5">Dakhla, Sahara Marocain</span>
+
+        {/* Contact */}
+        <div className="space-y-4">
+          <p className="text-[#F0C060]/40 text-[10px] uppercase tracking-[0.18em] font-semibold">Contact</p>
+          <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-2.5 text-white/30 text-[13px] hover:text-[#25D366] transition-colors group">
+            <span className="w-7 h-7 rounded-lg bg-white/[0.04] group-hover:bg-[#25D366]/10 flex items-center justify-center transition-colors flex-shrink-0">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.549 4.107 1.51 5.84L.055 23.454a.5.5 0 00.491.617l5.741-.055A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.794 9.794 0 01-4.98-1.363l-.356-.212-3.697.035.978-3.595-.232-.37A9.794 9.794 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.43-4.388 9.818-9.818 9.818z"/></svg>
+            </span>
+            +212 677 031 561
+          </a>
+          <a href="mailto:contact@dakhlaartisanal.com"
+            className="flex items-center gap-2.5 text-white/30 text-[13px] hover:text-[#E8732F] transition-colors group">
+            <span className="w-7 h-7 rounded-lg bg-white/[0.04] group-hover:bg-[#E8732F]/10 flex items-center justify-center transition-colors flex-shrink-0">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-3.5 h-3.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </span>
+            contact@dakhlaartisanal.com
+          </a>
+          <div className="flex items-center gap-2.5 text-white/20 text-[13px]">
+            <span className="w-7 h-7 rounded-lg bg-white/[0.04] flex items-center justify-center flex-shrink-0">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="w-3.5 h-3.5"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </span>
+            Dakhla, Maroc
+          </div>
         </div>
       </div>
-      <div className="border-t border-[#F0C060]/[0.12]/[0.06] pt-5 max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between gap-2 items-center">
-        <p className="text-white/15 text-[11px]">&copy; 2025 Dakhla Artisanal — Nature&apos;s Touch</p>
-        <div className="flex items-center gap-4">
-          <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
-            className="text-white/60/20 hover:text-[#25D366] transition-colors">
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
-              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.549 4.107 1.51 5.84L.055 23.454a.5.5 0 00.491.617l5.741-.055A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.794 9.794 0 01-4.98-1.363l-.356-.212-3.697.035.978-3.595-.232-.37A9.794 9.794 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.43 0 9.818 4.388 9.818 9.818 0 5.43-4.388 9.818-9.818 9.818z"/>
-            </svg>
-          </a>
-          <a href="https://web.facebook.com/Dakhlaartisanal" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
-            className="text-white/60/20 hover:text-[#1877F2] transition-colors">
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-            </svg>
-          </a>
-          <a href="https://www.instagram.com/dakhlaartisanal1" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
-            className="text-white/40 hover:text-[#E1306C] transition-colors">
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-            </svg>
-          </a>
-          <a href="https://www.youtube.com/@dakhlaartisanal" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
-            className="text-white/40 hover:text-red-500 transition-colors">
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-              <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-            </svg>
-          </a>
-        </div>
-        <p className="text-white/15 text-[11px]">Sahara Marocain — الصحراء المغربية</p>
+
+      {/* Bottom bar */}
+      <div className="border-t border-white/[0.04] max-w-[1100px] mx-auto px-5 py-4 flex flex-col sm:flex-row justify-between items-center gap-2">
+        <p className="text-white/15 text-[11px]">&copy; 2025 Dakhla Artisanal. Tous droits réservés.</p>
+        <p className="text-white/10 text-[11px]">Livraison Maroc · Paiement à la livraison</p>
       </div>
     </footer>
   );
