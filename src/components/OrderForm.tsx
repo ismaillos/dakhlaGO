@@ -8,15 +8,15 @@ interface OrderFormProps {
 }
 
 const orderSchema = z.object({
-  nom: z.string().min(2, 'Nom requis (minimum 2 caractères)'),
+  nom: z.string().min(2, 'Nom requis (minimum 2 caractères)').max(100),
   telephone: z
     .string()
     .regex(
       /^(0[5-7]\d{8}|\+212[5-7]\d{8}|00212[5-7]\d{8})$/,
       'Numéro marocain invalide (ex: 0612345678)',
     ),
-  adresse: z.string().min(5, 'Adresse trop courte (minimum 5 caractères)'),
-  ville: z.string().min(2, 'Ville requise'),
+  adresse: z.string().min(5, 'Adresse trop courte (minimum 5 caractères)').max(300),
+  ville: z.string().min(2, 'Ville requise').max(100),
 });
 
 type FormErrors = Partial<Record<'nom' | 'telephone' | 'adresse' | 'ville', string>>;
