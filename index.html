@@ -159,16 +159,7 @@
     <div id="root"></div>
     <!-- Static SEO content: visible before React mounts, hidden after -->
     <style>
-      #seo-static { font-family: sans-serif; max-width: 960px; margin: 0 auto; padding: 24px 16px; color: #111; }
-      #seo-static h1 { font-size: 1.6rem; margin-bottom: 8px; }
-      #seo-static h2 { font-size: 1.2rem; margin: 24px 0 12px; }
-      #seo-static .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
-      #seo-static article { border: 1px solid #ddd; border-radius: 8px; padding: 14px; }
-      #seo-static article h3 { font-size: 0.95rem; margin: 0 0 6px; }
-      #seo-static article p { font-size: 0.85rem; color: #444; margin: 0 0 6px; }
-      #seo-static article .price { font-weight: bold; color: #c8501a; }
-      #seo-static footer-info { display: block; margin-top: 24px; font-size: 0.85rem; color: #555; }
-      #root:not(:empty) ~ #seo-static { display: none; }
+      #seo-static { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
     </style>
     <div id="seo-static" aria-hidden="false">
       <h1>Dakhla Artisanal — Produits Naturels 100% du Sahara Marocain</h1>
@@ -209,8 +200,7 @@
       <footer-info>Contact WhatsApp : +212677031561 &nbsp;|&nbsp; Livraison Maroc uniquement &nbsp;|&nbsp; Paiement à la livraison</footer-info>
     </div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>document.getElementById('root') && new MutationObserver(function(m,o){if(document.getElementById('root').childElementCount>0){var s=document.getElementById('seo-static');if(s)s.style.display='none';o.disconnect();}}).observe(document.getElementById('root'),{childList:true});</script>
-    <!-- Static crawler fallback -->
+<!-- Static crawler fallback -->
     <noscript>
       <main style="font-family:sans-serif;max-width:900px;margin:auto;padding:20px">
         <h1>Dakhla Artisanal — Produits Naturels 100% du Sahara Marocain</h1>
