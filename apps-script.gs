@@ -13,9 +13,11 @@
 var SHEET_ID = '1SsoBsyTOH7t57CiVZWVdn1TzevHDOEh8dAxDl6iQnZw';
 var SHEET_NAME = 'dakhlacommande';
 var DEMANDES_SHEET_NAME = 'demandes_produits';
+var TOUTIA_SHEET_NAME = 'toutia_commandes';
 
 var HEADERS = ['Date', 'Type', 'Nom', 'Telephone', 'Adresse', 'Ville', 'Produit(s)', 'Quantite', 'Prix Total', 'Statut'];
 var DEMANDES_HEADERS = ['Date', 'Nom', 'Telephone', 'Email', 'Produit Demande', 'Statut'];
+var TOUTIA_HEADERS = ['Date', 'Nom', 'Telephone', 'Adresse', 'Ville', 'Quantite', 'Prix Total', 'Statut'];
 
 function getOrCreateSheet() {
   var ss = SpreadsheetApp.openById(SHEET_ID);
@@ -47,6 +49,23 @@ function getOrCreateDemandesSheet() {
     sheet.setFrozenRows(1);
     sheet.setColumnWidth(1, 160);
     sheet.setColumnWidth(5, 320);
+  }
+  return sheet;
+}
+
+function getOrCreateToutiaSheet() {
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+  var sheet = ss.getSheetByName(TOUTIA_SHEET_NAME);
+  if (!sheet) {
+    sheet = ss.insertSheet(TOUTIA_SHEET_NAME);
+  }
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(TOUTIA_HEADERS);
+    var header = sheet.getRange(1, 1, 1, TOUTIA_HEADERS.length);
+    header.setFontWeight('bold').setBackground('#D4A574').setFontColor('#000000');
+    sheet.setFrozenRows(1);
+    sheet.setColumnWidth(1, 160);
+    sheet.setColumnWidth(4, 280);
   }
   return sheet;
 }
@@ -84,6 +103,29 @@ function doPost(e) {
       }
       return ContentService
         .createTextOutput(JSON.stringify({ result: 'success', message: 'Demande enregistrée' }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // ── Commande Toutia (onglet dédié) ──
+    var produitName = (data.produit || '').toLowerCase();
+    if (type === 'single' && produitName.indexOf('toutia') !== -1) {
+      var toutiaSheet = getOrCreateToutiaSheet();
+      toutiaSheet.appendRow([
+        new Date(),
+        data.nom || '',
+        data.telephone || '',
+        data.adresse || '',
+        data.ville || '',
+        data.quantite || '',
+        data.prix || '',
+        'Nouvelle',
+      ]);
+      var tLastRow = toutiaSheet.getLastRow();
+      if (tLastRow > 2) {
+        toutiaSheet.getRange(2, 1, tLastRow - 1, TOUTIA_HEADERS.length).sort({ column: 1, ascending: false });
+      }
+      return ContentService
+        .createTextOutput(JSON.stringify({ result: 'success', message: 'Commande Toutia enregistrée' }))
         .setMimeType(ContentService.MimeType.JSON);
     }
 

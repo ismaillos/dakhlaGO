@@ -107,10 +107,6 @@ export default function ProductPage() {
   const { id } = useParams<{ id: string }>();
   const { t, lang } = useLang();
 
-  if (id === 'toutia') {
-    window.location.replace('https://dakhla-artisanal.com/pages/toutia-ismailiya-a');
-    return null;
-  }
 
   const product = PRODUCTS.find(p => p.id === id);
 
