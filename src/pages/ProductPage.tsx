@@ -103,6 +103,41 @@ function Navbar() {
   );
 }
 
+function ToutiaVideoBlock() {
+  const [playing, setPlaying] = useState(false);
+  return (
+    <div className="bg-[#1a0a00] border border-[#E8732F]/30 rounded-2xl overflow-hidden">
+      {!playing ? (
+        <button
+          onClick={() => setPlaying(true)}
+          className="w-full flex items-center gap-3 p-4 hover:border-[#E8732F]/70 transition-all group text-left"
+        >
+          <div className="w-14 h-14 bg-red-600 rounded-xl flex items-center justify-center shadow-[0_4px_16px_rgba(220,38,38,0.4)] group-hover:scale-105 transition-transform flex-shrink-0">
+            <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+          </div>
+          <div>
+            <div className="text-[10px] text-red-400 font-bold uppercase tracking-wider mb-0.5">Vidéo explicative</div>
+            <div className="text-white text-sm font-bold leading-tight">Ce que disent les experts sur la Toutia</div>
+            <div className="text-white/40 text-[11px] mt-0.5">Regarder ici sans quitter la page</div>
+          </div>
+        </button>
+      ) : (
+        <div className="aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/EutvbCmyLZw?start=134&autoplay=1&rel=0&modestbranding=1"
+            title="Experts sur la Toutia"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          />
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function ProductPage() {
   const { id } = useParams<{ id: string }>();
   const { t, lang } = useLang();
@@ -277,25 +312,7 @@ export default function ProductPage() {
               </div>
 
               {product.id === 'toutia' && (
-                <a
-                  href="https://www.youtube.com/watch?v=EutvbCmyLZw&t=134s"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 bg-[#1a0a00] border border-[#E8732F]/30 rounded-2xl p-4 hover:border-[#E8732F]/70 transition-all group"
-                >
-                  <div className="relative flex-shrink-0">
-                    <div className="w-14 h-14 bg-red-600 rounded-xl flex items-center justify-center shadow-[0_4px_16px_rgba(220,38,38,0.4)] group-hover:scale-105 transition-transform">
-                      <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="text-[10px] text-red-400 font-bold uppercase tracking-wider mb-0.5">Vidéo explicative</div>
-                    <div className="text-white text-sm font-bold leading-tight">Ce que disent les experts sur la Toutia</div>
-                    <div className="text-white/40 text-[11px] mt-0.5">Regarder sur YouTube →</div>
-                  </div>
-                </a>
+                <ToutiaVideoBlock />
               )}
 
               <OrderForm product={product} />
