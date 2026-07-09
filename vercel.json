@@ -1,4 +1,18 @@
 {
+  "redirects": [
+    { "source": "/products/bio-black-shampoin", "destination": "/produit/shampoing", "permanent": true },
+    { "source": "/products/serum-psoriasis-dakhla-artisanal", "destination": "/produit/psoriasis", "permanent": true },
+    { "source": "/products/eclat-v", "destination": "/produit/v-eclat", "permanent": true },
+    { "source": "/products/serum-cils-iloumi", "destination": "/produit/serumint", "permanent": true },
+    { "source": "/products/pack-zone-intime", "destination": "/produit/eclarte", "permanent": true },
+    { "source": "/products/:slug", "destination": "/produit/:slug", "permanent": true },
+    { "source": "/pages/livraison-et-expedition", "destination": "/", "permanent": true },
+    { "source": "/pages/about-us", "destination": "/", "permanent": true },
+    { "source": "/pages/:slug", "destination": "/", "permanent": true },
+    { "source": "/collections/:slug", "destination": "/", "permanent": true },
+    { "source": "/cart/:slug", "destination": "/", "permanent": true },
+    { "source": "/account", "destination": "/", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
