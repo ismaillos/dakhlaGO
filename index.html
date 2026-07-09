@@ -157,11 +157,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- Static SEO content: visible before React mounts, hidden after -->
-    <style>
-      #seo-static { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
-    </style>
-    <div id="seo-static" aria-hidden="false">
+    <div id="seo-static" style="display:none" aria-hidden="true">
       <h1>Dakhla Artisanal — Produits Naturels 100% du Sahara Marocain</h1>
       <p>Boutique en ligne de soins naturels artisanaux fabriqués à Dakhla, Maroc. Livraison partout au Maroc. Paiement à la livraison.</p>
       <h2>Nos Produits Naturels</h2>
