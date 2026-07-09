@@ -105,8 +105,9 @@ function Navbar() {
 
 function ToutiaVideoBlock() {
   const [playing, setPlaying] = useState(false);
+  const { t, lang } = useLang();
   return (
-    <div className="bg-[#1a0a00] border border-[#E8732F]/30 rounded-2xl overflow-hidden">
+    <div className="bg-[#1a0a00] border border-[#E8732F]/30 rounded-2xl overflow-hidden" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       {!playing ? (
         <button
           onClick={() => setPlaying(true)}
@@ -118,9 +119,9 @@ function ToutiaVideoBlock() {
             </svg>
           </div>
           <div>
-            <div className="text-[10px] text-red-400 font-bold uppercase tracking-wider mb-0.5">Vidéo explicative</div>
-            <div className="text-white text-sm font-bold leading-tight">Ce que disent les experts sur la Toutia</div>
-            <div className="text-white/40 text-[11px] mt-0.5">Regarder ici sans quitter la page</div>
+            <div className="text-[10px] text-red-400 font-bold uppercase tracking-wider mb-0.5">{t.productPage.videoTag}</div>
+            <div className="text-white text-sm font-bold leading-tight">{t.productPage.videoTitle}</div>
+            <div className="text-white/40 text-[11px] mt-0.5">{t.productPage.videoSub}</div>
           </div>
         </button>
       ) : (

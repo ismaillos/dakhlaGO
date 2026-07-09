@@ -159,6 +159,9 @@ export const translations = {
       relatedEm: 'similaires',
       details: 'Détails',
       order: 'Commander',
+      videoTag: 'Vidéo explicative',
+      videoTitle: 'Ce que disent les experts sur la Toutia',
+      videoSub: 'Regarder ici sans quitter la page',
     },
     blogPage: {
       home: 'Accueil',
@@ -336,6 +339,9 @@ export const translations = {
       relatedEm: 'مشابهة',
       details: 'التفاصيل',
       order: 'اطلب الآن',
+      videoTag: 'فيديو تفسيري',
+      videoTitle: 'ما يقوله الخبراء عن التوتيا',
+      videoSub: 'شاهد هنا دون مغادرة الصفحة',
     },
     blogPage: {
       home: 'الرئيسية',
@@ -513,6 +519,9 @@ export const translations = {
       relatedEm: 'products',
       details: 'Details',
       order: 'Order Now',
+      videoTag: 'Explanatory video',
+      videoTitle: 'What experts say about Toutia',
+      videoSub: 'Watch here without leaving the page',
     },
     blogPage: {
       home: 'Home',
@@ -690,6 +699,9 @@ export const translations = {
       relatedEm: 'similares',
       details: 'Detalles',
       order: 'Pedir ahora',
+      videoTag: 'Vídeo explicativo',
+      videoTitle: 'Lo que dicen los expertos sobre la Toutia',
+      videoSub: 'Ver aquí sin salir de la página',
     },
     blogPage: {
       home: 'Inicio',
