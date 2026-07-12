@@ -62,9 +62,13 @@ function Navbar() {
   }, []);
 
   useEffect(() => {
-    const handler = (e: Event) => { e.preventDefault(); setInstallPrompt(e); };
-    window.addEventListener('beforeinstallprompt', handler);
-    return () => window.removeEventListener('beforeinstallprompt', handler);
+    // Check if prompt was already captured before React loaded
+    if ((window as any).__pwaPrompt) {
+      setInstallPrompt((window as any).__pwaPrompt);
+    }
+    const handler = () => { setInstallPrompt((window as any).__pwaPrompt); };
+    window.addEventListener('pwaPromptReady', handler);
+    return () => window.removeEventListener('pwaPromptReady', handler);
   }, []);
 
   const handleInstall = () => {

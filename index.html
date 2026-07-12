@@ -203,6 +203,13 @@
     </div>
     <script type="module" src="/src/main.tsx"></script>
     <script>
+      // Capture PWA install prompt before React loads
+      window.__pwaPrompt = null;
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        window.__pwaPrompt = e;
+        window.dispatchEvent(new Event('pwaPromptReady'));
+      });
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
       }
