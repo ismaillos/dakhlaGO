@@ -17,6 +17,11 @@
   "rewrites": [
     { "source": "/sw.js", "destination": "/sw.js" },
     { "source": "/manifest.json", "destination": "/manifest.json" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/favicon.png", "destination": "/favicon.png" },
+    { "source": "/favicon.ico", "destination": "/favicon.ico" },
+    { "source": "/og-image.jpg", "destination": "/og-image.jpg" },
     { "source": "/icon-192.png", "destination": "/icon-192.png" },
     { "source": "/icon-512.png", "destination": "/icon-512.png" },
     { "source": "/(.*)", "destination": "/index.html" }
