@@ -30,6 +30,12 @@
     <link rel="alternate" hreflang="fr-MA" href="https://www.dakhlaartisanal.com/" />
     <link rel="alternate" hreflang="x-default" href="https://www.dakhlaartisanal.com/" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/images/toutia/toutia.jpg" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Dakhla Artisanal" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <meta name="google-site-verification" content="7605b9f2bf690165" />
     <title>Dakhla Artisanal — Produits Naturels 100% du Sahara Marocain | Toutia Ismailiya | Livraison Maroc</title>
     <!-- Meta Pixel Code -->
@@ -196,6 +202,11 @@
       <footer-info>Contact WhatsApp : +212677031561 &nbsp;|&nbsp; Livraison Maroc uniquement &nbsp;|&nbsp; Paiement à la livraison</footer-info>
     </div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+      }
+    </script>
 <!-- Static crawler fallback -->
     <noscript>
       <main style="font-family:sans-serif;max-width:900px;margin:auto;padding:20px">

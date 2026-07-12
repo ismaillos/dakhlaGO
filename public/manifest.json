@@ -1,0 +1,46 @@
+{
+  "name": "Dakhla Artisanal",
+  "short_name": "Dakhla",
+  "description": "Produits 100% naturels du Sahara Marocain. Livraison partout au Maroc.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#E8732F",
+  "orientation": "portrait",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/images/toutia/toutia.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/toutia/toutia.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/toutia/toutia.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["shopping", "beauty", "health"],
+  "shortcuts": [
+    {
+      "name": "Toutia Ismailiya",
+      "url": "/#/produit/toutia",
+      "description": "Pierre naturelle déodorant"
+    },
+    {
+      "name": "Tous les produits",
+      "url": "/#/produits",
+      "description": "Voir tous nos produits"
+    }
+  ]
+}
