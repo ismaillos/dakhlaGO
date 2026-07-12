@@ -147,7 +147,7 @@ Oui. La Toutia est 100% naturelle et sans aucune substance chimique, ce qui la r
 
 Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La nature a la solution depuis des siècles.
 
-**[Commander la Toutia Ismailiya chez Dakhla Artisanal →](https://dakhla-artisanal.com/pages/toutia-ismailiya-a)**
+**[Commander la Toutia Ismailiya chez Dakhla Artisanal →](https://dakhlaartisanal.com/#/produit/toutia)**
 
 ---
 
@@ -238,7 +238,7 @@ Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La n
 
 قولي وداعاً للتعرق المحرج ومزيلات العرق الكيميائية. الطبيعة لديها الحل منذ قرون.
 
-**[اطلب التوتيا الإسماعيلية من دخلة أرتيزانال ←](https://dakhla-artisanal.com/pages/toutia-ismailiya-a)**`,
+**[اطلب التوتيا الإسماعيلية من دخلة أرتيزانال ←](https://dakhlaartisanal.com/#/produit/toutia)**`,
     contentEn: `## Excessive Sweating: A Problem That Ruins Your Daily Life
 
 Do you avoid raising your arms in public? Do you change clothes several times a day? Do you use industrial deodorants without lasting results? You are not alone.
@@ -331,7 +331,7 @@ Yes, that is even its great advantage. Unlike industrial deodorants, it contains
 
 Say goodbye to embarrassing sweating and chemical deodorants. Nature has had the solution for centuries.
 
-**[Order Toutia Ismailiya from Dakhla Artisanal →](https://dakhla-artisanal.com/pages/toutia-ismailiya-a)**`,
+**[Order Toutia Ismailiya from Dakhla Artisanal →](https://dakhlaartisanal.com/#/produit/toutia)**`,
     ctaUrl: '/produit/toutia',
     ctaLabel: 'Commander la Toutia Ismailiya',
     ctaColor: '#5B7B5E',
@@ -6010,7 +6010,7 @@ Ce produit naturel est d'une efficacite remarquable au fil de la journee. C'est 
 
 ## Commander Toutia Ismailiya
 
-**[🛒 Commander Toutia Ismailiya chez Dakhla Artisanal →](https://dakhla-artisanal.com/pages/toutia-ismailiya-a)**
+**[🛒 Commander Toutia Ismailiya chez Dakhla Artisanal →](https://dakhlaartisanal.com/#/produit/toutia)**
 
 Livraison partout au Maroc · Paiement à la livraison · Emballage discret
 
