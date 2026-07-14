@@ -17,6 +17,7 @@
     { "source": "/apps/:slug*", "destination": "/", "permanent": true }
   ],
   "rewrites": [
+    { "source": "/assets/:path*", "destination": "/assets/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
