@@ -201,7 +201,7 @@ export default function ProductPage() {
         priceCurrency: 'MAD',
         price: product.price,
         availability: 'https://schema.org/InStock',
-        url: `https://www.dakhlaartisanal.com/#/produit/${product.id}`,
+        url: `https://www.dakhlaartisanal.com/produit/${product.id}`,
         seller: { '@type': 'Organization', name: 'Dakhla Artisanal', url: 'https://www.dakhlaartisanal.com' },
         shippingDetails: { '@type': 'OfferShippingDetails', shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'MA' } },
       },

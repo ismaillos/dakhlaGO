@@ -1,4 +1,4 @@
-const CACHE = 'dakhla-v1';
+const CACHE = 'dakhla-v3';
 const ASSETS = ['/', '/index.html'];
 
 self.addEventListener('install', e => {

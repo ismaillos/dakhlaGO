@@ -26,12 +26,12 @@
   "shortcuts": [
     {
       "name": "Toutia Ismailiya",
-      "url": "/#/produit/toutia",
+      "url": "/produit/toutia",
       "description": "Pierre naturelle déodorant"
     },
     {
       "name": "Tous les produits",
-      "url": "/#/produits",
+      "url": "/produits",
       "description": "Voir tous nos produits"
     }
   ]
