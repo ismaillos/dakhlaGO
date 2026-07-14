@@ -6,6 +6,7 @@ import ProductPage from './pages/ProductPage';
 import BlogPage from './pages/BlogPage';
 import BlogArticle from './pages/BlogArticle';
 import NotFoundPage from './pages/NotFoundPage';
+import ProductsPage from './pages/ProductsPage';
 
 export default function App() {
   return (
@@ -13,6 +14,8 @@ export default function App() {
     <CartProvider>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/produits" element={<ProductsPage />} />
+        <Route path="/produits/:cat" element={<ProductsPage />} />
         <Route path="/produit/:id" element={<ProductPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:id" element={<BlogArticle />} />
