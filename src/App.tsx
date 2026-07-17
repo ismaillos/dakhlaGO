@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { CartProvider } from './hooks/useCart';
 import { LanguageProvider } from './hooks/useLanguage';
+import GaTracker from './components/GaTracker';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import BlogPage from './pages/BlogPage';
@@ -12,6 +13,7 @@ export default function App() {
   return (
     <LanguageProvider>
     <CartProvider>
+      <GaTracker />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/produits" element={<ProductsPage />} />
