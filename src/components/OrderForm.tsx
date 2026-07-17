@@ -120,6 +120,14 @@ export default function OrderForm({ product }: OrderFormProps) {
           currency: 'MAD',
         });
       } catch (_) {}
+      try {
+        (window as any).gtag('event', 'purchase', {
+          transaction_id: `${Date.now()}`,
+          value: selectedOption.price,
+          currency: 'MAD',
+          items: [{ item_id: product.id, item_name: product.name, price: product.price, quantity: parseInt(selectedOption.value) }],
+        });
+      } catch (_) {}
       setStatus('success');
     } else {
       setStatus('error');

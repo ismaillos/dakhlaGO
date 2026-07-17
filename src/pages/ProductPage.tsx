@@ -284,6 +284,13 @@ export default function ProductPage() {
           currency: 'MAD',
         });
       } catch (_) {}
+      try {
+        (window as any).gtag('event', 'view_item', {
+          currency: 'MAD',
+          value: product.price,
+          items: [{ item_id: product.id, item_name: product.name, price: product.price, quantity: 1 }],
+        });
+      } catch (_) {}
     }, 300);
     return () => { schema.remove(); clearTimeout(fbqTimer); };
   }, [id, product]);

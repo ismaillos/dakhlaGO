@@ -117,6 +117,14 @@ export default function OrderModal() {
           currency: 'MAD',
         });
       } catch (_) {}
+      try {
+        (window as any).gtag('event', 'purchase', {
+          transaction_id: `${Date.now()}`,
+          value: total,
+          currency: 'MAD',
+          items: items.map(i => ({ item_id: i.product.id, item_name: i.product.name, price: i.product.price, quantity: i.quantity })),
+        });
+      } catch (_) {}
       setCustomerName(form.nom);
       // Set GCR data for renderOptIn
       const deliveryDate = new Date();
