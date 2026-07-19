@@ -203,7 +203,24 @@ export default function ProductPage() {
         availability: 'https://schema.org/InStock',
         url: `https://www.dakhlaartisanal.com/produit/${product.id}`,
         seller: { '@type': 'Organization', name: 'Dakhla Artisanal', url: 'https://www.dakhlaartisanal.com' },
-        shippingDetails: { '@type': 'OfferShippingDetails', shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'MA' } },
+        shippingDetails: {
+          '@type': 'OfferShippingDetails',
+          shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'MA' },
+          shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'MAD' },
+          deliveryTime: {
+            '@type': 'ShippingDeliveryTime',
+            handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' },
+            transitTime: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 3, unitCode: 'DAY' },
+          },
+        },
+        hasMerchantReturnPolicy: {
+          '@type': 'MerchantReturnPolicy',
+          applicableCountry: 'MA',
+          returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+          merchantReturnDays: 7,
+          returnMethod: 'https://schema.org/ReturnByMail',
+          returnFees: 'https://schema.org/FreeReturn',
+        },
       },
       aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '247', bestRating: '5' },
     };
