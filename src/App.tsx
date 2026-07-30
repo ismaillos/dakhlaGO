@@ -7,6 +7,7 @@ import ProductPage from './pages/ProductPage';
 import BlogPage from './pages/BlogPage';
 import BlogArticle from './pages/BlogArticle';
 import NotFoundPage from './pages/NotFoundPage';
+import ReturnPolicyPage from './pages/ReturnPolicyPage';
 import ProductsPage from './pages/ProductsPage';
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/produit/:id" element={<ProductPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:id" element={<BlogArticle />} />
+        <Route path="/politique-retour" element={<ReturnPolicyPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </CartProvider>
