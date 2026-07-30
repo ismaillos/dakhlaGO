@@ -128,6 +128,16 @@ export default function OrderForm({ product }: OrderFormProps) {
           items: [{ item_id: product.id, item_name: product.name, price: product.price, quantity: parseInt(selectedOption.value) }],
         });
       } catch (_) {}
+      try {
+        const deliveryDate = new Date();
+        deliveryDate.setDate(deliveryDate.getDate() + 4);
+        window._gcrData = {
+          order_id: `DA-${Date.now()}`,
+          email: '',
+          delivery_date: deliveryDate.toISOString().split('T')[0],
+        };
+        if (typeof (window as any).renderOptIn === 'function') (window as any).renderOptIn();
+      } catch (_) {}
       setStatus('success');
     } else {
       setStatus('error');

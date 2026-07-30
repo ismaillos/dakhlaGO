@@ -4,6 +4,8 @@ import { useLocation } from 'react-router-dom';
 declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
+    _gcrData?: { order_id: string; email: string; delivery_date: string };
+    renderOptIn?: () => void;
   }
 }
 
