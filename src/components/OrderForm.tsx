@@ -115,7 +115,7 @@ export default function OrderForm({ product }: OrderFormProps) {
       } catch (_) {}
       try {
         (window as any).gtag('event', 'conversion', {
-          send_to: 'AW-11076909952/purchase',
+          send_to: 'AW-11076909952/eteUCMCGubgZEID38KEp',
           value: selectedOption.price,
           currency: 'MAD',
         });
