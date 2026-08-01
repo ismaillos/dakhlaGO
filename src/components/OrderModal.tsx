@@ -112,7 +112,11 @@ export default function OrderModal() {
       } catch (_) {}
       try {
         (window as any).gtag('event', 'conversion', {
-          send_to: 'AW-1604909151/purchase',
+<<<<<<< HEAD
+          send_to: 'AW-11076909952/purchase',
+=======
+          send_to: 'AW-11076909952/purchase',
+>>>>>>> claude/youthful-hypatia-efphw4
           value: total,
           currency: 'MAD',
         });

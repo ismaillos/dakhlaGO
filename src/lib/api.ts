@@ -78,7 +78,11 @@ export async function submitOrder(payload: OrderPayload): Promise<boolean> {
         ? parseFloat(payload.prix) || 0
         : parseFloat(payload.total) || 0;
       (window as any).gtag('event', 'conversion', {
-        send_to: 'AW-1604909151/purchase',
+<<<<<<< HEAD
+        send_to: 'AW-11076909952/purchase',
+=======
+        send_to: 'AW-11076909952/purchase',
+>>>>>>> claude/youthful-hypatia-efphw4
         value,
         currency: 'MAD',
       });
