@@ -112,7 +112,7 @@ export default function OrderModal() {
       } catch (_) {}
       try {
         (window as any).gtag('event', 'conversion', {
-          send_to: 'AW-1604909151/purchase',
+          send_to: 'AW-11076909952/purchase',
           value: total,
           currency: 'MAD',
         });

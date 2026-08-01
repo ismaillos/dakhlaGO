@@ -78,7 +78,7 @@ export async function submitOrder(payload: OrderPayload): Promise<boolean> {
         ? parseFloat(payload.prix) || 0
         : parseFloat(payload.total) || 0;
       (window as any).gtag('event', 'conversion', {
-        send_to: 'AW-1604909151/purchase',
+        send_to: 'AW-11076909952/purchase',
         value,
         currency: 'MAD',
       });
