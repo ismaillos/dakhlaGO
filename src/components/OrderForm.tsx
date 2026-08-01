@@ -115,11 +115,7 @@ export default function OrderForm({ product }: OrderFormProps) {
       } catch (_) {}
       try {
         (window as any).gtag('event', 'conversion', {
-<<<<<<< HEAD
           send_to: 'AW-11076909952/purchase',
-=======
-          send_to: 'AW-11076909952/purchase',
->>>>>>> claude/youthful-hypatia-efphw4
           value: selectedOption.price,
           currency: 'MAD',
         });
