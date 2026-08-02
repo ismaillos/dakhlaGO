@@ -340,7 +340,7 @@ export default function ProductPage() {
     tranquilysse: ['/images/tranquilysse-3.jpg', '/images/tranquilysse-4.jpg'],
     hemorcalm: ['/images/hemorcalm-3.jpg', '/images/hemorcalm-4.jpg'],
     'eclat-artisan': ['/images/eclat-artisan-3.jpg', '/images/eclat-artisan-4.jpg'],
-    loubane: ['/images/loubane-3.jpg', '/images/loubane-4.jpg'],
+    loubane: ['/images/loubane-1.jpg', '/images/loubane-2.jpg', '/images/loubane-3.jpg', '/images/loubane-4.jpg'],
   };
   const galleryImages = extraImages[product.id] || [product.img];
 
