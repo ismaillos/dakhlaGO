@@ -72,7 +72,7 @@ export default function ProductsPage() {
                     alt={product.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
-                    onError={e => { (e.target as HTMLImageElement).src = '/images/placeholder.jpg'; }}
+                    onError={e => { (e.target as HTMLImageElement).src = '/images/placeholder.webp'; }}
                   />
                   {product.badge && (
                     <span className="absolute top-2 left-2 bg-[#E8732F]/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">

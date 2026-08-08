@@ -42,14 +42,14 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     categoryAr: 'العناية بالجسم',
     categoryEn: 'Body Care',
     categoryEs: 'Cuidado Corporal',
-    image: '/images/toutia.jpg',
+    image: '/images/toutia.webp',
     content: `## Transpiration Excessive : Un Problème Qui Gâche le Quotidien
 
 Vous évitez de lever les bras en public ? Vous changez de vêtements plusieurs fois par jour ? Vous utilisez des déodorants industriels sans résultat durable ? Vous n\'êtes pas seul(e).
 
 La transpiration excessive et les mauvaises odeurs corporelles touchent des millions de personnes au Maroc. Ce problème, souvent tabou, a des répercussions réelles sur la confiance en soi, les relations sociales et la qualité de vie.
 
-[IMAGE:/images/toutia.jpg]
+[IMAGE:/images/toutia.webp]
 
 ## Pourquoi Transpire-t-on Autant ?
 
@@ -83,7 +83,7 @@ Ignorer ce problème peut aggraver la situation :
 
 Utilisée depuis des siècles dans le monde arabe et berbère, la **Toutia Ismailiya** est une poudre minérale 100% naturelle, aussi fine que du talc, sans aucune odeur. Elle n\'est mélangée à rien : ni cheba, ni talc, ni aucun produit chimique. **C\'est la pierre brute de la nature, réduite en poudre pure, sans aucun additif.**
 
-[IMAGE:/images/toutia/toutia.jpg]
+[IMAGE:/images/toutia/toutia.webp]
 
 ### Comment Fonctionne la Toutia ?
 
@@ -158,7 +158,7 @@ Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La n
 
 التعرق المفرط والروائح الكريهة تؤثر على ملايين الأشخاص في المغرب. هذه المشكلة، التي كثيراً ما تكون من المحرمات، لها تداعيات حقيقية على الثقة بالنفس والعلاقات الاجتماعية وجودة الحياة.
 
-[IMAGE:/images/toutia.jpg]
+[IMAGE:/images/toutia.webp]
 
 ## لماذا نتعرق كثيراً؟
 
@@ -183,7 +183,7 @@ Dites adieu à la transpiration embarrassante et aux déodorants chimiques. La n
 
 التوتيا الإسماعيلية مسحوق معدني 100% طبيعي، ناعم كالتلك، بدون أي رائحة. لا يُخلط بأي شيء: لا شبة، لا تلك، لا مادة كيميائية. إنه الحجر الخام للطبيعة، مطحون بنقاء تام.
 
-[IMAGE:/images/toutia/toutia.jpg]
+[IMAGE:/images/toutia/toutia.webp]
 
 ### كيف تعمل التوتيا؟
 
@@ -245,7 +245,7 @@ Do you avoid raising your arms in public? Do you change clothes several times a 
 
 Excessive sweating and body odor affect millions of people in Morocco. This problem, often taboo, has real repercussions on self-confidence, social relationships, and quality of life.
 
-[IMAGE:/images/toutia.jpg]
+[IMAGE:/images/toutia.webp]
 
 ## Why Do We Sweat So Much?
 
@@ -270,7 +270,7 @@ Industrial deodorants contain aluminum that clogs the sweat glands. This obstruc
 
 Used for centuries in the Arab and Berber world, **Toutia Ismailiya** is a 100% natural mineral powder, as fine as talc, with no odor whatsoever. It is mixed with nothing: no sheba, no talc, no chemical product. **It is raw stone from nature, ground into pure powder, without any additives.**
 
-[IMAGE:/images/toutia/toutia.jpg]
+[IMAGE:/images/toutia/toutia.webp]
 
 ### How Does Toutia Work?
 
@@ -352,14 +352,14 @@ Say goodbye to embarrassing sweating and chemical deodorants. Nature has had the
     categoryAr: 'العناية بالشعر',
     categoryEn: 'Hair Care',
     categoryEs: 'Cuidado Capilar',
-    image: '/images/shampoing-lifestyle-1.jpg',
+    image: '/images/shampoing-lifestyle-1.webp',
     content: `## La Chute de Cheveux Chez la Femme : Un Drame Silencieux
 
 Vous trouvez des poignées de cheveux dans votre brosse chaque matin ? Votre chignon est de plus en plus fin ? Votre raie s\'élargit et votre cuir chevelu devient visible ? Ce n\'est pas dans votre tête — et vous n\'êtes pas seule.
 
 La chute de cheveux féminine touche près d\'une femme sur trois au Maroc, tous âges confondus. Contrairement aux hommes, chez la femme, ce phénomène est souvent diffus, global, et profondément lié à l\'équilibre hormonal et nutritionnel.
 
-[IMAGE:/images/shampoing-lifestyle-1.jpg]
+[IMAGE:/images/shampoing-lifestyle-1.webp]
 
 ## Les Vraies Causes de la Chute de Cheveux Féminine
 
@@ -385,7 +385,7 @@ La chute de cheveux est souvent le premier signe visible d\'une carence :
 - Chaleur excessive (lisseur, sèche-cheveux)
 - Stress chronique (effluvium télogène)
 
-[IMAGE:/images/shampoing-result-1.jpg]
+[IMAGE:/images/shampoing-result-1.webp]
 
 ## Les Conséquences d\'une Chute Non Traitée
 
@@ -462,7 +462,7 @@ Votre chevelure mérite mieux que de continuer à tomber. Agissez maintenant.
 
 تساقط شعر المرأة يمس قرابة واحدة من كل ثلاث نساء في المغرب، من مختلف الأعمار. على عكس الرجال، يكون هذا الظاهرة عند المرأة منتشرة وشاملة، مرتبطة ارتباطاً وثيقاً بالتوازن الهرموني والغذائي.
 
-[IMAGE:/images/shampoing-lifestyle-1.jpg]
+[IMAGE:/images/shampoing-lifestyle-1.webp]
 
 ## الأسباب الحقيقية لتساقط شعر المرأة
 
@@ -488,7 +488,7 @@ Votre chevelure mérite mieux que de continuer à tomber. Agissez maintenant.
 - حرارة مفرطة (مسطحة الشعر، مجفف الشعر)
 - الإجهاد المزمن (التهاب التيلوجين)
 
-[IMAGE:/images/shampoing-result-1.jpg]
+[IMAGE:/images/shampoing-result-1.webp]
 
 ## عواقب التساقط غير المعالج
 
@@ -544,7 +544,7 @@ Do you find handfuls of hair in your brush every morning? Is your bun getting th
 
 Female hair loss affects nearly one in three women in Morocco, across all ages. Unlike men, in women, this phenomenon is often diffuse, global, and deeply linked to hormonal and nutritional balance.
 
-[IMAGE:/images/shampoing-lifestyle-1.jpg]
+[IMAGE:/images/shampoing-lifestyle-1.webp]
 
 ## The Real Causes of Female Hair Loss
 
@@ -570,7 +570,7 @@ Hair loss is often the first visible sign of a deficiency:
 - Excessive heat (straightener, hair dryer)
 - Chronic stress (telogen effluvium)
 
-[IMAGE:/images/shampoing-result-1.jpg]
+[IMAGE:/images/shampoing-result-1.webp]
 
 ## Consequences of Untreated Hair Loss
 
@@ -640,14 +640,14 @@ Your hair deserves better than to keep falling. Act now.`,
     categoryAr: 'الصحة الطبيعية',
     categoryEn: 'Natural Health',
     categoryEs: 'Salud Natural',
-    image: '/images/pack-floro-calm-lifestyle-1.jpg',
+    image: '/images/pack-floro-calm-lifestyle-1.webp',
     content: `## Douleurs Articulaires : Quand Chaque Geste Devient une Épreuve
 
 Se lever le matin et sentir cette raideur douloureuse dans les genoux. Monter un escalier et grimacer. Tendre le bras et ressentir une douleur aiguë dans l\'épaule. Si vous vous reconnaissez dans ces situations, vous souffrez probablement de douleurs articulaires chroniques.
 
 Au Maroc, les rhumatismes et l\'arthrose touchent des millions de personnes, particulièrement après 40 ans. Et pourtant, beaucoup continuent de souffrir en silence, craignant les médicaments chimiques et leurs effets secondaires.
 
-[IMAGE:/images/pack-floro-calm-lifestyle-1.jpg]
+[IMAGE:/images/pack-floro-calm-lifestyle-1.webp]
 
 ## Comprendre les Douleurs Articulaires
 
@@ -668,7 +668,7 @@ Au Maroc, les rhumatismes et l\'arthrose touchent des millions de personnes, par
 - Inflammation chronique de bas grade liée à l\'alimentation
 - Hérédité et facteurs génétiques
 
-[IMAGE:/images/pack-floro-calm-result-1.jpg]
+[IMAGE:/images/pack-floro-calm-result-1.webp]
 
 ## Pourquoi les Anti-Inflammatoires Classiques Ne Suffisent Pas
 
@@ -758,7 +758,7 @@ Votre corps mérite de bouger librement. Reprenez le contrôle sur votre douleur
 
 في المغرب، يصيب الروماتيزم والفصال العظمي ملايين الأشخاص، خاصة بعد سن الأربعين. ومع ذلك، يستمر كثيرون في المعاناة في صمت، خوفاً من الأدوية الكيميائية وآثارها الجانبية.
 
-[IMAGE:/images/pack-floro-calm-lifestyle-1.jpg]
+[IMAGE:/images/pack-floro-calm-lifestyle-1.webp]
 
 ## فهم آلام المفاصل
 
@@ -779,7 +779,7 @@ Votre corps mérite de bouger librement. Reprenez le contrôle sur votre douleur
 - التهاب مزمن منخفض الدرجة مرتبط بالنظام الغذائي
 - الوراثة والعوامل الجينية
 
-[IMAGE:/images/pack-floro-calm-result-1.jpg]
+[IMAGE:/images/pack-floro-calm-result-1.webp]
 
 ## لماذا لا تكفي مضادات الالتهاب الكلاسيكية
 
@@ -836,7 +836,7 @@ Waking up in the morning and feeling that painful stiffness in the knees. Climbi
 
 In Morocco, rheumatism and osteoarthritis affect millions of people, particularly after age 40. And yet, many continue to suffer in silence, fearing chemical medications and their side effects.
 
-[IMAGE:/images/pack-floro-calm-lifestyle-1.jpg]
+[IMAGE:/images/pack-floro-calm-lifestyle-1.webp]
 
 ## Understanding Joint Pain
 
@@ -857,7 +857,7 @@ In Morocco, rheumatism and osteoarthritis affect millions of people, particularl
 - Chronic low-grade inflammation linked to diet
 - Heredity and genetic factors
 
-[IMAGE:/images/pack-floro-calm-result-1.jpg]
+[IMAGE:/images/pack-floro-calm-result-1.webp]
 
 ## Why Classic Anti-Inflammatories Are Not Enough
 
@@ -928,14 +928,14 @@ Your body deserves to move freely. Regain control over your pain.`,
     categoryAr: 'الصحة الطبيعية',
     categoryEn: 'Natural Health',
     categoryEs: 'Salud Natural',
-    image: '/images/elixir-maca-lifestyle-1.jpg',
+    image: '/images/elixir-maca-lifestyle-1.webp',
     content: `## Fatigue Chronique : Quand L\'Épuisement Devient Votre Quotidien
 
 Vous dormez 8 heures et vous réveillez fatigué. Votre café du matin ne fait plus effet. Vous n\'avez plus d\'élan pour vos activités favorites. Chaque tâche vous demande un effort surhumain.
 
 Ce tableau clinique, vous le reconnaissez ? La fatigue chronique n\'est pas une faiblesse de caractère. C\'est un signal d\'alarme de votre corps qui réclame de l\'aide.
 
-[IMAGE:/images/elixir-maca-lifestyle-1.jpg]
+[IMAGE:/images/elixir-maca-lifestyle-1.webp]
 
 ## Les Vraies Causes de la Fatigue Chronique
 
@@ -960,7 +960,7 @@ Ce tableau clinique, vous le reconnaissez ? La fatigue chronique n\'est pas une 
 - Déficit en testostérone chez l\'homme (après 35 ans)
 - Dérèglement de la glycémie (pics et chutes de sucre)
 
-[IMAGE:/images/elixir-maca-energy-1.jpg]
+[IMAGE:/images/elixir-maca-energy-1.webp]
 
 ## Conséquences d\'une Fatigue Non Traitée
 
@@ -1209,14 +1209,14 @@ Rediscover your natural energy. Your body is capable of it.`,
     categoryAr: 'الجمال الطبيعي',
     categoryEn: 'Natural Beauty',
     categoryEs: 'Belleza Natural',
-    image: '/images/v-eclat-lifestyle-1.jpg',
+    image: '/images/v-eclat-lifestyle-1.webp',
     content: `## Peau Terne et Taches : Pourquoi Votre Éclat Naturel Disparaît
 
 Vous regardez dans le miroir et vous ne reconnaissez plus votre peau. Ce teint gris, ces taches brunes qui s\'étendent, ces pores béants, cette texture inégale... La peau terne est l\'un des problèmes esthétiques les plus frustrants car il donne l\'air fatigué, vieilli, même quand on va bien.
 
 Au Maroc, l\'exposition solaire intense, l\'eau calcaire, la pollution et le stress quotidien accélèrent le vieillissement cutané et la formation de taches.
 
-[IMAGE:/images/v-eclat-lifestyle-1.jpg]
+[IMAGE:/images/v-eclat-lifestyle-1.webp]
 
 ## Pourquoi la Peau Perd Son Éclat ?
 
@@ -1235,7 +1235,7 @@ Au Maroc, l\'exposition solaire intense, l\'eau calcaire, la pollution et le str
 - Stress oxydatif et inflammation silencieuse
 - Manque de collagène après 30 ans
 
-[IMAGE:/images/v-eclat-result-1.jpg]
+[IMAGE:/images/v-eclat-result-1.webp]
 
 ## L\'Erreur Que Beaucoup Font
 
@@ -1451,7 +1451,7 @@ Your skin deserves to shine.`,
     categoryAr: 'الرفاهية',
     categoryEn: 'Well-being',
     categoryEs: 'Bienestar',
-    image: '/images/tranquilysse-sleep-1.jpg',
+    image: '/images/tranquilysse-sleep-1.webp',
     content: `## Stress et Insomnie : Le Duo Infernal du XXIe Siècle
 
 Il est 2h du matin. Vous êtes allongé dans votre lit, les yeux grands ouverts. Votre cerveau passe en revue la journée, les soucis de demain, les factures à payer. Le silence de la nuit amplifie chaque pensée négative.
@@ -1460,7 +1460,7 @@ Le lendemain, épuisé, vous affrontez une nouvelle journée stressante. Et le s
 
 Le stress chronique et l\'insomnie forment un cercle vicieux qui détruit progressivement votre santé physique et mentale. Au Maroc, ce problème est en forte augmentation, notamment chez les actifs entre 25 et 55 ans.
 
-[IMAGE:/images/tranquilysse-sleep-1.jpg]
+[IMAGE:/images/tranquilysse-sleep-1.webp]
 
 ## Comment le Stress Devient Chronique
 
@@ -1480,7 +1480,7 @@ Le problème : notre cerveau ne distingue pas un tigre d\'un email urgent. Il r�
 6. Dépression réactionnelle
 7. Accélération du vieillissement cellulaire
 
-[IMAGE:/images/tranquilysse-relax-1.jpg]
+[IMAGE:/images/tranquilysse-relax-1.webp]
 
 ## Les Somnifères : Une Fausse Solution
 
@@ -1711,14 +1711,14 @@ You deserve the calm you need.`,
     categoryAr: 'الجمال الطبيعي',
     categoryEn: 'Natural Beauty',
     categoryEs: 'Belleza Natural',
-    image: '/images/eclat-artisan-lifestyle-1.jpg',
+    image: '/images/eclat-artisan-lifestyle-1.webp',
     content: `## L\'Acné : Bien Plus Qu\'un Problème de Peau
 
 Un bouton qui apparaît la veille d\'un entretien. Un front couvert de points noirs malgré des soins quotidiens. Ces plaques rouges douloureuses sur les joues que vous essayez de camoufler sous du maquillage.
 
 L\'acné n\'est pas qu\'un problème esthétique. Elle impacte profondément l\'estime de soi, les relations sociales et la qualité de vie. Au Maroc, elle touche principalement les adolescents, mais 30% des adultes en souffrent encore après 25 ans.
 
-[IMAGE:/images/eclat-artisan-lifestyle-1.jpg]
+[IMAGE:/images/eclat-artisan-lifestyle-1.webp]
 
 ## Pourquoi Votre Peau Fait de l\'Acné ?
 
@@ -1738,7 +1738,7 @@ L\'acné se forme quand :
 - **Cosmétiques comédogènes** : crèmes trop grasses qui bouchent les pores
 - **Alimentation** : manque d\'eau, de fibres et d\'antioxydants
 
-[IMAGE:/images/eclat-artisan-result-1.jpg]
+[IMAGE:/images/eclat-artisan-result-1.webp]
 
 ## L\'Erreur des Produits Agressifs
 
@@ -1966,7 +1966,7 @@ Your skin deserves to be clean and clear.`,
     categoryAr: 'الجمال الطبيعي',
     categoryEn: 'Natural Beauty',
     categoryEs: 'Belleza Natural',
-    image: '/images/retinol-lifestyle-1.jpg',
+    image: '/images/retinol-lifestyle-1.webp',
     content: `## Les Rides : Le Signe du Temps Que Vous Pouvez Ralentir
 
 À 35 ans, vous remarquez les premières rides d\'expression. À 45 ans, votre peau a perdu cette fermeté et cet éclat de vos 25 ans. La patte d\'oie s\'installe, le sillon naso-labial se creuse, l\'ovale du visage commence à se relâcher.
@@ -1975,7 +1975,7 @@ Le vieillissement cutané est inévitable. Son accélération, elle, peut être 
 
 Au Maroc, le soleil intense, la chaleur et les écarts hydriques accélèrent considérablement ce processus. Une Marocaine de 40 ans peut paraître 10 ans plus âgée qu\'une Européenne du même âge si elle n\'adopte pas une routine anti-âge adaptée.
 
-[IMAGE:/images/retinol-lifestyle-1.jpg]
+[IMAGE:/images/retinol-lifestyle-1.webp]
 
 ## Comprendre le Vieillissement Cutané
 
@@ -1993,7 +1993,7 @@ Au Maroc, le soleil intense, la chaleur et les écarts hydriques accélèrent co
 3. **Rides de déshydratation** : peau fine et ridée par manque d\'eau
 4. **Rides solaires** : vieillissement photo-induit (le plus fréquent au Maroc)
 
-[IMAGE:/images/retinol-result-1.jpg]
+[IMAGE:/images/retinol-result-1.webp]
 
 ## Pourquoi le Rétinol Est le Gold Standard Anti-Âge
 
@@ -2234,14 +2234,14 @@ Your skin is capable of renewal. Give it the chance.`,
     categoryAr: 'الصحة الطبيعية',
     categoryEn: 'Natural Health',
     categoryEs: 'Salud Natural',
-    image: '/images/cycle-bio-lifestyle-1.jpg',
+    image: '/images/cycle-bio-lifestyle-1.webp',
     content: `## Dérèglement Hormonal Féminin : Quand Votre Corps Envoie des Signaux
 
 Règles qui n\'arrivent pas, ou qui arrivent deux fois par mois. Douleurs pelviennes qui clouent au lit. Syndrome prémenstruel débilitant : larmes, irritabilité, ballonnements, seins douloureux. Prise de poids inexpliquée, acné cyclique, fatigue extrême en milieu de cycle.
 
 Ces symptômes ne sont pas "normaux" et ne doivent pas être ignorés. Ils signalent un déséquilibre hormonal que votre corps essaie désespérément de corriger.
 
-[IMAGE:/images/cycle-bio-lifestyle-1.jpg]
+[IMAGE:/images/cycle-bio-lifestyle-1.webp]
 
 ## Comprendre le Déséquilibre Hormonal Féminin
 
@@ -2263,7 +2263,7 @@ Quand l\'une déraille, toute l\'orchestration est perturbée.
 5. **Thyroïde** : toute dysfonction thyroïdienne dérègle le cycle
 6. **Excès ou insuffisance de poids** : le tissu adipeux produit des œstrogènes
 
-[IMAGE:/images/cycle-bio-energy-1.jpg]
+[IMAGE:/images/cycle-bio-energy-1.webp]
 
 ## Les Conséquences d\'un Cycle Irrégulier Non Traité
 
@@ -2492,14 +2492,14 @@ Your body deserves the balance it needs.`,
     categoryAr: 'العناية بالجسم',
     categoryEn: 'Body Care',
     categoryEs: 'Cuidado Corporal',
-    image: '/images/eclarte-lifestyle-1.jpg',
+    image: '/images/eclarte-lifestyle-1.webp',
     content: `## Soin Intime Féminin : Un Sujet Encore Trop Tabou
 
 Les démangeaisons intimes qui reviennent chaque mois. Cette odeur légère mais persistante qui génère de l\'anxiété. La peau intime assombrie ou irritée. Les pertes vaginales anormales qui perturbent le quotidien.
 
 Ces problèmes, des millions de femmes au Maroc les vivent en silence. La pudeur et la honte créent souvent un retard dans la prise en charge, alors que des solutions naturelles, douces et efficaces existent.
 
-[IMAGE:/images/eclarte-lifestyle-1.jpg]
+[IMAGE:/images/eclarte-lifestyle-1.webp]
 
 ## Les Problèmes Intimes les Plus Fréquents Chez la Femme
 
@@ -2520,7 +2520,7 @@ L\'hyperpigmentation des zones intimes (vulve, aine, entre les cuisses) est trè
 - Hyperpigmentation post-inflammatoire
 - Facteurs hormonaux (grossesse, pilule)
 
-[IMAGE:/images/eclarte-result-1.jpg]
+[IMAGE:/images/eclarte-result-1.webp]
 
 ### Sécheresse et Inconfort Intime
 
@@ -2762,7 +2762,7 @@ Taking care of your intimate health means taking care of yourself.`,
     categoryAr: 'العناية بالشعر',
     categoryEn: 'Hair Care',
     categoryEs: 'Cuidado Capilar',
-    image: '/images/biotin/biotin-lifestyle-1.jpg',
+    image: '/images/biotin/biotin-lifestyle-1.webp',
     content: `## MAX Biotin : Le Produit Marocain qui Fait le Buzz
 
 **MAX Biotin** est devenu le **produit capillaire le plus buzzé au Maroc**. Ce complement alimentaire 100% naturel, riche en biotine et aux herbes sahariennes, promet des cheveux forts, une pousse acceleree et une beauté naturelle.
@@ -2780,7 +2780,7 @@ Mais que vaut vraiment ce produit ? Dans cet article, on vous dit tout sur le **
 - **Acide folique** - Stimule la regeneration cellulaire
 - **Herbes sahariennes** - Tradition marocaine ancestrale
 
-[IMAGE:/images/biotin/biotin-ingredients-1.jpg]
+[IMAGE:/images/biotin/biotin-ingredients-1.webp]
 
 ## Les Avantages Principaux de MAX Biotin
 
@@ -2799,7 +2799,7 @@ MAX Biotin hydrate et nourrit la peau de l'interieur pour un **teint radieux** e
 ### 5. 100% Naturel
 Sans produits chimiques, sans parabenes, sans sulfate. Juste la **puissance de la nature** du Sahara marocain.
 
-[IMAGE:/images/biotin/biotin-result-1.jpg]
+[IMAGE:/images/biotin/biotin-result-1.webp]
 
 ## Comment Utiliser MAX Biotin ?
 
@@ -2821,7 +2821,7 @@ Les resultats apparaissent **des 3-4 semaines** d'utilisation reguliere :
 - **Mois 2** : Pousse visible, nouveaux cheveux plus epais
 - **Mois 3** : Chevelure transformee, resultats optimaux
 
-[IMAGE:/images/biotin/biotin-lifestyle-1.jpg]
+[IMAGE:/images/biotin/biotin-lifestyle-1.webp]
 
 **Des milliers de femmes au Maroc ont deja transforme leur chevelure avec MAX Biotin.** Des cheveux plus forts, plus brillants, une pousse acceleree — les resultats parlent d'eux-memes.
 
@@ -3002,7 +3002,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'صحة العناية',
     categoryEn: 'Health Care',
     categoryEs: 'Cuidado de Salud',
-    image: '/images/hemorcalm-lifestyle-1.jpg',
+    image: '/images/hemorcalm-lifestyle-1.webp',
     content: `## Hemorcalm : Soulagement Naturel des Hemorroides
 
 **Hemorcalm** est le **spray naturel le plus efficace au Maroc** pour soulager les hemorroides. Sa formule 100% naturelle a base de menthe poivree, ricin, girofle et acide salicylique calme la douleur, reduit l\'inflammation et apaise les demangeaisons des la premiere application.
@@ -3021,7 +3021,7 @@ Mais que vaut vraiment ce spray ? Decouvrez notre avis complet sur **Hemorcalm**
 - **Aloe vera** - Apaise et hydrate la peau irritée
 - **Vitamine E** - Facilite la regeneration tissulaire
 
-[IMAGE:/images/hemorcalm-ingredients-1.jpg]
+[IMAGE:/images/hemorcalm-ingredients-1.webp]
 
 ## Les Avantages Principaux de Hemorcalm
 
@@ -3053,7 +3053,7 @@ En eliminant la douleur et les demangeaisons, Hemorcalm permet de **retrouver un
 
 **Important** : Lavez vos mains apres chaque utilisation.
 
-[IMAGE:/images/hemorcalm-use-1.jpg]
+[IMAGE:/images/hemorcalm-use-1.webp]
 
 **Le spray pratique avec embout applicateur pour une utilisation ciblee et hygienique.**
 
@@ -3071,7 +3071,7 @@ En eliminant la douleur et les demangeaisons, Hemorcalm permet de **retrouver un
 - Gonflement attenue
 - Confort retrouve au quotidien
 
-[IMAGE:/images/hemorcalm-lifestyle-1.jpg]
+[IMAGE:/images/hemorcalm-lifestyle-1.webp]
 
 **Des milliers de personnes au Maroc ont deja trouve un soulagement avec Hemorcalm.**
 
@@ -3131,7 +3131,7 @@ Sa formule 100% naturelle avec menthe poivree et ricin en fait un **produit de c
 - **الألوفيرا** - يهدئ ويرطب الجلد المتهيج
 - **فيتامين E** - يسهل تجديد الأنسجة
 
-[IMAGE:/images/hemorcalm-ingredients-1.jpg]
+[IMAGE:/images/hemorcalm-ingredients-1.webp]
 
 ## المزايا الرئيسية لهيموركالم
 
@@ -3156,7 +3156,7 @@ Sa formule 100% naturelle avec menthe poivree et ricin en fait un **produit de c
 4. **رش** مباشرة على المنطقة المصابة
 5. **اترك يعمل** ساعتين على الأقل قبل النوم
 
-[IMAGE:/images/hemorcalm-use-1.jpg]
+[IMAGE:/images/hemorcalm-use-1.webp]
 
 ## قبل / بعد: أشعر بالفرق
 
@@ -3202,7 +3202,7 @@ Sa formule 100% naturelle avec menthe poivree et ricin en fait un **produit de c
 - **Aloe vera** - Soothes and moisturizes irritated skin
 - **Vitamin E** - Facilitates tissue regeneration
 
-[IMAGE:/images/hemorcalm-ingredients-1.jpg]
+[IMAGE:/images/hemorcalm-ingredients-1.webp]
 
 ## Main Advantages of Hemorcalm
 
@@ -3227,7 +3227,7 @@ Unlike chemical treatments, Hemorcalm is **completely natural** with no side eff
 4. **Spray** directly on the affected area
 5. **Leave to act** at least 2 hours before sleeping
 
-[IMAGE:/images/hemorcalm-use-1.jpg]
+[IMAGE:/images/hemorcalm-use-1.webp]
 
 ## Before / After: Feel the Difference
 
@@ -3277,7 +3277,7 @@ Delivery throughout Morocco · Cash on delivery · Discreet packaging`,
     categoryAr: 'الرفاهية',
     categoryEn: 'Well-being',
     categoryEs: 'Bienestar',
-    image: '/images/tranquilysse-sleep-1.jpg',
+    image: '/images/tranquilysse-sleep-1.webp',
     content: `## Tranquilysse : Dormez en Paix, Reveillez-Vous en Forme
 
 **Tranquilysse** est le **complement anti-stress et sommeil le plus efficace au Maroc**. Sa formule 100% naturelle a base de Passiflore, Valeriane, Melisse et Zinc favorise un sommeil profond et reparateur, pour un reveil frais et dynamique.
@@ -3295,7 +3295,7 @@ Mais que vaut vraiment ce complement ? Decouvrez notre avis complet sur **Tranqu
 - **Zinc 10mg** - Regule le cycle du sommeil
 - **Vitamine B6 2mg** - Synthese de la melatonine
 
-[IMAGE:/images/tranquilysse-ingredients-1.jpg]
+[IMAGE:/images/tranquilysse-ingredients-1.webp]
 
 ## Les Avantages Principaux de Tranquilysse
 
@@ -3330,7 +3330,7 @@ Sans benzodiazepines, sans effets secondaires. Juste la **puissance apaisante de
 - Humeur calme et positive
 - Journee productive et sereine
 
-[IMAGE:/images/tranquilysse-sleep-1.jpg]
+[IMAGE:/images/tranquilysse-sleep-1.webp]
 
 **Des milliers de personnes au Maroc dorment mieux grace a Tranquilysse.**
 
@@ -3344,7 +3344,7 @@ Sans benzodiazepines, sans effets secondaires. Juste la **puissance apaisante de
 
 **Conseil** : Pour des resultats optimaux, utilisez Tranquilysse regulierement pendant au moins 2 semaines.
 
-[IMAGE:/images/tranquilysse-relax-1.jpg]
+[IMAGE:/images/tranquilysse-relax-1.webp]
 
 **Le secret des plantes du Sahara pour un sommeil reparateur — naturellement.**
 
@@ -3516,7 +3516,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'العناية بالوجه',
     categoryEn: 'Face Care',
     categoryEs: 'Cuidado Facial',
-    image: '/images/retinol-lifestyle-1.jpg',
+    image: '/images/retinol-lifestyle-1.webp',
     content: `## Pack Rétinol : Le Duo Anti-Âge Ultime
 
 **Le Pack Rétinol** est le **duo anti-âge le plus efficace au Maroc**. Composé d'un sérum concentré (30ml) et d'une crème nourrissante (50ml), ce pack naturel stimule le renouvellement cellulaire, réduit les rides et unifie le teint.
@@ -3542,7 +3542,7 @@ Mais que vaut vraiment ce pack ? Découvrez notre avis complet sur le **Pack Ré
 - **Vitamine E** - Antioxydant protecteur
 - **Squalane végétal** - Hydrate durablement
 
-[IMAGE:/images/retinol-ingredients-1.jpg]
+[IMAGE:/images/retinol-ingredients-1.webp]
 
 ## Les Avantages Principaux du Pack Rétinol
 
@@ -3575,7 +3575,7 @@ La formule est équilibrée à **pH 5.5** pour respecter la barrière cutanée, 
 - Peau hydratée et repulpée
 - Fermeté et éclat retrouvés
 
-[IMAGE:/images/retinol-result-1.jpg]
+[IMAGE:/images/retinol-result-1.webp]
 
 **Des milliers de femmes au Maroc ont déjà transformé leur peau avec le Pack Rétinol.**
 
@@ -3595,7 +3595,7 @@ La formule est équilibrée à **pH 5.5** pour respecter la barrière cutanée, 
 - Utilisez uniquement le soir
 - Appliquez une protection solaire SPF 50+ le matin
 
-[IMAGE:/images/retinol-lifestyle-1.jpg]
+[IMAGE:/images/retinol-lifestyle-1.webp]
 
 **Le secret du Sahara pour une peau jeune et éclatante — naturellement.**
 
@@ -3757,7 +3757,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'العناية بالبشرة',
     categoryEn: 'Skin Care',
     categoryEs: 'Cuidado de Piel',
-    image: '/images/bio-eclat-lifestyle-1.jpg',
+    image: '/images/bio-eclat-lifestyle-1.webp',
     content: `## Bio Eclat B8 : L'Éclat Naturel de Votre Corps
 
 **Bio Eclat B8** est le **complément éclaircissant corps le plus efficace au Maroc**. Cette formule 100% naturelle, riche en Glutathion, Collagène, Spiruline et Biotine, unifie le teint, réduit les taches sombres et améliore l'élasticité de la peau.
@@ -3777,7 +3777,7 @@ Mais que vaut vraiment ce complément ? Découvrez notre avis complet sur **Bio 
 - **Acide hyaluronique** - Hydrate en profondeur
 - **Vitamine E** - Protège contre le vieillissement
 
-[IMAGE:/images/bio-eclat-ingredients-1.jpg]
+[IMAGE:/images/bio-eclat-ingredients-1.webp]
 
 ## Les Avantages Principaux de Bio Eclat B8
 
@@ -3810,7 +3810,7 @@ Sans produits chimiques, sans hydroquinone. Juste la **puissance de la nature** 
 - Peau ferme et élastique
 - Éclat naturel sur tout le corps
 
-[IMAGE:/images/bio-eclat-result-1.jpg]
+[IMAGE:/images/bio-eclat-result-1.webp]
 
 **Des milliers de femmes au Maroc ont déjà transformé leur peau avec Bio Eclat B8.**
 
@@ -3823,7 +3823,7 @@ Sans produits chimiques, sans hydroquinone. Juste la **puissance de la nature** 
 
 **Fréquence** : Quotidiennement pendant 2 à 3 mois pour des résultats durables.
 
-[IMAGE:/images/bio-eclat-lifestyle-1.jpg]
+[IMAGE:/images/bio-eclat-lifestyle-1.webp]
 
 **Le secret du Sahara pour une peau éclatante sur tout le corps.**
 
@@ -3989,7 +3989,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'الرفاهية الأنثوية',
     categoryEn: 'Female Well-being',
     categoryEs: 'Bienestar Femenino',
-    image: '/images/cycle-bio-lifestyle-1.jpg',
+    image: '/images/cycle-bio-lifestyle-1.webp',
     content: `## Cycle Bio : Retrouvez l'Equilibre Hormonal au Naturel
 
 **Cycle Bio** est le **regulateur hormonal naturel le plus efficace au Maroc pour les femmes**. Cette formule 100% naturelle, a base de Qust Hindi, Sauge, Gattilier et Aubepine, regule les cycles menstruels, soulage les douleurs et ameliore l'humeur.
@@ -4009,7 +4009,7 @@ Mais que vaut vraiment ce complement ? Decouvrez notre avis complet sur **Cycle 
 - **Vitamine B6** - Regule les hormones
 - **Zinc** - Sante reproductive
 
-[IMAGE:/images/cycle-bio-ingredients-1.jpg]
+[IMAGE:/images/cycle-bio-ingredients-1.webp]
 
 ## Les Avantages Principaux de Cycle Bio
 
@@ -4042,7 +4042,7 @@ Sans hormones de synthese, sans produits chimiques. Juste la **puissance des pla
 - Humeur stable et positive
 - Energie et vitalite retrouvees
 
-[IMAGE:/images/cycle-bio-energy-1.jpg]
+[IMAGE:/images/cycle-bio-energy-1.webp]
 
 **Des milliers de femmes au Maroc ont deja retrouve leur equilibre avec Cycle Bio.**
 
@@ -4055,7 +4055,7 @@ Sans hormones de synthese, sans produits chimiques. Juste la **puissance des pla
 
 **Frequence** : Quotidiennement pendant 1 a 3 mois pour des resultats durables.
 
-[IMAGE:/images/cycle-bio-lifestyle-1.jpg]
+[IMAGE:/images/cycle-bio-lifestyle-1.webp]
 
 **Le secret des femmes du Sahara pour un equilibre hormonal naturel.**
 
@@ -4213,7 +4213,7 @@ Delivery throughout Morocco · Cash on delivery · Discreet packaging`,
     categoryAr: 'مكياج طبيعي',
     categoryEn: 'Natural Makeup',
     categoryEs: 'Maquillaje Natural',
-    image: '/images/blush-lifestyle-1.jpg',
+    image: '/images/blush-lifestyle-1.webp',
     content: `## Blush Laaker-El-Fassi : La Rosee Naturelle du Sahara
 
 **Blush Laaker-El-Fassi** est le **blush naturel le plus authentique au Maroc**. A base d'Alkhar Fassi, ce pigment vegetal traditionnel utilise depuis des siecles par les femmes du Sud Marocain, ce blush donne un teint rose naturel et durable aux joues et aux levres.
@@ -4231,7 +4231,7 @@ Mais que vaut vraiment ce blush ? Decouvrez notre avis complet sur le **Blush La
 - **Vitamine E** - Antioxydant protecteur
 - **Glycerine vegetale** - Adoucit la peau
 
-[IMAGE:/images/blush-ingredients-1.jpg]
+[IMAGE:/images/blush-ingredients-1.webp]
 
 ## Les Avantages Principaux du Blush Laaker-El-Fassi
 
@@ -4260,7 +4260,7 @@ Contrairement aux blushes chimiques, celui-ci est **enrichi en Aloe vera** pour 
 
 **Conseil** : Commencez par une petite quantite et ajoutez si necessaire. Une seule goutte suffit pour un effet naturel.
 
-[IMAGE:/images/blush-lifestyle-1.jpg]
+[IMAGE:/images/blush-lifestyle-1.webp]
 
 **Le secret des femmes berberes pour des joues de rose — depuis des siecles.**
 
@@ -4276,7 +4276,7 @@ Contrairement aux blushes chimiques, celui-ci est **enrichi en Aloe vera** pour 
 - Joues et levres delicatement colorees
 - Effet naturel sans maquillage lourd
 
-[IMAGE:/images/blush-result-1.jpg]
+[IMAGE:/images/blush-result-1.webp]
 
 **Des milliers de femmes au Maroc ont adopte le Blush Laaker-El-Fassi pour un maquillage naturel au quotidien.**
 
@@ -4426,7 +4426,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'العناية بالوجه',
     categoryEn: 'Face Care',
     categoryEs: 'Cuidado Facial',
-    image: '/images/v-eclat-lifestyle-1.jpg',
+    image: '/images/v-eclat-lifestyle-1.webp',
     content: `## Sérum V-Eclat : L'Éclat Naturel de Votre Peau
 
 **Sérum V-Eclat** est le **sérum blanchissant du visage le plus efficace au Maroc**. Cette formule 100% naturelle, enrichie en Vitamine C et Acide Hyaluronique, unifie le teint, réduit les taches sombres et apporte un éclat naturel à la peau.
@@ -4447,7 +4447,7 @@ Mais que vaut vraiment ce sérum ? Découvrez notre avis complet sur le **Sérum
 - **Huile d'argan** - Nourrit et protège
 - **Eau de rose** - Rafraîchit et tonifie
 
-[IMAGE:/images/v-eclat-ingredients-1.jpg]
+[IMAGE:/images/v-eclat-ingredients-1.webp]
 
 ## Les Avantages Principaux de Sérum V-Eclat
 
@@ -4480,7 +4480,7 @@ Contrairement à de nombreux sérum, V-Eclat est **adapté à tous**, hommes com
 - Peau hydratée et souple
 - Éclat naturel visible
 
-[IMAGE:/images/v-eclat-result-1.jpg]
+[IMAGE:/images/v-eclat-result-1.webp]
 
 **Des milliers de personnes au Maroc ont déjà transformé leur peau avec Sérum V-Eclat.**
 
@@ -4494,7 +4494,7 @@ Contrairement à de nombreux sérum, V-Eclat est **adapté à tous**, hommes com
 
 **Conseil** : Appliquez une crème hydratante ou une protection solaire après le sérum le matin.
 
-[IMAGE:/images/v-eclat-lifestyle-1.jpg]
+[IMAGE:/images/v-eclat-lifestyle-1.webp]
 
 **Le secret du Sahara pour une peau éclatante — naturellement.**
 
@@ -4664,7 +4664,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'الرفاهية',
     categoryEn: 'Well-being',
     categoryEs: 'Bienestar',
-    image: '/images/elixir-maca-lifestyle-1.jpg',
+    image: '/images/elixir-maca-lifestyle-1.webp',
     content: `## ELIXIR MACA : Le Secret de l'Energie et de l'Endurance
 
 **ELIXIR MACA** est le **complement energie le plus puissant au Maroc**. Cette formule 100% naturelle combine la Maca peruvienne et les herbes sahariennes pour augmenter l'energie, favoriser la sante sexuelle et reduire les fluctuations hormonales.
@@ -4685,7 +4685,7 @@ Mais que vaut vraiment ce complement ? Decouvrez notre avis complet sur **ELIXIR
 - **Zinc** - Testosterone et fertilite
 - **Vitamine B6** - Energie et metabolisme
 
-[IMAGE:/images/elixir-maca-ingredients-1.jpg]
+[IMAGE:/images/elixir-maca-ingredients-1.webp]
 
 ## Les Avantages Principaux d'ELIXIR MACA
 
@@ -4712,7 +4712,7 @@ Si vous vous sentez fatigues et sans energie au quotidien, ELIXIR MACA vous **re
 ### 2. Couples Cherchant a Ameliorer leur Intimite
 La formule naturelle **ameliore la libido et la performance** pour les hommes et les femmes.
 
-[IMAGE:/images/elixir-maca-lifestyle-1.jpg]
+[IMAGE:/images/elixir-maca-lifestyle-1.webp]
 
 ### 3. Femmes avec Fluctuations Hormonales
 Le Kaf Mariam aide a **reguler le cycle menstruel** et reduit les symptomes du syndrome premenstruel.
@@ -4720,7 +4720,7 @@ Le Kaf Mariam aide a **reguler le cycle menstruel** et reduit les symptomes du s
 ### 4. Sportifs et Personnes Actives
 La Maca et le Ginseng **augmentent l'endurance physique** et accelerent la recuperation.
 
-[IMAGE:/images/elixir-maca-energy-1.jpg]
+[IMAGE:/images/elixir-maca-energy-1.webp]
 
 ## Comment Utiliser ELIXIR MACA ?
 
@@ -4888,7 +4888,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'الرفاهية',
     categoryEn: 'Well-being',
     categoryEs: 'Bienestar',
-    image: '/images/pack-floro-calm-lifestyle-1.jpg',
+    image: '/images/pack-floro-calm-lifestyle-1.webp',
     content: `## Floro Calm : Dites Adieu aux Douleurs Articulaires
 
 **Floro Calm** est le **ménagement articulations le plus efficace au Maroc**. Ce complément alimentaire 100% naturel, enrichi aux herbes sahariennes, apporte un soulagement durable des douleurs articulaires et améliore la mobilité.
@@ -4906,7 +4906,7 @@ Que vous soyez **senior**, **sportif**, ou souffrant d'arthrose, Floro Calm est 
 - **Calcium (300mg)** - Essentiel pour la santé des os
 - **Clous de Girofle (50mg)** - Propriétés analgésiques naturelles
 
-[IMAGE:/images/floro-calm/floro-calm-ingredients-1.jpg]
+[IMAGE:/images/floro-calm/floro-calm-ingredients-1.webp]
 
 ## Les Avantages Principaux de Floro Calm
 
@@ -4933,7 +4933,7 @@ L'arthrose touche des millions de Marocains. Floro Calm agit en profondeur pour 
 ### 2. Seniors
 Avec l'âge, les articulations deviennent rigides et douloureuses. Floro Calm aide les **personnes âgées** à retrouver souplesse et mobilité pour les activités quotidiennes.
 
-[IMAGE:/images/floro-calm/floro-calm-senior-1.jpg]
+[IMAGE:/images/floro-calm/floro-calm-senior-1.webp]
 
 **Les seniors au Maroc recommandent Floro Calm pour :**
 - Soulager la raideur matinale
@@ -4944,7 +4944,7 @@ Avec l'âge, les articulations deviennent rigides et douloureuses. Floro Calm ai
 ### 3. Sportifs
 Les sportifs sollicitent intensément leurs articulations. Floro Calm est l'allié idéal pour **prévenir les douleurs** et accélérer la récupération.
 
-[IMAGE:/images/floro-calm/floro-calm-athlete-1.jpg]
+[IMAGE:/images/floro-calm/floro-calm-athlete-1.webp]
 
 **Parfait pour :**
 - Prévention des douleurs articulaires
@@ -4955,7 +4955,7 @@ Les sportifs sollicitent intensément leurs articulations. Floro Calm est l'alli
 ### 4. Personnes avec Douleurs Chroniques
 Les douleurs articulaires chroniques affectent la qualité de vie. Floro Calm offre un **soulagement naturel et durable** sans dépendance.
 
-[IMAGE:/images/floro-calm/floro-calm-morning-1.jpg]
+[IMAGE:/images/floro-calm/floro-calm-morning-1.webp]
 
 ## Les Problèmes que Traite Floro Calm
 
@@ -5135,7 +5135,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'العناية بالبشرة',
     categoryEn: 'Skin Care',
     categoryEs: 'Cuidado de Piel',
-    image: '/images/psoriasis-lifestyle-1.jpg',
+    image: '/images/psoriasis-lifestyle-1.webp',
     content: `## Serum Psoriasis : Soulagez Votre Peau Naturellement
 
 **Serum Psoriasis** est le **serum reparateur le plus efficace au Maroc** contre le psoriasis. Cette formule 100% naturelle, aux herbes sahariennes et huiles essentielles, calme les demangeaisons, reduit les rougeurs et redonne confort a la peau.
@@ -5156,7 +5156,7 @@ Mais que vaut vraiment ce serum ? Decouvrez notre avis complet sur le **Serum Ps
 - **Vitamine E** - Antioxydant protecteur
 - **Eau florale de Lavande** - Rafraichit et tonifie
 
-[IMAGE:/images/psoriasis-ingredients-1.jpg]
+[IMAGE:/images/psoriasis-ingredients-1.webp]
 
 ## Les Avantages Principaux du Serum Psoriasis
 
@@ -5189,7 +5189,7 @@ Sans cortisone, sans produits chimiques agressifs. Juste la **puissance curative
 - Peau hydratee et regeneraee
 - Confort et confiance retrouves
 
-[IMAGE:/images/psoriasis-result-1.jpg]
+[IMAGE:/images/psoriasis-result-1.webp]
 
 **Des milliers de personnes au Maroc ont deja trouve un soulagement avec Serum Psoriasis.**
 
@@ -5203,7 +5203,7 @@ Sans cortisone, sans produits chimiques agressifs. Juste la **puissance curative
 
 **Conseil** : Utiliser apres la douche lorsque la peau est propre et legerement humide.
 
-[IMAGE:/images/psoriasis-lifestyle-1.jpg]
+[IMAGE:/images/psoriasis-lifestyle-1.webp]
 
 **Le secret du Sahara pour une peau apaisee et regeneraee — naturellement.**
 
@@ -5365,7 +5365,7 @@ Delivery throughout Morocco · Cash on delivery`,
     categoryAr: 'العناية الحميمة',
     categoryEn: 'Intimate Care',
     categoryEs: 'Cuidado Íntimo',
-    image: '/images/rawnaq-lifestyle-1.jpg',
+    image: '/images/rawnaq-lifestyle-1.webp',
     content: `## Spray Rawnaq : Retrouvez Confiance et Fraicheur au Naturel
 
 **Spray Rawnaq** est le **spray intime naturel le plus innovant au Maroc**. Cette formule 100% naturelle, aux herbes sahariennes et huiles essentielles, aide a renforcer la tonicité des tissus et procure une sensation de raffermissement naturel pour un confort intime optimal.
@@ -5384,7 +5384,7 @@ Mais que vaut vraiment ce spray ? Decouvrez notre avis complet sur le **Spray Ra
 - **Aloe vera** - Apaise et protege la peau sensible
 - **Vitamine E** - Antioxydant protecteur
 
-[IMAGE:/images/rawnaq-ingredients-1.jpg]
+[IMAGE:/images/rawnaq-ingredients-1.webp]
 
 ## Les Avantages Principaux de Spray Rawnaq
 
@@ -5417,7 +5417,7 @@ Le format spray est **pratique et hygienique**. Quelques vaporisations suffisent
 - Confiance en soi augmentee
 - Meilleure connexion intime avec le partenaire
 
-[IMAGE:/images/rawnaq-couple-1.jpg]
+[IMAGE:/images/rawnaq-couple-1.webp]
 
 **Des milliers de femmes au Maroc ont deja transforme leur intimite avec Spray Rawnaq.**
 
@@ -5432,7 +5432,7 @@ Le format spray est **pratique et hygienique**. Quelques vaporisations suffisent
 
 **Conseil** : Utiliser 1 a 2 fois par semaine pour des resultats optimaux.
 
-[IMAGE:/images/rawnaq-lifestyle-1.jpg]
+[IMAGE:/images/rawnaq-lifestyle-1.webp]
 
 **Le secret des femmes du Sahara pour une intimite epanouie — naturellement.**
 
@@ -5570,7 +5570,7 @@ Its 100% natural formula inspired by Saharan traditions makes it a **trusted pro
     categoryAr: 'العناية الحميمة',
     categoryEn: 'Intimate Care',
     categoryEs: 'Cuidado Íntimo',
-    image: '/images/eclarte-lifestyle-1.jpg',
+    image: '/images/eclarte-lifestyle-1.webp',
     content: `## Eclarte Gel Intime : La Fraîcheur Naturelle au Quotidien
 
 **Eclarte Gel Intime** est le **gel d'hygiène intime le plus apprécié au Maroc**. Cette formule 100% naturelle, enrichie en Aloe vera, Lavande et Arbre à Thé, assure un nettoyage doux, une hydratation profonde et une fraîcheur durable pour la zone intime.
@@ -5589,7 +5589,7 @@ Mais que vaut vraiment ce gel ? Découvrez notre avis complet sur l'**Eclarte Ge
 - **Vitamine E** - Antioxydant protecteur
 - **pH Neutre** - Respecte la flore intime naturelle
 
-[IMAGE:/images/eclarte-ingredients-1.jpg]
+[IMAGE:/images/eclarte-ingredients-1.webp]
 
 ## Les Avantages Principaux d'Eclarte Gel Intime
 
@@ -5622,7 +5622,7 @@ Contrairement aux savons classiques, Eclarte Gel Intime est **à pH neutre**, ce
 - Sensation de propreté durable
 - Peau douce et hydratée
 
-[IMAGE:/images/eclarte-result-1.jpg]
+[IMAGE:/images/eclarte-result-1.webp]
 
 **Des milliers de femmes au Maroc ont déjà adopté Eclarte Gel Intime dans leur routine quotidienne.**
 
@@ -5636,7 +5636,7 @@ Contrairement aux savons classiques, Eclarte Gel Intime est **à pH neutre**, ce
 
 **Conseil** : Utiliser 3 fois par semaine pour des résultats optimaux. Ne pas utiliser quotidiennement pour préserver l'équilibre naturel.
 
-[IMAGE:/images/eclarte-lifestyle-1.jpg]
+[IMAGE:/images/eclarte-lifestyle-1.webp]
 
 **Le secret des femmes du Sahara pour une hygiène intime naturelle et saine.**
 
@@ -5774,7 +5774,7 @@ Its 100% natural formula without sulfates or silicone makes it **the ideal choic
     categoryAr: 'العناية بالشعر',
     categoryEn: 'Hair Care',
     categoryEs: 'Cuidado Capilar',
-    image: '/images/masque/masque-lifestyle-1.jpg',
+    image: '/images/masque/masque-lifestyle-1.webp',
     content: `## Masque Trésor du Désert : Le Secret des Cheveux Parfaits
 
 **Le Masque Trésor du Désert** est devenu le **masque cheveux le plus apprécié au Maroc**. Cette formule 100% naturelle aux actifs du Sahara Marocain — **Cacao, Karité et Huile de Coco** — promet une hydratation profonde, une réparation intense et une brillance naturelle.
@@ -5793,7 +5793,7 @@ Mais que vaut vraiment ce masque ? Découvrez notre avis complet sur le **Masque
 - **Vitamine E** — Antioxydant naturel
 - **Eau de rose** — Parfum délicat et rafraîchissant
 
-[IMAGE:/images/masque/masque-ingredients-1.jpg]
+[IMAGE:/images/masque/masque-ingredients-1.webp]
 
 ## Les Avantages Principaux du Masque Trésor du Désert
 
@@ -5812,7 +5812,7 @@ Que vous ayez les cheveux **secs, abîmés, frisés ou colorés**, ce masque s'a
 ### 5. 100% Naturel
 Sans sulfates, sans parabènes, sans silicone. Juste la **puissance des plantes du Sahara marocain**.
 
-[IMAGE:/images/masque/masque-result-1.jpg]
+[IMAGE:/images/masque/masque-result-1.webp]
 
 ## Avant / Après : Résultats Visibles
 
@@ -5840,7 +5840,7 @@ Sans sulfates, sans parabènes, sans silicone. Juste la **puissance des plantes 
 
 **Fréquence** : 1 à 2 fois par semaine pour des résultats optimaux.
 
-[IMAGE:/images/masque/masque-lifestyle-1.jpg]
+[IMAGE:/images/masque/masque-lifestyle-1.webp]
 
 **Le secret des femmes du Sahara pour des cheveux sublimes — naturellement.**
 
@@ -5966,7 +5966,7 @@ The Trésor du Désert Mask is **the best investment** for your hair health.`,
     categoryAr: 'المنتجات الطبيعية',
     categoryEn: 'Natural Products',
     categoryEs: 'Productos Naturales',
-    image: '/images/toutia.jpg',
+    image: '/images/toutia.webp',
     content: `## Pourquoi Choisir un Deodorant Naturel Sans Aluminium ?
 
 De plus en plus de Marocains et de Marocaines cherchent un **deodorant naturel sans aluminium** pour proteger leur sante. Les deodorants chimiques classiques contiennent des sels d'aluminium qui bloquent les pores, empechent la peau de respirer et peuvent causer des irritations.
@@ -6090,7 +6090,7 @@ Toutia Ismailiya is **the trusted natural solution** for body odor without any c
     categoryAr: 'العناية بالشعر',
     categoryEn: 'Hair Care',
     categoryEs: 'Cuidado Capilar',
-    image: '/images/shampoing-lifestyle-1.jpg',
+    image: '/images/shampoing-lifestyle-1.webp',
     content: `## Shampoing aux Protéines Trésor du Désert : Le Secret des Cheveux Parfaits
 
 **Le Shampoing aux Protéines Trésor du Désert** est devenu le **shampoing naturel le plus apprécié au Maroc**. Cette formule 100% naturelle, riche en protéines et aux herbes sahariennes, promet des cheveux forts, brillants et pleins de vie.
@@ -6108,7 +6108,7 @@ Mais que vaut vraiment ce shampoing ? Découvrez notre avis complet sur le **Sha
 - **Herbes sahariennes** - Tradition marocaine ancestrale
 - **Vitamine B5** - Fortifie et vitalise
 
-[IMAGE:/images/shampoing-ingredients-1.jpg]
+[IMAGE:/images/shampoing-ingredients-1.webp]
 
 ## Les Avantages Principaux du Shampoing aux Protéines
 
@@ -6141,7 +6141,7 @@ Que vous ayez les cheveux **secs, abîmés, frisés ou colorés**, ce shampoing 
 - Chevelure lumineuse et facile à démêler
 - Réduction significative de la chute
 
-[IMAGE:/images/shampoing-result-1.jpg]
+[IMAGE:/images/shampoing-result-1.webp]
 
 **Des milliers de femmes au Maroc ont déjà transformé leur chevelure avec le Shampoing aux Protéines Trésor du Désert.**
 
@@ -6156,7 +6156,7 @@ Que vous ayez les cheveux **secs, abîmés, frisés ou colorés**, ce shampoing 
 
 **Conseil** : Utiliser 1 fois par semaine pour des résultats optimaux.
 
-[IMAGE:/images/shampoing-lifestyle-1.jpg]
+[IMAGE:/images/shampoing-lifestyle-1.webp]
 
 **Le secret des femmes du Sahara pour des cheveux sublimes — naturellement.**
 
@@ -6275,7 +6275,7 @@ Trésor du Désert Protein Shampoo is **the ideal choice** for women who want na
     categoryAr: 'العناية بالشعر',
     categoryEn: 'Hair Care',
     categoryEs: 'Cuidado Capilar',
-    image: '/images/shampoing-lifestyle-1.jpg',
+    image: '/images/shampoing-lifestyle-1.webp',
     content: `## Le Meilleur Shampoing Naturel Anti-Chute au Maroc
 
 La perte de cheveux est un problème courant au Maroc à cause de l'eau dure, du stress et de la pollution. Le **Secret d'Atlas Shampoing** est le **meilleur shampoing naturel anti-chute** du Maroc avec triple certification **ISO + GMP + OCP**.
@@ -6378,7 +6378,7 @@ Use regularly 3 times per week for best results.`,
     categoryAr: 'الرفاهية',
     categoryEn: 'Well-being',
     categoryEs: 'Bienestar',
-    image: '/images/floro/floro-massage-1.jpg',
+    image: '/images/floro/floro-massage-1.webp',
     content: `## Huile de Massage Naturelle pour Douleurs Articulaires
 
 Les douleurs musculaires et articulaires touchent des millions de personnes au Maroc. **Floro Calm Huile** est une **huile de massage naturelle** aux actifs chauffants qui soulage efficacement les douleurs.
@@ -6493,11 +6493,11 @@ category: "Blog",
     excerptAr: 'الفحم النشط وحمض الساليسيليك والشجرة الشايية للقضاء على حب الشباب. اكتشف السيروم الطبيعي الذي يطهر بشرتك في العمق.',
     excerptEn: 'Activated charcoal, salicylic acid and tea tree to eliminate acne. Discover the natural serum that deeply cleanses your skin.',
     excerptEs: 'Carbón activado, ácido salicílico y árbol de té para eliminar el acné. Descubre el sérum natural que purifica tu piel en profundidad.',
-    image: '/images/eclat-artisan-lifestyle-1.jpg',
+    image: '/images/eclat-artisan-lifestyle-1.webp',
     date: '15 Juin 2025',
     content: `**L\'acné touche plus de 80% des adolescents et 40% des adultes au Maroc.** Les solutions chimiques agressent la peau et créent un effet rebond. Découvrez le sérum naturel **Eclat D\'artisan** qui combine charbon actif, acide salicylique et tea tree pour une peau nette et éclatante.
 
-![Sérum Anti-Acné Naturel](/images/eclat-artisan-result-1.jpg)
+![Sérum Anti-Acné Naturel](/images/eclat-artisan-result-1.webp)
 
 ## Pourquoi l\'Acné Persiste-T-Elle ?
 
@@ -6522,7 +6522,7 @@ Notre sérum anti-acné 30ml combine 5 actifs puissants :
 | **Aloe vera** | Apaise et réduit l\'inflammation |
 | **Niacinamide** | Régule le sébum, unifie le teint |
 
-![Ingrédients Naturels Anti-Acné](/images/eclat-artisan-ingredients-1.jpg)
+![Ingrédients Naturels Anti-Acné](/images/eclat-artisan-ingredients-1.webp)
 
 ## Résultats Visibles en 2-4 Semaines
 
@@ -6620,11 +6620,11 @@ category: "Blog",
     excerptAr: 'اكتشف سر الشفاه الممتلئة والمرطبة مع سيروم لوبانة. نعناع البيبرمنت وزيت جوز الهند والأعشاب الصحراوية لتأثير تجميل طبيعي.',
     excerptEn: 'Discover the secret to plump and hydrated lips with Loubane Serum. Peppermint, coconut oil and Saharan herbs for a natural plumping effect.',
     excerptEs: 'Descubre el secreto de unos labios voluminosos e hidratados con el Sérum Loubana. Menta piperita, aceite de coco y hierbas saharianas para un efecto voluminizador natural.',
-    image: '/images/loubane-lifestyle-1.jpg',
+    image: '/images/loubane-lifestyle-1.webp',
     date: '15 Juin 2025',
     content: `**Rever de levres pleines, douces et hydratees sans injections ni chimie ?** Le **Serum Loubane** de Dakhla Artisanal est la solution naturelle qui repulpe, hydrate et sublime vos levres grace a un melange unique d\'huiles vegetales et d\'herbes sahariennes.
 
-![Levres Pleines Naturelles](/images/loubane-result-1.jpg)
+![Levres Pleines Naturelles](/images/loubane-result-1.webp)
 
 ## Pourquoi les Levres Perdent-Elles du Volume ?
 
@@ -6651,7 +6651,7 @@ Notre serum 30ml combine 8 actifs naturels puissants :
 | **Huile de vanille** | Parfum delicat et apaisant |
 | **Cire d\'abeille** | Barriere protectrice naturelle |
 
-![Ingredients Naturels Serum Loubane](/images/loubane-ingredients-1.jpg)
+![Ingredients Naturels Serum Loubane](/images/loubane-ingredients-1.webp)
 
 ## Resultats Visibles : Avant/Après
 
@@ -6766,11 +6766,11 @@ category: "Blog",
     excerptAr: 'باك زيت + مكمل لتخفيف آلام المفاصل. كركم، جينسنغ، كافور وبذور الكتان لمفاصل مرنة وبدون ألم.',
     excerptEn: 'Oil + supplement pack to relieve joint pain. Turmeric, ginseng, camphor and flaxseed for flexible and pain-free joints.',
     excerptEs: 'Pack aceite + suplemento para aliviar los dolores articulares. Cúrcuma, ginseng, alcanfor y semillas de lino para articulaciones flexibles y sin dolor.',
-    image: '/images/pack-floro-calm-lifestyle-1.jpg',
+    image: '/images/pack-floro-calm-lifestyle-1.webp',
     date: '15 Juin 2025',
     content: `**Plus de 7 millions de Marocains souffrent de douleurs articulaires.** Le **Pack Floro Calm** combine une huile de massage chauffante et un complement alimentaire pour une action synergique interieure et exterieure contre les douleurs.
 
-![Soins Articulations Naturels](/images/pack-floro-calm-result-1.jpg)
+![Soins Articulations Naturels](/images/pack-floro-calm-result-1.webp)
 
 ## Pourquoi les Douleurs Articulaires Augmentent ?
 
@@ -6803,7 +6803,7 @@ Le pack complet combine 2 produits puissants :
 | **Ginseng** | Vitalite et recuperation |
 | **Glucosamine** | Reconstitue le cartilage |
 
-![Ingredients Naturels Articulations](/images/pack-floro-calm-ingredients-1.jpg)
+![Ingredients Naturels Articulations](/images/pack-floro-calm-ingredients-1.webp)
 
 ## Resultats Avant/Après
 
@@ -6921,7 +6921,7 @@ Pack Floro Calm is **the complete solution** for joint and muscle problems natur
     categoryAr: 'المكملات الغذائية',
     categoryEn: 'Supplements',
     categoryEs: 'Suplementos',
-    image: '/images/vitamined3k2/d3k2.jpg',
+    image: '/images/vitamined3k2/d3k2.webp',
     content: `## 80% des Marocains Sont Carencés en Vitamine D — Êtes-Vous l'Un d'Eux ?
 
 Paradoxe frappant : le Maroc est l'un des pays les plus ensoleillés du monde, et pourtant, selon les études épidémiologiques publiées dans la *Revue Marocaine de Rhumatologie*, plus de **80% de la population marocaine** présente une insuffisance ou une carence en vitamine D.
@@ -6930,7 +6930,7 @@ Fatigue inexpliquée, douleurs osseuses, chutes fréquentes, infections répét�
 
 Mais voici ce que peu de gens savent : **prendre de la vitamine D3 sans vitamine K2 peut être dangereux.** C'est le piège dans lequel tombent des milliers de personnes qui supplémentent en vitamine D sans résultats — ou pire, qui développent des calcifications artérielles sans comprendre pourquoi.
 
-[IMAGE:/images/vitamined3k2/d3k2.jpg]
+[IMAGE:/images/vitamined3k2/d3k2.webp]
 
 ## La Vitamine D3 : Bien Plus qu'une Simple Vitamine
 

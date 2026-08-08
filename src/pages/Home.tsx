@@ -220,7 +220,7 @@ function Hero() {
         <div className="relative">
           <div className="absolute -inset-4 bg-gradient-to-br from-[#E8732F]/10 via-transparent to-[#F0C060]/15 rounded-[40px] blur-2xl" />
           <div className="relative rounded-[32px] overflow-hidden gold-border shadow-[0_40px_100px_rgba(61,43,31,0.18)]">
-            <img src="/images/toutia/toutia.jpg" alt="Toutia Ismailiya — Dakhla Artisanal" className="w-full h-auto object-cover" loading="eager" />
+            <img src="/images/toutia/toutia.webp" alt="Toutia Ismailiya — Dakhla Artisanal" className="w-full h-auto object-cover" loading="eager" />
             {/* Overlay badge */}
             <div className="absolute bottom-5 left-5 right-5">
               <div className="bg-[#261A08]/90 backdrop-blur-xl border border-white/[0.12] rounded-2xl px-5 py-3.5 flex items-center justify-between">
@@ -477,7 +477,7 @@ function Story() {
           </div>
         </div>
         <div className="rounded-[24px] overflow-hidden gold-border shadow-[0_30px_80px_rgba(61,43,31,0.14)]">
-          <img src="/images/elixir-real-1.jpg" alt="Dakhla Artisanal — femmes artisanes" className="w-full h-auto" loading="lazy" />
+          <img src="/images/elixir-real-1.webp" alt="Dakhla Artisanal — femmes artisanes" className="w-full h-auto" loading="lazy" />
         </div>
       </div>
     </section>
