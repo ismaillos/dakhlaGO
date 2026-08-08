@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES, WHATSAPP_NUMBER } from '../data/products';
 import { REVIEWS } from '../data/reviews';
-import { BLOG_ARTICLES } from '../data/blog';
+import { BLOG_PREVIEWS } from '../data/blog-previews';
 import { useCart } from '../hooks/useCart';
 import { useLang } from '../hooks/useLanguage';
 import { LANGS } from '../i18n/translations';
@@ -589,7 +589,7 @@ const QUICK_CHIPS = [
 function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; searchQuery: string }) {
   const [localQuery, setLocalQuery] = useState('');
   const [suggestions, setSuggestions] = useState<typeof PRODUCTS>([]);
-  const [blogSuggestions, setBlogSuggestions] = useState<typeof BLOG_ARTICLES>([]);
+  const [blogSuggestions, setBlogSuggestions] = useState<typeof BLOG_PREVIEWS[number][]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const wrapRef = useRef<HTMLDivElement>(null);
@@ -604,9 +604,9 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
       .filter(s => s.score > 0).sort((a, b) => b.score - a.score);
     setSuggestions(scored.slice(0, 5).map(s => s.product));
 
-    const blogScored = BLOG_ARTICLES.map(a => {
+    const blogScored = BLOG_PREVIEWS.map(a => {
       let score = 0;
-      const fields = [a.title.toLowerCase(), a.excerpt.toLowerCase(), a.content.toLowerCase(), a.category.toLowerCase()];
+      const fields = [a.title.toLowerCase(), a.excerpt.toLowerCase(), a.category.toLowerCase()];
       for (const text of fields) {
         if (text.includes(lower)) score += 8;
         else words.forEach(w => { if (text.includes(w)) score += 3; });
@@ -723,7 +723,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                           <img src={a.image} alt={a.title} className="w-10 h-10 rounded-lg object-cover flex-shrink-0 opacity-80" />
                           <div className="flex-1 min-w-0">
                             <div className="text-[13px] font-semibold truncate text-white group-hover:text-[#F0C060] transition-colors">{a.title}</div>
-                            <div className="text-[10px] text-[#F0C060] mt-0.5">{a.category} · {a.readTime}</div>
+                            <div className="text-[10px] text-[#F0C060] mt-0.5">{a.category}</div>
                           </div>
                         </Link>
                       ))}
@@ -928,7 +928,7 @@ function Reviews() {
 
 /* ─── BLOG PREVIEW ─── */
 function BlogPreview() {
-  const articles = BLOG_ARTICLES.slice(0, 3);
+  const articles = BLOG_PREVIEWS.slice(0, 3);
   return (
     <section className="py-24 px-5 bg-[#1A1208]">
       <div className="max-w-[1200px] mx-auto">
