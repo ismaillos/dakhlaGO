@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, lazy, Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import { PRODUCTS, CATEGORIES, WHATSAPP_NUMBER } from '../data/products';
 import { REVIEWS } from '../data/reviews';
@@ -6,8 +6,9 @@ import { BLOG_PREVIEWS } from '../data/blog-previews';
 import { useCart } from '../hooks/useCart';
 import { useLang } from '../hooks/useLanguage';
 import { LANGS } from '../i18n/translations';
-import OrderModal from '../components/OrderModal';
-import ProductRequestForm from '../components/ProductRequestForm';
+
+const OrderModal = lazy(() => import('../components/OrderModal'));
+const ProductRequestForm = lazy(() => import('../components/ProductRequestForm'));
 
 /* ─── LANG SWITCHER ─── */
 function LangSwitcher() {
@@ -566,7 +567,7 @@ function ProductSearch({ onSearch, value }: { onSearch: (query: string) => void;
               <span className="text-[#E8732F] text-xs font-bold">→</span>
             </Link>
           )) : (
-            <ProductRequestForm query={value} onClose={() => setShowSuggestions(false)} />
+            <Suspense fallback={null}><ProductRequestForm query={value} onClose={() => setShowSuggestions(false)} /></Suspense>
           )}
         </div>
       )}
@@ -737,7 +738,7 @@ function HeroSearch({ onSearch, searchQuery }: { onSearch: (q: string) => void; 
                   </div>
                 </>
               ) : (
-                <ProductRequestForm query={localQuery} onClose={() => setShowSuggestions(false)} />
+                <Suspense fallback={null}><ProductRequestForm query={localQuery} onClose={() => setShowSuggestions(false)} /></Suspense>
               )}
             </div>
           )}
@@ -775,7 +776,7 @@ function ProductNotFound({ query, closest }: { query: string; closest: typeof PR
   return (
     <div className="col-span-full">
       <div className="bg-[#261A08] gold-border rounded-2xl p-8 md:p-10 max-w-[680px] mx-auto">
-        <ProductRequestForm query={query} />
+        <Suspense fallback={null}><ProductRequestForm query={query} /></Suspense>
         {closest.length > 0 && (
           <div className="mt-8 pt-6 border-t border-[#F0C060]/[0.12]">
             <p className="text-[#F0C060] text-xs uppercase tracking-[0.15em] mb-4">Produits similaires</p>
@@ -1241,7 +1242,7 @@ export default function Home() {
       <YouTube />
       <CTA />
       <Footer />
-      <OrderModal />
+      <Suspense fallback={null}><OrderModal /></Suspense>
     </div>
   );
 }
